@@ -257,15 +257,12 @@ for para in paras:
         isLineProcessed = True
     
     if not isLineProcessed:
-        x = re.search("\A\d+(th|st)", text)
+        x = re.search("\A\d+(th|st|rd|nd)", text)
         if x:
             monsterDetail[lastSpellName]['spells'] = text.split(";")
             isLineProcessed = True
         
     if not isLineProcessed:
-        print("<---------------- Bad text--------------------------->")
-        print(text)
-        print("<------------------Bad test------------------------->")
         if isFirstLine:
             isFirstLine = False
             continue
