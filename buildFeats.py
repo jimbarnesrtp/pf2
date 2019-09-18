@@ -9,6 +9,30 @@ featHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 feats = []
 
+def get_details(link):
+    res = requests.get(link)
+    res.raise_for_status()
+    soup = BeautifulSoup(res.text, 'lxml')
+    feat = soup.find_all("div", {'class':'main'})
+    detail = soup.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
+    #print(detail.contents)
+    children = detail.contents
+    reachedBreak = False
+    detailHolder = []
+    for child in children:
+        stringContents = str(child)
+        if stringContents.startswith("<"):
+            if stringContents == "<hr/>":
+                reachedBreak = True
+        else:
+            if reachedBreak:
+                detailHolder.append(stringContents)
+       #print(child)
+       #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
+    return detailHolder
+        
+
+
 res = requests.get("https://2e.aonprd.com/Feats.aspx")
 res.raise_for_status()
 soup = BeautifulSoup(res.text, 'lxml')
@@ -36,12 +60,19 @@ for row in rows:
 
             feat['name'] = name
             feat['level'] = level
-            feat['link'] = link
+            feat['link'] = "https://2e.aonprd.com/" +link
             feat['prereq'] = prereq
             feat['benefits'] = source
+            details = get_details(feat['link'])
+            feat['text'] = details
             feats.append(feat)
-
+    #if t > 5:
+        #break
 
 featHolder['feats'] = feats
 json_data = json.dumps(featHolder)
-print(json_data)
+#print(json_data)
+filename = "feats-pf2.json"
+f = open(filename, "w")
+f.write(json_data)
+f.close

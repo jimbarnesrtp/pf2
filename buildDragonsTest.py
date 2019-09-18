@@ -98,8 +98,6 @@ for child in children:
                         traits.append(trait.text)
             monsters['monsters'][monsterIndex]['traits'] = traits
             print(monsters['monsters'][monsterIndex]['name'])
-            
-            
             isLineProcessed = True
         
         if "Senses" in text:
