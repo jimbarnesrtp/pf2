@@ -5,7 +5,7 @@ import datetime
 import codecs
 
 featHolder = {}
-featHolder['name'] = 'Pathfinder 2.0 feat list'
+featHolder['name'] = 'Pathfinder 2.0 Ancestry feat list'
 featHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 
@@ -75,7 +75,7 @@ def get_feats(link):
     return feats
 
 
-listOfPages = codecs.open("feats.csv", encoding='utf-8')
+listOfPages = codecs.open("ancestryFeats.csv", encoding='utf-8')
 for line in listOfPages: 
     featMD = line.split(",")
     print("Getting feats for :", featMD[0],"This url:", featMD[2])
@@ -84,7 +84,7 @@ for line in listOfPages:
 
 json_data = json.dumps(featHolder)
 #print(json_data)
-filename = "feats-pf2.json"
+filename = "ancestry-feats-pf2.json"
 f = open(filename, "w")
 f.write(json_data)
 f.close
