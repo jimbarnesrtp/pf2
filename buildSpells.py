@@ -27,7 +27,7 @@ def get_spells(link):
     except:
         spellDetail['range'] = ""
 
-   
+    spellDetail['type'] = spell[0].find_all("span", {'class':'spell-type'})[0].text
     try:
         spellDetail['target'] = spell[0].find_all("span", {'class':'spell-targets'})[0].text
     except:

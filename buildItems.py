@@ -43,7 +43,7 @@ for link in links:
             print(subLink)
 
     if link.text == "Armor":
-        itemHolder['armor'] = getArmor.get_all(linkTarget)
+        itemHolder['armor'] = getArmor.get_all()
     if t > 3:
         break
 
