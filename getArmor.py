@@ -2,9 +2,12 @@ from bs4 import BeautifulSoup
 import requests
 import buildDetailsHR as hrDets
 import json
+import datetime
 
 
 armorHolder = {}
+armorHolder['name'] = 'Pathfinder 2.0 armor list'
+armorHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 def get_base_magic(link):
     items = []
