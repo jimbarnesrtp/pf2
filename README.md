@@ -7,11 +7,11 @@
 * Class Feats
 * Ancestry Feats
 * Adventuring Gear
-* Monsters - I believe
+* Monsters - I believe(Verified as much as the data I can)
 * Backgrounds
+* Armors
 
 ### What is next
-* Armors
 * Other equipment
 * Hazards
 * Dieties
