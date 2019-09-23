@@ -256,16 +256,16 @@ def get_armor_details(link):
                     if(child2.text != "Source"):
                         tagType = child2.text
             else:
-                if(stringContents != "") :
+                if not stringContents.isspace() :
                     detailHolder.append(child2.text)        
         else:
             if reachedBreak:
-                if(stringContents != "") :
+                if not stringContents.isspace() :
                     detailHolder.append(stringContents)
             else:
                 if tagType != "":
                     if (tagType != "Bulk") & (tagType!= "Price"):
-                        if(stringContents != "") :
+                        if not stringContents.isspace():
                             itemDetails[tagType] = stringContents
        #print(child)
        

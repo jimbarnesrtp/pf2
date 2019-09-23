@@ -10,9 +10,24 @@
 * Monsters - I believe(Verified as much as the data I can)
 * Backgrounds
 * Armors
+* Alechemical Items
 
 ### What is next
-* Other equipment
+* Artifacts
+* Consumables
+* Drugs
+* Held Items
+* Materials
+* Runes
+* Services
+* Shields
+* Snares
+* Staves
+* Structures
+* Tattoos
+* Wands
+* Weapons
+* Worn Items
 * Hazards
 * Dieties
 * Domains
