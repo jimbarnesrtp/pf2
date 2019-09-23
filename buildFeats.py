@@ -65,7 +65,7 @@ def get_feats(link):
                 feat['level'] = level
                 feat['traits'] = traits.split(",")
                 feat['link'] = "https://2e.aonprd.com/" +link
-                feat['prereq'] = prereq
+                feat['prereq'] = prereq.replace(u'\u2014', '')
                 feat['benefits'] = source
                 details = get_details(feat['link'])
                 feat['text'] = details

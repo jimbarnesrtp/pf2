@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 feat list",
-    "date": "September 21, 2019",
+    "date": "September 23, 2019",
     " generalFeats": [{
         "name": "Additional Lore",
         "level": "1",
@@ -14,7 +14,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=751",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Gain access to ancestry feats from another ancestry",
         "text": ["You\u2019re fully immersed in another ancestry\u2019s culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance. Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character\u2019s own ancestry, as long as the ancestry feats don\u2019t require any physiological feature that you lack, as determined by the GM."]
     }, {
@@ -38,7 +38,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=755",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Become trained in a type of armor",
         "text": ["You become trained in light armor. If you already were trained in light armor, you gain training in medium armor. If you were trained in both, you become trained in heavy armor.", " You can select this feat more than once. Each time, you become trained in the next type of armor above."]
     }, {
@@ -70,7 +70,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=763",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Hold your breath longer and gain benefits against inhaled threats",
         "text": ["You have incredible breath control, which grants you advantages when air is hazardous or sparse. You can hold your breath for 25 times as long as usual before suffocating. You gain a +1 circumstance bonus to saving throws against inhaled threats, such as inhaled poisons, and if you roll a success on such a saving throw, you get a critical success instead."]
     }, {
@@ -78,7 +78,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=764",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Become an expert in a saving throw or Perception",
         "text": ["Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice."]
     }, {
@@ -118,7 +118,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=774",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Die at dying 5, rather than dying 4",
         "text": ["It takes more to kill you than most. You die from the dying condition at dying 5, rather than dying 4."]
     }, {
@@ -190,7 +190,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=784",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Increase your Speed by 5 feet",
         "text": ["You move more quickly on foot. Your Speed increases by 5 feet."]
     }, {
@@ -246,7 +246,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=794",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "+2 to initiative rolls",
         "text": ["You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls."]
     }, {
@@ -366,7 +366,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=835",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Automatically succeed at commanding your mount to move",
         "text": ["When you Command an Animal you\u2019re mounted on to take a move action (such as Stride), you automatically succeed instead of needing to attempt a check. Any animal you\u2019re mounted on acts on your turn, like a minion. If you Mount an animal in the middle of an encounter, it skips its next turn and then acts on your next turn. Page 249 has more on Command an Animal."]
     }, {
@@ -382,7 +382,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=839",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Ward off a blow with your shield",
         "text": ["You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield\u2019s Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield."]
     }, {
@@ -486,7 +486,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=855",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Increase your maximum HP and reduce the DCs of recovery checks",
         "text": ["You can withstand more punishment than most before succumbing. Increase your maximum Hit Points by your level. You reduce the DC of recovery checks by 1 (page 459)."]
     }, {
@@ -526,7 +526,7 @@
         "level": "1",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=866",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Become trained in a weapon type",
         "text": ["You become trained in all simple weapons. If you were already trained in all simple weapons, you become trained in all martial weapons. If you were already trained in all martial weapons, you become trained in one advanced weapon of your choice.", " You can select this feat more than once. Each time you do, you become trained in additional weapons as appropriate, following the above progression."]
     }, {
@@ -718,7 +718,7 @@
         "level": "3",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=753",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Gain a 1st-level ancestry feat",
         "text": ["Whether through instinct, study, or magic, you feel a deeper connection to your ancestry. You gain a 1st-level ancestry feat."]
     }, {
@@ -726,7 +726,7 @@
         "level": "3",
         "traits": ["General"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=861",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Become more adept at using untrained skills",
         "text": ["You\u2019ve learned how to handle situations when you\u2019re out of your depth. Your proficiency bonus to untrained skill checks is equal to half your level instead of +0. If you\u2019re 7th level or higher, the bonus increases to your full level instead. This doesn\u2019t allow you to use the skill\u2019s trained actions."]
     }, {
@@ -999,7 +999,7 @@
         "level": "1",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=92",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have used alchemy to create life, a simple creature formed from alchemical materials, reagents, and a bit of your own blood.",
         "text": ["You have used alchemy to create life, a simple creature formed from alchemical materials, reagents, and a bit of your own blood. This alchemical familiar appears to be a small creature of flesh and blood, though it might have some unusual or distinguishing aspects depending on your creative process. Like other familiars, your alchemical familiar assists you in your laboratory and on adventures. The familiar uses your Intelligence modifier to determine its Perception, Acrobatics, and Stealth modifiers (see ", " for more information)."]
     }, {
@@ -1015,7 +1015,7 @@
         "level": "1",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=94",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve learned how to throw a longer distance.",
         "text": ["You\u2019ve learned how to throw a longer distance. When you throw an alchemical bomb, it has a range increment of 30 feet instead of the usual 20 feet."]
     }, {
@@ -1023,7 +1023,7 @@
         "level": "1",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=95",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You keep your bombs in easy-to-reach pouches from which you draw without thinking.",
         "text": ["You keep your bombs in easy-to-reach pouches from which you draw without thinking. You Interact to draw a bomb, then Strike with it."]
     }, {
@@ -1031,7 +1031,7 @@
         "level": "2",
         "traits": ["Alchemist", " Druid"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=96",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Repeated exposure to toxic reagents has fortified your body against poisons of all kinds.",
         "text": ["Your body has become fortified against toxins. You gain poison resistance equal to half your level, and you gain a +1 status bonus to saving throws against poisons."]
     }, {
@@ -1039,7 +1039,7 @@
         "level": "2",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=97",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "While under the effect of a mutagen, you can metabolize that mutagen\u2019s power to heal yourself.",
         "text": ["While under the effect of a mutagen, you can metabolize that mutagen\u2019s power to heal yourself. This uses a single action, which has the concentrate and manipulate traits. Once the action is complete, you regain 1d6 Hit Points for every 2 item levels of the mutagen (minimum 1d6), but the mutagen\u2019s duration immediately ends, even if you are under the effect of Persistent Mutagen."]
     }, {
@@ -1047,7 +1047,7 @@
         "level": "2",
         "traits": ["Alchemist", " Additive 1"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=98",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You cause the bomb to create a cloud of thick smoke, in addition to its normal effects.",
         "text": ["You cause the bomb to create a cloud of thick smoke, in addition to its normal effects. When thrown, the bomb creates a cloud of smoke in a 10-foot-radius burst. You choose which corner of the target\u2019s space (or the space in which the bomb lands) the cloud is centered on. Creatures within that area have the concealed condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind."]
     }, {
@@ -1055,7 +1055,7 @@
         "level": "4",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=99",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have calculated all the angles to maximize a bomb\u2019s splash.",
         "text": ["You have calculated all the angles to maximize a bomb\u2019s splash. When you throw an alchemical bomb with the ", " trait, you can cause the bomb to deal splash damage equal to your Intelligence modifier (minimum 0) instead of the normal amount."]
     }, {
@@ -1063,7 +1063,7 @@
         "level": "4",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=100",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Thanks to the time you\u2019ve spent studying and experimenting, you know how to scale your formulas into larger batches that don\u2019t require any additional attention.",
         "text": ["Thanks to the time you\u2019ve spent studying and experimenting, you know how to scale your formulas into larger batches that don\u2019t require any additional attention. When spending downtime to Craft alchemical items, you can produce twice as many alchemical items in a single batch without spending additional preparatory time. For instance, if you are creating elixirs of life, you can craft up to eight elixirs in a single batch using downtime, rather than four. This does not reduce the amount of alchemical reagents required or other ingredients needed to craft each item, nor does it increase your rate of progress for days past the base downtime spent. This also does not change the number of items you can create in a batch using advanced alchemy."]
     }, {
@@ -1071,7 +1071,7 @@
         "level": "4",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=101",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve learned how to make your personal energy last just a little bit longer when quickly brewing ad hoc concoctions.",
         "text": ["You\u2019ve learned how to make your personal energy last just a little bit longer when quickly brewing ad hoc concoctions. When using ", " to create an alchemical tool or elixir, that tool or elixir remains potent until the end of your next turn, instead of losing its potency at the start of your next turn."]
     }, {
@@ -1079,7 +1079,7 @@
         "level": "6",
         "traits": ["Alchemist", " Additive 2"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=102",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve discovered how to mix two elixirs into a single hybrid concoction.",
         "text": ["You\u2019ve discovered how to mix two elixirs into a single hybrid concoction. You can spend 2 additional batches of infused reagents to add a second elixir to the one you\u2019re crafting. The second elixir must also be at least 2 levels lower than your advanced alchemy level, and the combination elixir is an alchemical item two levels higher than the higher of the two elixirs\u2019 levels. When this combination elixir is consumed, both the constituent elixirs take effect. For example, you can combine two ", " to create a combined elixir that heals twice the normal amount, or you can combine a ", " with a ", " to both gain darkvision and find secret doors."]
     }, {
@@ -1087,7 +1087,7 @@
         "level": "6",
         "traits": ["Alchemist", " Additive 2"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=103",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your bombs impose additional effects on your enemies.",
         "text": ["Your bombs impose additional effects on your enemies. You mix a substance into the bomb that causes one of the following: dazzled, deafened, flat-footed, or a \u20135-foot status penalty to Speeds. If the attack with that bomb hits, the target must succeed at a Fortitude saving throw or suffer that effect until the start of your next turn. Use your class DC for this saving throw (even if someone else throws the bomb)."]
     }, {
@@ -1095,7 +1095,7 @@
         "level": "6",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=104",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can lob bombs with great force and a precise trajectory to angle the splash in a cone spraying in a single direction. ",
         "text": ["You can lob bombs with great force and a precise trajectory to angle the splash in a cone spraying in a single direction. When throwing an alchemical bomb with the ", " trait, instead of splashing all squares adjacent to the target, you can treat the target\u2019s space as the first affected square of a 15-foot cone directed away from you, potentially allowing you to avoid allies and splash deeper into enemy lines. If the target takes up more than a single square, the target\u2019s square closest to you is the first affected square of the cone."]
     }, {
@@ -1103,7 +1103,7 @@
         "level": "8",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=105",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your bestial mutagen brings out the beast lurking within you.",
         "text": ["Your ", " brings out the beast lurking within you, granting you especially sharp claws and teeth as well as a ferocious appearance. Whenever you\u2019re affected by a bestial mutagen you created, you gain the mutagen\u2019s item bonus to your Intimidation checks. In addition, your claws and jaws are increasingly vicious, and they gain the ", " trait. Finally, you can increase the mutagen\u2019s penalty to AC from \u20131 to \u20132 and, in exchange, increase the damage die size of your claws and jaws by one step."]
     }, {
@@ -1111,7 +1111,7 @@
         "level": "8",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=106",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Alchemical items you create on the fly are particularly potent.",
         "text": ["Alchemical items you create on the fly are particularly potent. When you use Quick Alchemy to create an infused alchemical item that allows a saving throw, you can change its DC to your class DC."]
     }, {
@@ -1119,7 +1119,7 @@
         "level": "8",
         "traits": ["Alchemist", " Additive 2"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=107",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You mix in an additive to make your bomb\u2019s contents adhere to the target and continue to deal damage.",
         "text": ["You mix in an additive to make your bomb\u2019s contents adhere to the target and continue to deal damage. A creature that takes a direct hit from one of your sticky bombs also takes persistent damage equal to and of the same type as the bomb\u2019s splash damage. If the bomb already deals persistent damage, combine the two amounts."]
     }, {
@@ -1127,7 +1127,7 @@
         "level": "10",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=108",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can cause your body to twist and flow like the quicksilver within your mutagens.",
         "text": ["You can cause your body to twist and flow like the quicksilver within your mutagens. Whenever you are under the effects of a ", " you created, you can stretch your legs and Step up to 10 feet, and you can squish and compress your body, allowing you to make it through tight spaces as if you were one size smaller, in addition to any effect from Squeezing."]
     }, {
@@ -1151,7 +1151,7 @@
         "level": "10",
         "traits": ["Alchemist", " Additive 2"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=111",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You mix a special additive into your elixir that calms the drinker\u2019s body and mind.",
         "text": ["You mix a special additive into your elixir that calms the drinker\u2019s body and mind. The elixir of life attempts to counteract one fear effect or one effect imposing the paralyzed condition on the drinker."]
     }, {
@@ -1167,7 +1167,7 @@
         "level": "12",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=113",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Integrating your own personal energy into the elixirs you create causes them to affect you for longer.",
         "text": ["Integrating your own personal energy into the elixirs you create causes them to affect you for longer. When you consume one of your alchemical items that has the ", " and ", " traits and a duration of 1 minute or longer, that elixir\u2019s duration is doubled."]
     }, {
@@ -1175,7 +1175,7 @@
         "level": "12",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=114",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The fortifying additives you brew into your mutagens make your juggernaut form impervious.",
         "text": ["The fortifying additives you brew into your mutagens make your juggernaut form impervious. Whenever you\u2019re affected by a ", " you created, you gain resistance to all physical damage equal to your Intelligence modifier (minimum 0)."]
     }, {
@@ -1191,7 +1191,7 @@
         "level": "14",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=116",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your silvertongue mutagen transcends languages and plausibility.",
         "text": ["Your ", " transcends languages and plausibility. When affected by a silvertongue mutagen you have created, you ignore circumstance penalties to Deception, Diplomacy, Intimidation, and Performance checks. In addition, your words transcend linguistic barriers; everyone listening to you speak hears your words as if you were speaking in their own language (though you do not actually speak that language, nor does this ability allow you to understand any additional languages)."]
     }, {
@@ -1223,7 +1223,7 @@
         "level": "16",
         "traits": ["Alchemist", " Additive 2"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=120",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You mix a substance into the bomb to foil resistances.",
         "text": ["You mix a substance into the bomb to foil resistances. The\r\nbomb reduces any resistance the enemy has to its damage\r\ntype by an amount equal to your level, but only for that attack."]
     }, {
@@ -1231,7 +1231,7 @@
         "level": "16",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=121",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Specialized tweaks to your formula that supplements your genius considerably broaden the benefits you gain from cognitive mutagens.",
         "text": ["Specialized tweaks to your formula that supplements your genius considerably broaden the benefits you gain from cognitive mutagens. When you\u2019re affected by a ", " you created, you also gain the mutagen\u2019s item bonus to Deception, Diplomacy, Intimidation, Medicine, Nature, Performance, Religion, and Survival checks. In addition, you can communicate telepathically with creatures within 60 feet with whom you share a language. The communication is two-way once you establish it, so a creature you contact can also communicate with you."]
     }, {
@@ -1247,7 +1247,7 @@
         "level": "18",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=123",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your mastery of alchemical secrets enables you to replicate effects most believe can be achieved only via magic.",
         "text": ["Your mastery of alchemical secrets enables you to replicate effects most believe can be achieved only via magic. Select a number of potions equal to your Intelligence modifier (minimum 1) of 9th level or lower. You gain formulas to Craft these potions as alchemical items with the ", " trait. When Crafting these alchemical elixirs, you can substitute alchemical reagents for an equal value of magical components, and you can use ", " instead of any other required tool kits. Other than that, the formula does not change. Once you\u2019ve chosen the potion formulas, they can\u2019t be changed."]
     }, {
@@ -1255,7 +1255,7 @@
         "level": "18",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=124",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With a minor adjustment of ratios in the formula for your serene mutagen, you gain mental protections.",
         "text": ["With a minor adjustment of ratios in the formula for your ", ", you gain mental protections. When you\u2019re affected by a serene mutagen you created, ", ", ", ", and ", " effects of 9th level or lower detect nothing from you or your possessions and auras. For instance, ", " would still detect other magic in the area, but not any magic on you."]
     }, {
@@ -1263,7 +1263,7 @@
         "level": "18",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=125",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your alchemical mastery can resuscitate the recently slain.",
         "text": ["Your alchemical mastery can resuscitate the recently slain. You can administer a ", " to a creature who has been dead for no more than 2 rounds. When you do, that creature is immediately returned to life with 1 Hit Point and becomes wounded 1."]
     }, {
@@ -1271,7 +1271,7 @@
         "level": "18",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=126",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have perfected the formulas for bombs that impede your enemies.",
         "text": ["You have perfected the formulas for bombs that impede your enemies. When you use ", ", your target avoids the condition the bomb imposes only if it critically succeeds at its saving throw."]
     }, {
@@ -1279,7 +1279,7 @@
         "level": "20",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=127",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your research has paid off, culminating in the legendary philosopher\u2019s stone.",
         "text": ["Your research has paid off, culminating in the legendary philosopher\u2019s stone. You learn the formula for the ", " and can add it to your formula book."]
     }, {
@@ -1295,7 +1295,7 @@
         "level": "20",
         "traits": ["Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=129",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have enhanced the formulas for your mutagens, aligning them perfectly to your physiology.",
         "text": ["You have enhanced the formulas for your ", ", aligning them perfectly to your physiology. When under the effect of a mutagen you crafted, you do not suffer its drawback."]
     }],
@@ -1304,7 +1304,7 @@
         "level": "1",
         "traits": ["Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=130",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your sense improve when you are raging.",
         "text": ["When you are raging, your visual senses improve, granting you darkvision."]
     }, {
@@ -1312,7 +1312,7 @@
         "level": "1",
         "traits": ["Barbarian", " Concentrate", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=131",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You push back your rage for a moment in order to think clearly.",
         "text": ["You push back your rage for a moment in order to think clearly. Until the end of this turn, you can use actions with the ", " trait even if those actions don\u2019t have the ", " trait."]
     }, {
@@ -1320,7 +1320,7 @@
         "level": "1",
         "traits": ["Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=132",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your fury fills your foes with fear.",
         "text": ["Your fury fills your foes with fear. While you are raging, your Demoralize and Scare to Death actions (from the Intimidation skill and an Intimidation skill feat, respectively) gain the rage trait, allowing you to use them while raging. As soon as you meet the prerequisites for the skill feats ", " and ", ", you gain these feats."]
     }, {
@@ -1328,7 +1328,7 @@
         "level": "1",
         "traits": ["Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=133",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Thrown weapons become especially deadly in your fury.",
         "text": ["Thrown weapons become especially deadly in your fury. You apply the additional damage from Rage to your thrown weapon attacks. If you have the ", " feat or the devastator class feature, apply their benefits to thrown weapon attacks."]
     }, {
@@ -1336,7 +1336,7 @@
         "level": "1",
         "traits": ["Barbarian", " Fighter", " Flourish", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=134",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With a quick sprint, you dash up to your foe and swing.",
         "text": ["With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type."]
     }, {
@@ -1352,7 +1352,7 @@
         "level": "2",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=136",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Desperate to finish the fight, you pour all your rage into one final blow.",
         "text": ["Desperate to finish the fight, you pour all your rage into one final blow. Make a Strike. If it hits, you gain a circumstance bonus to damage equal to the number of rounds remaining in your Rage (maximum 10). After this Strike, your Rage immediately ends, and you are fatigued until you rest for at least 10 minutes."]
     }, {
@@ -1360,7 +1360,7 @@
         "level": "2",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=137",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You keep pace with a retreating foe.",
         "text": ["You keep pace with a retreating foe. Stride up to your Speed, following the foe and keeping it in reach throughout its movement until it stops moving or you\u2019ve moved your full Speed. You can use No Escape to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type."]
     }, {
@@ -1368,7 +1368,7 @@
         "level": "2",
         "traits": ["Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=138",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can enter a second rage, but afterward you need to catch your breath",
         "text": ["You can enter a second rage, but afterward you need to catch your breath. You can Rage without waiting for 1 minute after the previous Rage (or 1 round, with quick rage), but when you end this second Rage, you\u2019re fatigued until you rest for 10 minutes."]
     }, {
@@ -1376,7 +1376,7 @@
         "level": "2",
         "traits": ["Barbarian", " Concentrate", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=139",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You concentrate on your rage, overcoming fear and fighting back sickness.",
         "text": ["You concentrate on your rage, overcoming fear and fighting back sickness. Reduce your frightened condition value by 1, and attempt a Fortitude save to recover from the sickened condition as if you had spent an action retching; you reduce your sickened condition value by 1 on a failure (but not on a critical failure), by 2 on a success, or by 3 on a critical success."]
     }, {
@@ -1384,7 +1384,7 @@
         "level": "4",
         "traits": ["Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=140",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your rage is a frenzy of rapid movements.",
         "text": ["Your rage is a frenzy of rapid movements. While you are raging, you gain a +10-foot status bonus to your Speed."]
     }, {
@@ -1400,7 +1400,7 @@
         "level": "4",
         "traits": ["Barbarian", " Fighter", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=142",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You make a wide, arcing swing. ",
         "text": ["You make a wide, arcing swing. Make a single melee Strike and compare the attack roll result to the ACs of up to two foes, each of whom must be within your melee reach and adjacent to the other. Roll damage only once and apply it to each creature you hit. A Swipe counts as two attacks for your multiple attack penalty. If you\u2019re using a weapon with the sweep trait, its modifier applies to all your Swipe attacks."]
     }, {
@@ -1408,7 +1408,7 @@
         "level": "4",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=143",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You roar in pain, awakening the rage within you.",
         "text": ["You roar in pain, awakening the rage within you. You Rage."]
     }, {
@@ -1424,7 +1424,7 @@
         "level": "6",
         "traits": ["Barbarian", " Champion"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=145",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swat a foe that leaves an opening. ",
         "text": ["You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a ", " action, you disrupt that action. This Strike doesn\u2019t count toward your multiple attack penalty, and your multiple attack penalty doesn\u2019t apply to this Strike."]
     }, {
@@ -1440,7 +1440,7 @@
         "level": "6",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=147",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swing clear through one foe and into another.",
         "text": ["You swing clear through one foe and into another. Make a melee Strike against the second foe."]
     }, {
@@ -1488,7 +1488,7 @@
         "level": "8",
         "traits": ["Barbarian", " Concentrate", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=153",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You pause to recover your raging vigor.",
         "text": ["You pause to recover your raging vigor. You gain temporary Hit Points equal to half your level plus your Constitution modifier."]
     }, {
@@ -1496,7 +1496,7 @@
         "level": "8",
         "traits": ["Barbarian", " Auditory", " Rage", " Visual"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=154",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You stoke an ally\u2019s fury.",
         "text": ["You stoke an ally\u2019s fury. While you are raging, one willing creature within 30 feet gains the effects of the Rage action, except it can still use ", " actions."]
     }, {
@@ -1504,7 +1504,7 @@
         "level": "8",
         "traits": ["Barbarian", " Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=155",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swing at a foe while mid-leap.",
         "text": ["You make an impressive leap and swing while you soar. Make a Leap, High Jump, or Long Jump and attempt one melee Strike at any point during your jump. Immediately after the Strike, you fall to the ground if you\u2019re in the air, even if you haven\u2019t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright.", " When attempting a High Jump or Long Jump during a Sudden Leap, determine the DC using the Long Jump DCs, and increase your maximum distance to double your Speed.", " If you have ", ", you can spend 3 actions to make a Sudden Leap and use Felling Strike instead of a normal Strike."]
     }, {
@@ -1512,7 +1512,7 @@
         "level": "8",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=156",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You thrash the grabbed foe around.",
         "text": ["You thrash the grabbed foe around. It takes bludgeoning damage equal to your Strength modifier plus your ferocious specialization damage plus your Rage damage. The foe must attempt a basic Fortitude save against your class DC."]
     }, {
@@ -1520,7 +1520,7 @@
         "level": "10",
         "traits": ["Barbarian", " Concentrate", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=157",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You open yourself to attacks so you can respond in turn. ",
         "text": ["You open yourself to attacks so you can respond in turn. Until your rage ends, you are flat-footed, and damage rolls against you gain a +2 circumstance bonus. If a creature hits you, that creature is flat-footed to you until the end of your next turn. If you hit it before the end of your next turn, you gain temporary Hit Points equal to your Constitution modifier, or double that on a critical hit. These temporary Hit Points last until the end of your rage."]
     }, {
@@ -1528,7 +1528,7 @@
         "level": "10",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=158",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You rush forward.",
         "text": ["You rush forward. Stride up to five times your Speed in a straight line. You can increase the number of actions this activity takes to 3 to Stride up to eight times your Speed in a straight line instead."]
     }, {
@@ -1544,7 +1544,7 @@
         "level": "10",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=160",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The weight of your swing drives your enemy back.",
         "text": ["The weight of your swing drives your enemy back. You push the foe back 5 feet, with the effects of a successful Shove. You can follow the foe as normal for a successful Shove."]
     }, {
@@ -1568,7 +1568,7 @@
         "level": "12",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=163",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You grab your foe while it\u2019s distracted by your attack.",
         "text": ["You grab your foe while it\u2019s distracted by your attack. The foe you hit becomes grabbed, as if you had succeeded at an Athletics check to Grapple the foe."]
     }, {
@@ -1624,7 +1624,7 @@
         "level": "14",
         "traits": ["Barbarian", " Fighter", " Flourish", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=170",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You attack all nearby adversaries.",
         "text": ["You attack all nearby adversaries. Make a melee Strike against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks."]
     }, {
@@ -1648,7 +1648,7 @@
         "level": "16",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=173",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your blood boils when you take a beating, and you throw caution to the wind to finish the fight.",
         "text": ["Your blood boils when you take a beating, and you throw caution to the wind to finish the fight. You gain a +2 circumstance bonus to attack rolls, a \u20132 penalty to AC, and a \u20131 penalty to saves. These bonuses and penalties last until your Rage ends or until you are above half Hit Points, whichever comes first."]
     }, {
@@ -1656,7 +1656,7 @@
         "level": "18",
         "traits": ["Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=174",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your critical hits are particularly devastating.",
         "text": ["Your critical hits are particularly devastating. On a critical hit, add one extra damage die. This is in addition to any extra dice you gain if the weapon is deadly or fatal. The target also takes persistent bleed damage equal to two damage dice."]
     }, {
@@ -1664,7 +1664,7 @@
         "level": "18",
         "traits": ["Barbarian", " Concentrate", " Fortune", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=175",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You burn out all of your rage to ensure that your attack lands and your mind remains free.",
         "text": ["You burn out all of your rage to ensure that your attack lands and your mind remains free. Reroll the triggering attack roll or Will save with a +2 circumstance bonus, use the better result, and resolve the effect. You then immediately stop raging."]
     }, {
@@ -1672,7 +1672,7 @@
         "level": "18",
         "traits": ["Barbarian", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=176",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You make a vicious attack that maims your enemy.",
         "text": ["You make a vicious attack that maims your enemy. Make a melee Strike. If the Strike hits and deals damage, the target is drained 1, or drained 2 on a critical success."]
     }, {
@@ -1688,7 +1688,7 @@
         "level": "20",
         "traits": ["Barbarian", " Manipulate", " Rage"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=178",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You stomp the ground with such force that it creates a minor earthquake",
         "text": ["You stomp the ground with such force that it creates a minor earthquake, with the effects of the ", " spell."]
     }],
@@ -1713,7 +1713,7 @@
         "level": "1",
         "traits": ["Bard", " Cleric", " Concentrate", " Druid", " Metamagic", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can extend your spells\u2019 range",
         "text": ["You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet."]
     }, {
@@ -1729,7 +1729,7 @@
         "level": "2",
         "traits": ["Bard", " Cleric", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Study broadens your range of simple spells",
         "text": ["A greater understanding of your magic broadens your range of simple spells.", ": You can prepare two additional cantrips each day.", ": Add two additional cantrips from your spell list to your repertoire. "]
     }, {
@@ -1761,7 +1761,7 @@
         "level": "2",
         "traits": ["Bard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=187",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your muse doesn\u2019t fall into a single label.",
         "text": ["Your muse doesn\u2019t fall into a single label. Choose a type of muse other than that of your own. You gain a 1st-level feat that requires that muse, and your muse is now also a muse of that type, allowing you to take feats with the other muse as a prerequisite. You don\u2019t gain any of the other effects of the muse you chose.", " You can take this feat multiple times. Each time you do, you must choose a different type of muse other than that of your own."]
     }, {
@@ -1777,7 +1777,7 @@
         "level": "4",
         "traits": ["Bard", " Concentrate", " Manipulate", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=189",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You subtly weave your spellcasting into your performance.",
         "text": ["You subtly weave your spellcasting into your performance. If the next action you take is to Cast a Spell, attempt a Performance check against all observers\u2019 Perception DCs. If your Performance check is successful against an observer\u2019s Perception DC, that observer doesn\u2019t notice that you are Casting a Spell, even though normally spells have sensory manifestations that would make spellcasting obvious to those around you, and verbal, somatic, and material components are extremely overt. You hide all of these as part of an ordinary performance.", " This hides only the spell\u2019s spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish."]
     }, {
@@ -1785,7 +1785,7 @@
         "level": "4",
         "traits": ["Bard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=190",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You learn to speed up yourelf and your allies with your performance",
         "text": ["You learn the ", " composition cantrip, which speeds up you and your allies for a round."]
     }, {
@@ -1801,7 +1801,7 @@
         "level": "6",
         "traits": ["Bard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=192",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You learn to frighten your enemies with your performance",
         "text": ["You learn the ", " composition cantrip, which frightens your enemies."]
     }, {
@@ -1817,7 +1817,7 @@
         "level": "6",
         "traits": ["Bard", " Cleric", " Druid", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
         "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
@@ -1849,7 +1849,7 @@
         "level": "10",
         "traits": ["Bard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=198",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You erect an imaginary barrier others believe to be real.",
         "text": ["You erect an imaginary barrier others believe to be real. You learn the ", " composition cantrip."]
     }, {
@@ -1857,7 +1857,7 @@
         "level": "10",
         "traits": ["Bard", " Concentrate", " Metamagic", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=199",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You are able to quickly cast a spell",
         "text": ["If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action). ", " This can only be used on a cantrip or spell from the class matching the one you gained this feat from."]
     }, {
@@ -1881,7 +1881,7 @@
         "level": "12",
         "traits": ["Bard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=202",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your connection to your muse has granted you unusual focus.",
         "text": ["Your connection to your muse has granted you unusual focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1."]
     }, {
@@ -1889,7 +1889,7 @@
         "level": "12",
         "traits": ["Bard", " Rare"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=926",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Learn the silver's refrain composition cantrip.",
         "text": ["You learn the ", " composition cantrip, which aids you when fighting ", "."]
     }, {
@@ -1897,7 +1897,7 @@
         "level": "14",
         "traits": ["Bard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=203",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can quicken your allies with a fast-paced performance.",
         "text": ["You can quicken your allies with a fast-paced performance. You learn the ", " composition cantrip."]
     }, {
@@ -1921,7 +1921,7 @@
         "level": "16",
         "traits": ["Bard", " Druid", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can maintain a spell with hardly a thought.",
         "text": ["You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells. "]
     }, {
@@ -1986,7 +1986,7 @@
         "level": "1",
         "traits": ["Champion"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=214",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You embody an aspect of your deity.",
         "text": ["You embody an aspect of your deity. Choose one of your deity\u2019s domains from those listed on page 441. You gain the domain\u2019s initial domain spell as a devotion spell."]
     }, {
@@ -2018,7 +2018,7 @@
         "level": "2",
         "traits": ["Champion"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=218",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You call upon your deity\u2019s grace.",
         "text": ["You call upon your deity\u2019s grace, gaining a +2 circumstance bonus to the save."]
     }, {
@@ -2074,7 +2074,7 @@
         "level": "4",
         "traits": ["Champion", " Concentrate", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=225",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your touch relieves fear and restores movement.",
         "text": ["Your touch relieves fear and restores movement. If the next action you use is to cast ", ", you can attempt to counteract a fear effect or an effect imposing the paralyzed condition on the target, in addition to the other benefits of ", "."]
     }, {
@@ -2082,7 +2082,7 @@
         "level": "6",
         "traits": ["Champion", " Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=145",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swat a foe that leaves an opening. ",
         "text": ["You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a ", " action, you disrupt that action. This Strike doesn\u2019t count toward your multiple attack penalty, and your multiple attack penalty doesn\u2019t apply to this Strike."]
     }, {
@@ -2146,7 +2146,7 @@
         "level": "8",
         "traits": ["Champion"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=234",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can block with your shield instinctively.",
         "text": ["You can block with your shield instinctively. At the start of each of your turns, you gain an additional reaction that you can use only to perform a Shield Block."]
     }, {
@@ -2298,7 +2298,7 @@
         "level": "14",
         "traits": ["Champion"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=253",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can use your champion's reaction more",
         "text": ["At the start of each of your turns, you gain an additional reaction that you can use only for your champion\u2019s reaction."]
     }, {
@@ -2395,7 +2395,7 @@
         "level": "1",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=265",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your deity bestows a special spell related to their powers.",
         "text": ["Your deity bestows a special spell related to their powers. Select one domain\u2014a subject of particular interest to you within your religion\u2014from your deity\u2019s list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain\u2019s theme and domain spells appear in Table 8\u20132: Domains on page 441.", " Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes.", " Focus spells are automatically heightened to half your level rounded up. Focus spells don\u2019t require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.", " You can select this feat multiple times, selecting a different domain each time and gaining its domain spell."]
     }, {
@@ -2427,7 +2427,7 @@
         "level": "1",
         "traits": ["Cleric", " Bard", " Concentrate", " Druid", " Metamagic", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can extend your spells\u2019 range",
         "text": ["You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet."]
     }, {
@@ -2435,7 +2435,7 @@
         "level": "2",
         "traits": ["Cleric", " Bard", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Study broadens your range of simple spells",
         "text": ["A greater understanding of your magic broadens your range of simple spells.", ": You can prepare two additional cantrips each day.", ": Add two additional cantrips from your spell list to your repertoire. "]
     }, {
@@ -2443,7 +2443,7 @@
         "level": "2",
         "traits": ["Cleric", " Healing", " Positive"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=271",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019re a conduit for positive energy, and as you channel it through you, it heals some of your minor injuries. ",
         "text": ["You\u2019re a conduit for positive energy, and as you cit through you, it heals some of your minor injuries. When you cast the ", " spell to heal a single creature other than yourself, you regain Hit Points equal to the spell level of the ", " spell."]
     }, {
@@ -2451,7 +2451,7 @@
         "level": "2",
         "traits": ["Cleric", " Exploration"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=272",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Carefully etching a sacred image into a physical object, you steel yourself for battle.",
         "text": ["Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn\u2019t fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents. "]
     }, {
@@ -2459,7 +2459,7 @@
         "level": "2",
         "traits": ["Cleric", " Healing"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=273",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You draw the life force out of your enemies to heal your own wounds.",
         "text": ["You draw the life force out of your enemies to heal your own wounds. When you cast a ", " spell and damage at least one living creature, you regain Hit Points equal to the spell level of your ", " spell. If you aren\u2019t a living creature, you gain no benefit from this feat."]
     }, {
@@ -2467,7 +2467,7 @@
         "level": "2",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=274",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath.",
         "text": ["Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath. When you use a ", " spell to damage undead, each undead of your level or lower that critically fails its save gains the fleeing condition for 1 round."]
     }, {
@@ -2499,7 +2499,7 @@
         "level": "4",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=278",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can shape the energy you channel in a single direction, reaching farther and in a more directed fashion.",
         "text": ["You can shape the energy you channel in a single direction, reaching farther and in a more directed fashion. When you cast a version of ", " or ", " that has an area, you can make its area a 60-foot cone instead of a 30-foot emanation."]
     }, {
@@ -2531,7 +2531,7 @@
         "level": "6",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=282",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You siphon residual spell energy into a weapon you\u2019re wielding.",
         "text": ["You siphon residual spell energy into a weapon you\u2019re wielding. Until the end of your turn, the weapon deals an additional 1d4 force damage. You can instead deal an additional 1d6 damage of an alignment type that matches one of your deity\u2019s alignment components. As usual for aligned damage, this can damage only creatures of the opposite alignment."]
     }, {
@@ -2539,7 +2539,7 @@
         "level": "6",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=283",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt.",
         "text": ["As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt. When you cast a version of ", " or ", " that has an area, you can designate a number of creatures equal to your Charisma modifier (minimum 1) that are not targeted by the spell."]
     }, {
@@ -2547,7 +2547,7 @@
         "level": "6",
         "traits": ["Cleric", " Bard", " Druid", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
         "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
@@ -2579,7 +2579,7 @@
         "level": "8",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=288",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your positive energy sets undead alight.",
         "text": ["Your positive energy sets undead alight. When you use a ", " spell to damage undead, each undead that takes damage also takes persistent fire damage equal to the spell\u2019s level."]
     }, {
@@ -2587,7 +2587,7 @@
         "level": "8",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=289",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With elemental forces, you make your emblazoned symbols more potent.",
         "text": ["With elemental forces, you make your emblazoned symbols more potent. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. "]
     }, {
@@ -2683,7 +2683,7 @@
         "level": "14",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=301",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The force of your blow sends your victim back to its home plane.",
         "text": ["The force of your blow sends your victim back to its home plane. You expend a ", " spell you have prepared, affecting the creature you critically hit without needing to cast the spell. The creature can attempt to resist the spell as normal."]
     }, {
@@ -2707,7 +2707,7 @@
         "level": "16",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=304",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can cause a creature you bring back from the brink of death to thrive and continue healing.",
         "text": ["You can cause a creature you bring back from the brink of death to thrive and continue healing. When you restore Hit Points to a dying creature or bring a dead creature back to life and restore Hit Points to it, you grant that creature fast healing 5 for 1 minute. This fast healing ends if the creature is knocked unconscious."]
     }, {
@@ -2723,7 +2723,7 @@
         "level": "18",
         "traits": ["Cleric", " Concentrate", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=306",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When you pull forth positive or negative energy, you also create a smaller pocket of that energy. ",
         "text": ["When you pull forth positive or negative energy, you also create a smaller pocket of that energy. If the next action you use is to cast a 2-action ", " or ", " to heal or damage a single creature, choose one additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell. This spell is the same level as the 2-action ", " or ", " you cast and doesn\u2019t cost another spell slot."]
     }, {
@@ -2739,7 +2739,7 @@
         "level": "20",
         "traits": ["Cleric"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=308",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your extensive service has made you a lesser herald of your deity, which affords you certain privileges.",
         "text": ["Your extensive service has made you a lesser herald of your deity, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for your deity. Second, if you conduct the ", " ritual to contact your deity, you don\u2019t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast ", " as a divine innate spell, but only to travel to the realm of your deity. When you cast it this way, its casting time is 1 minute, your religious symbol is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you\u2019re in your deity\u2019s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and divine traits."]
     }, {
@@ -2755,7 +2755,7 @@
         "level": "20",
         "traits": ["Cleric", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=310",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Deep understanding of divine revelations into the nature of vital essence allows you to freely manipulate the effects of your positive or negative energy.",
         "text": ["Deep understanding of divine revelations into the nature of vital essence allows you to freely manipulate the effects of your positive or negative energy. Use 1 metamagic action that you can perform that normally takes 1 action and can be applied to the ", " or ", " spell. If you use it in this way, its effects apply only to a ", " or ", " spell."]
     }],
@@ -2780,7 +2780,7 @@
         "level": "1",
         "traits": ["Druid", " Bard", " Cleric", " Concentrate", " Metamagic", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can extend your spells\u2019 range",
         "text": ["You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet."]
     }, {
@@ -2796,7 +2796,7 @@
         "level": "1",
         "traits": ["Druid", " Manipulate", " Metamagic", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=315",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You manipulate the energy of your spell, causing it to spread out and affect a wider area.",
         "text": ["You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line."]
     }, {
@@ -2812,7 +2812,7 @@
         "level": "2",
         "traits": ["Druid"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=317",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You call upon the creatures of nature to come to your aid.",
         "text": ["You call upon the creatures of nature to come to your aid. You can spend 10 minutes in concert with nature to replace one of the spells you\u2019ve prepared in one of your druid spell slots with a ", " or ", " spell of the same level."]
     }, {
@@ -2828,7 +2828,7 @@
         "level": "2",
         "traits": ["Druid"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=319",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have learned the secrets of another druidic order.",
         "text": ["You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don\u2019t gain any of the other benefits of the order you chose.", " You can take this feat multiple times. Each time you do, you must choose a different order other than your own."]
     }, {
@@ -2836,7 +2836,7 @@
         "level": "2",
         "traits": ["Druid", " Alchemist"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=96",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Repeated exposure to toxic reagents has fortified your body against poisons of all kinds.",
         "text": ["Your body has become fortified against toxins. You gain poison resistance equal to half your level, and you gain a +1 status bonus to saving throws against poisons."]
     }, {
@@ -2900,7 +2900,7 @@
         "level": "6",
         "traits": ["Druid", " Bard", " Cleric", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
         "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
@@ -2924,7 +2924,7 @@
         "level": "8",
         "traits": ["Druid"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=331",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have learned some of the tricks the fey use to bend primal magic toward illusions and trickery.",
         "text": ["You have learned some of the tricks the fey use to bend primal magic toward illusions and trickery. Add ", ", ", ", ", ", and ", " to your spell list as primal spells."]
     }, {
@@ -2964,7 +2964,7 @@
         "level": "10",
         "traits": ["Druid", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=336",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can take advantage of shapechanging magic to close wounds and patch injuries.",
         "text": ["You can take advantage of shapechanging magic to close wounds and patch injuries. If your next action is to cast a non-cantrip polymorph spell that targets only one creature, your polymorph spell also restores 1d6 Hit Points per spell level to that creature. This is a healing effect."]
     }, {
@@ -2972,7 +2972,7 @@
         "level": "10",
         "traits": ["Druid", " Manipulate", " Metamagic", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=337",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You alter your spells to overcome resistances.",
         "text": ["You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\u2019s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by ", ". A creature\u2019s immunities are unaffected."]
     }, {
@@ -3012,7 +3012,7 @@
         "level": "12",
         "traits": ["Druid"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=342",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your connection to nature is particularly strong, and the spirits of nature flock around you, helping you replenish your focus",
         "text": ["Your connection to nature is particularly strong, and the spirits of nature flock around you, helping you replenish your focus. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1."]
     }, {
@@ -3036,7 +3036,7 @@
         "level": "14",
         "traits": ["Druid"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=345",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With primal magic sustaining you, you cease aging.",
         "text": ["With primal magic sustaining you, you cease aging. The overflowing primal energy gives you a +2 status bonus to saves against diseases and primal magic."]
     }, {
@@ -3052,7 +3052,7 @@
         "level": "16",
         "traits": ["Druid", " Bard", " Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can maintain a spell with hardly a thought.",
         "text": ["You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells. "]
     }, {
@@ -3108,7 +3108,7 @@
         "level": "20",
         "traits": ["Druid", " Concentrate", " Manipulate", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=354",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can cast your spells effortlessly by tapping into the leylines of the world.",
         "text": ["You can cast your spells effortlessly by tapping into the leylines of the world. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don\u2019t expend the prepared spell as you cast it."]
     }, {
@@ -3125,7 +3125,7 @@
         "level": "1",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=356",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You lash out at your foe with both weapons. ",
         "text": ["You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn\u2019t have the agile trait, it takes a \u20132 penalty.", " If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty."]
     }, {
@@ -3133,7 +3133,7 @@
         "level": "1",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=357",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You make a controlled attack, fully accounting for your momentum.",
         "text": ["You make a controlled attack, fully accounting for your momentum. Make a Strike. The Strike gains the following failure effect.", " This attack does not count toward your multiple attack penalty."]
     }, {
@@ -3141,7 +3141,7 @@
         "level": "1",
         "traits": ["Fighter", " Open", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=358",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You take aim to pick off nearby enemies quickly.",
         "text": ["You take aim to pick off nearby enemies quickly. When using a ranged volley weapon while you are in this stance, you don\u2019t take the penalty to your attack rolls from the volley trait. When using a ranged weapon that doesn\u2019t have the volley trait, you gain a +2 circumstance bonus to damage rolls on attacks against targets within the weapon\u2019s first range increment."]
     }, {
@@ -3149,7 +3149,7 @@
         "level": "1",
         "traits": ["Fighter", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=359",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady.",
         "text": ["You unleash a particularly powerful attack that clobbers your foe but leaves you a bit unsteady. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you deal an extra die of weapon damage. If you\u2019re at least 10th level, increase this to two extra dice, and if you\u2019re at least 18th level, increase it to three extra dice."]
     }, {
@@ -3157,7 +3157,7 @@
         "level": "1",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=360",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can snap your shield into place just as you would take a blow, avoiding the hit at the last second.",
         "text": ["You can snap your shield into place just as you would take a blow, avoiding the hit at the last second. You immediately use the Raise a Shield action and gain your shield\u2019s bonus to AC. The circumstance bonus from the shield applies to your AC when you\u2019re determining the outcome of the triggering attack."]
     }, {
@@ -3165,7 +3165,7 @@
         "level": "1",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=361",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach.",
         "text": ["You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach. Make a Strike while keeping one hand free. If this Strike hits, the target is flat-footed until the start of your next turn or until it\u2019s no longer within the reach of your hand, whichever comes first."]
     }, {
@@ -3173,7 +3173,7 @@
         "level": "1",
         "traits": ["Fighter", " Barbarian", " Flourish", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=134",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With a quick sprint, you dash up to your foe and swing.",
         "text": ["With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type."]
     }, {
@@ -3181,7 +3181,7 @@
         "level": "2",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=363",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You push back as you block the attack, knocking your foe away or off balance.",
         "text": ["You push back as you block the attack, knocking your foe away or off balance. You use your shield to push the triggering creature, either automatically Shoving it 5 feet or causing it to become flat-footed until the start of your next turn. The triggering creature chooses whether to be moved or become flat-footed. If it chooses to be moved, you choose the direction. If the Shove would cause it to hit a solid object, enter a square of difficult terrain, or enter another creature\u2019s space, it must become flat-footed instead of being moved."]
     }, {
@@ -3189,7 +3189,7 @@
         "level": "2",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=364",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With a quick shot, you interfere with a foe in combat.",
         "text": ["With a quick shot, you interfere with a foe in combat. You can use the Aid action with a ranged weapon you wield. Instead of being within reach of the target, you must be within maximum range of the target. An Assisting Shot uses ammunition and incurs penalties just like any other attack."]
     }, {
@@ -3197,7 +3197,7 @@
         "level": "2",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=365",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Throwing your weight behind your attack, you hit you opponent hard enough to make it stumble back.",
         "text": ["Throwing your weight behind your attack, you hit your opponent hard enough to make it stumble back. Make a Strike with a two-handed melee weapon. If you hit a target that is your size or smaller, that creature is flat-footed until the end of your current turn, and you can automatically Shove it, with the same benefits as the Shove action (including the critical success effect, if your Strike was a critical hit). If you move to follow the target, your movement doesn\u2019t trigger reactions.", " This Strike has the following failure effect. ", " The target becomes flat-footed until the end of your current turn."]
     }, {
@@ -3205,7 +3205,7 @@
         "level": "2",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=366",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swipe at your opponent and grab at them.",
         "text": ["You swipe at your opponent and grab at them. Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. The creature remains grabbed until the end of your next turn or until it Escapes, whichever comes first."]
     }, {
@@ -3213,7 +3213,7 @@
         "level": "2",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=367",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can parry attacks against you with your one-handed weapon.",
         "text": ["You can parry attacks against you with your one-handed weapon. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirements."]
     }, {
@@ -3221,7 +3221,7 @@
         "level": "2",
         "traits": ["Fighter", " Emotion", " Fear", " Mental"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=368",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your blow not only wounds creatures but also shatters their confidence.",
         "text": ["Your blow not only wounds creatures but also shatters their confidence. Make a melee Strike. If you hit and deal damage, the target is frightened 1, or frightened 2 on a critical hit."]
     }, {
@@ -3229,7 +3229,7 @@
         "level": "2",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=369",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Extending your body to its limits, you attack an enemy that would normally be beyond your reach.",
         "text": ["Extending your body to its limits, you attack an enemy that would normally be beyond your reach. Make a Strike with a melee weapon, increasing your reach by 5 feet for that Strike. If the weapon has the disarm, shove, or trip trait, you can use the corresponding action instead of a Strike."]
     }, {
@@ -3237,7 +3237,7 @@
         "level": "4",
         "traits": ["Fighter", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=370",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You shoot twice in blindingly fast succession.",
         "text": ["You shoot twice in blindingly fast succession. Make two Strikes, each against a separate target and with a \u20132 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn\u2019t increase until after you\u2019ve made both of them."]
     }, {
@@ -3245,7 +3245,7 @@
         "level": "4",
         "traits": ["Fighter", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=371",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You snap your free hand over to grip your weapon just long enough to add momentum and deliver a more powerful blow to your opponent. ",
         "text": ["You snap your free hand over to grip your weapon just long enough to add momentum and deliver a more powerful blow to your opponent. Make a Strike with the required weapon. You quickly switch your grip during the Strike in order to make the attack with two hands. If the weapon doesn\u2019t normally have the two-hand trait, increase its weapon damage die by one step for this attack. (Rules on increasing die size appear on page 279.) If the weapon has the two-hand trait, you gain the benefit of that trait and a circumstance bonus to damage equal to the weapon\u2019s number of damage dice. When the Strike is complete, you resume gripping the weapon with only one hand. This action doesn\u2019t end any stance or fighter feat effect that requires you to have one hand free."]
     }, {
@@ -3269,7 +3269,7 @@
         "level": "4",
         "traits": ["Fighter", " Flourish", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=374",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You turn your foes\u2019 flanking against them with a quick reverse.",
         "text": ["You turn your foes\u2019 flanking against them with a quick reverse. Make a melee Strike against one of the flanking enemies and make a second Strike with the same weapon or unarmed attack against a different enemy that is flanking you. This second Strike has the same multiple attack penalty of the initial attack and doesn\u2019t count toward your multiple attack penalty."]
     }, {
@@ -3277,7 +3277,7 @@
         "level": "4",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=375",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When your shield is up, your enemies\u2019 blows can\u2019t touch\u00a0you.",
         "text": ["When your shield is up, your enemies\u2019 blows can\u2019t touch you. hen you have your shield raised, you can Stride to move half your Speed without triggering reactions that are triggered by your movement (such as Attacks of Opportunity). You can use Shielded Stride while Flying or Swimming instead of Striding if you have the corresponding movement type."]
     }, {
@@ -3285,7 +3285,7 @@
         "level": "4",
         "traits": ["Fighter", " Barbarian", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=142",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You make a wide, arcing swing. ",
         "text": ["You make a wide, arcing swing. Make a single melee Strike and compare the attack roll result to the ACs of up to two foes, each of whom must be within your melee reach and adjacent to the other. Roll damage only once and apply it to each creature you hit. A Swipe counts as two attacks for your multiple attack penalty. If you\u2019re using a weapon with the sweep trait, its modifier applies to all your Swipe attacks."]
     }, {
@@ -3293,7 +3293,7 @@
         "level": "4",
         "traits": ["Fighter", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=377",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You use your two weapons to parry attacks.",
         "text": ["You use your two weapons to parry attacks. You gain a +1 circumstance bonus to AC until the start of your next turn, or a +2 circumstance bonus if either weapon has the parry trait. You lose this circumstance bonus if you no longer meet this feat\u2019s requirement."]
     }, {
@@ -3301,7 +3301,7 @@
         "level": "6",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=378",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve studied the art of wielding an advanced weapon.",
         "text": ["You\u2019ve studied the art of wielding an advanced weapon. Choose a weapon group. You gain proficiency with all advanced weapons in that group as if they were martial weapons of their weapon group."]
     }, {
@@ -3309,7 +3309,7 @@
         "level": "6",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=379",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When an enemy\u2019s movement is compromised, you deliver a more deadly blow.",
         "text": ["When an enemy\u2019s movement is compromised, you deliver a more deadly blow. Make a Strike against a creature that is grabbed, prone, or restrained. You gain a circumstance bonus to damage on this Strike equal to the number of weapon damage dice, or that number + 2 if you\u2019re wielding the weapon in two hands. The Strike gains the following failure effect. ", " You deal damage to the target equal to the number of weapon damage dice, or that number + 2 if you\u2019re wielding the weapon in two hands. This damage has the same damage type as the weapon."]
     }, {
@@ -3333,7 +3333,7 @@
         "level": "6",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=382",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You use your weapon to deflect the attack against your ally.",
         "text": ["You use your weapon to deflect the attack against your ally, granting a +2 circumstance bonus to their Armor Class against the triggering attack. This turns the triggering critical hit into a hit, or the triggering hit into a miss."]
     }, {
@@ -3341,7 +3341,7 @@
         "level": "6",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=383",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can use your shield to fend off the worst of area effects and other damage.",
         "text": ["You can use your shield to fend off the worst of area effects and other damage. When you Raise your Shield, you gain your shield\u2019s circumstance bonus to Reflex saves. If you have the Shield Block reaction, damage you take as a result of a Reflex save can trigger that reaction, even if the damage isn\u2019t physical damage."]
     }, {
@@ -3349,7 +3349,7 @@
         "level": "6",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=384",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You drive your piercing weapon into an imperceptible foe, revealing its location to your allies.",
         "text": ["You drive your piercing weapon into an imperceptible foe, revealing its location to your allies. Make a Strike with the required melee weapon. You don\u2019t have to attempt a flat check to hit a concealed creature, and you have to succeed at only a DC 5 flat check to target a hidden creature. If you hit and deal damage, you can drive the required weapon into a corporeal target, revealing its current position. You Release the weapon, and it becomes lodged in the target. If the target is concealed, other creatures don\u2019t need to succeed at a flat check to hit it. If the target is hidden, other creatures have to succeed at only a DC 5 flat check to target it. The creatures need to be able to see your weapon to gain any of these benefits, and the target can\u2019t become undetected to anyone who sees your weapon. If the target is invisible, the weapon remains visible while lodged in it.", " This benefit lasts until the weapon is removed from the creature. An adjacent creature or the target can remove the weapon with 2 Interact actions."]
     }, {
@@ -3357,7 +3357,7 @@
         "level": "6",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=385",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your offense exploits your enemy\u2019s fear. Make a melee Strike against a frightened creature. ",
         "text": ["Your offense exploits your enemy\u2019s fear. Make a melee Strike against a frightened creature. If you hit and deal damage, the target becomes flat-footed until its frightened condition ends. If the target was already flat-footed to you when you damaged it with this Strike, it can\u2019t reduce its frightened value below 1 until the start of your next turn."]
     }, {
@@ -3397,7 +3397,7 @@
         "level": "8",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=390",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your attack can ground an airborne foe.",
         "text": ["Your attack can ground an airborne foe. Make a Strike. If it hits and deals damage to a flying target, the target falls up to 120 feet. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall. If the attack is a critical hit, the target can\u2019t Fly, Leap, levitate, or otherwise leave the ground until the end of your next turn."]
     }, {
@@ -3405,7 +3405,7 @@
         "level": "8",
         "traits": ["Fighter", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=391",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "By spending a moment to focus, you can ensure your attack strikes true. ",
         "text": ["By spending a moment to focus, you can ensure your attack strikes true. Make a ranged weapon Strike. On this Strike, you gain a +2 circumstance bonus to the attack roll and ignore the target\u2019s concealed condition."]
     }, {
@@ -3413,7 +3413,7 @@
         "level": "8",
         "traits": ["Fighter", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=392",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your shots become nimble and deadly.",
         "text": ["Your shots become nimble and deadly. While you\u2019re in this stance, your ranged Strikes don\u2019t trigger Attacks of Opportunity or other reactions that are triggered by a ranged attack. If you have Attack of Opportunity, you can use it with a loaded ranged weapon you\u2019re wielding. The triggering creature must be within 5 feet of you for you to do so."]
     }, {
@@ -3421,7 +3421,7 @@
         "level": "8",
         "traits": ["Fighter", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=393",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With punishing blows, you force your opponent into position.",
         "text": ["With punishing blows, you force your opponent into position. Make a Strike with the required weapon. If you hit, you move the target 5 feet into a space in your reach. This follows the forced movement rules found on page 475."]
     }, {
@@ -3437,7 +3437,7 @@
         "level": "8",
         "traits": ["Fighter", " Barbarian"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=155",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swing at a foe while mid-leap.",
         "text": ["You make an impressive leap and swing while you soar. Make a Leap, High Jump, or Long Jump and attempt one melee Strike at any point during your jump. Immediately after the Strike, you fall to the ground if you\u2019re in the air, even if you haven\u2019t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright.", " When attempting a High Jump or Long Jump during a Sudden Leap, determine the DC using the Long Jump DCs, and increase your maximum distance to double your Speed.", " If you have ", ", you can spend 3 actions to make a Sudden Leap and use Felling Strike instead of a normal Strike."]
     }, {
@@ -3445,7 +3445,7 @@
         "level": "10",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=396",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your graceful moves with agile weapons are beyond compare.",
         "text": ["Your graceful moves with agile weapons are beyond compare. Your multiple attack penalty with agile weapons and agile unarmed attacks becomes \u20133 for your second attack and \u20136 for subsequent attacks (rather than \u20134 and \u20138)."]
     }, {
@@ -3453,7 +3453,7 @@
         "level": "10",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=397",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Even when you don\u2019t hit squarely, you can still score a glancing blow.",
         "text": ["Even when you don\u2019t hit squarely, you can still score a glancing blow. Make a melee Strike. It gains the following failure effect. Failure Your attack deals any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon runes, spells, and special abilities, in addition to weapon damage dice.)", " Your attack deals any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon runes, spells, and special abilities, in addition to weapon damage dice.)"]
     }, {
@@ -3461,7 +3461,7 @@
         "level": "10",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=398",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You are particularly swift at punishing foes who leave you openings. ",
         "text": ["You are particularly swift at punishing foes who leave you openings. At the start of each of your turns when you regain your actions, you gain an additional reaction that can be used only to make an Attack of Opportunity."]
     }, {
@@ -3469,7 +3469,7 @@
         "level": "10",
         "traits": ["Fighter", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=399",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Aiming for a weak point, you impede your foe with a precise shot.",
         "text": ["Aiming for a weak point, you impede your foe with a precise shot. Make a ranged weapon Strike. If it hits and deals damage, the target is slowed 1 until the end of its next turn."]
     }, {
@@ -3485,7 +3485,7 @@
         "level": "10",
         "traits": ["Fighter", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=401",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The slightest distraction can provoke your wrath, and you\u2019re prepared to foil enemies\u2019 actions. ",
         "text": ["The slightest distraction can provoke your wrath, and you\u2019re prepared to foil enemies\u2019 actions. As long as you are in this stance, you can use Attack of Opportunity when a creature within your reach uses a concentrate action, in addition to manipulate and move actions. Furthermore, you disrupt a triggering concentrate or manipulate action if your Strike hits (not only if it\u2019s a critical hit)."]
     }, {
@@ -3493,7 +3493,7 @@
         "level": "10",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=402",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Fear makes your foes weak and more vulnerable to your attacks.",
         "text": ["Fear makes your foes weak and more vulnerable to your attacks. You gain a circumstance bonus to damage rolls for Strikes against frightened creatures. The bonus is equal to double the target\u2019s frightened value.", " If you have master proficiency in Intimidation, increase the bonus to triple the target\u2019s frightened value."]
     }, {
@@ -3509,7 +3509,7 @@
         "level": "10",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=404",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You reflect the spell back against the triggering opponent.",
         "text": ["You reflect the spell back against the triggering opponent. Make a ranged attack against the triggering creature using your highest proficiency with a ranged weapon. If you can cast spells, you can make a spell attack roll instead. If you succeed, your opponent takes the effects of a successful spell attack roll for their own spell (or the effects of a critical success if your attack roll was a critical success)."]
     }, {
@@ -3517,7 +3517,7 @@
         "level": "10",
         "traits": ["Fighter", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=523",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "A clever parry with one weapon leaves your opponent open to an attack with the other weapon. ",
         "text": ["A clever parry with one weapon leaves your opponent open to an attack with the other weapon. Make a melee Strike or use a Disarm action against the triggering opponent."]
     }, {
@@ -3525,7 +3525,7 @@
         "level": "12",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=406",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your final blow can make an impact even if it rebounds off a foe\u2019s defenses. ",
         "text": ["Your final blow can make an impact even if it rebounds off a foe\u2019s defenses. Make a Strike with the required weapon. After the Strike, your turn ends. The Strike deals one extra weapon damage die, or two extra weapon damage dice if you\u2019re at least 18th level. The Strike also gains the following failure effect.", " You deal damage equal to one weapon damage die of the required weapon. Increase this to two dice if you\u2019re at least 18th level."]
     }, {
@@ -3573,7 +3573,7 @@
         "level": "12",
         "traits": ["Fighter", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=412",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Once you\u2019ve had a moment to set your stance, you always have your shield ready without a thought.",
         "text": ["Once you\u2019ve had a moment to set your stance, you always have your shield ready without a thought. While you are in this stance, you constantly have your shield raised as if you\u2019d used the Raise a Shield action, as long as you meet that action\u2019s requirements."]
     }, {
@@ -3581,7 +3581,7 @@
         "level": "12",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=413",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Springing away from one foe, you Strike at another.",
         "text": ["Springing away from one foe, you Strike at another. Stride up to your Speed, but you must end that movement within melee reach of a different enemy. At the end of your movement, make a melee Strike against an enemy now within reach. You can use Spring Attack while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type."]
     }, {
@@ -3589,7 +3589,7 @@
         "level": "14",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=414",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You throw everything into one last press.",
         "text": ["You throw everything into one last press. Use a single action that you know with the press trait as part of Desperate Finisher. You forgo the ability to use reactions until the start of your next turn."]
     }, {
@@ -3597,7 +3597,7 @@
         "level": "14",
         "traits": ["Fighter", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=415",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your training allows you to shrug off your foes\u2019 spells and conditions when the need is dire.",
         "text": ["Your training allows you to shrug off your foes\u2019 spells and conditions when the need is dire. Choose a single nonpermanent spell or condition that is affecting you. If you chose a condition, its effect on you ends. If you chose a spell, attempt to counteract the spell (your level is your counteract level, and you attempt a Will save as your counteract check).", " This doesn\u2019t remove any Hit Point damage normally dealt by the spell or condition, and it doesn\u2019t prevent the spell or debilitating effect from affecting other allies or the environment around you. It can\u2019t remove an ongoing affliction or prevent such an affliction from inflicting conditions on you later. It can\u2019t remove conditions from the situation (such as prone or flanked). If the effect comes from a creature, hazard, or item of 20th level or higher, Determination can\u2019t remove its effect on you."]
     }, {
@@ -3605,7 +3605,7 @@
         "level": "14",
         "traits": ["Fighter", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=416",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Using your weapon as a lever, you force your opponent to end up right where you want them.",
         "text": ["Using your weapon as a lever, you force your opponent to end up right where you want them. Make a Strike with the required weapon. If the Strike hits, you can move the target up to 10 feet into a space in your reach. You can move the target through your space during this movement. This follows the forced movement rules found on page 475. Your Strike gains the following failure effect.", " You can force the creature to move as you would on a success, but you can move the target only 5 feet."]
     }, {
@@ -3629,7 +3629,7 @@
         "level": "14",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=419",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When there\u2019s imminent danger, you drop into a stance with a mere thought.",
         "text": ["When there\u2019s imminent danger, you drop into a stance with a mere thought. Use an action that has the stance trait."]
     }, {
@@ -3637,7 +3637,7 @@
         "level": "14",
         "traits": ["Fighter", " Flourish", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=420",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You lash out with both your weapons in a sudden frenzy.",
         "text": ["You lash out with both your weapons in a sudden frenzy. Strike twice, once with each weapon."]
     }, {
@@ -3645,7 +3645,7 @@
         "level": "14",
         "traits": ["Fighter", " Barbarian", " Flourish", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=170",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You attack all nearby adversaries.",
         "text": ["You attack all nearby adversaries. Make a melee Strike against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks."]
     }, {
@@ -3685,7 +3685,7 @@
         "level": "18",
         "traits": ["Fighter", " Flourish", " Open", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=426",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You fire a volley at all foes in an area.",
         "text": ["You fire a volley at all foes in an area. Make one Strike with a \u20132 penalty against each enemy within a 10-foot-radius burst centered at or beyond your weapon\u2019s volley range. Roll the damage only once for all targets.", " Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.", " When taken as a Fighter feat, this feat has the ", " and ", " traits."]
     }, {
@@ -3693,7 +3693,7 @@
         "level": "18",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=427",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The wounds you inflict are grievous.",
         "text": ["The wounds you inflict are grievous. When you Strike with a weapon or unarmed attack for which you have legendary proficiency, you critically succeed if you roll a 19 on the die as long as that result is a success. This has no effect on a 19 if the result would be a failure."]
     }, {
@@ -3701,7 +3701,7 @@
         "level": "20",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=428",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With a sixth sense for the flow of combat, you can quickly react to any situation as required.",
         "text": ["With a sixth sense for the flow of combat, you can quickly react to any situation as required. At the start of each enemy\u2019s turn, you gain a reaction you can use only during that turn."]
     }, {
@@ -3709,7 +3709,7 @@
         "level": "20",
         "traits": ["Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=429",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your skill with weapons lets you attack swiftly at all times.",
         "text": ["Your skill with weapons lets you attack swiftly at all times. You\u2019re permanently quickened. You can use your extra action only to Strike."]
     }],
@@ -3718,7 +3718,7 @@
         "level": "1",
         "traits": ["Monk", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=430",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You enter the stance of a crane, holding your arms in an imitation of a crane\u2019s wings.",
         "text": ["You enter the stance of a crane, holding your arms in an imitation of a crane\u2019s wings and using flowing, defensive motions. You gain a +1 circumstance bonus to AC, but the only Strikes you can make are crane wing attacks. These deal 1d6 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits.", " While in Crane Stance, reduce the DC for High Jump and Long Jump by 5, and when you Leap, you can move an additional 5 feet horizontally or 2 feet vertically."]
     }, {
@@ -3726,7 +3726,7 @@
         "level": "1",
         "traits": ["Monk", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=431",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You enter the stance of a dragon and make powerful leg strikes like a lashing dragon\u2019s tail.",
         "text": ["You enter the stance of a dragon and make powerful leg strikes like a lashing dragon\u2019s tail. You can make dragon tail attacks that deal 1d10 bludgeoning damage. They are in the brawling group and have the backswing, nonlethal, and unarmed traits.", " While in Dragon Stance, you can ignore the first square of difficult terrain while Striding."]
     }, {
@@ -3734,7 +3734,7 @@
         "level": "1",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=432",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can use ki to move with extraordinary speed and make yourself harder to hit.",
         "text": ["You can use ki to move with extraordinary speed and make yourself harder to hit. You gain the ", " ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300."]
     }, {
@@ -3742,7 +3742,7 @@
         "level": "1",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=433",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your study of the flow of mystical energy allows you to harness it into your physical strikes.",
         "text": ["Your study of the flow of mystical energy allows you to harness it into your physical strikes. You gain the ", " ki spell and a focus pool of 1 Focus Point. The rules for ki spells are summarized in the sidebar on page 157, and the full rules for focus spells appear on page 300."]
     }, {
@@ -3750,7 +3750,7 @@
         "level": "1",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=434",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have trained with the traditional weaponry of your monastery or school.",
         "text": ["You have trained with the traditional weaponry of your monastery or school. You gain access to uncommon weapons that have the monk trait and become trained in simple and martial monk weapons. When your proficiency rank for unarmed attacks increases to expert or master, your proficiency rank for these weapons increases to expert or master as well.", " You can use melee monk weapons with any of your monk feats or monk abilities that normally require unarmed attacks, though not if the feat or ability requires you to use a single specific type of attack, such as Crane Stance."]
     }, {
@@ -3758,7 +3758,7 @@
         "level": "1",
         "traits": ["Monk", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=435",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You enter the stance of an implacable mountain allowing you to strike with the weight of an avalanche.",
         "text": ["You enter the stance of an implacable mountain\u2014a technique first discovered by dwarven monks\u2014allowing you to strike with the weight of an avalanche. The only Strikes you can make are falling stone unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the forceful, nonlethal, and unarmed traits.", " While in Mountain Stance, you gain a +4 status bonus to AC and a +2 circumstance bonus to any defenses against being Shoved or Tripped. However, you have a Dexterity modifier cap to your AC of +0, meaning you don\u2019t add your Dexterity to your AC, and your Speeds are all reduced by 5 feet."]
     }, {
@@ -3766,7 +3766,7 @@
         "level": "1",
         "traits": ["Monk", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=436",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You enter the stance of a tiger and can make tiger claw attacks.",
         "text": ["You enter the stance of a tiger and can make tiger claw attacks. These deal 1d8 slashing damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. On a critical success with your tiger claws, if you deal damage, the target takes 1d4 persistent bleed damage.", " As long as your Speed is at least 20 feet while in Tiger Stance, you can Step 10 feet."]
     }, {
@@ -3774,7 +3774,7 @@
         "level": "1",
         "traits": ["Monk", " Stance"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=437",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You enter the stance of a wolf, low to the ground with your hands held like fanged teeth.",
         "text": ["You enter the stance of a wolf, low to the ground with your hands held like fanged teeth. You can make wolf jaw unarmed attacks. These deal 1d8 piercing damage; are in the brawling group; and have the agile, backstabber, finesse, nonlethal, and unarmed traits.", " If you\u2019re flanking a target while in Wolf Stance, your wolf jaw unarmed attacks also gain the trip trait."]
     }, {
@@ -3782,7 +3782,7 @@
         "level": "2",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=438",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You know how to make the most of your attacks when fighting hand-to-hand.",
         "text": ["You know how to make the most of your attacks when fighting hand-to-hand. You gain access to the critical specialization effects of unarmed strikes in the brawling group and weapons in the brawling group. If you have ", ", you also gain the critical specialization effects of all monk weapons in which you are trained."]
     }, {
@@ -3790,7 +3790,7 @@
         "level": "2",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=439",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Like a powerful constrictor, you crush targets in your unyielding grasp.",
         "text": ["Like a powerful constrictor, you crush targets in your unyielding grasp. When you successfully Grapple a creature, you can deal bludgeoning damage to that creature equal to your Strength modifier. You can make this attack nonlethal with no penalty."]
     }, {
@@ -3798,7 +3798,7 @@
         "level": "2",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=440",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You are as light as a leaf whirling in the breeze. ",
         "text": ["You are as light as a leaf whirling in the breeze. When you Leap or succeed at a High Jump or Long Jump, increase the distance you jump by 5 feet. When calculating the damage you take from falling, don\u2019t count any distance fallen while you are adjacent to a wall."]
     }, {
@@ -3822,7 +3822,7 @@
         "level": "4",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=443",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your reflexes allow you to deflect ranged attacks.",
         "text": ["You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, you have deflected it. You cannot use this feat to deflect unusually massive ranged projectiles (such as boulders or ballista bolts)."]
     }, {
@@ -3838,7 +3838,7 @@
         "level": "4",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=445",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You launch yourself at a foe.",
         "text": ["You launch yourself at a foe. Make a Leap or attempt a High Jump or Long Jump. At the end of the jump, if you\u2019re adjacent to a foe, you can immediately Strike that foe with an unarmed attack, even if the foe is in mid-air. You fall to the ground after the Strike. If the distance you fall is no more than the height of your jump, you land upright and take no damage."]
     }, {
@@ -3846,7 +3846,7 @@
         "level": "4",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=446",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your guard is up, even while moving.",
         "text": ["Your guard is up, even while moving. You gain a +4 circumstance bonus to AC against reactions triggered by your movement."]
     }, {
@@ -3854,7 +3854,7 @@
         "level": "4",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=447",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You strike out when your foe tries to flee. ",
         "text": ["You strike out when your foe tries to flee. Make a melee Strike against the triggering creature. If the attack is a critical hit and the trigger was a move action, you disrupt that action."]
     }, {
@@ -3918,7 +3918,7 @@
         "level": "6",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=455",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can Stride across liquid and surfaces that don\u2019t support your weight.",
         "text": ["You can Stride across liquid and surfaces that don\u2019t support your weight. This benefit lasts only during your movement. If you end your movement on a surface that can\u2019t support you, you fall in or it collapses as normal."]
     }, {
@@ -3926,7 +3926,7 @@
         "level": "6",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=456",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You propel your grabbed or restrained foe a great distance.",
         "text": ["You propel your grabbed or restrained foe a great distance. You can throw the creature any distance up to 10 feet, plus 5 feet \u00d7 your Strength modifier. If you successfully throw the creature, it takes bludgeoning damage equal to your Strength modifier plus 1d6 per 10 feet you threw it.", " Attempt an Athletics check against the foe\u2019s Fortitude DC. You take a \u20132 circumstance penalty to your check if the target is one size larger than you and a \u20134 circumstance penalty if it\u2019s larger than that. You gain a +2 circumstance bonus to your check if the target is one size smaller than you and a +4 circumstance bonus if it\u2019s smaller than that. ", " You throw the creature the desired distance and it lands prone.", " You throw the creature the desired distance.", " You don\u2019t throw the creature.", " You don\u2019t throw the creature, and it\u2019s no longer grabbed or restrained by you."]
     }, {
@@ -3974,7 +3974,7 @@
         "level": "8",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=462",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You defy gravity, traversing vertical planes as easily as the ground.",
         "text": ["You defy gravity, traversing vertical planes as easily as the ground. Stride up to your Speed. You must start your movement on a horizontal surface. During this movement, you can run up vertical surfaces, like walls, at your full Speed. If you end the Stride off the ground, you fall after taking your next action or when your turn ends, whichever comes first (though you can Grab an Edge, if applicable). If you have Water Step or a similar ability, Wall Run lets you run along flimsy vertical surfaces, as well as vertical liquids, such as a waterfall."]
     }, {
@@ -3990,7 +3990,7 @@
         "level": "10",
         "traits": ["Monk", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=464",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You focus your strength into a blow powerful enough to push an enemy away from you.",
         "text": ["You focus your strength into a blow powerful enough to push an enemy away from you. Make an unarmed Strike. If you hit, attempt an Athletics check to Shove the target. This attack uses the same multiple attack penalty as your Strike, and doesn\u2019t count toward your multiple attack penalty."]
     }, {
@@ -3998,7 +3998,7 @@
         "level": "10",
         "traits": ["Monk", " Attack", " Incapacitation"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=465",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You pinch crucial points of your target\u2019s nervous system, impeding its ability to function.",
         "text": ["You pinch crucial points of your target\u2019s nervous system, impeding its ability to function. Attempt an Athletics check to Grapple the creature, with the following success and critical success effects instead of the usual effects. ", " The target falls unconscious for 1 minute, though it remains standing and doesn\u2019t drop what it holds. ", " The target is clumsy 1 until the end of its next turn."]
     }, {
@@ -4022,7 +4022,7 @@
         "level": "12",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=468",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have fortified your body and mind against eldritch effects.",
         "text": ["You have fortified your body and mind against eldritch effects. You gain a +1 status bonus to saving throws against magic."]
     }, {
@@ -4030,7 +4030,7 @@
         "level": "12",
         "traits": ["Monk", " Negative"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=469",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your strike can block a creature's inner life force.",
         "text": ["Make an unarmed Strike. If it deals damage to a living creature, you block that creature\u2019s inner life force. The creature takes 2d6 persistent negative damage and is enfeebled 1 until the persistent damage ends. If you\u2019re 18th level or higher, this deals 3d6 persistent negative damage instead."]
     }, {
@@ -4054,7 +4054,7 @@
         "level": "12",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=472",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You enter a stance without a thought. ",
         "text": ["You enter a stance without a thought. Use an action that has the stance trait."]
     }, {
@@ -4086,7 +4086,7 @@
         "level": "14",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=476",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You cease aging",
         "text": ["You cease aging. In addition, you gain a +2 status bonus to saving throws against poisons and diseases, and you gain resistance to poison damage equal to half your level."]
     }, {
@@ -4094,7 +4094,7 @@
         "level": "14",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=477",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have transcended the barriers between words and meaning.",
         "text": ["You have transcended the barriers between words and meaning. You can speak and understand all spoken languages."]
     }, {
@@ -4102,7 +4102,7 @@
         "level": "16",
         "traits": ["Monk", " Emotion", " Mental"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=479",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You exude an aura of resolve.",
         "text": ["You exude an aura of resolve. You and allies within 15 feet of you gain a +2 status bonus to Will saving throws against mental effects."]
     }, {
@@ -4126,7 +4126,7 @@
         "level": "16",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=482",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The force of your considered blow shatters objects and defenses alike.",
         "text": ["The force of your considered blow shatters objects and defenses alike. Make an unarmed Strike. It bypasses the target\u2019s resistances. If the target has Hardness, the Strike treats the Hardness as if it were half its value."]
     }, {
@@ -4142,7 +4142,7 @@
         "level": "18",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=483",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your body hardens as you combine your attacks, making your finishing blows more damaging.",
         "text": ["Your body hardens as you combine your attacks, making your finishing blows more damaging. Your unarmed attacks gain the forceful trait. Any that already had this trait instead increase their weapon damage dice by one step."]
     }, {
@@ -4166,7 +4166,7 @@
         "level": "18",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=486",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You flow like water, avoiding all restraints.",
         "text": ["You flow like water, avoiding all restraints. End one status penalty to your speed, or end one immobilized or slowed condition affecting you."]
     }, {
@@ -4174,7 +4174,7 @@
         "level": "20",
         "traits": ["Monk"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=487",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You move as fast and as high as the wind itself. ",
         "text": ["You move as fast and as high as the wind itself. You\u2019re permanently quickened. You can use your extra action to Stride or Leap, or to provide one of the actions needed for a High Jump or Long Jump."]
     }, {
@@ -4190,7 +4190,7 @@
         "level": "20",
         "traits": ["Monk", " Fortune"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=489",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You execute a maneuver that defies possibility.",
         "text": ["You execute a maneuver that defies possibility. If the triggering effect was an enemy\u2019s attack hitting you, the enemy rerolls the attack roll and uses the lower result. If the triggering effect was you failing a saving throw, you reroll the saving throw and use the higher result."]
     }],
@@ -4207,7 +4207,7 @@
         "level": "1",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=491",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have a deep understanding of the crossbow.",
         "text": ["You have a deep understanding of the crossbow. When you\u2019re wielding a crossbow and use Hunt Prey or use Interact to reload your crossbow, you gain a +2 circumstance bonus to the damage roll on your next Strike with that crossbow. If the crossbow is a simple crossbow, also increase the damage die size for that attack by one step (page 279). You must make the attack before the end of your next turn or these benefits are lost."]
     }, {
@@ -4215,7 +4215,7 @@
         "level": "1",
         "traits": ["Ranger", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=492",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You take two quick shots against the one you hunt.",
         "text": ["You take two quick shots against the one you hunt. Make two Strikes against your prey with the required weapon. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to each Strike normally."]
     }, {
@@ -4223,7 +4223,7 @@
         "level": "1",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=493",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swiftly assess your prey and apply what you know.",
         "text": ["You swiftly assess your prey and apply what you know. As part of the action used to Hunt your Prey, you can attempt a check to Recall Knowledge about your prey. When you critically succeed at identifying your hunted prey with Recall Knowledge, you note a weakness in the creature\u2019s defenses. You and allies you tell gain a +1 circumstance bonus to your next attack roll against that prey. You can give bonuses from Monster Hunter only once per day against a particular creature."]
     }, {
@@ -4231,7 +4231,7 @@
         "level": "1",
         "traits": ["Ranger", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=494",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You swiftly attack your hunted prey with both weapons.",
         "text": ["You swiftly attack your hunted prey with both weapons. Make two Strikes against your hunted prey, one with each of the required weapons. If both hit the same hunted prey, combine their damage for the purpose of its resistances and weaknesses. Apply your multiple attack penalty to each Strike normally."]
     }, {
@@ -4239,7 +4239,7 @@
         "level": "2",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=495",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have studied a specific terrain to overcome its\u00a0challenges.",
         "text": ["You have studied a specific terrain to overcome its challenges. Choose aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground as your favored terrain. When in that terrain, you can ignore the effects of non-magical diffcult terrain. If you have the wild stride class feature, you gain a second benefit while in your favored terrain, depending on your choice. "]
     }, {
@@ -4247,7 +4247,7 @@
         "level": "2",
         "traits": ["Ranger", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=496",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When you focus on aiming, your attack becomes particularly accurate.",
         "text": ["When you focus on aiming, your attack becomes particularly accurate. Make a ranged weapon Strike against your hunted prey. On this Strike, you gain a +2 circumstance bonus to the attack roll and ignore your prey\u2019s concealed condition."]
     }, {
@@ -4263,7 +4263,7 @@
         "level": "2",
         "traits": ["Ranger", " Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=498",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You draw your weapon and attack with the same motion. ",
         "text": ["You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon."]
     }, {
@@ -4271,7 +4271,7 @@
         "level": "2",
         "traits": ["Ranger", " Move", " Uncommon"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=867",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Stay adjacent to your prey when they attempt to move away",
         "text": ["Your hunted prey cannot escape your relentless pursuit. ", " up to your Speed in tandem with the triggering creature, remaining adjacent to the foe throughout its movement until it stops moving or you run out of movement. You can ignore difficult terrain during this movement unless the difficult terrain is caused by a magical effect."]
     }, {
@@ -4279,7 +4279,7 @@
         "level": "2",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=499",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have a connection to the creatures of the natural world.",
         "text": ["You have a connection to the creatures of the natural world that allows you to communicate with them on a rudimentary level. You can use Diplomacy to Make an Impression on animals and to make very simple Requests of them. In most cases, wild animals will give you time to make your case."]
     }, {
@@ -4295,7 +4295,7 @@
         "level": "4",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=501",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Make a melee Strike against your prey.",
         "text": ["Make a melee Strike against your prey. If the attack is a critical hit, you disrupt the triggering action."]
     }, {
@@ -4303,7 +4303,7 @@
         "level": "4",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=502",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your experience in the field has taught you how to focus your aim at a distance.",
         "text": ["Your experience in the field has taught you how to focus your aim at a distance, increasing your accuracy. Double your weapons\u2019 range increments."]
     }, {
@@ -4311,7 +4311,7 @@
         "level": "4",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=503",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have studied a specific type of wild creature and can hunt it more easily. ",
         "text": ["You have studied a specific type of wild creature and can hunt it more easily. When you gain this feat, choose animals, beasts, dragons, or both fungi and plants as your favored enemy. When you roll initiative and can see an enemy that belongs to the chosen category, you can Hunt Prey as a free action, designating that enemy.", " You can use this free action even if you haven\u2019t identified the creature yet with Recall Knowledge. The benefit doesn\u2019t apply against favored enemies disguised as other creatures, and the GM determines whether it applies against a creature disguised as a favored enemy."]
     }, {
@@ -4319,7 +4319,7 @@
         "level": "4",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=504",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can reload your weapon on the move. ",
         "text": ["You can reload your weapon on the move. You Stride, Step, or Sneak, then Interact to reload."]
     }, {
@@ -4327,7 +4327,7 @@
         "level": "4",
         "traits": ["Ranger", " Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=505",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You visually or audibly warn your allies of danger.",
         "text": ["You visually or audibly warn your allies of danger, granting them each a +1 circumstance bonus to their initiative rolls. Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively."]
     }, {
@@ -4343,7 +4343,7 @@
         "level": "4",
         "traits": ["Ranger", " Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=377",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You use your two weapons to parry attacks.",
         "text": ["You use your two weapons to parry attacks. You gain a +1 circumstance bonus to AC until the start of your next turn, or a +2 circumstance bonus if either weapon has the parry trait. You lose this circumstance bonus if you no longer meet this feat\u2019s requirement."]
     }, {
@@ -4367,7 +4367,7 @@
         "level": "6",
         "traits": ["Ranger", " Flourish", " Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=510",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your feet and weapon move in tandem.",
         "text": ["Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step."]
     }, {
@@ -4375,7 +4375,7 @@
         "level": "6",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=511",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve learned to react with ranged weapons when a creature is in close quarters.",
         "text": ["You\u2019ve learned to react with ranged weapons when a creature\r\nis in close quarters. You can use a reaction that normally allows\r\nyou to make a melee weapon Strike to instead make a ranged\r\nweapon Strike. You must be Striking an adjacent target. If\r\nnecessary for the reaction\u2019s trigger, you treat your ranged\r\nweapon as if it had a reach of 5 feet. If the reaction has other\r\nrequirements, such as wielding a specific kind of weapon, Snap\r\nShot doesn\u2019t allow you to ignore them; it allows you only to\r\nreplace a melee weapon Strike with a ranged weapon Strike."]
     }, {
@@ -4407,7 +4407,7 @@
         "level": "8",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=515",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have an intuitive ability to sense hazards.",
         "text": ["You have an intuitive ability to sense hazards. You gain a +1 circumstance bonus to Perception checks to find traps and hazards, to AC against their attacks, and to saves against their effects. You can find hazards that would normally require you to Search even if you aren\u2019t Searching."]
     }, {
@@ -4431,7 +4431,7 @@
         "level": "8",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=518",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "By pointing out vulnerabilities, you grant an ally benefits from your hunting abilities",
         "text": ["By pointing out vulnerabilities, you grant the benefits listed in Hunt Prey and your hunter\u2019s edge benefit to an ally until the end of their next turn. Depending on whether you call out or use gestures, this action gains either the auditory or visual trait."]
     }, {
@@ -4463,7 +4463,7 @@
         "level": "10",
         "traits": ["Ranger", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=522",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You shoot clear through an intervening creature to hit your prey.",
         "text": ["You shoot clear through an intervening creature to hit your prey. Choose a target that is giving lesser cover to your hunted prey. Make a single ranged Strike with the required weapon against the chosen target and your hunted prey. This attack ignores any lesser cover the chosen target provides your hunted prey. Roll damage only once, and apply it to each creature you hit. A Penetrating Shot counts as two attacks for your multiple attack penalty."]
     }, {
@@ -4471,7 +4471,7 @@
         "level": "10",
         "traits": ["Ranger", " Fighter"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=523",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "A clever parry with one weapon leaves your opponent open to an attack with the other weapon. ",
         "text": ["A clever parry with one weapon leaves your opponent open to an attack with the other weapon. Make a melee Strike or use a Disarm action against the triggering opponent."]
     }, {
@@ -4487,7 +4487,7 @@
         "level": "12",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=525",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "The sheer power of your attacks, or the overwhelming number of them, leaves an enemy flustered.",
         "text": ["The sheer power of your attacks, or the overwhelming number of them, leaves an enemy flustered. If you critically hit your hunted prey with a ranged weapon, or hit it at least twice on the same turn with a ranged weapon, it\u2019s flat-footed until the start of your next turn."]
     }, {
@@ -4495,7 +4495,7 @@
         "level": "12",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=526",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can focus on two foes at once, hunting both of them down.",
         "text": ["You can focus on two foes at once, hunting both of them down. When you use the Hunt Prey action, you can pick two creatures as your prey."]
     }, {
@@ -4511,7 +4511,7 @@
         "level": "12",
         "traits": ["Ranger", " Press"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=528",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You read your prey\u2019s movements and transform them into openings, so failures with one weapon set up glancing blows with the other. ",
         "text": ["You read your prey\u2019s movements and transform them into openings, so failures with one weapon set up glancing blows with the other. Make a melee Strike with one of the required weapons against your hunted prey. The Strike gains the following failure effect. ", " You deal the damage the other required weapon would have dealt on a hit, excluding all damage dice. (This removes dice from weapon runes, spells, and special abilities, not just weapon damage dice.)"]
     }, {
@@ -4527,7 +4527,7 @@
         "level": "14",
         "traits": ["Ranger", " Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=530",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When you look for foes, you can catch even the slightest cues.",
         "text": ["When you look for foes, you can catch even the slightest cues, such as their minute movements or the shifting of air currents on your skin. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you\u2019re Seeking, making them merely hidden to you."]
     }, {
@@ -4559,7 +4559,7 @@
         "level": "14",
         "traits": ["Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=534",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can convey your prey\u2019s location to your allies, no matter how well hidden it is.",
         "text": ["You can convey your prey\u2019s location to your allies, no matter how well hidden it is. As long as your hunted prey is observed by you, all your allies who roll failures and critical failures when Seeking it get a success instead. Your allies need to be able to see or hear you to gain this benefit. You have to be able to call out or use gestures for your allies to get this benefit."]
     }, {
@@ -4607,7 +4607,7 @@
         "level": "18",
         "traits": ["Ranger", " Flourish", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=540",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You forgo precision to attack at an impossible speed.",
         "text": ["You forgo precision to attack at an impossible speed. Make three melee Strikes with each of the required weapons. All of these Strikes take the maximum multiple attack penalty, as if you had already made two or more attacks this turn."]
     }, {
@@ -4615,7 +4615,7 @@
         "level": "18",
         "traits": ["Ranger", " Fighter", " Flourish", " Open"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=426",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You fire a volley at all foes in an area.",
         "text": ["You fire a volley at all foes in an area. Make one Strike with a \u20132 penalty against each enemy within a 10-foot-radius burst centered at or beyond your weapon\u2019s volley range. Roll the damage only once for all targets.", " Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.", " When taken as a Fighter feat, this feat has the ", " and ", " traits."]
     }, {
@@ -4639,7 +4639,7 @@
         "level": "18",
         "traits": ["Ranger", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=544",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "After watching the motions of combat with incredible intensity and precision, you f re at your prey at the perfect moment to deliver maximum pain.",
         "text": ["After watching the motions of combat with incredible intensity and precision, you fire at your prey at the perfect moment to deliver maximum pain. Make a ranged Strike with the required weapon against your hunted prey. If you hit, the Strike deals maximum damage. After the Strike, your turn ends."]
     }, {
@@ -4688,7 +4688,7 @@
         "level": "1",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=550",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You deftly dodge out of the way.",
         "text": ["You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack."]
     }, {
@@ -4696,7 +4696,7 @@
         "level": "1",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=551",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have an intuitive sense that alerts you to the dangers and presence of traps.",
         "text": ["You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren\u2019t Searching, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap.", " You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead, and your circumstance bonuses against traps increase to +2."]
     }, {
@@ -4704,7 +4704,7 @@
         "level": "1",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=552",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You make a dazzling series of attacks with both weapons, using the first attack to throw your foe of guard against a second attack at a different angle.",
         "text": ["You make a dazzling series of attacks with both weapons, using the first attack to throw your foe offguard against a second attack at a different angle. Make one Strike with each of your two melee weapons, both against the same target. The target is automatically flat-footed against the second attack. Apply your multiple attack penalty to the Strikes normally."]
     }, {
@@ -4736,7 +4736,7 @@
         "level": "2",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=556",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve dabbled in a variety of tricks, gaining minor magical abilities from a particular tradition.",
         "text": ["You\u2019ve dabbled in a variety of tricks, gaining minor magical abilities from a particular tradition. Choose arcane, divine, occult, or primal magic, and gain two cantrips from the common cantrips available to that tradition."]
     }, {
@@ -4744,7 +4744,7 @@
         "level": "2",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=557",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You move in a way that denies your enemies the opportunity to retaliate.",
         "text": ["You move in a way that denies your enemies the opportunity to retaliate. When you take a Stride action to move half your Speed or less, that movement does not trigger reactions. You can use Mobility when Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type."]
     }, {
@@ -4752,7 +4752,7 @@
         "level": "2",
         "traits": ["Rogue", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=498",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You draw your weapon and attack with the same motion. ",
         "text": ["You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon."]
     }, {
@@ -4768,7 +4768,7 @@
         "level": "4",
         "traits": ["Rogue", " Secret"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=560",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "With careful observation during battle, you identify an enemy\u2019s strengths and weaknesses. ",
         "text": ["With careful observation during battle, you identify an enemy\u2019s strengths and weaknesses. The GM rolls a secret Perception check for you against the Deception or Stealth DC (whichever is higher) of an enemy of your choice who is not concealed from you, hidden from you, or undetected by you, and who is engaged in combat. The GM might apply a penalty for the distance between you and the enemy. The enemy is then temporarily immune to your Battle Assessment for 1 day. ", " The GM chooses two of the following pieces of information about the enemy to tell you: which of the enemy\u2019s weaknesses is highest, which of the enemy\u2019s saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy\u2019s resistances is highest. If the event of a tie, the GM should pick one at random. ", " The GM chooses one piece of information from the above list to tell you about the enemy. ", " The GM gives you false information (the GM makes up the information)."]
     }, {
@@ -4776,7 +4776,7 @@
         "level": "4",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=561",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You capitalize on your enemies\u2019 fear to slip past their defenses.",
         "text": ["You capitalize on your enemies\u2019 fear to slip past their defenses. Any creature that has the frightened condition is also flat-footed against your attacks."]
     }, {
@@ -4784,7 +4784,7 @@
         "level": "4",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=562",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can sneak spells past your foes\u2019 defenses as easily as any blade",
         "text": ["Whether you\u2019re using magic items, wielding innate magic, or dabbling in spellcasting, you can sneak spells past your foes\u2019 defenses as easily as any blade. When you succeed at a spell attack roll against a flat-footed foe\u2019s AC and the spell deals damage, you can add your sneak attack damage to the damage roll. If your single spell leads to multiple separate damage rolls, apply your sneak attack damage only once per target."]
     }, {
@@ -4792,7 +4792,7 @@
         "level": "4",
         "traits": ["Rogue", " Manipulate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=563",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You apply poison to a weapon.",
         "text": ["You apply a poison to the required weapon. If your next attack with that weapon before the end of your next turn hits and deals damage, it applies the effects of the poison, provided that poison can be delivered by contact or injury. If you critically fail the attack roll, the poison is wasted as normal. ", " During your daily preparations, you can prepare a number of simple injury poisons equal to your rogue level. These poisons deal 1d4 poison damage. Only you can apply these poisons properly, and they expire the next time you prepare."]
     }, {
@@ -4800,7 +4800,7 @@
         "level": "4",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=564",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You keep pace with a retreating foe.",
         "text": ["You keep pace with a retreating foe. You Stride, but you must end your movement adjacent to the triggering enemy. Your move does not trigger reactions from the triggering enemy. You can use Reactive Pursuit to Burrow, Climb, Fly, or Swim instead of Stride if you have the corresponding movement type."]
     }, {
@@ -4808,7 +4808,7 @@
         "level": "4",
         "traits": ["Rogue", " Incapacitation"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=565",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You subtly damage others\u2019 equipment.",
         "text": ["You subtly damage others\u2019 equipment. Choose one item that a creature within your reach wields or carries. The item must have moving parts that you could possibly sabotage (a shortbow could be sabotaged, but a longsword could not). Attempt a Thievery check against the Reflex DC of the creature. Damage dealt by Sabotage can\u2019t take the item below its Break Threshold. ", " You deal damage equal to four times your Thievery proficiency bonus. ", " You deal damage equal to double your Thievery proficiency bonus. ", " Temporarily immune to your Sabotage for 1 day."]
     }, {
@@ -4816,7 +4816,7 @@
         "level": "4",
         "traits": ["Rogue", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=505",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You visually or audibly warn your allies of danger.",
         "text": ["You visually or audibly warn your allies of danger, granting them each a +1 circumstance bonus to their initiative rolls. Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively."]
     }, {
@@ -4824,7 +4824,7 @@
         "level": "6",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=567",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You and your allies harry an opponent in concert. ",
         "text": ["You and your allies harry an opponent in concert. Any enemy is flat-footed against your melee attacks due to flanking as long as the enemy is within both your reach and your ally\u2019s. Your allies must still flank an enemy for it to be flat-footed to them."]
     }, {
@@ -4832,7 +4832,7 @@
         "level": "6",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=568",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You aren\u2019t bothered by tricky footing. ",
         "text": ["You aren\u2019t bothered by tricky footing. When you Stride or Step, you can ignore difficult terrain."]
     }, {
@@ -4840,7 +4840,7 @@
         "level": "6",
         "traits": ["Rogue", " Flourish", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=510",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your feet and weapon move in tandem.",
         "text": ["Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step."]
     }, {
@@ -4848,7 +4848,7 @@
         "level": "6",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=570",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "After stabbing your opponent in a weak spot, you tear the wound open.",
         "text": ["After stabbing your opponent in a weak spot, you tear the wound open. You deal persistent bleed damage to the target equal to your number of sneak attack damage dice."]
     }, {
@@ -4864,7 +4864,7 @@
         "level": "8",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=572",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can jam the workings of a trap to delay its effects.",
         "text": ["You can jam the workings of a trap to delay its effects. Attempt a Thievery check to Disable a Device on the trap; the DC to do so is increased by 5, and the effects are as follows. ", " You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice). ", " You prevent the trap from being triggered, or you delay the activation until the end of your next turn (whichever is worse for you; GM\u2019s choice). ", " No effect.", " You\u2019re flat-footed until the start of your next turn."]
     }, {
@@ -4888,7 +4888,7 @@
         "level": "8",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=575",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When your enemy is hit by your ally, you capitalize upon the distraction.",
         "text": ["When your enemy is hit by your ally, you capitalize upon the distraction. Make a Strike against the triggering creature."]
     }, {
@@ -4896,7 +4896,7 @@
         "level": "8",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=576",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You deftly step out of the way of an attack, letting the blow continue to the creature next to you.",
         "text": ["You deftly step out of the way of an attack, letting the blow continue to the creature next to you. You redirect the attack to a creature of your choice that is adjacent to you and within the reach of the triggering attack. The attacker rerolls the Strike\u2019s attack roll against the new target."]
     }, {
@@ -4952,7 +4952,7 @@
         "level": "12",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=583",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You launch yourself through the air at a foe.",
         "text": ["You launch yourself through the air at a foe. Attempt a High Jump or Long Jump. If you attempt a High Jump, determine the distance you can travel using the scale of a Long Jump. At the end of your jump, you can make a melee Strike.", " After your Strike, you fall to the ground if you\u2019re in the air. If the distance of your fall is no more than the height of your jump, you take no damage and land upright."]
     }, {
@@ -4960,7 +4960,7 @@
         "level": "12",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=584",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your ranged attacks can shoot an unprepared foe right out of the air.",
         "text": ["Your ranged attacks can shoot an unprepared foe right out of the air. Make a Strike with a ranged weapon or a thrown weapon against a flat-footed creature. If the Strike is a success and deals damage, the target must attempt a Reflex save against your class DC with the following effects. ", " The target is unaffected.", " The target falls up to 120 feet. If it hits the ground, it takes no damage from the fall.", " As failure, and the target can\u2019t fiy, jump, levitate, or otherwise leave the ground until the end of your next turn."]
     }, {
@@ -4968,7 +4968,7 @@
         "level": "12",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=585",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You reflexively foil an enemy\u2019s response. ",
         "text": ["Grabbing a sleeve, swiping with your weapon, or creating another obstruction, you reflexively foil an enemy\u2019s response. If the triggering creature\u2019s level is equal to or lower than yours, you disrupt the triggering reaction. If the triggering creature\u2019s level is higher than yours, you must make an attack roll against its AC. On a success, you disrupt the reaction."]
     }, {
@@ -4976,7 +4976,7 @@
         "level": "12",
         "traits": ["Rogue", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=586",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Leaping out from hiding, you assail your target when they least expect it. ",
         "text": ["Leaping out from hiding, you assail your target when they least expect it. You Stride up to your Speed, but you must end your movement next to an enemy you\u2019re hidden from or undetected by. You then Strike that enemy; you remain hidden from or undetected by that creature until after you Strike. You can use Spring from the Shadows while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type."]
     }, {
@@ -4984,7 +4984,7 @@
         "level": "14",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=587",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious.",
         "text": ["Dropping into a roll to disperse the force of the blow, you can partially evade a lethal attack and stay conscious. You take half damage from the triggering attack."]
     }, {
@@ -4992,7 +4992,7 @@
         "level": "14",
         "traits": ["Rogue", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=588",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You distract your opponent with a few choice words or a rude gesture.",
         "text": ["You distract your opponent with a few choice words or a rude gesture. Choose a target within 30 feet. It\u2019s flat-footed against your attacks until the end of your next turn. Depending on the way you describe your distraction, this action gains either the auditory or visual trait."]
     }, {
@@ -5000,7 +5000,7 @@
         "level": "14",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=589",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When you hit hard enough, you leave an opening so your ally can jump in on the action. ",
         "text": ["When you hit hard enough, you leave an opening so your ally can jump in on the action. Whenever you critically hit a flat-footed opponent with a melee attack and deal damage, the target triggers an Attack of Opportunity reaction from one ally of your choice who has that reaction, as if the enemy had used a manipulate action."]
     }, {
@@ -5008,7 +5008,7 @@
         "level": "14",
         "traits": ["Rogue", " Ranger"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=530",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When you look for foes, you can catch even the slightest cues.",
         "text": ["When you look for foes, you can catch even the slightest cues, such as their minute movements or the shifting of air currents on your skin. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you\u2019re Seeking, making them merely hidden to you."]
     }, {
@@ -5032,7 +5032,7 @@
         "level": "16",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=593",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can find a loophole in a mental effect to temporarily overcome it.",
         "text": ["You can find a loophole in a mental effect to temporarily overcome it. Until the end of your next turn, you ignore a single mental effect that meets the requirement. You can suppress a particular effect using Cognitive Loophole only once. ", " You can use this reaction even if the mental effect is preventing you from using reactions."]
     }, {
@@ -5040,7 +5040,7 @@
         "level": "16",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=594",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your sneak attack slices through the threads binding magic to a target.",
         "text": ["Your sneak attack slices through the threads binding magic to a target. Make a Strike against a flat-footed creature (your choice). If your Strike deals sneak attack damage, you attempt to counteract a single spell active on the target. Your counteract level is equal to your rogue level, and your counteract check modifier is equal to your class DC \u2013 10."]
     }, {
@@ -5064,7 +5064,7 @@
         "level": "18",
         "traits": ["Rogue"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=597",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have learned to exploit your enemies\u2019 lowered defenses.",
         "text": ["You have learned to exploit your enemies\u2019 lowered defenses. When you succeed or critically succeed at a Strike using your Strength modifier on the attack roll and you would deal sneak attack damage, you can change the additional damage from sneak attack into ordinary damage of the same type as your Strike, rather than precision damage."]
     }, {
@@ -5072,7 +5072,7 @@
         "level": "18",
         "traits": ["Rogue", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=598",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have a contingency in your back pocket for desperate situations.",
         "text": ["Whether from jury-rigged magic items, stolen magical essence, or other means, you have a contingency in your back pocket for desperate situations. When the trigger occurs, you cause the spell to come into effect. The spell targets only you, no matter how many creatures it would affect normally. If you define particularly complicated conditions, as determined by the GM, the trigger might fail. Once the contingency is triggered, the spell is expended until your next daily preparations."]
     }, {
@@ -5105,7 +5105,7 @@
         "level": "1",
         "traits": ["Sorcerer", " Abjuration"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=602",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When a foe casts a spell, you can try to use your own magic to disrupt it.",
         "text": ["When a foe Casts a Spell you know and you can see its manifestations, you can use your own magic to disrupt it. You expend one of your spell slots to counter the triggering creature\u2019s casting of a spell that you have in your repertoire. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458). ", " This feat has the trait corresponding to the tradition of spells you cast (arcane, divine, natural, or occult)."]
     }, {
@@ -5113,7 +5113,7 @@
         "level": "1",
         "traits": ["Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=603",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your legacy grants you great destructive power",
         "text": ["Your legacy grants you great destructive power. When you Cast a Spell from your spell slots, if the spell deals damage and doesn\u2019t have a duration, you gain a status bonus to that spell\u2019s damage equal to the spell\u2019s level."]
     }, {
@@ -5121,7 +5121,7 @@
         "level": "1",
         "traits": ["Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=604",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "An animal serves you and assists your spellcasting.",
         "text": ["You make a pact with creature that serves you and assists your spellcasting. You gain a familiar (page 217)."]
     }, {
@@ -5129,7 +5129,7 @@
         "level": "1",
         "traits": ["Sorcerer", " Bard", " Cleric", " Concentrate", " Druid", " Metamagic", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can extend your spells\u2019 range",
         "text": ["You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet."]
     }, {
@@ -5137,7 +5137,7 @@
         "level": "1",
         "traits": ["Sorcerer", " Druid", " Manipulate", " Metamagic", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=315",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You manipulate the energy of your spell, causing it to spread out and affect a wider area.",
         "text": ["You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line."]
     }, {
@@ -5145,7 +5145,7 @@
         "level": "2",
         "traits": ["Sorcerer", " Bard", " Cleric", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Study broadens your range of simple spells",
         "text": ["A greater understanding of your magic broadens your range of simple spells.", ": You can prepare two additional cantrips each day.", ": Add two additional cantrips from your spell list to your repertoire. "]
     }, {
@@ -5169,7 +5169,7 @@
         "level": "4",
         "traits": ["Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=610",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding.",
         "text": ["You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. "]
     }, {
@@ -5209,7 +5209,7 @@
         "level": "6",
         "traits": ["Sorcerer", " Bard", " Cleric", " Druid", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
         "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
@@ -5217,7 +5217,7 @@
         "level": "8",
         "traits": ["Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=616",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your magical blood makes you more resistant to magic.",
         "text": ["Your magical blood makes you more resistant to magic. You gain a +1 status bonus to saving throws against spells and magical effects."]
     }, {
@@ -5225,7 +5225,7 @@
         "level": "8",
         "traits": ["Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=617",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Odd interactions in your bloodline provide you with unexpected spells.",
         "text": ["Odd interactions in your bloodline provide you with unexpected spells. You can have one spell in your spell repertoire from a tradition other than the one that matches your bloodline. You cast that spell as a spell from your bloodline\u2019s tradition. You can swap which spell you add and from which tradition as you could any other sorcerer spell, but you can\u2019t have more than one spell from another tradition in your spell repertoire at the same time using this feat."]
     }, {
@@ -5241,7 +5241,7 @@
         "level": "10",
         "traits": ["Sorcerer", " Druid", " Manipulate", " Metamagic", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=337",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You alter your spells to overcome resistances.",
         "text": ["You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\u2019s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by ", ". A creature\u2019s immunities are unaffected."]
     }, {
@@ -5249,7 +5249,7 @@
         "level": "10",
         "traits": ["Sorcerer", " Bard", " Concentrate", " Metamagic", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=199",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You are able to quickly cast a spell",
         "text": ["If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action). ", " This can only be used on a cantrip or spell from the class matching the one you gained this feat from."]
     }, {
@@ -5265,7 +5265,7 @@
         "level": "12",
         "traits": ["Sorcerer", " Detection", " Divination", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=622",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have a literal sixth sense for magic",
         "text": ["You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level ", " spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level ", " spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.", " (Wizard) This feat has the ", " trait."]
     }, {
@@ -5289,7 +5289,7 @@
         "level": "16",
         "traits": ["Sorcerer", " Bard", " Druid", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can maintain a spell with hardly a thought.",
         "text": ["You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells. "]
     }, {
@@ -5329,7 +5329,7 @@
         "level": "20",
         "traits": ["Sorcerer", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=630",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Your inborn magical nature lets you redirect ambient energies to fuel your spells.",
         "text": ["Your inborn magical nature lets you redirect ambient energies to fuel your spells. If your next action is to Cast a Spell of 5th level or lower that has no duration, you don\u2019t expend the spell\u2019s slot when you cast it."]
     }, {
@@ -5345,7 +5345,7 @@
         "level": "20",
         "traits": ["Sorcerer", " Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=632",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Altering your spells doesn\u2019t take any longer than casting them normally. ",
         "text": ["Altering your spells doesn\u2019t take any longer than casting them normally. You can use metamagic single actions as free actions."]
     }],
@@ -5354,7 +5354,7 @@
         "level": "1",
         "traits": ["Wizard", " Abjuration", " Arcane"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=633",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "When a foe Casts a Spell and you can see its manifestations, you can use your own magic to disrupt it. ",
         "text": ["When a foe Casts a Spell and you can see its manifestations, you can use your own magic to disrupt it. You expend a prepared spell to counter the triggering creature\u2019s casting of that same spell. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458)."]
     }, {
@@ -5362,7 +5362,7 @@
         "level": "1",
         "traits": ["Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=634",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can use clever workarounds to replicate the arcane essence of certain materials.",
         "text": ["You can use clever workarounds to replicate the arcane essence of certain materials. When Casting a Spell that requires material components, you can provide these material components without a spell component pouch by drawing intricate replacement sigils in the air. Unlike when providing somatic components, you still must have a hand completely free. This doesn\u2019t remove the need for any materials listed in the spell\u2019s cost entry."]
     }, {
@@ -5370,7 +5370,7 @@
         "level": "1",
         "traits": ["Wizard", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=604",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "An animal serves you and assists your spellcasting.",
         "text": ["You make a pact with creature that serves you and assists your spellcasting. You gain a familiar (page 217)."]
     }, {
@@ -5386,7 +5386,7 @@
         "level": "1",
         "traits": ["Wizard", " Bard", " Cleric", " Concentrate", " Druid", " Metamagic", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can extend your spells\u2019 range",
         "text": ["You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet."]
     }, {
@@ -5394,7 +5394,7 @@
         "level": "1",
         "traits": ["Wizard", " Druid", " Manipulate", " Metamagic", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=315",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You manipulate the energy of your spell, causing it to spread out and affect a wider area.",
         "text": ["You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line."]
     }, {
@@ -5402,7 +5402,7 @@
         "level": "2",
         "traits": ["Wizard", " Bard", " Cleric", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Study broadens your range of simple spells",
         "text": ["A greater understanding of your magic broadens your range of simple spells.", ": You can prepare two additional cantrips each day.", ": Add two additional cantrips from your spell list to your repertoire. "]
     }, {
@@ -5410,7 +5410,7 @@
         "level": "2",
         "traits": ["Wizard", " Concentrate", " Manipulate", " Metamagic"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=640",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Hiding your gestures and incantations within other speech and movement, you attempt to conceal the fact that you are casting a spell.",
         "text": ["Hiding your gestures and incantations within other speech and movement, you attempt to conceal the fact that you are Casting a Spell. If the next action you use is to Cast a Spell, attempt a Stealth check against one or more observers\u2019 Perception DCs; if the spell has verbal components, you must also attempt a Deception check against the observers\u2019 Perception DC. If you succeed at your check (or checks) against an observer\u2019s DC, that observer doesn\u2019t notice you\u2019re casting a spell, even though material, somatic, and verbal components are usually noticeable and spells normally have sensory manifestations that would make spellcasting obvious to those nearby.", " This ability hides only the spell\u2019s spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air."]
     }, {
@@ -5426,7 +5426,7 @@
         "level": "4",
         "traits": ["Wizard", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=610",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding.",
         "text": ["You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. "]
     }, {
@@ -5450,7 +5450,7 @@
         "level": "6",
         "traits": ["Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=645",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve studied ways of overcoming the innate magical resistance that certain powerful creatures have.",
         "text": ["You\u2019ve studied ways of overcoming the innate magical resistance that dragons, otherworldly beings, and certain other powerful creatures have. Any creature that has a status bonus to saving throws against magic reduces that bonus by 1 against your spells."]
     }, {
@@ -5458,7 +5458,7 @@
         "level": "6",
         "traits": ["Wizard", " Bard", " Cleric", " Druid", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
         "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
@@ -5490,7 +5490,7 @@
         "level": "10",
         "traits": ["Wizard", " Druid", " Manipulate", " Metamagic", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=337",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You alter your spells to overcome resistances.",
         "text": ["You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\u2019s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by ", ". A creature\u2019s immunities are unaffected."]
     }, {
@@ -5498,7 +5498,7 @@
         "level": "10",
         "traits": ["Wizard", " Bard", " Concentrate", " Metamagic", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=199",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You are able to quickly cast a spell",
         "text": ["If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action). ", " This can only be used on a cantrip or spell from the class matching the one you gained this feat from."]
     }, {
@@ -5522,7 +5522,7 @@
         "level": "12",
         "traits": ["Wizard", " Detection", " Divination", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=622",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You have a literal sixth sense for magic",
         "text": ["You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level ", " spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level ", " spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.", " (Wizard) This feat has the ", " trait."]
     }, {
@@ -5554,7 +5554,7 @@
         "level": "16",
         "traits": ["Wizard", " Bard", " Druid", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can maintain a spell with hardly a thought.",
         "text": ["You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells. "]
     }, {
@@ -5562,7 +5562,7 @@
         "level": "16",
         "traits": ["Wizard", " Concentrate"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=659",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve learned to alter choices you make when casting spells on yourself.",
         "text": ["You\u2019ve learned to alter choices you make when casting spells on yourself. After casting a spell on only yourself that offers several choices of effect (such as ", ", ", ", or a polymorph spell that offers several potential forms), you can alter the choice you made when Casting the Spell (for instance, choosing a different type of damage for ", "). However, your tinkering weakens the spell\u2019s integrity, reducing its remaining duration by half.", " You can\u2019t use this feat if the benefits of the spell have already been used up or if the effects of the first choice would persist in any way after switching (for instance, if one of the choices was to create a consumable item you already used, or to heal you), or if the feat would create an effect more powerful than that offered by the base spell. The GM is the final arbiter of what Spell Tinker can be applied to."]
     }, {
@@ -5570,7 +5570,7 @@
         "level": "18",
         "traits": ["Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=660",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve found a way to prepare a spell slot that exists in your mind as many different possibilities at once. ",
         "text": ["You\u2019ve found a way to prepare a spell slot that exists in your mind as many different possibilities at once. Once during your daily preparations, you can use a spell slot to hold that infinite potential, rather than using it to prepare a spell. You can use this spell slot to cast any spell from your spellbook that\u2019s at least 2 levels lower than the slot you designate; the spell acts in all ways as a spell of 2 levels lower. You don\u2019t have any particular spell prepared in that slot until you cast it."]
     }, {
@@ -5578,7 +5578,7 @@
         "level": "18",
         "traits": ["Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=661",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You\u2019ve discovered how to reuse some of your spell slots over and over.",
         "text": ["You\u2019ve discovered how to reuse some of your spell slots over and over. You can spend 10 minutes to prepare a spell that you already cast today, regaining access to that spell slot. The spell must be of 4th level or lower and one that does not have a duration. You can reprepare a spell in this way even if you\u2019ve already reprepared that spell previously in the same day. If you have the spell substitution arcane thesis, you can instead prepare a different spell in an expended slot, as long as the new spell doesn\u2019t have a duration. Once you\u2019ve reprepared a spell in that slot even once, you can use your arcane thesis to substitute only spells without durations into that spell slot."]
     }, {
@@ -5594,7 +5594,7 @@
         "level": "20",
         "traits": ["Wizard", " Sorcerer"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=632",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "Altering your spells doesn\u2019t take any longer than casting them normally. ",
         "text": ["Altering your spells doesn\u2019t take any longer than casting them normally. You can use metamagic single actions as free actions."]
     }, {
@@ -5602,7 +5602,7 @@
         "level": "20",
         "traits": ["Wizard"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=664",
-        "prereq": "\u2014",
+        "prereq": "",
         "benefits": "You can merge spells, producing multiple ef ects with a single casting.",
         "text": ["You can merge spells, producing multiple effects with a single casting. One slot of each level of spell you can cast, except 2nd level and 1st level, becomes a spell combination slot (this doesn\u2019t apply to cantrips). When you prepare your spells, you can fill a combination slot with a combination of two spells. Each spell in the combination must be 2 or more spell levels below the slot\u2019s level, and both must target only one creature or object or have the option to target only one creature or object. Each spell in the combination must also have the same means of determining whether it has an effect\u2014both spells must require a ranged spell attack roll, require the same type of saving throw, or automatically affect the target.", " When you cast a combined spell, it affects only one target, even if the component spells normally affect more than one. If any spell in the combination has further restrictions (such as targeting only living creatures), you must abide by all restrictions. The combined spell uses the shorter of the component spells\u2019 ranges. Resolve a combined spell as if were a single spell, but apply the effects of both component spells. For example, if the spell\u2019s target succeeded at the save against a combined spell, it would apply the success effect of each spell, and if it critically failed, it would apply the critical failure effect of both spells."]
     }]
