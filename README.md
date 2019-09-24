@@ -12,11 +12,11 @@
 * Armors
 * Alechemical Items
 * Consumables
+* Held Items
 
 ### What is next
 * Artifacts
 * Drugs
-* Held Items
 * Materials
 * Runes
 * Services
