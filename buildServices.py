@@ -204,7 +204,7 @@ def get_all():
 #print(get_all())
 json_data = json.dumps(get_all())
 #print(json_data)
-filename = "runes-pf2.json"
+filename = "services-pf2.json"
 f = open(filename, "w")
 f.write(json_data)
 f.close

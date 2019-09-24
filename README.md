@@ -14,12 +14,12 @@
 * Consumables
 * Held Items
 * Runes
+* Services
 
 ### What is next
 * Artifacts
 * Drugs
 * Materials
-* Services
 * Shields
 * Snares
 * Staves
