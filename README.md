@@ -11,10 +11,10 @@
 * Backgrounds
 * Armors
 * Alechemical Items
+* Consumables
 
 ### What is next
 * Artifacts
-* Consumables
 * Drugs
 * Held Items
 * Materials
