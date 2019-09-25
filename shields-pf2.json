@@ -1,0 +1,49 @@
+{
+    "name": "Pathfinder 2.0 shields list",
+    "date": "September 24, 2019",
+    "baseShields": [{
+        "name": "Buckler",
+        "link": "https://2e.aonprd.com/Shields.aspx?ID=1",
+        "category": "shield",
+        "price": "1 gp",
+        "acBonus": "+1",
+        "speedPenalty": "\u2014",
+        "bulk": "L",
+        "hardness": "3",
+        "hp-bt": "6 (3)",
+        "text": ["This very small shield is a favorite of duelists and quick, lightly armored warriors. It\u2019s typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that\u2019s not a weapon in that hand."]
+    }, {
+        "name": "Wooden Shield",
+        "link": "https://2e.aonprd.com/Shields.aspx?ID=2",
+        "category": "shield",
+        "price": "1 gp",
+        "acBonus": "+2",
+        "speedPenalty": "\u2014",
+        "bulk": "1",
+        "hardness": "3",
+        "hp-bt": "12 (6)",
+        "text": ["Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily."]
+    }, {
+        "name": "Steel Shield",
+        "link": "https://2e.aonprd.com/Shields.aspx?ID=3",
+        "category": "shield",
+        "price": "2 gp",
+        "acBonus": "+2",
+        "speedPenalty": "\u2014",
+        "bulk": "1",
+        "hardness": "5",
+        "hp-bt": "20 (10)",
+        "text": ["Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable."]
+    }, {
+        "name": "Tower Shield",
+        "link": "https://2e.aonprd.com/Shields.aspx?ID=4",
+        "category": "shield",
+        "price": "10 gp",
+        "acBonus": "+2 (+42)",
+        "speedPenalty": "-5 ft.",
+        "bulk": "4",
+        "hardness": "5",
+        "hp-bt": "20 (10)",
+        "text": ["These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.", " Getting the higher bonus for a tower shield requires using the ", " action while the shield is raised."]
+    }]
+}

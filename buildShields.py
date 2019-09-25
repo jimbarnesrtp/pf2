@@ -4,10 +4,11 @@ import json
 import datetime
 import codecs
 import time
+import buildDetailsHR as hrDets
 
-serviceHolder = {}
-serviceHolder['name'] = 'Pathfinder 2.0 services list'
-serviceHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
+shieldHolder = {}
+shieldHolder['name'] = 'Pathfinder 2.0 shields list'
+shieldHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 
 def get_multi(link):
@@ -177,31 +178,31 @@ def get_single(link):
     return details
 
 
-def get_services():
+def get_shields():
     items = []
-    listOfPages = codecs.open("services.csv", encoding='utf-8')
+    listOfPages = codecs.open("shields.csv", encoding='utf-8')
     t = 0
     for line in listOfPages: 
         t += 1
         runeMD = line.split(",")
-        print("Getting service for :", runeMD[0],"This url:", runeMD[2].strip('\n'),"|is it multi:",runeMD[1])
+        print("Getting shield for :", runeMD[0],"This url:", runeMD[2].strip('\n'),"|is it multi:",runeMD[1])
         if runeMD[1] == "True":
             multiHolder = get_multi(runeMD[2].strip('\n'))
-            for rune in multiHolder:
-                rune['category'] = "service"
-                items.append(rune)
+            for shield in multiHolder:
+                shield['category'] = "shield"
+                items.append(shield)
         else:
             items.append(get_single(runeMD[2].strip('\n')))
     return items
 
-def get_animals(link):
+def get_base_shields(link):
     items = []
     multiItems = []
     res2 = requests.get(link)
     res2.raise_for_status()
     soup2 = BeautifulSoup(res2.text, 'lxml')
     item = soup2.find_all("div", {'class':'main'})
-    table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_AnimalElement")
+    table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
     rows = table.findAll(lambda tag: tag.name=='tr')
     t = 0
     for row in rows:
@@ -212,22 +213,24 @@ def get_animals(link):
         entries = row.find_all(lambda tag: tag.name=='td')
         if entries is not None:
             if len(entries) > 0:
-                try:
-                    name = entries[0].find("a").text
-                    item['name'] = name
-                    item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
-                except:
-                    name = entries[0].text
-                    item['name'] = name
-                    item['link'] = ""
+            
+                name = entries[0].find("a").text
+                item['name'] = name
+                item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
 
                 
-                item['category'] = "animal, service"
-                item['family'] = entries[1].text
-                item['rentalPrice'] = entries[2].text
-                item['price'] = entries[3].text
+                item['category'] = "shield"
+                item['price'] = entries[1].text
+                item['acBonus'] = entries[2].text
+                item['speedPenalty'] = entries[3].text
+                item['bulk'] = entries[4].text
+                item['hardness'] = entries[5].text
+                item['hp-bt'] = entries[6].text
+
+                item['text'] = hrDets.get_afterhr(item['link'])
+
                 
-                print("getting held:",item['name'])
+                print("getting shield:",item['name'])
                     
 
                 items.append(item)
@@ -236,17 +239,17 @@ def get_animals(link):
     return items
 
 def get_all():
-    serviceHolder['services'] = get_services()
-    serviceHolder['animals'] = get_animals("https://2e.aonprd.com/Animals.aspx")
+    shieldHolder['baseShields'] = get_base_shields("https://2e.aonprd.com/Shields.aspx")
+    #shieldHolder['animals'] = get_animals("https://2e.aonprd.com/Animals.aspx")
 
     
     
-    return serviceHolder
+    return shieldHolder
 
 #print(get_all())
 json_data = json.dumps(get_all())
 #print(json_data)
-filename = "services-pf2.json"
+filename = "shields-pf2.json"
 f = open(filename, "w")
 f.write(json_data)
 f.close
