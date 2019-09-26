@@ -18,13 +18,13 @@
 * Shields
 * Snares 
 * Weapons
+* Staves
+* Structures
 
 ### What is next
 * Artifacts
 * Drugs
 * Materials
-* Staves
-* Structures
 * Tattoos
 * Wands
 * Worn Items
