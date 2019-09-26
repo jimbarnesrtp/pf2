@@ -1,1 +1,613 @@
-{"name": "Pathfinder 2.0 Wand list", "date": "September 26, 2019", "specialMaterialWeapons": [{"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "source": "Core Rulebook pg. 597", "name": "Magic Wand (1st-Level Spell)", "Craft Requirements": " ", "Level": " 3; ", "Price": " 60 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (2nd-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 5; ", "Price": " 160 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (3rd-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 7; ", "Price": " 360 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (4th-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 9; ", "Price": " 700 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (5th-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 11; ", "Price": " 1,500 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (6th-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 13; ", "Price": " 3,000 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (7th-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 15; ", "Price": " 6,500 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (8th-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 17; ", "Price": " 15,000 gp", "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=368", "name": "Magic Wand (9th-Level Spell)", "source": "Core Rulebook pg. 597", "Level": " 19; ", "Price": " 40,000 gp", "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell at the indicated level.", "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a listed-level casting of the spell."], "text": ["This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."], "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "source": "Core Rulebook pg. 598", "actions": "Two Actions", "name": "Wand of Widening (1st-Level Spell)", "Craft Requirements": " ", "Level": " 4; ", "Price": " 100 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (2nd-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 6; ", "Price": " 250 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (3rd-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 8; ", "Price": " 500 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (4th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 10; ", "Price": " 1,000 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (5th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 12; ", "Price": " 2,000 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (6th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 14; ", "Price": " 4,500 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (7th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 16; ", "Price": " 10,000 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (8th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 18; ", "Price": " 24,000 gp", "text": ["The end of this wand is forked instead of tapered."], "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=373", "name": "Wand of Widening (9th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 20; ", "Price": " 70,000 gp", "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.", "frequency": [" once per day, plus overcharge; This activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", ", can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line."], "text": ["The end of this wand is forked instead of tapered."], "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "source": "Core Rulebook pg. 598", "actions": "Two Actions", "name": "Wand of Continuation (1st-Level Spell)", "Craft Requirements": " ", "Level": " 5; ", "Price": " 160 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (2nd-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 7; ", "Price": " 360 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (3rd-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 9; ", "Price": " 700 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (4th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 11; ", "Price": " 1,500 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (5th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 13; ", "Price": " 3,000 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (6th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 15; ", "Price": " 6,500 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (7th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 17; ", "Price": " 15,000 gp", "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=369", "name": "Wand of Continuation (8th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 19; ", "Price": " 40,000 gp", "traits": ["Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.", "frequency": [" once per day, plus overcharge; the activation takes ", "Two Actions", "Two Actions", " if the spell normally takes ", "Single Action", "Single Action", " to cast, or ", "Three Actions", "Three Actions", " if the spell normally takes ", "Two Actions", "Two Actions", "; "], "craftRequirements": [" Supply a casting of a spell of the appropriate level. The spell must have a casting time of ", "Single Action", "Single Action", " or ", "Two Actions", "Two Actions", " and a duration no less than 10 minutes and no greater than 1 hour."], "text": ["This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."], "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=370", "source": "Core Rulebook pg. 598", "name": "Wand of Manifold Missiles (1st-Level Spell)", "Craft Requirements": " ", "Level": " 5; ", "Price": " 160 gp", "text": ["This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.", " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ", ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "traits": ["Evocation", "Force", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=370", "name": "Wand of Manifold Missiles (3rd-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 9; ", "Price": " 700 gp", "text": ["This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.", " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ", ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "traits": ["Evocation", "Force", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=370", "name": "Wand of Manifold Missiles (5th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 13; ", "Price": " 3,000 gp", "text": ["This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.", " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ", ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "traits": ["Evocation", "Force", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=370", "name": "Wand of Manifold Missiles (7th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 17; ", "Price": " 15,000 gp", "traits": ["Evocation", "Force", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "text": ["This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.", " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ", ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."], "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=372", "source": "Core Rulebook pg. 598", "traits": ["Evocation", "Fire", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "frequency": [], "craftRequirements": [], "text": ["This blackened, heavily burned stick smells faintly of bat guano."], "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=371", "source": "Core Rulebook pg. 598", "name": "Wand of Slaying (7th-Level Spell)", "Craft Requirements": " ", "Level": " 16; ", "Price": " 10,000 gp", "text": ["This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.", " of the indicated level. If the spell slays its target, the corpse releases negative energy in a 20-foot emanation, dealing negative damage equal to double the spell\u2019s level."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "traits": ["Illusion", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=371", "name": "Wand of Slaying (8th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 18; ", "Price": " 24,000 gp", "text": ["This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.", " of the indicated level. If the spell slays its target, the corpse releases negative energy in a 20-foot emanation, dealing negative damage equal to double the spell\u2019s level."], "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "traits": ["Illusion", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "category": "structure"}, {"link": "https://2e.aonprd.com/Equipment.aspx?ID=371", "name": "Wand of Slaying (9th-Level Spell)", "source": "Core Rulebook pg. 598", "Level": " 20; ", "Price": " 70,000 gp", "traits": ["Illusion", "Magical", "Wand"], "Usage": " held in 1 hand; ", "Bulk": " L", "Activate": "  Cast a Spell; ", "Effect": " You cast ", "frequency": [" once per day, plus overcharge; "], "craftRequirements": [" Supply a casting of ", " of the appropriate level."], "text": ["This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.", " of the indicated level. If the spell slays its target, the corpse releases negative energy in a 20-foot emanation, dealing negative damage equal to double the spell\u2019s level."], "category": "structure"}]}
+{
+  "name": "Pathfinder 2.0 Wand list",
+  "date": "September 26, 2019",
+  "specialMaterialWeapons": [
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "source": "Core Rulebook pg. 597",
+      "name": "Magic Wand (1st-Level Spell)",
+      "Craft Requirements": " ",
+      "Level": " 3; ",
+      "Price": " 60 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (2nd-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 5; ",
+      "Price": " 160 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (3rd-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 7; ",
+      "Price": " 360 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (4th-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 9; ",
+      "Price": " 700 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (5th-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 11; ",
+      "Price": " 1,500 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (6th-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 13; ",
+      "Price": " 3,000 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (7th-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 15; ",
+      "Price": " 6,500 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (8th-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 17; ",
+      "Price": " 15,000 gp",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
+      "name": "Magic Wand (9th-Level Spell)",
+      "source": "Core Rulebook pg. 597",
+      "Level": " 19; ",
+      "Price": " 40,000 gp",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell at the indicated level.",
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a listed-level casting of the spell.",
+      "text": [
+        "This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within."
+      ],
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "source": "Core Rulebook pg. 598",
+      "actions": "Two Actions",
+      "name": "Wand of Widening (1st-Level Spell)",
+      "Craft Requirements": " ",
+      "Level": " 4; ",
+      "Price": " 100 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (2nd-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 6; ",
+      "Price": " 250 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (3rd-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 8; ",
+      "Price": " 500 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (4th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 10; ",
+      "Price": " 1,000 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (5th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 12; ",
+      "Price": " 2,000 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (6th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 14; ",
+      "Price": " 4,500 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (7th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 16; ",
+      "Price": " 10,000 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (8th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 18; ",
+      "Price": " 24,000 gp",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=373",
+      "name": "Wand of Widening (9th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 20; ",
+      "Price": " 70,000 gp",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and increase its area. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet; add 5 feet to the length of a cone or line that is normally 15 feet long or smaller; or add 10 feet to the length of a larger cone or line.",
+      "frequency": " once per day, plus overcharge; This activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions , can\u2019t have a duration, and must have an area of burst (10 feet or more), cone, or line.",
+      "text": ["The end of this wand is forked instead of tapered."],
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "source": "Core Rulebook pg. 598",
+      "actions": "Two Actions",
+      "name": "Wand of Continuation (1st-Level Spell)",
+      "Craft Requirements": " ",
+      "Level": " 5; ",
+      "Price": " 160 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (2nd-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 7; ",
+      "Price": " 360 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (3rd-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 9; ",
+      "Price": " 700 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (4th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 11; ",
+      "Price": " 1,500 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (5th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 13; ",
+      "Price": " 3,000 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (6th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 15; ",
+      "Price": " 6,500 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (7th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 17; ",
+      "Price": " 15,000 gp",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=369",
+      "name": "Wand of Continuation (8th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 19; ",
+      "Price": " 40,000 gp",
+      "traits": ["Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You Cast the Spell, and its duration is increased by\u00a0half.",
+      "frequency": " once per day, plus overcharge; the activation takes  Two Actions  if the spell normally takes  Single Action  to cast, or  Three Actions  if the spell normally takes  Two Actions ; ",
+      "craftRequirements": " Supply a casting of a spell of the appropriate level. The spell must have a casting time of  Single Action  or  Two Actions  and a duration no less than 10 minutes and no greater than 1 hour.",
+      "text": [
+        "This wand increases a spell\u2019s duration. Yellow embers spiral over its surface until the spell ends."
+      ],
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=370",
+      "source": "Core Rulebook pg. 598",
+      "name": "Wand of Manifold Missiles (1st-Level Spell)",
+      "Craft Requirements": " ",
+      "Level": " 5; ",
+      "Price": " 160 gp",
+      "text": [
+        "This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.",
+        " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ",
+        ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "traits": ["Evocation", "Force", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=370",
+      "name": "Wand of Manifold Missiles (3rd-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 9; ",
+      "Price": " 700 gp",
+      "text": [
+        "This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.",
+        " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ",
+        ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "traits": ["Evocation", "Force", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=370",
+      "name": "Wand of Manifold Missiles (5th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 13; ",
+      "Price": " 3,000 gp",
+      "text": [
+        "This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.",
+        " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ",
+        ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "traits": ["Evocation", "Force", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=370",
+      "name": "Wand of Manifold Missiles (7th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 17; ",
+      "Price": " 15,000 gp",
+      "traits": ["Evocation", "Force", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "text": [
+        "This wand features a carved dragon\u2019s head at its top and a polished metal sphere set in its midsection.",
+        " of the indicated level. After you cast the spell, an additional missile or missiles are released from the wand at the start of each of your turns, as though you cast the 1-action version of ",
+        ". Choose targets each time. This lasts for 1 minute, until you\u2019re no longer wielding the wand, or until you try to activate the wand again."
+      ],
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=372",
+      "source": "Core Rulebook pg. 598",
+      "traits": ["Evocation", "Fire", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "frequency": "",
+      "craftRequirements": "",
+      "text": [
+        "This blackened, heavily burned stick smells faintly of bat guano."
+      ],
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=371",
+      "source": "Core Rulebook pg. 598",
+      "name": "Wand of Slaying (7th-Level Spell)",
+      "Craft Requirements": " ",
+      "Level": " 16; ",
+      "Price": " 10,000 gp",
+      "text": [
+        "This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.",
+        " of the indicated level. If the spell slays its target, the corpse releases negative energy in a 20-foot emanation, dealing negative damage equal to double the spell\u2019s level."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "traits": ["Illusion", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=371",
+      "name": "Wand of Slaying (8th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 18; ",
+      "Price": " 24,000 gp",
+      "text": [
+        "This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.",
+        " of the indicated level. If the spell slays its target, the corpse releases negative energy in a 20-foot emanation, dealing negative damage equal to double the spell\u2019s level."
+      ],
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "traits": ["Illusion", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "category": "wand"
+    },
+    {
+      "link": "https://2e.aonprd.com/Equipment.aspx?ID=371",
+      "name": "Wand of Slaying (9th-Level Spell)",
+      "source": "Core Rulebook pg. 598",
+      "Level": " 20; ",
+      "Price": " 70,000 gp",
+      "traits": ["Illusion", "Magical", "Wand"],
+      "Usage": " held in 1 hand; ",
+      "Bulk": " L",
+      "Activate": "  Cast a Spell; ",
+      "Effect": " You cast ",
+      "frequency": " once per day, plus overcharge; ",
+      "craftRequirements": " Supply a casting of   of the appropriate level.",
+      "text": [
+        "This polished black wand has a green gem at the tip, and anyone who looks into it sees a reflection of a grinning skull instead of their face.",
+        " of the indicated level. If the spell slays its target, the corpse releases negative energy in a 20-foot emanation, dealing negative damage equal to double the spell\u2019s level."
+      ],
+      "category": "wand"
+    }
+  ]
+}

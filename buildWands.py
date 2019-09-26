@@ -33,6 +33,8 @@ def get_multi(link):
     itemDetailHolder = []
     frequencyHolder = []
     craftHolder = []
+    noSkipImg = True
+    string = " "
     for child in children:
         
         stringContents = str(child)
@@ -40,10 +42,16 @@ def get_multi(link):
             #print(stringContents)
             if child.name == "img":
                 if tagType != "":
-                    if tagType == "Frequency":
-                        frequencyHolder.append(child['alt'])
-                    if tagType == "Craft Requirements":
-                        craftHolder.append(child['alt'])
+                    if noSkipImg:
+                        if tagType == "Frequency":
+                            frequencyHolder.append(child['alt'])
+                        if tagType == "Craft Requirements":
+                            craftHolder.append(child['alt'])
+                        noSkipImg = False
+                    else:
+                        noSkipImg = True
+
+                        
                 else:
                     parentDetails['actions'] = child['alt']
             if child.name == "hr":
@@ -66,8 +74,8 @@ def get_multi(link):
                     if notFirstH2: 
                         
                         item['text'] = detailHolder + itemDetailHolder
-                        item['frequency'] = frequencyHolder
-                        item['craftRequirements'] = craftHolder
+                        item['frequency'] = string.join(frequencyHolder)
+                        item['craftRequirements'] = string.join(craftHolder)
                         for key in parentDetails.keys():
                             item[key] = parentDetails[key]
                         items.append(item)
@@ -112,7 +120,7 @@ def get_multi(link):
                     detailHolder.append(stringContents)
             if inHeader:
                 if tagType != "":
-                    print(tagType)
+                    #print(tagType)
                     if tagType == "Frequency":
                         frequencyHolder.append(stringContents)
                     elif tagType == "Craft Requirements":
@@ -132,8 +140,8 @@ def get_multi(link):
 
     for key in parentDetails.keys():
         item[key] = parentDetails[key]
-    item['frequency'] = frequencyHolder
-    item['craftRequirements'] = craftHolder
+    item['frequency'] = string.join(frequencyHolder)
+    item['craftRequirements'] = string.join(craftHolder)
     item['text'] = detailHolder + itemDetailHolder
     items.append(item)
     
@@ -215,11 +223,11 @@ def get_from_csv(fileName):
     for line in listOfPages: 
         t += 1
         runeMD = line.split(",")
-        print("Getting structure for :", runeMD[0],"This url:", runeMD[2].strip('\n'),"|is it multi:",runeMD[1])
+        print("Getting wand for :", runeMD[0],"This url:", runeMD[2].strip('\n'),"|is it multi:",runeMD[1])
         if runeMD[1] == "True":
             multiHolder = get_multi(runeMD[2].strip('\n'))
             for shield in multiHolder:
-                shield['category'] = "structure"
+                shield['category'] = "wand"
                 items.append(shield)
         else:
             items.append(get_single(runeMD[2].strip('\n')))
