@@ -1,0 +1,1862 @@
+{
+    "name": "Pathfinder 2.0 Weapons list",
+    "date": "September 26, 2019",
+    "meleeWeapons": [{
+        "name": "Fist",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=1",
+        "category": "Unarmed",
+        "price": "",
+        "damage": "1d4 B",
+        "bulk": "",
+        "hands": "1",
+        "group": "Brawling",
+        "weaponTraits": ["Agile", " Finesse", " Nonlethal", " Unarmed"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Brawling": ": The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": []
+    }, {
+        "name": "Clan Dagger",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=13",
+        "category": "Simple",
+        "price": "2 gp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Dwarf", " Parry", " Uncommon", " Versatile B"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This broad dagger is carried by dwarves as a weapon, tool, and designation of clan. Losing or having to surrender a clan dagger is considered a mark of embarrassment to most dwarves."]
+    }, {
+        "name": "Club",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=2",
+        "category": "Simple",
+        "price": "0",
+        "damage": "1d6 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Thrown 10 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This is a piece of stout wood shaped or repurposed to bludgeon an enemy. Clubs can be intricately carved pieces of martial art or as simple as a tree branch or piece of wood."]
+    }, {
+        "name": "Dagger",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=3",
+        "category": "Simple",
+        "price": "2 sp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Finesse", " Thrown 10 ft.", " Versatile S"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown."]
+    }, {
+        "name": "Gauntlet",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=4",
+        "category": "Simple",
+        "price": "2 sp",
+        "damage": "1d4 B",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Brawling",
+        "weaponTraits": ["Agile", " Free-Hand"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Brawling": ": The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A pair of these metal gloves comes with full plate, half plate, and splint armor; they can also be purchased separately and worn with other types of armor. They not only protect your hands but also transform your hands into lethal weapons."]
+    }, {
+        "name": "Katar",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=14",
+        "category": "Simple",
+        "price": "3 sp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Deadly d6", " Monk", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Also known as punching daggers, katars are characterized by their H-shaped hand grip that allows the blade to jut out from the knuckles."]
+    }, {
+        "name": "Light Mace",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=5",
+        "category": "Simple",
+        "price": "4 sp",
+        "damage": "1d4 B",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Agile", " Finesse", " Shove"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A light mace has a short wooden or metal shaft ending with a dense metal head. Used much like a club, it delivers heavy bludgeoning blows, but with extra power derived from the head\u2019s metal ridges or spikes. "]
+    }, {
+        "name": "Longspear",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=6",
+        "category": "Simple",
+        "price": "5 sp",
+        "damage": "1d8 P",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Spear",
+        "weaponTraits": ["Reach"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Spear": ": The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This very long spear, sometimes called a pike, is purely for thrusting rather than throwing. Used by many soldiers and city watch for crowd control and defense against charging enemies, it must be wielded with two hands."]
+    }, {
+        "name": "Mace",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=7",
+        "category": "Simple",
+        "price": "1 gp",
+        "damage": "1d6 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Shove"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["With a stout haft and a heavy metal head, a mace is sturdy and allows its wielder to deliver powerful blows and dent armor."]
+    }, {
+        "name": "Morningstar",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=8",
+        "category": "Simple",
+        "price": "1 gp",
+        "damage": "1d6 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This weapon has a short shaft ending in a metal ball studded with spikes."]
+    }, {
+        "name": "Sickle",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=9",
+        "category": "Simple",
+        "price": "2 sp",
+        "damage": "1d4 S",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Finesse", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Originally a farming tool used for reaping grain, this one-handed weapon has a short wooden handle ending in a curved blade, sometimes sharpened on both sides. "]
+    }, {
+        "name": "Spear",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=10",
+        "category": "Simple",
+        "price": "1 sp",
+        "damage": "1d6 P",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Spear",
+        "weaponTraits": ["Thrown 20 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Spear": ": The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A long metal shaft ending with a metal spike, a spear can be used one-handed as a melee weapon and can be thrown."]
+    }, {
+        "name": "Spiked Gauntlet",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=11",
+        "category": "Simple",
+        "price": "3 sp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Brawling",
+        "weaponTraits": ["Agile", " Free-Hand"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Brawling": ": The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Providing the same defensive function as a standard gauntlet, this version has a group of spikes protruding from the knuckles to deliver piercing damage with a punch."]
+    }, {
+        "name": "Staff",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=12",
+        "category": "Simple",
+        "price": "0",
+        "damage": "1d4 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Two-Hand d8"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This long piece of wood can aid in walking and deliver a mighty blow."]
+    }, {
+        "name": "Bastard Sword",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=15",
+        "category": "Martial",
+        "price": "4 gp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Two-Hand d12"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This broad-bladed sword, sometimes called the hand\u2011and\u2011a\u2011half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra piercing or slashing power."]
+    }, {
+        "name": "Battle Axe",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=16",
+        "category": "Martial",
+        "price": "1 sp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Axe",
+        "weaponTraits": ["Sweep"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Axe": ": Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn\u2019t doubled, and no bonuses or other additional dice apply to this damage.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These axes are designed explicitly as weapons, rather than tools. They typically weigh less, with a shaft reinforced with metal bands or bolts, and have a sharper blade, making them ideal for chopping limbs rather than wood."]
+    }, {
+        "name": "Bo Staff",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=17",
+        "category": "Martial",
+        "price": "2 sp",
+        "damage": "1d8 B",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Club",
+        "weaponTraits": ["Monk", " Parry", " Reach", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This strong but slender staff is tapered at the ends and well balanced. It\u2019s designed to be an offensive and defensive weapon."]
+    }, {
+        "name": "Dogslicer",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=49",
+        "category": "Martial",
+        "price": "1 sp",
+        "damage": "1d6 S",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Agile", " Backstabber", " Finesse", " Goblin", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This short, curved, and crude makeshift blade often has holes drilled into it to reduce its weight. It\u2019s a favored weapon of goblins. "]
+    }, {
+        "name": "Elven Curve Blade",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=50",
+        "category": "Martial",
+        "price": "4 gp",
+        "damage": "1d8 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Sword",
+        "weaponTraits": ["Elf", " Finesse", " Forceful", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Essentially a longer version of the scimitar, this traditional elven weapon has a thinner blade than its cousin. "]
+    }, {
+        "name": "Falchion",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=18",
+        "category": "Martial",
+        "price": "3 gp",
+        "damage": "1d10 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Sword",
+        "weaponTraits": ["Forceful", " Sweep"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This weapon is a heavier, two-handed version of the curved-bladed scimitar. It is weighted toward the blade\u2019s end, making it a powerful slashing weapon."]
+    }, {
+        "name": "Filcher's Fork",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=51",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Spear",
+        "weaponTraits": ["Agile", " Backstabber", " Deadly d6", " Finesse", " Halfling", " Thrown 20 ft.", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Spear": ": The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This halfling weapon looks like a long, two-pronged fork and is used as both a weapon and a cooking implement."]
+    }, {
+        "name": "Flail",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=19",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d6 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Flail",
+        "weaponTraits": ["Disarm", " Sweep", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Flail": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This weapon consists of a wooden handle attached to a spiked ball or cylinder by a chain, rope, or strap of leather. "]
+    }, {
+        "name": "Glaive",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=20",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d8 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Polearm",
+        "weaponTraits": ["Deadly d8", " Forceful", " Reach"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Polearm": ": The target is moved 5 feet in a direction of your choice. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This polearm consists of a long, single-edged blade on the end of a 7-foot pole. It is extremely effective at delivering lethal cuts at a distance."]
+    }, {
+        "name": "Gnome Hooked Hammer",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=52",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d6 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Hammer",
+        "weaponTraits": ["Gnome", " Trip", " Two-Hand d10", " Uncommon", " Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Hammer": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This gnome tool and weapon features a hammer at one end and a curved pick on the other. It\u2019s such a strange and awkward weapon that others think the gnomes are slightly erratic for using it."]
+    }, {
+        "name": "Greataxe",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=21",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d12 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Axe",
+        "weaponTraits": ["Sweep"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Axe": ": Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn\u2019t doubled, and no bonuses or other additional dice apply to this damage.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This large battle axe is too heavy to wield with only one hand. Many greataxes incorporate two blades, and they are often \u201cbearded,\u201d having a hook at the bottom to increase the strength of their chopping power. "]
+    }, {
+        "name": "Greatclub",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=22",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d10 B",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Club",
+        "weaponTraits": ["Backswing", " Shove"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["While many greatclubs are intricately carved, others are little more than a sturdy tree branch. These massive clubs are too heavy to wield with only one hand."]
+    }, {
+        "name": "Greatpick",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=23",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d10 P",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Pick",
+        "weaponTraits": ["Fatal d12"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Pick": ": The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This pick has a longer handle and broader head than a regular pick. It is too heavy to wield in one hand."]
+    }, {
+        "name": "Greatsword",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=24",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d12 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Sword",
+        "weaponTraits": ["Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This immense two-handed sword is nearly as tall as its wielder. Its lower blade is often somewhat dulled to allow it to be gripped for extra leverage in close-quarter fights."]
+    }, {
+        "name": "Guisarme",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=25",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d10 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Polearm",
+        "weaponTraits": ["Reach", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Polearm": ": The target is moved 5 feet in a direction of your choice. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This polearm bears a long, often one\u2011sided, curved blade with a hook protruding from the blunt side of the blade, which can allow its wielder to trip opponents at a distance. Its shaft is usually 8 feet long."]
+    }, {
+        "name": "Halberd",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=26",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d10 P",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Polearm",
+        "weaponTraits": ["Reach", " Versatile S"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Polearm": ": The target is moved 5 feet in a direction of your choice. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This polearm has a relatively short, 5-foot shaft. The business end is a long spike with an axe blade attached. "]
+    }, {
+        "name": "Hatchet",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=27",
+        "category": "Martial",
+        "price": "4 sp",
+        "damage": "1d6 S",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Axe",
+        "weaponTraits": ["Agile", " Sweep", " Thrown \u00a010 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Axe": ": Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn\u2019t doubled, and no bonuses or other additional dice apply to this damage.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This small axe can be used in close combat or thrown."]
+    }, {
+        "name": "Horsechopper",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=53",
+        "category": "Martial",
+        "price": "9 sp",
+        "damage": "1d8 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Polearm",
+        "weaponTraits": ["Goblin", " Reach", " Trip", " Uncommon", " Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Polearm": ": The target is moved 5 feet in a direction of your choice. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Created by goblins to battle horses, this weapon is essentially a long shaft ending in a blade with a large hook."]
+    }, {
+        "name": "Kama",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=54",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d6 S",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Monk", " Trip", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Similar to a sickle and used in some regions to reap grain, a kama has a short, slightly curved blade and a wooden handle."]
+    }, {
+        "name": "Katana",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=55",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d6 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Deadly d8", " Two-Hand d10", " Uncommon", " Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A katana is a curved, single-edged sword known for its wickedly sharped blade. "]
+    }, {
+        "name": "Kukri",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=56",
+        "category": "Martial",
+        "price": "6 sp",
+        "damage": "1d6 S",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Finesse", " Trip", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["The blade of this foot-long knife curves inward and lacks a cross guard at the hilt. "]
+    }, {
+        "name": "Lance",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=28",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d8 P",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Spear",
+        "weaponTraits": ["Deadly d8", " Jousting d6", " Reach"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Spear": ": The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This spear-like weapon is used by a mounted creature to deal a great deal of damage."]
+    }, {
+        "name": "Light Hammer",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=29",
+        "category": "Martial",
+        "price": "3 sp",
+        "damage": "1d6 B",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Hammer",
+        "weaponTraits": ["Agile", " Thrown 20 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Hammer": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This smaller version of the warhammer has a wooden or metal shaft ending in a metal head. Unlike its heavier cousin, it is light enough to throw."]
+    }, {
+        "name": "Light Pick",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=30",
+        "category": "Martial",
+        "price": "4 sp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Pick",
+        "weaponTraits": ["Agile", " Fatal d8"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Pick": ": The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A light pick is a modified mining implement with a wooden shaft ending in a pick head crafted more to pierce armor and flesh than chip rocks."]
+    }, {
+        "name": "Longsword",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=31",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Longswords can be one-edged or two\u2011edged swords. Their blades are heavy and they\u2019re between 3 and 4 feet in length. "]
+    }, {
+        "name": "Main-gauche",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=32",
+        "category": "Martial",
+        "price": "5 sp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Disarm", " Finesse", " Parry", " Versatile S"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This parrying dagger features a robust guard to protect the wielder\u2019s hand. "]
+    }, {
+        "name": "Maul",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=33",
+        "category": "Martial",
+        "price": "3 gp",
+        "damage": "1d12 B",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Hammer",
+        "weaponTraits": ["Shove"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Hammer": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Mauls are massive warhammers that must be swung with two hands."]
+    }, {
+        "name": "Nunchaku",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=57",
+        "category": "Martial",
+        "price": "2 sp",
+        "damage": "1d6 B",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Backswing", " Disarm", " Finesse", " Monk", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["The nunchaku is constructed of two wooden or metal bars connected by a short length of rope or chain."]
+    }, {
+        "name": "Orc Knuckle Dagger",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=58",
+        "category": "Martial",
+        "price": "7 sp",
+        "damage": "1d6 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Disarm", " Orc", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This stout, metal blade of orc design has a horizontal basket hilt with blades jutting from each end, or sometimes one blade like that of a katar."]
+    }, {
+        "name": "Pick",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=34",
+        "category": "Martial",
+        "price": "7 sp",
+        "damage": "1d6 P",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Pick",
+        "weaponTraits": ["Fatal d10"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Pick": ": The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows."]
+    }, {
+        "name": "Ranseur",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=35",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d10 P",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Polearm",
+        "weaponTraits": ["Disarm", " Reach"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Polearm": ": The target is moved 5 feet in a direction of your choice. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This polearm is a long trident with a central prong that\u2019s longer than the other two."]
+    }, {
+        "name": "Rapier",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=36",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d6 P",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Deadly d8", " Disarm", " Finesse"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["The rapier is a long and thin piercing blade with a basket hilt. It is prized among many as a dueling weapon. "]
+    }, {
+        "name": "Sai",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=59",
+        "category": "Martial",
+        "price": "6 sp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Disarm", " Finesse", " Monk", " Uncommon", " Versatile B"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This piercing dagger is a metal spike flanked by a pair of prongs that can be used to trap an enemy\u2019s\u00a0weapon."]
+    }, {
+        "name": "Sap",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=37",
+        "category": "Martial",
+        "price": "1 sp",
+        "damage": "1d6 B",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Agile", " Nonlethal"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A sap has a soft wrapping around a dense core, typically a leather sheath around a lead rod. Its head is wider than its grip to disperse the force of a blow, as the weapon\u2019s purpose is to knock out its victim rather than to draw blood. "]
+    }, {
+        "name": "Scimitar",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=38",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d6 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Forceful", " Sweep"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This one-handed curved blade is sharp on one side."]
+    }, {
+        "name": "Scythe",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=39",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d10 S",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Polearm",
+        "weaponTraits": ["Deadly d10", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Polearm": ": The target is moved 5 feet in a direction of your choice. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Derived from a farming tool used to mow down long grains and cereals, this weapon has a long wooden shaft with protruding handles, capped with a curved blade set at a right angle."]
+    }, {
+        "name": "Shield Bash",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=40",
+        "category": "Martial",
+        "price": "",
+        "damage": "1d4 B",
+        "bulk": "",
+        "hands": "1",
+        "group": "Shield",
+        "weaponTraits": ["\u2014"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Shield": ": You knock the target back from you 5 feet. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["A shield bash is not actually a weapon, but a maneuver in which you thrust or swing your shield to hit your foe with an impromptu attack."]
+    }, {
+        "name": "Shield Boss",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=41",
+        "category": "Martial",
+        "price": "5 sp",
+        "damage": "1d6 B",
+        "bulk": "",
+        "hands": "1",
+        "group": "Shield",
+        "weaponTraits": ["Attached to Shield"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Shield": ": You knock the target back from you 5 feet. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Typically a round, convex, or conical piece of thick metal attached to the center of a shield, a shield boss increases the bludgeoning damage of a shield bash."]
+    }, {
+        "name": "Shield Spikes",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=42",
+        "category": "Martial",
+        "price": "5 sp",
+        "damage": "1d6 P",
+        "bulk": "",
+        "hands": "1",
+        "group": "Shield",
+        "weaponTraits": ["Attached to Shield"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Shield": ": You knock the target back from you 5 feet. This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These metal spikes are strategically placed on the defensive side of the shield to deal piercing damage with a shield bash."]
+    }, {
+        "name": "Shortsword",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=43",
+        "category": "Martial",
+        "price": "9 sp",
+        "damage": "1d6 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Agile", " Finesse", " Versatile S"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These blades come in a variety of shapes and styles, but they are typically 2 feet long. "]
+    }, {
+        "name": "Spiked Chain",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=60",
+        "category": "Martial",
+        "price": "3 gp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "2",
+        "group": "Flail",
+        "weaponTraits": ["Disarm", " Finesse", " Trip", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Flail": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This 4\u2011foot\u2011long length of chain is covered with barbs and has spikes on one or both ends. Some feature metal hoops used as handgrips."]
+    }, {
+        "name": "Starknife",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=44",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d4 P",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Knife",
+        "weaponTraits": ["Agile", " Deadly d6", " Finesse", " Thrown 20 ft.", " Versatile S"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Knife": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["From a central metal ring, four tapering metal blades extend like points on a compass rose. When gripping a starknife from the center, the wielder can use it as a melee weapon. It can also be thrown short distances."]
+    }, {
+        "name": "Temple Sword",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=61",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Monk", " Trip", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This heavy blade is favored by guardians of religious sites. It has a distinctive, crescent-shaped blade that seems to be a mix of a sickle and sword. It often has holes drilled into the blade or the pommel so that bells or other holy trinkets can be affixed to the weapon as an aid for prayer or mediation."]
+    }, {
+        "name": "Trident",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=45",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d8 P",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Spear",
+        "weaponTraits": ["Thrown 20 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Spear": ": The weapon pierces the target, weakening its attacks. The target is clumsy 1 until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This three-pronged, spear-like weapon typically has a 4-foot shaft. Like a spear, it can be wielded with one hand or thrown. "]
+    }, {
+        "name": "War Flail",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=46",
+        "category": "Martial",
+        "price": "2 gp",
+        "damage": "1d10 B",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Flail",
+        "weaponTraits": ["Disarm", " Sweep", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Flail": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This large flail has a long shaft connected to a shorter piece of stout wood or metal that\u2019s sometimes inlaid with spikes.\u2029"]
+    }, {
+        "name": "Warhammer",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=47",
+        "category": "Martial",
+        "price": "1 gp",
+        "damage": "1d8 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Hammer",
+        "weaponTraits": ["Shove"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Hammer": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This weapon has a wooden shaft ending in a large, heavy metal head. The head of the hammer might be single-sided or double-sided, but it\u2019s always capable of delivering powerful bludgeoning blows. "]
+    }, {
+        "name": "Whip",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=48",
+        "category": "Martial",
+        "price": "1 sp",
+        "damage": "1d4 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Flail",
+        "weaponTraits": ["Disarm", " Finesse", " Nonlethal", " Reach", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Flail": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This long strand of thick leather, often braided, delivers a painful but nonlethal slash at a distance, usually accompanied by a distinctive cracking sound."]
+    }, {
+        "name": "Aklys",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=85",
+        "category": "Advanced",
+        "price": "5 gp",
+        "damage": "1d6 B",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Club",
+        "weaponTraits": ["Ranged Trip", " Tethered", " Thrown 20 feet", " Trip", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Club": ": You knock the target away from you up to 10 feet (you choose the distance). This is forced movement.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["The aklys is a throwing club with a hook on one end and a lengthy cord attached to the other. Though aklyses aren\u2019t available in most shops, one might be purchased for 5 gp from a vendor that specializes in strange weapons."]
+    }, {
+        "name": "Aldori Dueling Sword",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=88",
+        "category": "Advanced",
+        "price": "20 gp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Finesse", " Uncommon", " Versatile P"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["An Aldori dueling sword is a slim, single-bladed dueling sword with a slight curve and\r\na sharp, reinforced point."]
+    }, {
+        "name": "Dwarven War Axe",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=62",
+        "category": "Advanced",
+        "price": "3 gp",
+        "damage": "1d8 S",
+        "bulk": "2",
+        "hands": "1",
+        "group": "Axe",
+        "weaponTraits": ["Dwarf", " Sweep", " Two-Hand d12", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Axe": ": Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn\u2019t doubled, and no bonuses or other additional dice apply to this damage.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This favored weapon of the dwarves has a large, ornate head mounted on a thick handle. This powerful axe can be wielded with one hand or two."]
+    }, {
+        "name": "Gnome Flickmace",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=63",
+        "category": "Advanced",
+        "price": "3 gp",
+        "damage": "1d8 B",
+        "bulk": "2",
+        "hands": "1",
+        "group": "Flail",
+        "weaponTraits": ["Gnome", " Reach", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Flail": ": The target is knocked prone.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["More a flail than a mace, this weapon has a short handle attached to a length of chain with a ball at the end. The ball is propelled to its reach with the flick of the wrist, the momentum of which brings the ball back to the wielder after the strike."]
+    }, {
+        "name": "Ogre Hook",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=86",
+        "category": "Advanced",
+        "price": "1 gp",
+        "damage": "1d10 P",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Pick",
+        "weaponTraits": ["Deadly 1d10", " Trip", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Pick": ": The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Ogres are known for using immense, curved picks called ogre hooks."]
+    }, {
+        "name": "Orc Necksplitter",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=64",
+        "category": "Advanced",
+        "price": "2 gp",
+        "damage": "1d8 S",
+        "bulk": "1",
+        "hands": "1",
+        "group": "Axe",
+        "weaponTraits": ["Forceful", " Orc", " Sweep", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Axe": ": Choose one creature adjacent to the initial target and within reach. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn\u2019t doubled, and no bonuses or other additional dice apply to this damage.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This single-bladed bearded axe has a jagged blade that\u2019s perfect for separating bone from tendon and cartilage."]
+    }, {
+        "name": "Sawtooth Saber",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=65",
+        "category": "Advanced",
+        "price": "5 gp",
+        "damage": "1d6 S",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Sword",
+        "weaponTraits": ["Agile", " Finesse", " Twin", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sword": ": The target is made off-balance by your attack, becoming flat-footed until the start of your next turn.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["The signature weapon of the Red Mantis assassins, this curved blade is serrated like a saw, hence the name."]
+    }],
+    "rangeWeapons": [{
+        "name": "Blowgun",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=66",
+        "category": "Simple",
+        "price": "1 sp",
+        "damage": "1 P",
+        "range": "20 ft.",
+        "reload": "1",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Dart",
+        "weaponTraits": ["Agile", " Nonlethal"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Dart": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This long, narrow tube is used for shooting blowgun darts, using only the power of a forcefully exhaled breath. "]
+    }, {
+        "name": "Crossbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=67",
+        "category": "Simple",
+        "price": "3 gp",
+        "damage": "1d8 P",
+        "range": "120 ft.",
+        "reload": "1",
+        "bulk": "1",
+        "hands": "2",
+        "group": "Bow",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt."]
+    }, {
+        "name": "Dart",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=68",
+        "category": "Simple",
+        "price": "1 cp",
+        "damage": "1d4 P",
+        "range": "20 ft.",
+        "reload": "",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Dart",
+        "weaponTraits": ["Agile", " Thrown"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Dart": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This thrown weapon is larger than an arrow but shorter than a javelin. It typically has a short shaft of wood ending in a metal tip and is sometimes stabilized by feathers or fur."]
+    }, {
+        "name": "Hand Crossbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=69",
+        "category": "Simple",
+        "price": "3 gp",
+        "damage": "1d6 P",
+        "range": "60 ft.",
+        "reload": "1",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Bow",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Sometimes referred to as an alley bow by rogues or ruffians, this small crossbow fires small bolts that are sometimes used to deliver poison to the target. It\u2019s small enough to be shot one-handed, but it still requires two hands to load."]
+    }, {
+        "name": "Heavy Crossbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=70",
+        "category": "Simple",
+        "price": "4 gp",
+        "damage": "1d10 P",
+        "range": "120 ft.",
+        "reload": "2",
+        "bulk": "2",
+        "hands": "2",
+        "group": "Bow",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This large crossbow is harder to load and more substantial than a regular crossbow, but it packs a greater punch."]
+    }, {
+        "name": "Javelin",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=71",
+        "category": "Simple",
+        "price": "1 sp",
+        "damage": "1d6 P",
+        "range": "30 ft.",
+        "reload": "",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Dart",
+        "weaponTraits": ["Thrown"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Dart": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This thin spear is well balanced for throwing but is not designed for melee use. "]
+    }, {
+        "name": "Sling",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=72",
+        "category": "Simple",
+        "price": "0",
+        "damage": "1d6 B",
+        "range": "50 ft.",
+        "reload": "1",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Sling",
+        "weaponTraits": ["Propulsive"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sling": ": The target must succeed at a Fortitude save against your class DC or be stunned 1.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Little more than a leather cup attached to a pair of straps, a sling can be used to fling smooth stones or sling bullets at a range."]
+    }, {
+        "name": "Alchemical Bomb",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=73",
+        "category": "Martial",
+        "price": "",
+        "damage": "Varies",
+        "range": "20 ft.",
+        "reload": "",
+        "bulk": "L",
+        "hands": "1",
+        "group": "Bomb",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bomb": ": Increase the radius of the bomb\u2019s splash damage (if any) to 10 feet.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These bombs come in a variety of types and levels of power, but no matter the variety, you throw the bomb at the target and it explodes, unleashing its alchemical blast. "]
+    }, {
+        "name": "Composite Longbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=74",
+        "category": "Martial",
+        "price": "20 gp",
+        "damage": "1d8 P",
+        "range": "100 ft.",
+        "reload": "0",
+        "bulk": "2",
+        "hands": "1+",
+        "group": "Bow",
+        "weaponTraits": ["Deadly d10", " Propulsive", " Volley 30 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow\u2019s range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil\u2019s favored weapon, it also applies to composite longbows unless otherwise stated."]
+    }, {
+        "name": "Composite Shortbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=75",
+        "category": "Martial",
+        "price": "14 gp",
+        "damage": "1d6 P",
+        "range": "60 ft.",
+        "reload": "0",
+        "bulk": "1",
+        "hands": "1+",
+        "group": "Bow",
+        "weaponTraits": ["Deadly d10", " Propulsive"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This shortbow is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Its compact size and power make it a favorite of mounted archers. Any time an ability is specifically restricted to a shortbow, it also applies to composite shortbows unless otherwise stated."]
+    }, {
+        "name": "Halfling Sling Staff",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=78",
+        "category": "Martial",
+        "price": "5 gp",
+        "damage": "1d10 B",
+        "range": "80 ft.",
+        "reload": "1",
+        "bulk": "1",
+        "hands": "2",
+        "group": "Sling",
+        "weaponTraits": ["Halfling", " Propulsive", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sling": ": The target must succeed at a Fortitude save against your class DC or be stunned 1.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This staff ends in a Y-shaped split that cradles a sling. The length of the staff provides excellent leverage when used two\u2011handed to fling rocks or bullets from the\u00a0sling."]
+    }, {
+        "name": "Longbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=76",
+        "category": "Martial",
+        "price": "6 gp",
+        "damage": "1d8 P",
+        "range": "100 ft.",
+        "reload": "0",
+        "bulk": "2",
+        "hands": "1+",
+        "group": "Bow",
+        "weaponTraits": ["Deadly d10", " Volley 30 ft."],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This 5-foot-tall bow, usually made of a single piece of elm, hickory, or yew, has a powerful draw and is excellent at propelling arrows with great force and at an extreme distance. You must use two hands to fire a longbow, and it can\u2019t be used while\u00a0mounted."]
+    }, {
+        "name": "Shortbow",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=77",
+        "category": "Martial",
+        "price": "3 gp",
+        "damage": "1d6 P",
+        "range": "60 ft.",
+        "reload": "0",
+        "bulk": "1",
+        "hands": "1+",
+        "group": "Bow",
+        "weaponTraits": ["Deadly d10"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This smaller bow is made of a single piece of wood and favored by skirmishers and cavalry."]
+    }, {
+        "name": "Shuriken",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=79",
+        "category": "Martial",
+        "price": "1 cp",
+        "damage": "1d4 P",
+        "range": "20 ft.",
+        "reload": "0",
+        "bulk": "",
+        "hands": "1",
+        "group": "Dart",
+        "weaponTraits": ["Agile", " Monk", " Thrown", " Uncommon"],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Dart": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["This \u201cthrowing star\u201d is a small piece of flat metal with sharp edges, designed to be flung with a flick of the wrist."]
+    }, {
+        "name": "Arrows",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=83",
+        "category": "Ammunition",
+        "price": "1 sp (price for 10)",
+        "damage": "",
+        "range": "",
+        "reload": "",
+        "bulk": "L",
+        "hands": "",
+        "group": "Bow",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.\r\n"]
+    }, {
+        "name": "Blowgun Darts",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=80",
+        "category": "Ammunition",
+        "price": "5 cp (price for 10)",
+        "damage": "",
+        "range": "",
+        "reload": "",
+        "bulk": "L",
+        "hands": "",
+        "group": "Dart",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Dart": ": The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon\u2019s item bonus to attack rolls.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These thin, light darts are typically made of hardwood and stabilized with fletching of down or fur. They are often hollow so they can be used to deliver poison.\r\n"]
+    }, {
+        "name": "Bolts",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=81",
+        "category": "Ammunition",
+        "price": "1 sp (price for 10)",
+        "damage": "",
+        "range": "",
+        "reload": "",
+        "bulk": "L",
+        "hands": "",
+        "group": "Bow",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Bow": ": If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile. The target is immobilized and must spend an Interact action to attempt a DC 10 Athletics check to pull the missile free; it can\u2019t move from its space until it succeeds. The creature doesn\u2019t become stuck if it is incorporeal, is liquid (like a water elemental or some oozes), or could otherwise escape without effort.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.\r\n"]
+    }, {
+        "name": "Sling Bullets",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=82",
+        "category": "Ammunition",
+        "price": "1 cp (price for 10)",
+        "damage": "",
+        "range": "",
+        "reload": "",
+        "bulk": "L",
+        "hands": "",
+        "group": "Sling",
+        "weaponTraits": [""],
+        "source": "Core Rulebook pg. 283",
+        "critSpecial": {
+            "Sling": ": The target must succeed at a Fortitude save against your class DC or be stunned 1.",
+            "text": ["Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make an attack with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon."]
+        },
+        "text": ["These are small metal balls, typically either iron or lead, designed to be used as ammunition in slings. \r\n"]
+    }],
+    "baseMagicWeapons": [{
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=380",
+        "source": "Core Rulebook pg. 599",
+        "name": "Magic Weapon (+1)",
+        "Level": " 2; ",
+        "Price": " 35 gp",
+        "text": ["A magic weapon is a weapon etched with only fundamental runes. A weapon potency rune gives an item bonus to attack rolls with the weapon, and a striking rune increases the weapon\u2019s number of weapon damage dice.", " The Prices here are for all types of weapons. You don\u2019t need to adjust the Price from a club to a greataxe or the like. These weapons are made of standard materials, not precious materials such as cold iron.", "This weapon has a ", " rune (+1 item bonus to attack rolls with the weapon)."],
+        "traits": ["Evocation", "Magical"],
+        "Usage": " held in 1 hand",
+        "category": "base magic weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=380",
+        "name": "Magic Weapon (+1 Striking)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 4; ",
+        "Price": " 100 gp",
+        "text": ["A magic weapon is a weapon etched with only fundamental runes. A weapon potency rune gives an item bonus to attack rolls with the weapon, and a striking rune increases the weapon\u2019s number of weapon damage dice.", " The Prices here are for all types of weapons. You don\u2019t need to adjust the Price from a club to a greataxe or the like. These weapons are made of standard materials, not precious materials such as cold iron.", "This weapon has a ", " rune (+1 item bonus to attack rolls with the weapon) and a ", " rune (one extra damage die)."],
+        "traits": ["Evocation", "Magical"],
+        "Usage": " held in 1 hand",
+        "category": "base magic weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=380",
+        "name": "Magic Weapon (+2 Striking)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 10; ",
+        "Price": " 1,000 gp",
+        "text": ["A magic weapon is a weapon etched with only fundamental runes. A weapon potency rune gives an item bonus to attack rolls with the weapon, and a striking rune increases the weapon\u2019s number of weapon damage dice.", " The Prices here are for all types of weapons. You don\u2019t need to adjust the Price from a club to a greataxe or the like. These weapons are made of standard materials, not precious materials such as cold iron.", "This weapon has a ", " rune (+2 item bonus to attack rolls with the weapon) and a striking rune (one additional damage die)."],
+        "traits": ["Evocation", "Magical"],
+        "Usage": " held in 1 hand",
+        "category": "base magic weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=380",
+        "name": "Magic Weapon (+2 Greater Striking)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 12; ",
+        "Price": " 2,000 gp",
+        "text": ["A magic weapon is a weapon etched with only fundamental runes. A weapon potency rune gives an item bonus to attack rolls with the weapon, and a striking rune increases the weapon\u2019s number of weapon damage dice.", " The Prices here are for all types of weapons. You don\u2019t need to adjust the Price from a club to a greataxe or the like. These weapons are made of standard materials, not precious materials such as cold iron.", "This weapon has a ", " rune (+2 item bonus to attack rolls with the weapon) and a ", " rune (two extra damage dice)."],
+        "traits": ["Evocation", "Magical"],
+        "Usage": " held in 1 hand",
+        "category": "base magic weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=380",
+        "name": "Magic Weapon (+3 Greater Striking)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 16; ",
+        "Price": " 10,000 gp",
+        "text": ["A magic weapon is a weapon etched with only fundamental runes. A weapon potency rune gives an item bonus to attack rolls with the weapon, and a striking rune increases the weapon\u2019s number of weapon damage dice.", " The Prices here are for all types of weapons. You don\u2019t need to adjust the Price from a club to a greataxe or the like. These weapons are made of standard materials, not precious materials such as cold iron.", "This weapon has a ", " rune (+3 item bonus to attack rolls with the weapon) and a ", " rune (two extra damage dice)."],
+        "traits": ["Evocation", "Magical"],
+        "Usage": " held in 1 hand",
+        "category": "base magic weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=380",
+        "name": "Magic Weapon (+3 Major Striking)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 19; ",
+        "Price": " 40,000 gp",
+        "traits": ["Evocation", "Magical"],
+        "Usage": " held in 1 hand",
+        "text": ["A magic weapon is a weapon etched with only fundamental runes. A weapon potency rune gives an item bonus to attack rolls with the weapon, and a striking rune increases the weapon\u2019s number of weapon damage dice.", " The Prices here are for all types of weapons. You don\u2019t need to adjust the Price from a club to a greataxe or the like. These weapons are made of standard materials, not precious materials such as cold iron.", "This weapon has a ", " rune (+3 item bonus to attack rolls with the weapon) and a ", " rune (three extra damage dice)."],
+        "category": "base magic weapon"
+    }],
+    "specialMaterialWeapons": [{
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=375",
+        "source": "Core Rulebook pg. 599",
+        "name": "Cold Iron Weapon (Low-Grade)",
+        "Level": " 2; ",
+        "Price": " 40 gp (+4 gp per Bulk)",
+        "Craft Requirements": " at least 20 sp of cold iron + 2 sp per Bulk",
+        "text": ["Cold iron weapons deal additional damage to creatures with weakness to cold iron, like demons and fey."],
+        "traits": [],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=375",
+        "name": "Cold Iron Weapon (Standard-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 10; ",
+        "Price": " 880 gp (+88 gp per Bulk)",
+        "Craft Requirements": " at least 110 gp of cold iron + 11 gp per Bulk",
+        "text": ["Cold iron weapons deal additional damage to creatures with weakness to cold iron, like demons and fey."],
+        "traits": [],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=375",
+        "name": "Cold Iron Weapon (High-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 16; ",
+        "Price": " 9,000 gp (+900 gp per Bulk)",
+        "Craft Requirements": " at least 4,500 gp of cold iron + 450 gp per Bulk",
+        "traits": [],
+        "Usage": " varies by weapon",
+        "text": ["Cold iron weapons deal additional damage to creatures with weakness to cold iron, like demons and fey."],
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=379",
+        "source": "Core Rulebook pg. 599",
+        "name": "Silver Weapon (Low-Grade)",
+        "Level": " 2; ",
+        "Price": " 40 gp (+4 gp per Bulk)",
+        "Craft Requirements": " at least 20 sp of silver + 2 sp per Bulk",
+        "text": ["Silver weapons deal additional damage to creatures with weakness to silver, like werewolves, and ignore the resistances of some other creatures, like devils. "],
+        "traits": [],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=379",
+        "name": "Silver Weapon (Standard-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 10; ",
+        "Price": " 880 gp (+88 gp per Bulk)",
+        "Craft Requirements": " at least 110 gp of silver + 11 gp per Bulk",
+        "text": ["Silver weapons deal additional damage to creatures with weakness to silver, like werewolves, and ignore the resistances of some other creatures, like devils. "],
+        "traits": [],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=379",
+        "name": "Silver Weapon (High-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 16; ",
+        "Price": " 9,000 gp (+900 gp per Bulk)",
+        "Craft Requirements": " at least 4,500 gp of silver + 450 gp per Bulk",
+        "traits": [],
+        "Usage": " varies by weapon",
+        "text": ["Silver weapons deal additional damage to creatures with weakness to silver, like werewolves, and ignore the resistances of some other creatures, like devils. "],
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=374",
+        "source": "Core Rulebook pg. 599",
+        "name": "Adamantine Weapon (Standard-Grade)",
+        "Level": " 11; ",
+        "Price": " 1,400 gp (+140 gp per Bulk)",
+        "Craft Requirements": " at least 175 gp of adamantine + 17.5 gp per Bulk",
+        "text": ["Adamantine weapons have a shiny black appearance and cut through lesser items with ease. They treat any object they hit as if it had half as much Hardness as usual, unless the object\u2019s Hardness is greater than that of the adamantine weapon."],
+        "traits": ["Uncommon"],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=374",
+        "name": "Adamantine Weapon (High-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 17; ",
+        "Price": " 13,500 gp (+13,500 gp per Bulk)",
+        "Craft Requirements": " at least 6,750 gp of adamantine + 675 gp per Bulk",
+        "traits": ["Uncommon"],
+        "Usage": " varies by weapon",
+        "text": ["Adamantine weapons have a shiny black appearance and cut through lesser items with ease. They treat any object they hit as if it had half as much Hardness as usual, unless the object\u2019s Hardness is greater than that of the adamantine weapon."],
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=376",
+        "source": "Core Rulebook pg. 599",
+        "name": "Darkwood Weapon (Standard-Grade)",
+        "Level": " 11; ",
+        "Price": " 1,400 gp (+140 gp per Bulk)",
+        "Craft Requirements": " at least 175 gp of darkwood + 17.5 gp per Bulk",
+        "text": ["Darkwood weapons are as dark as ebony, with a slight purple tint. A darkwood weapon\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk)."],
+        "traits": ["Uncommon"],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=376",
+        "name": "Darkwood Weapon (High-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 17; ",
+        "Price": " 13,500 gp (+1,350 gp per Bulk)",
+        "Craft Requirements": " at least 6,750 gp of darkwood + 675 gp per Bulk",
+        "traits": ["Uncommon"],
+        "Usage": " varies by weapon",
+        "text": ["Darkwood weapons are as dark as ebony, with a slight purple tint. A darkwood weapon\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk)."],
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=377",
+        "source": "Core Rulebook pg. 599",
+        "name": "Mithral Weapon (Standard-Grade)",
+        "Level": " 11; ",
+        "Price": " 1,400 gp (+140 gp per Bulk)",
+        "Craft Requirements": " at least 175 gp of mithral + 17.5 gp per Bulk",
+        "text": ["Mithral weapons are slightly lighter than silver. A mithral weapon is 1 Bulk lighter than normal (or light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk)."],
+        "traits": ["Uncommon"],
+        "Usage": " varies by weapon",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=377",
+        "name": "Mithral Weapon (High-Grade)",
+        "source": "Core Rulebook pg. 599",
+        "Level": " 17; ",
+        "Price": " 13,500 gp (+1,350 gp per Bulk)",
+        "Craft Requirements": " at least 6,750 gp of mithral + 675 gp per Bulk",
+        "traits": ["Uncommon"],
+        "Usage": " varies by weapon",
+        "text": ["Mithral weapons are slightly lighter than silver. A mithral weapon is 1 Bulk lighter than normal (or light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk)."],
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=378",
+        "source": "Core Rulebook pg. 599",
+        "name": "Orichalcum Weapon (High-Grade)",
+        "Level": " 18; ",
+        "Price": " 22,500 gp (+ 2,250 gp per Bulk)",
+        "Craft Requirements": " at least 11,250 gp of orichalcum + 1,125 gp per Bulk",
+        "traits": ["Rare"],
+        "Usage": " varies by weapon",
+        "text": ["Orichalcum weapons can have four magic property runes instead of three. Due to orichalcum\u2019s temporal properties, etching the ", " weapon property rune onto an orichalcum weapon costs half the normal Price (though transferring the rune to a weapon made of another material requires you to first pay the remaining Price and then pay the cost to transfer). "],
+        "category": "weapon"
+    }],
+    "magicWeapons": [{
+        "traits": ["Magical", "Transmutation"],
+        "name": "Fighter's Fork",
+        "text": ["This ", "+1 trident", ", usually engraved with a decorative pattern resembling fish scales, is a common weapon among warriors of aquatic ancestries."],
+        "source": "Core Rulebook pg. 600",
+        "Price": " 50 gp",
+        "Usage": " held in 1 or 2 hands; ",
+        "Bulk": " 1",
+        "actions": "Single Action",
+        "Activate": " Interact; ",
+        "Effect": " You extend or shorten the trident\u2019s haft. When extended, the trident requires two hands to wield and gains the reach trait, but loses the trident\u2019s normal thrown trait."
+    }, {
+        "traits": ["Enchantment", "Magical"],
+        "name": "Retribution Axe",
+        "text": ["The blade of this ", "+1 greataxe", " bears a design of a human skull. Whenever a creature damages you with an attack, the skull changes its appearance to look like the face of that creature. You gain a +2 circumstance bonus to your next damage roll against that creature before the end of your next turn. Because the face reshapes each time you\u2019re damaged, you get the additional damage only if you attack the creature that damaged you most recently."],
+        "source": "Core Rulebook pg. 602",
+        "Price": " 60 gp",
+        "Usage": " held in 2 hands; ",
+        "Bulk": " 2"
+    }, {
+        "traits": ["Magical", "Necromancy", "Poison"],
+        "name": "Dagger of Venom",
+        "text": ["The serrated blade of this ", "+1 striking dagger", " has a greenish tinge, and the hilt is sculpted to look like the head of a serpent about to strike. When you critically succeed at an attack roll with the ", "dagger of venom", ", the target becomes sickened 1 unless it succeeds at a DC 19 Fortitude save. This is a poison effect. In addition, you can activate the dagger to poison a creature with a more potent poison.", "dagger of venom"],
+        "source": "Core Rulebook pg. 600",
+        "Price": " 150 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L",
+        "actions": "Free Action",
+        "Activate": " Interact; ",
+        "Frequency": " once per day; ",
+        "Trigger": "; ",
+        "Effect": " You poison the creature you hit with dagger venom.",
+        "Dagger Venom": " (poison); ",
+        "Saving Throw": " Fortitude DC 21; ",
+        "Maximum Duration": " 4 rounds. ",
+        "Stage 1": " 1d8 poison damage and enfeebled 1."
+    }, {
+        "traits": ["Evocation", "Magical"],
+        "name": "Caterwaul Sling",
+        "text": ["Made of shiny brown leather, this ", "+1 striking sling", " has a single white thread interwoven into its cord."],
+        "source": "Core Rulebook pg. 600",
+        "Price": " 155 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L",
+        "actions": "Two Actions",
+        "Activate": " Interact (sonic); ",
+        "Frequency": " once per day; ",
+        "Effect": " You pull the white thread free, then whirl the sling in circles at high speed. It lets out an ear-piercing wave of sound. Each creature in a 30-foot cone takes 4d6 sonic damage (DC 21 basic Fortitude save). Any creature that fails is deafened for 1 round, or 1 hour on a critical failure."
+    }, {
+        "traits": ["Uncommon", "Magical", "Necromancy"],
+        "name": "Bloodletting Kukri",
+        "text": ["This ", "+1 striking kukri", " has a crimson blade that shimmers eerily in bright light. On a critical hit, the kukri deals 1d8 persistent bleed damage. If the target didn\u2019t already have persistent bleed damage when you scored the critical hit, you also gain 1d8 temporary Hit Points."],
+        "source": "Core Rulebook pg. 600",
+        "Price": " 240 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L"
+    }, {
+        "traits": ["Magical", "Transmutation"],
+        "name": "Twining Staff",
+        "text": ["Appearing to be just a small, flat disc made of twigs, this item can grow and shrink.", "+1 striking staff", "+1 striking bo staff"],
+        "source": "Core Rulebook pg. 602",
+        "Price": " 250 gp",
+        "Usage": " held in 1 or 2 hands",
+        "actions": "Single Action",
+        "Activate": " Interact; ",
+        "Effect": "When you expand the item, you can use the force of the expansion to High Jump or to try to Force Open a door or the like by wedging the disc into a gap before activation. The staff makes the Athletics check with a +15 modifier."
+    }, {
+        "traits": ["Unique", "Evocation", "Light", "Magical"],
+        "name": "Eclipse",
+        "text": ["This charm, a dragon-shaped pendant worn like a necklace or set into armor or clothing as a decoration, is warm and smooth to the touch. It must be held in one hand to be used (pressing the palm of one\u2019s hand to the charm also works, provided that your hand is otherwise empty). It has four distinct powers.", "dragon\u2019s eye charm", " spell with a spell attack roll of +13.", " for as long as you Sustain the Activation, to a maximum of 10 minutes.", "dragon\u2019s eye charm", " as long as you Sustain the Activation, to a maximum of 10 minutes."],
+        "source": "Pathfinder #146: Cult of Cinders pg. 72",
+        "Price": " 450 gp",
+        "Hands": " 1; ",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L",
+        "actions": "Single Action",
+        "Activate": " Interact; ",
+        "Frequency": " once per day; ",
+        "Effect": " You can speak and understand "
+    }, {
+        "traits": ["Evocation", "Magical"],
+        "name": "Gloom Blade",
+        "text": ["As black as coal, this blade grows more potent in darkness. While in bright light, it functions as a ", "+1 shortsword", " and doesn\u2019t appear to radiate a magic aura to detect magic or similar spells unless the spells are 4th level or higher. ", " In dim light or darkness, the gloom blade becomes a ", "+2 striking shortsword", ". Whenever you use the ", "gloom blade", " to attack a creature you\u2019re undetected by, you deal 1d6 additional precision damage. ", " To upgrade the ", "gloom blade\u2019s", " fundamental runes, start with the base ", "+1 shortsword", ", but if you improve it beyond a ", "+2 striking shortsword", ", the runes apply in dim light or darkness as well."],
+        "source": "Core Rulebook pg. 601",
+        "Price": " 700 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L"
+    }, {
+        "traits": ["Divination", "Magical"],
+        "name": "Oathbow",
+        "text": ["Constructed of a flexible, white wood and with ornate, twisting designs carved into its surface, this ", "+2 striking composite longbow", " appears to have been made by elves. Sometimes when you loose an arrow, its whistling in flight sounds like a voice whispering in Elven, wishing for the swift defeat of your enemies."],
+        "source": "Core Rulebook pg. 602",
+        "Price": " 1,300 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 2",
+        "actions": "Single Action",
+        "Activate": " command; ",
+        "Effect": "After you activate the bow, you can\u2019t activate it again for 7 days. If you kill the creature you\u2019ve sworn an oath against, the oath ends and you need to wait only 10 minutes before you can activate it again."
+    }, {
+        "traits": ["Evocation", "Magical"],
+        "name": "Dwarven Thrower",
+        "text": ["This ", "+2 striking warhammer", " is inlaid with precious metals and decorated with geometric patterns in a dwarven style. If you\u2019re a dwarf, a ", "dwarven thrower", " functions for you as a ", "+2 greater striking returning warhammer", " with the thrown 30 feet trait, and your attacks with the hammer deal 1d8 additional damage against giants."],
+        "source": "Core Rulebook pg. 600",
+        "Price": " 2,750 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=386",
+        "source": "Core Rulebook pg. 600",
+        "actions": "Two Actions",
+        "name": "Flame Tongue",
+        "Level": " 13; ",
+        "Price": " 2,800 gp",
+        "text": ["This ", " has an ornate brass hilt and a blade shaped like stylized flames. When wielded, the blade projects illumination resembling shimmering firelight, emitting dim light in a 10-foot radius.", " cantrip from the sword as a 7th-level arcane spell, using your melee attack modifier with ", " as your spell attack modifier. "],
+        "traits": ["Evocation", "Fire", "Magical"],
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1",
+        "Activate": " command, Interact; ",
+        "Effect": " You cast the ",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=386",
+        "name": "Flame Tongue (Greater)",
+        "source": "Core Rulebook pg. 600",
+        "Level": " 17; ",
+        "Price": " 13,800 gp",
+        "Activate": " command, Interact; ",
+        "actions": "Single Action",
+        "Frequency": " once per day; ",
+        "Effect": " You cast the ",
+        "traits": ["Evocation", "Fire", "Magical"],
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1",
+        "text": ["This ", " has an ornate brass hilt and a blade shaped like stylized flames. When wielded, the blade projects illumination resembling shimmering firelight, emitting dim light in a 10-foot radius.", " cantrip from the sword as a 7th-level arcane spell, using your melee attack modifier with ", " as your spell attack modifier. ", "This is a ", ". When you activate the sword to cast ", ", the spell is 9th level.", " command; ", " for 1 minute. All weapon and unarmed attacks by you and your allies within the area gain the effect of the ", " property rune.\r\nFrost BrandItem 16"],
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=395",
+        "source": "Core Rulebook pg. 602",
+        "actions": "Reaction",
+        "name": "Storm Flash",
+        "Level": " 14; ",
+        "Price": " 4,000 gp",
+        "text": ["This ", " has a golden blade, and miniature electric arcs flash across its guard while it\u2019s wielded. When out of its sheath under an open sky, the blade causes storm clouds to gather slowly above.", " (DC 33). ", ". Choose one eligible creature to protect and roll a melee attack roll against the DC of the electricity effect. If you succeed, the chosen creature takes no electricity damage from the triggering effect. "],
+        "traits": ["Electricity", "Evocation", "Magical"],
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1",
+        "Activate": " command; ",
+        "Frequency": " once per 10 minutes; ",
+        "Effect": " You try to divert the electricity off course, to be absorbed by ",
+        "Trigger": " An electricity effect targets you or a creature within 10 feet of you, or has you or a creature within 10 feet of you in its area; ",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=395",
+        "name": "Storm Flash (Greater)",
+        "source": "Core Rulebook pg. 602",
+        "Level": " 18; ",
+        "Price": " 21,000 gp",
+        "traits": ["Electricity", "Evocation", "Magical"],
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1",
+        "actions": "Reaction",
+        "Activate": " command; ",
+        "Frequency": " once per 10 minutes; ",
+        "Effect": " You try to divert the electricity off course, to be absorbed by ",
+        "Trigger": " An electricity effect targets you or a creature within 10 feet of you, or has you or a creature within 10 feet of you in its area; ",
+        "text": ["This ", " has a golden blade, and miniature electric arcs flash across its guard while it\u2019s wielded. When out of its sheath under an open sky, the blade causes storm clouds to gather slowly above.", " (DC 33). ", ". Choose one eligible creature to protect and roll a melee attack roll against the DC of the electricity effect. If you succeed, the chosen creature takes no electricity damage from the triggering effect. ", "This is a ", ". When activating the sword to cast ", ", the spell is 8th level."],
+        "category": "weapon"
+    }, {
+        "traits": ["Uncommon", "Divine", "Evocation", "Good", "Lawful"],
+        "name": "Holy Avenger",
+        "text": ["The gleaming ", "holy avenger", " is the iconic weapon of powerful ", ". The crossbar of this ", "+2 greater striking holy cold iron longsword", " is styled to look like angel wings. Tradition holds that those who see their reflection in a ", "holy avenger\u2019s", " highly polished blade have their faults laid bare. If you are evil, you are enfeebled 2 while carrying or wielding this weapon.", " to detect evil, but this targets only the selected creature instead of detecting in an area.", " of the paladin cause, you also gain the following two benefits. ", "holy avenger", " at the same level as your champion focus spells. It must target an illusion the creature you hit created, a spell affecting the creature you hit, or an item the creature you hit wears or carries. The spell or item you attempt to counteract must be within 120 feet of you.", "detect alignment", "dispel magic"],
+        "source": "Core Rulebook pg. 601",
+        "Price": " 4,500 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1",
+        "actions": "Single Action",
+        "Activate": " command; ",
+        "Frequency": " once per day; ",
+        "Effect": " You cast ",
+        "Paladin Wielder": " If you\u2019re a ",
+        "Requirements": " on your previous action; ",
+        "Craft Requirements": ". The initial raw materials must include 120 gp of cold iron."
+    }, {
+        "traits": ["Cold", "Evocation", "Magical"],
+        "name": "Frost Brand",
+        "text": ["The blade of this ", "+2 greater striking greater frost greatsword", " appears to be nothing but icy shards. The ", "frost brand", " automatically extinguishes non-magical fires in a 20-foot emanation. While wielding it, you gain fire resistance 5.", "frost brand"],
+        "source": "Core Rulebook pg. 601",
+        "Price": " 10,000 gp",
+        "Usage": " held in 2 hands; ",
+        "Bulk": " 2",
+        "actions": "Two Actions",
+        "Activate": " command, Interact; ",
+        "Effect": " into the area of an ongoing magical fire, and the blade attempts to counteract the fire with a counteract modifier of +27. If it fails, it can\u2019t attempt to counteract the same fire again."
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=390",
+        "source": "Core Rulebook pg. 601",
+        "actions": "Reaction",
+        "name": "Luck Blade",
+        "Level": " 17; ",
+        "Price": " 15,000 gp",
+        "text": ["Luck and good fortune bless the wielder of this ", ". ", " are crafted in a variety of styles, but their hilts or blades always incorporate symbols of luck, such as clovers, horseshoes, fish, ladybugs, or other symbols.", " effect."],
+        "traits": ["Rare", "Divination", "Fortune", "Magical"],
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L",
+        "Activate": " envision; ",
+        "Frequency": " once per day; ",
+        "Trigger": " You miss on a Strike with the luck blade; ",
+        "Effect": " Reroll the triggering attack roll and use the new result. This is a ",
+        "category": "weapon"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=390",
+        "name": "Luck Blade (Wishing)",
+        "source": "Core Rulebook pg. 601",
+        "Level": " 19; ",
+        "Price": " 30,000 gp",
+        "traits": ["Rare", "Divination", "Fortune", "Magical"],
+        "Usage": " held in 1 hand; ",
+        "Bulk": " L",
+        "actions": "Reaction",
+        "Activate": " envision; ",
+        "Frequency": " once per day; ",
+        "Trigger": " You miss on a Strike with the luck blade; ",
+        "Effect": " Reroll the triggering attack roll and use the new result. This is a ",
+        "text": ["Luck and good fortune bless the wielder of this ", ". ", " are crafted in a variety of styles, but their hilts or blades always incorporate symbols of luck, such as clovers, horseshoes, fish, ladybugs, or other symbols.", " effect.", "Some ", " contain one ", " when crafted. You can cast this spell as an arcane innate spell while wielding the ", ", expending the spell. A spellcaster who can cast ", " can place another ", " into the blade by spending 8,000 gp and 4 days of downtime. A ", " can hold no more than one ", " at a time."],
+        "category": "weapon"
+    }, {
+        "traits": ["Rare", "Evocation", "Magical"],
+        "name": "Sky Hammer",
+        "text": ["The sturdy, steel head of this ", "+3 major striking flaming shock orichalcum warhammer", " is shaped like a blazing comet.", "sky hammer", " spell explodes, centered on the sky hammer. The spell DC is 45. You are immune to the ", "fireball\u2019s", " effect, though your allies are not.", "fireball"],
+        "source": "Core Rulebook pg. 602",
+        "Price": " 70,000 gp",
+        "Usage": " held in 1 hand; ",
+        "Bulk": " 1",
+        "actions": "Reaction",
+        "Activate": " command; ",
+        "Trigger": " is a critical success; ",
+        "Effect": " A 6th-level arcane ",
+        "Craft Requirements": " (6th level), and the initial raw materials must include 12,375 gp of orichalcum."
+    }]
+}

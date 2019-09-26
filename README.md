@@ -15,18 +15,18 @@
 * Held Items
 * Runes
 * Services
+* Shields
+* Snares 
+* Weapons
 
 ### What is next
 * Artifacts
 * Drugs
 * Materials
-* Shields
-* Snares
 * Staves
 * Structures
 * Tattoos
 * Wands
-* Weapons
 * Worn Items
 * Hazards
 * Dieties
@@ -39,5 +39,6 @@
 If you feel you need to get updated data be careful running these as they do a good number of requests over a short peroid onto the respective sites
 
 if you have a request for data let me know
+Horses are retrieved Incorrect for monsters, I need to fix that.
 
 
