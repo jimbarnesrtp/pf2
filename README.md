@@ -20,19 +20,19 @@
 * Weapons
 * Staves
 * Structures
+* Wands
+* Worn Items
+* Materials
+* Hazards
+* Conditions
 
 ### What is next
 * Artifacts
 * Drugs
-* Materials
 * Tattoos
-* Wands
-* Worn Items
-* Hazards
 * Dieties
 * Domains
 * Rituals
-* Conditions
 * Skills
 
 

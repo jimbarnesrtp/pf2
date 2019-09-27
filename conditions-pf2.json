@@ -1,0 +1,93 @@
+{
+    "name": "Pathfinder 2.0 Condition list",
+    "date": "September 27, 2019",
+    "specialMaterialWeapons": [{
+        "name": "Friendly",
+        "text": ["This condition reflects a creature\u2019s disposition toward a particular character, and it affects only creatures that are not player characters. A creature that is friendly to a character likes that character. The character can attempt to make a Request of a friendly creature, and the friendly creature is likely to agree to a simple and safe request that doesn\u2019t cost it much to fulfill. If the character or one of their allies uses hostile actions against the creature, the creature gains a worse attitude condition depending on the severity of the hostile action, as determined by the GM."],
+        "source": "Core Rulebook pg. 620"
+    }, {
+        "name": "Helpful",
+        "text": ["This condition reflects a creature\u2019s disposition toward a particular character, and it affects only creatures that are not player characters. A creature that is helpful to a character wishes to actively aid that character. It will accept reasonable Requests from that character, as long as such requests aren\u2019t at the expense of the helpful creature\u2019s goals or quality of life. If the character or one of their allies uses a hostile action against the creature, the creature gains a worse attitude condition depending on the severity of the hostile action, as determined by the GM."],
+        "source": "Core Rulebook pg. 620"
+    }, {
+        "name": "Hostile",
+        "text": ["This condition reflects a creature\u2019s disposition toward a particular character, and it affects only creatures that are not player characters. A creature that is hostile to a character actively seeks to harm that character. It doesn\u2019t necessarily attack, but it won\u2019t accept Requests from the character."],
+        "source": "Core Rulebook pg. 620"
+    }, {
+        "name": "Indifferent",
+        "text": ["This condition reflects a creature\u2019s disposition toward a particular character, and it affects only creatures that are not player characters. A creature that is indifferent to a character doesn\u2019t really care one way or the other about that character. Assume a creature\u2019s attitude to a given character is indifferent unless specified otherwise."],
+        "source": "Core Rulebook pg. 620"
+    }, {
+        "name": "Unfriendly",
+        "text": ["This condition reflects a creature\u2019s disposition toward a particular character, and it affects only creatures that are not player characters. A creature that is unfriendly to a character dislikes and specifically distrusts that character. The unfriendly creature won\u2019t accept Requests from the character."],
+        "source": "Core Rulebook pg. 623"
+    }, {
+        "name": "Doomed",
+        "text": ["A powerful force has gripped your soul, calling you closer to death. Doomed always includes a value. The dying value at which you die is reduced by your doomed value. If your maximum dying value is reduced to 0, you instantly die. When you die, you\u2019re no longer doomed.", "Your doomed value decreases by 1 each time you get a full night\u2019s rest."],
+        "source": "Core Rulebook pg. 619"
+    }, {
+        "name": "Dying",
+        "text": ["You are bleeding out or otherwise at death\u2019s door. While you have this condition, you are unconscious. Dying always includes a value, and if it ever reaches dying 4, you die. If you\u2019re dying, you must attempt a recovery check (page 459) at the start of your turn each round to determine whether you get better or worse. Your dying condition increases by 1 if you take damage while dying, or by 2 if you take damage from an enemy\u2019s critical hit or a critical failure on your save.", "If you lose the dying condition by succeeding at a recovery check and are still at 0 Hit Points, you remain unconscious, but you can wake up as described in that condition. You lose the dying condition automatically and wake up if you ever have 1 Hit Point or more. Any time you lose the dying condition, you gain the wounded 1 condition, or increase your wounded condition value by 1 if you already have that condition."],
+        "source": "Core Rulebook pg. 619"
+    }, {
+        "name": "Unconscious",
+        "text": ["You\u2019re sleeping, or you\u2019ve been knocked out. You can\u2019t act. You take a \u20134 status penalty to AC, Perception, and Reflex saves, and you have the blinded and flat-footed conditions. When you gain this condition, you fall prone and drop items you are wielding or holding unless the effect states otherwise or the GM determines you\u2019re in a position in which you wouldn\u2019t.", " If you\u2019re unconscious because you\u2019re dying, you can\u2019t wake up while you have 0 Hit Points. If you are restored to 1 Hit Point or more via healing, you lose the dying and unconscious conditions and can act normally on your next turn.", " If you are unconscious and at 0 Hit Points, but not dying, you naturally return to 1 Hit Point and awaken after sufficient time passes. The GM determines how long you remain unconscious, from a minimum of 10 minutes to several hours. If you receive healing during this time, you lose the unconscious condition and can act normally on your next turn.", " If you\u2019re unconscious and have more than 1 Hit Point (typically because you are asleep or unconscious due to an effect), you wake up in one of the following ways. Each causes you to lose the unconscious condition."],
+        "source": "Core Rulebook pg. 622"
+    }, {
+        "name": "Wounded",
+        "text": ["You have been seriously injured. If you lose the dying condition and do not already have the wounded condition, you become wounded 1. If you already have the wounded condition when you lose the dying condition, your wounded condition value increases by 1. If you gain the dying condition while wounded, increase your dying condition value by your wounded value.", " The wounded condition ends if someone successfully restores Hit Points to you with Treat Wounds, or if you are restored to full Hit Points and rest for 10 minutes."],
+        "source": "Core Rulebook pg. 623"
+    }, {
+        "name": "Hidden",
+        "text": ["While you\u2019re hidden from a creature, that creature knows the space you\u2019re in but can\u2019t tell precisely where you are. You typically become hidden by using Stealth to Hide. When Seeking a creature using only imprecise senses, it remains hidden, rather than observed. A creature you\u2019re hidden from is flat-footed to you, and it must succeed at a DC 11 flat check when targeting you with an attack, spell, or other effect or it fails affect you. Area effects aren\u2019t subject to this flat check.", " A creature might be able to use the Seek action to try to observe you, as described on page 471."],
+        "source": "Core Rulebook pg. 620"
+    }, {
+        "name": "Observed",
+        "text": ["Anything in plain view is observed by you. If a creature takes measures to avoid detection, such as by using Stealth to Hide, it can become hidden or undetected instead of observed. If you have another precise sense instead of or in addition to sight, you might be able to observe a creature or object using that sense instead. You can observe a creature only with precise senses. When Seeking a creature using only imprecise senses, it remains hidden, rather than observed."],
+        "source": "Core Rulebook pg. 621"
+    }, {
+        "name": "Undetected",
+        "text": ["When you are undetected by a creature, that creature cannot see you at all, has no idea what space you occupy, and can\u2019t target you, though you still can be affected by abilities that target an area. When you\u2019re undetected by a creature, that creature is flat-footed to you.", " A creature you\u2019re undetected by can guess which square you\u2019re in to try targeting you. It must pick a square and attempt an attack. This works like targeting a hidden creature (requiring a DC 11 flat check, as described on page 466), but the flat check and attack roll are rolled in secret by the GM, who doesn\u2019t reveal whether the attack missed due to failing the flat check, failing the attack roll, or choosing the wrong square.", " A creature can use the Seek action to try to find you, as described on page 471."],
+        "source": "Core Rulebook pg. 623"
+    }, {
+        "name": "Unnoticed",
+        "text": ["If you are unnoticed by a creature, that creature has no idea you are present at all. When you\u2019re unnoticed, you\u2019re also undetected by the creature. This condition matters for abilities that can be used only against targets totally unaware of your presence."],
+        "source": "Core Rulebook pg. 623"
+    }, {
+        "name": "Clumsy",
+        "text": ["Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery."],
+        "source": "Core Rulebook pg. 618"
+    }, {
+        "name": "Drained",
+        "text": ["When a creature successfully drains you of blood or life force, you become less healthy. Drained always includes a value. You take a status penalty equal to your drained value on Constitution-based checks, such as Fortitude saves. You also lose a number of Hit Points equal to your level (minimum 1) times the drained value, and your maximum Hit Points are reduced by the same amount. For example, if you\u2019re hit by an effect that inflicts drained 3 and you\u2019re a 3rd-level character, you lose 9 Hit Points and reduce your maximum Hit Points by 9. Losing these Hit Points doesn\u2019t count as taking damage.", "Each time you get a full night\u2019s rest, your drained value decreases by 1. This increases your maximum Hit Points, but you don\u2019t immediately recover the lost Hit Points."],
+        "source": "Core Rulebook pg. 619"
+    }, {
+        "name": "Enfeebled",
+        "text": ["You\u2019re physically weakened. Enfeebled always includes a value. When you are enfeebled, you take a status penalty equal to the condition value to Strength-based rolls and DCs, including Strength-based melee attack rolls, Strength-based damage rolls, and Athletics checks."],
+        "source": "Core Rulebook pg. 619"
+    }, {
+        "name": "Stupefied",
+        "text": ["Your thoughts and instincts are clouded. Stupefied always includes a value. You take a status penalty equal to this value on Intelligence-, Wisdom-, and Charisma-based checks and DCs, including Will saving throws, spell attack rolls, spell DCs, and skill checks that use these ability scores. Any time you attempt to Cast a Spell while stupefied, the spell is disrupted unless you succeed at a flat check with a DC equal to 5 + your stupefied value."],
+        "source": "Core Rulebook pg. 622"
+    }, {
+        "name": "Blinded",
+        "text": ["You can\u2019t see. All normal terrain is difficult terrain to you. You can\u2019t detect anything using vision. You automatically critically fail Perception checks that require you to be able to see, and if vision is your only precise sense, you take a \u20134 status penalty to Perception checks. You are immune to visual effects. Blinded overrides dazzled."],
+        "source": "Core Rulebook pg. 618"
+    }, {
+        "name": "Concealed",
+        "text": ["While you are concealed from a creature, such as in a thick fog, you are difficult for that creature to see. You can still be observed, but you\u2019re tougher to target. A creature that you\u2019re concealed from must succeed at a DC 5 flat check when targeting you with an attack, spell, or other effect. Area effects aren\u2019t subject to this flat check. If the check fails, the attack, spell, or effect doesn\u2019t affect you."],
+        "source": "Core Rulebook pg. 618"
+    }, {
+        "name": "Dazzled",
+        "text": ["Your eyes are overstimulated. If vision is your only precise sense, all creatures and objects are concealed from you."],
+        "source": "Core Rulebook pg. 619"
+    }, {
+        "name": "Deafened",
+        "text": ["You can\u2019t hear. You automatically critically fail Perception checks that require you to be able to hear. You take a \u20132 status penalty to Perception checks for initiative and checks that involve sound but also rely on other senses. If you perform an action with the auditory trait, you must succeed at a DC 5 flat check or the action is lost; attempt the check after spending the action but before any effects are applied. You are immune to auditory effects.\r\n"],
+        "source": "Core Rulebook pg. 619"
+    }, {
+        "name": "Invisibile",
+        "text": ["While invisible, you can\u2019t be seen. You\u2019re undetected to everyone. Creatures can Seek to attempt to detect you; if a creature succeeds at its Perception check against your Stealth DC, you become hidden to that creature until you Sneak to become undetected again. If you become invisible while someone can already see you, you start out hidden to the observer (instead of undetected) until you successfully Sneak. You can\u2019t become observed while invisible except via special abilities or magic."],
+        "source": "Core Rulebook pg. 620"
+    }]
+}
