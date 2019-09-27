@@ -5,13 +5,9 @@ import datetime
 import codecs
 import time
 
-wornHolder = {}
-wornHolder['name'] = 'Pathfinder 2.0 Worn Items list'
-wornHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
-
-
-
-
+hazardHolder = {}
+hazardHolder['name'] = 'Pathfinder 2.0 Hazard list'
+hazardHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 def get_multi(link):
     items = []
@@ -35,13 +31,29 @@ def get_multi(link):
     item['link'] = link
     tagType = ""
     itemDetailHolder = []
+    frequencyHolder = []
+    craftHolder = []
+    noSkipImg = True
+    string = " "
     for child in children:
         
         stringContents = str(child)
         if stringContents.startswith("<"):
             #print(stringContents)
             if child.name == "img":
-                parentDetails['actions'] = child['alt']
+                if tagType != "":
+                    if noSkipImg:
+                        if tagType == "Frequency":
+                            frequencyHolder.append(child['alt'])
+                        if tagType == "Craft Requirements":
+                            craftHolder.append(child['alt'])
+                        noSkipImg = False
+                    else:
+                        noSkipImg = True
+
+                        
+                else:
+                    parentDetails['actions'] = child['alt']
             if child.name == "hr":
                 tagType = ""
                 reachedBreak = True
@@ -50,6 +62,7 @@ def get_multi(link):
                 item['actions'] = child['alt']
             if child.name == "h1":
                 inHeader = True
+            
             if child.name == "h2":
                 #print(child.text)
                 className = ""
@@ -61,6 +74,8 @@ def get_multi(link):
                     if notFirstH2: 
                         
                         item['text'] = detailHolder + itemDetailHolder
+                        item['frequency'] = string.join(frequencyHolder)
+                        item['craftRequirements'] = string.join(craftHolder)
                         for key in parentDetails.keys():
                             item[key] = parentDetails[key]
                         items.append(item)
@@ -89,27 +104,30 @@ def get_multi(link):
                 except:
                     pass
                 tagType = ""
-            if child.name == "ul":
-                #print(child.text)
-                lis = child.find_all("li")
-                if(len(lis) > 0):
-                    spellHolder = []
-                    for li in lis:
-                        spellHolder.append(li.text)
-                    item['spells'] = spellHolder
         else:
             
             if reachedBreak:
                 if(tagType != ""):
                     if not stringContents.isspace():
-                        parentDetails[tagType] = stringContents
-                        tagType = ""
+                        if tagType == "Frequency":
+                            frequencyHolder.append(stringContents)
+                        elif tagType == "Craft Requirements":
+                            craftHolder.append(stringContents)
+                        else:
+                            parentDetails[tagType] = stringContents
+                        #tagType = ""
                 else: 
                     detailHolder.append(stringContents)
             if inHeader:
                 if tagType != "":
-                    parentDetails[tagType] = stringContents
-                    tagType = ""
+                    #print(tagType)
+                    if tagType == "Frequency":
+                        frequencyHolder.append(stringContents)
+                    elif tagType == "Craft Requirements":
+                        craftHolder.append(stringContents)
+                    else:
+                        parentDetails[tagType] = stringContents
+                    #tagType = ""
             if reachedItem:
                 
                 if tagType != "":
@@ -122,6 +140,8 @@ def get_multi(link):
 
     for key in parentDetails.keys():
         item[key] = parentDetails[key]
+    item['frequency'] = string.join(frequencyHolder)
+    item['craftRequirements'] = string.join(craftHolder)
     item['text'] = detailHolder + itemDetailHolder
     items.append(item)
     
@@ -163,7 +183,8 @@ def get_single(link):
                         details['source'] = child.text
                 except:
                     pass
-                tagType = ""
+                if "Disable" not in tagType:
+                    tagType = ""
             if child.name == "b":
 
                 if(child.text != "Source"):
@@ -173,14 +194,6 @@ def get_single(link):
             if child.name == "i":
                 if(reachedBreak):
                     detailHolder.append(child.text) 
-            if child.name == "ul":
-                #print(child.text)
-                lis = child.find_all("li")
-                if(len(lis) > 0):
-                    spellHolder = []
-                    for li in lis:
-                        spellHolder.append(li.text)
-                    details['spells'] = spellHolder
             #else:
                 #if not stringContents.isspace() :
                     #detailHolder.append(child.text)        
@@ -203,18 +216,17 @@ def get_single(link):
     return details
 
 
+
 def get_all():
     listOfLinks = []
-    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=41&Subcategory=43")
-    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=41&Subcategory=42")
-    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=41&Subcategory=44")
+    listOfLinks.append("https://2e.aonprd.com/Hazards.aspx")
 
     itemHolder = []
     for link in listOfLinks:
         res2 = requests.get(link)
         res2.raise_for_status()
         soup2 = BeautifulSoup(res2.text, 'lxml')
-        table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
+        table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TableElement")
 
         rows = table.findAll(lambda tag: tag.name=='tr')
         t = 0
@@ -238,7 +250,7 @@ def get_all():
                     else:
                         item['multi'] = False
                         itemHolder.append(item)
-            #if t >6:
+            #if t >2:
                 #break
 
     
@@ -246,27 +258,28 @@ def get_all():
     items = []
     for item in itemHolder:
         #print(item)
-        print("Getting worn item :", item['name'],"This url:", item['link'],"|is it multi:",item['multi'])
+        print("Getting hazard :", item['name'],"This url:", item['link'],"|is it multi:",item['multi'])
         if item['multi'] == True:
             multiHolder = get_multi(item['link'])
             for multi in multiHolder:
-                multi['category'] = "worn item"
+                multi['category'] = "hazard"
                 items.append(multi)
         else:
             single = get_single(item['link'])
-            single['category'] = "worn item"
+            single['category'] = "hazard"
             items.append(single)
 
-    wornHolder['wornItems'] = items
+    hazardHolder['wornItems'] = items
 
+    #hazardHolder['rangedWeapons'] = get
 
     
-    return wornHolder
+    return hazardHolder
 
 #print(get_all())
 json_data = json.dumps(get_all())
 #print(json_data)
-filename = "worn-items-pf2.json"
+filename = "hazards-pf2.json"
 f = open(filename, "w")
 f.write(json_data)
 f.close
