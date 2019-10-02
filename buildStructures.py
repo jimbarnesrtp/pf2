@@ -204,7 +204,7 @@ def get_from_csv(fileName):
 
 
 def get_all():
-    structHolder['specialMaterialWeapons'] = get_from_csv("structures.csv")
+    structHolder['structures'] = get_from_csv("structures.csv")
 
     
     return structHolder

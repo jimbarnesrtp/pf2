@@ -1,7 +1,7 @@
 {
-    "name": "Pathfinder 2.0 dieties list",
+    "name": "Pathfinder 2.0 deities list",
     "date": "October 02, 2019",
-    "meleeWeapons": [{
+    "deitiesWeapons": [{
         "name": "Abadar",
         "link": "https://2e.aonprd.com/Deities.aspx?ID=1",
         "alignment": ["LN"],

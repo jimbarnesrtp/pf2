@@ -5,9 +5,9 @@ import datetime
 import codecs
 import time
 
-wornHolder = {}
-wornHolder['name'] = 'Pathfinder 2.0 marterial list'
-wornHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
+materialHolder = {}
+materialHolder['name'] = 'Pathfinder 2.0 marterial list'
+materialHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 def get_multi(link):
     material = {}
@@ -237,12 +237,12 @@ def get_all():
           #  single['category'] = "worn item"
            # items.append(single)
 
-    wornHolder['material'] = items
+    materialHolder['material'] = items
 
     #wordHolder['rangedWeapons'] = get
 
     
-    return wornHolder
+    return materialHolder
 
 #print(get_all())
 json_data = json.dumps(get_all())

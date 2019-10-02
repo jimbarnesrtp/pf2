@@ -25,14 +25,14 @@
 * Materials
 * Hazards
 * Conditions
+* Domains
+* Dieties
+* Rituals
 
 ### What is next
 * Artifacts
 * Drugs
 * Tattoos
-* Dieties
-* Domains
-* Rituals
 * Skills
 
 

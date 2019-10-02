@@ -1,7 +1,7 @@
 {
   "name": "Pathfinder 2.0 Wand list",
   "date": "September 26, 2019",
-  "specialMaterialWeapons": [
+  "wands": [
     {
       "link": "https://2e.aonprd.com/Equipment.aspx?ID=368",
       "source": "Core Rulebook pg. 597",

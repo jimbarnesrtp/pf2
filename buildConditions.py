@@ -96,7 +96,7 @@ def get_links():
 
 
 def get_all():
-    condHolder['specialMaterialWeapons'] = get_links()
+    condHolder['conditions'] = get_links()
 
     
     return condHolder

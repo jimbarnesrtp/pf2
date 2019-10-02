@@ -269,7 +269,7 @@ def get_all():
             single['category'] = "hazard"
             items.append(single)
 
-    hazardHolder['wornItems'] = items
+    hazardHolder['hazards'] = items
 
     #hazardHolder['rangedWeapons'] = get
 

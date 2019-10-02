@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder 2.0 Hazard list",
     "date": "September 27, 2019",
-    "wornItems": [{
+    "hazards": [{
         "traits": ["Mechanical", "Trap"],
         "name": "Hidden PitHazard",
         "text": [],

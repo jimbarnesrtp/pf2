@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder 2.0 Structures list",
     "date": "September 26, 2019",
-    "specialMaterialWeapons": [{
+    "structures": [{
         "traits": ["Conjuration", "Magical", "Structure"],
         "name": "Pocket Stage",
         "text": ["This item appears to be a miniature replica of a theater. It includes a small pocket full of minute set dressing and costumed paper dolls."],

@@ -6,7 +6,7 @@ import codecs
 import time
 
 deityHolder = {}
-deityHolder['name'] = 'Pathfinder 2.0 dieties list'
+deityHolder['name'] = 'Pathfinder 2.0 deities list'
 deityHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 def get_details(link):
@@ -106,7 +106,7 @@ def get_domains(link):
 
 
 def get_all():
-    deityHolder['meleeWeapons'] = get_domains("https://2e.aonprd.com/Deities.aspx")
+    deityHolder['deities'] = get_domains("https://2e.aonprd.com/Deities.aspx")
 
     #deityHolder['rangedWeapons'] = get
 

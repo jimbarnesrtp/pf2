@@ -80,7 +80,7 @@ def get_domains(link):
 
 
 def get_all():
-    domainHolder['meleeWeapons'] = get_domains("https://2e.aonprd.com/Domains.aspx")
+    domainHolder['domains'] = get_domains("https://2e.aonprd.com/Domains.aspx")
 
     #domainHolder['rangedWeapons'] = get
 

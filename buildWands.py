@@ -236,7 +236,7 @@ def get_from_csv(fileName):
 
 
 def get_all():
-    wandHolder['specialMaterialWeapons'] = get_from_csv("wands.csv")
+    wandHolder['wands'] = get_from_csv("wands.csv")
 
     
     return wandHolder
