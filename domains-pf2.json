@@ -1,0 +1,301 @@
+{
+    "name": "Pathfinder 2.0 domains list",
+    "date": "October 02, 2019",
+    "meleeWeapons": [{
+        "name": "Air",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=2",
+        "description": "You can control winds and the weather.",
+        "domainSpell": "Pushing Gust",
+        "advancedDomainSpell": "Disperse into Air",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Gozreh,Rovagug"
+    }, {
+        "name": "Ambition",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=1",
+        "description": "You strive to keep up with and outpace the competition.",
+        "domainSpell": "Blind Ambition",
+        "advancedDomainSpell": "Competitive Edge",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Zon-Kuthon"
+    }, {
+        "name": "Cities",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=3",
+        "description": "You have powers over urban environments and denizens.",
+        "domainSpell": "Face in the Crowd",
+        "advancedDomainSpell": "Pulse of the City",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Abadar,Cayden Cailean"
+    }, {
+        "name": "Confidence",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=4",
+        "description": "You overcome your fear and project pride.",
+        "domainSpell": "Veil of Confidence",
+        "advancedDomainSpell": "Delusional Pride",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Asmodeus,Gorum,Iomedae"
+    }, {
+        "name": "Creation",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=5",
+        "description": "You have divine abilities related to crafting and art.",
+        "domainSpell": "Splash of Art",
+        "advancedDomainSpell": "Artistic Flourish",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Shelyn,Torag"
+    }, {
+        "name": "Darkness",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=6",
+        "description": "You operate in the darkness and take away the light.",
+        "domainSpell": "Cloak of Shadow",
+        "advancedDomainSpell": "Darkened Eyes",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Zon-Kuthon"
+    }, {
+        "name": "Death",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=7",
+        "description": "You have the power to end lives and destroy undead.",
+        "domainSpell": "Death's Call",
+        "advancedDomainSpell": "Eradicate Undeath",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Norgorber,Pharasma"
+    }, {
+        "name": "Destruction",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=8",
+        "description": "You are a conduit for divine devastation.",
+        "domainSpell": "Cry of Destruction",
+        "advancedDomainSpell": "Destructive Aura",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Gorum,Nethys,Rovagug,Treerazer,Zon-Kuthon"
+    }, {
+        "name": "Dreams",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=9",
+        "description": "You have the power to enter and manipulate dreams.",
+        "domainSpell": "Sweet Dream",
+        "advancedDomainSpell": "Dreamer's Call",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Desna"
+    }, {
+        "name": "Earth",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=10",
+        "description": "You control soil and stone.",
+        "domainSpell": "Hurtling Stone",
+        "advancedDomainSpell": "Localized Quake",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Abadar,Erastil,Rovagug,Torag"
+    }, {
+        "name": "Family",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=11",
+        "description": "You aid and protect your family and community more effectively.",
+        "domainSpell": "Soothing Words",
+        "advancedDomainSpell": "Unity",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Erastil,Lamashtu,Shelyn,Torag"
+    }, {
+        "name": "Fate",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=12",
+        "description": "You see and understand hidden inevitabilities.",
+        "domainSpell": "Read Fate",
+        "advancedDomainSpell": "Tempt Fate",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Pharasma"
+    }, {
+        "name": "Fire",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=13",
+        "description": "You control flame.",
+        "domainSpell": "Fire Ray",
+        "advancedDomainSpell": "Flame Barrier",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Asmodeus,Sarenrae"
+    }, {
+        "name": "Freedom",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=14",
+        "description": "You liberate yourself and others from shackles and constraints.",
+        "domainSpell": "Unimpeded Stride",
+        "advancedDomainSpell": "Word of Freedom",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Cayden Cailean"
+    }, {
+        "name": "Healing",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=15",
+        "description": "Your healing magic is particularly potent.",
+        "domainSpell": "Healer's Blessing",
+        "advancedDomainSpell": "Rebuke Death",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Pharasma,Sarenrae"
+    }, {
+        "name": "Indulgence",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=16",
+        "description": "You feast mightily and can shake off the effects of overindulging.",
+        "domainSpell": "Overstuff",
+        "advancedDomainSpell": "Take its Course",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Cayden Cailean,Gogunta,Urgathoa"
+    }, {
+        "name": "Knowledge",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=17",
+        "description": "You receive divine insights.",
+        "domainSpell": "Scholarly Recollection",
+        "advancedDomainSpell": "Know the Enemy",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Irori,Nethys,Pharasma"
+    }, {
+        "name": "Luck",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=18",
+        "description": "You\u2019re unnaturally lucky and keep out of harm\u2019s way.",
+        "domainSpell": "Bit of Luck",
+        "advancedDomainSpell": "Lucky Break",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Desna"
+    }, {
+        "name": "Magic",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=19",
+        "description": "You perform the unexpected and inexplicable.",
+        "domainSpell": "Magic's Vessel",
+        "advancedDomainSpell": "Mystic Beacon",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Nethys,Urgathoa"
+    }, {
+        "name": "Might",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=20",
+        "description": "Your physical power is bolstered by divine strength.",
+        "domainSpell": "Athletic Rush",
+        "advancedDomainSpell": "Enduring Might",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Cayden Cailean,Gogunta,Gorum,Iomedae,Irori,Lamashtu,Urgathoa"
+    }, {
+        "name": "Moon",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=21",
+        "description": "You command powers associated with the moon.",
+        "domainSpell": "Moonbeam",
+        "advancedDomainSpell": "Touch of the Moon",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Desna"
+    }, {
+        "name": "Nature",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=22",
+        "description": "You hold power over animals and plants.",
+        "domainSpell": "Vibrant Thorns",
+        "advancedDomainSpell": "Nature's Bounty",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Erastil,Gozreh,Treerazer"
+    }, {
+        "name": "Nightmares",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=23",
+        "description": "You fill minds with horror and dread.",
+        "domainSpell": "Walking Nightmare",
+        "advancedDomainSpell": "Shared Nightmare",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Lamashtu,Treerazer"
+    }, {
+        "name": "Pain",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=24",
+        "description": "You punish those who displease you with the sharp sting of pain.",
+        "domainSpell": "Savor the Sting",
+        "advancedDomainSpell": "Retributive Pain",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Calistria,Zon-Kuthon"
+    }, {
+        "name": "Passion",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=25",
+        "description": "You evoke passion, whether as love or lust.",
+        "domainSpell": "Charming Touch",
+        "advancedDomainSpell": "Captivating Adoration",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Calistria,Shelyn"
+    }, {
+        "name": "Perfection",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=26",
+        "description": "You strive to perfect your mind, body, and spirit.",
+        "domainSpell": "Perfected Mind",
+        "advancedDomainSpell": "Perfected Form",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Irori"
+    }, {
+        "name": "Protection",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=27",
+        "description": "You ward yourself and others.",
+        "domainSpell": "Protector's Sacrifice",
+        "advancedDomainSpell": "Protector's Sphere",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Nethys,Shelyn,Torag"
+    }, {
+        "name": "Secrecy",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=28",
+        "description": "You protect secrets and keep them hidden.",
+        "domainSpell": "Forced Quiet",
+        "advancedDomainSpell": "Safeguard Secret",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Calistria,Norgorber"
+    }, {
+        "name": "Sun",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=29",
+        "description": "You harness the power of the sun and other light sources, and punish undead.",
+        "domainSpell": "Dazzling Flash",
+        "advancedDomainSpell": "Positive Luminance",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Sarenrae"
+    }, {
+        "name": "Travel",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=30",
+        "description": "You have power over movement and journeys.",
+        "domainSpell": "Agile Feet",
+        "advancedDomainSpell": "Traveler's Transit",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Abadar,Desna,Gozreh"
+    }, {
+        "name": "Trickery",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=31",
+        "description": "You deceive others and cause mischief.",
+        "domainSpell": "Sudden Shift",
+        "advancedDomainSpell": "Trickster's Twin",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Asmodeus,Calistria,Lamashtu,Norgorber"
+    }, {
+        "name": "Truth",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=32",
+        "description": "You pierce lies and discover the truth.",
+        "domainSpell": "Word of Truth",
+        "advancedDomainSpell": "Glimpse the Truth",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Iomedae,Irori,Sarenrae"
+    }, {
+        "name": "Tyranny",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=33",
+        "description": "You wield power to rule and enslave others.",
+        "domainSpell": "Touch of Obedience",
+        "advancedDomainSpell": "Commanding Lash",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Asmodeus,Gogunta,Treerazer"
+    }, {
+        "name": "Undeath",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=34",
+        "description": "Your magic carries close ties to the undead.",
+        "domainSpell": "Touch of Undeath (Cleric)",
+        "advancedDomainSpell": "Malignant Sustenance",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Urgathoa"
+    }, {
+        "name": "Water",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=35",
+        "description": "You control water and bodies of water.",
+        "domainSpell": "Tidal Surge",
+        "advancedDomainSpell": "Downpour",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Gogunta,Gozreh"
+    }, {
+        "name": "Wealth",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=36",
+        "description": "You hold power over wealth, trade, and treasure.",
+        "domainSpell": "Appearance of Wealth",
+        "advancedDomainSpell": "Precious Metals",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Abadar,Erastil,Norgorber"
+    }, {
+        "name": "Zeal",
+        "link": "https://2e.aonprd.com/Domains.aspx?ID=37",
+        "description": "Your inner fire increases your combat prowess.",
+        "domainSpell": "Weapon Surge",
+        "advancedDomainSpell": "Zeal for Battle",
+        "Source": "Core Rulebook pg. 441",
+        "deities": "Gorum,Iomedae,Rovagug"
+    }]
+}
