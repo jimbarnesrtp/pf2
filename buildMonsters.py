@@ -9,700 +9,366 @@ monsterHolder = {}
 monsterHolder['name'] = 'Pathfinder 2.0 monster list'
 monsterHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
-monsters = []
+attackEle = set(("Critical Success", "Success", "Failure", "Effect", "Frequency"))
 
-def get_dragons(link):
-    res = requests.get(link)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, 'lxml')
-    monster = soup.find_all("div", {'class':'article-content'})
+def get_single(link):
+    details = {}
+    itemDetails = {}
+    res2 = requests.get(link)
+    res2.raise_for_status()
+    soup2 = BeautifulSoup(res2.text, 'lxml')
+    detail = soup2.find(lambda tag: tag.name=='span' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_DetailedOutput") 
 
-    children = monster[0].findChildren(recursive=False)
-    monsters = {}
-    monsterIndex = 0
-    lastSpellName = ""
-    isFirstLine = True
-    aboutHolder = []
-    aboutText = False
-    dragonType = ""
-    for child in children:
-        isLineProcessed = False
-        #print(child.name)
-        
-        tagName = child.name
-        
-        if tagName == "h4":
-            classHolder = child.get("class")
-            
-            if classHolder is None:
-                text = child.text
-                print("in here:", text)
+    attacks = soup2.find_all("span", {'class':'hanging-indent'})
 
-                if text.startswith("Young G"):
-                    dragonType = "Young Gold Dragon"
-                elif text.startswith("Adult G"):
-                    dragonType = "Adult Gold Dragon"
-                elif text.startswith("Ancient Gold"):
-                    dragonType = "Ancient Gold Dragon"
-                continue
-            if 'monsters' not in monsters:
-                monsters['monsters'] = []
-            else:
-                monsterIndex += 1
-            monsters['monsters'].append({})
+    inDamage = False
+    attack = {}
+    attackHolder = []
+    spellProc = False
+    spellHolder = []
+    spell = {}
+    for att in attacks:
+        inDamage = False
+        attack = {}
+        children2 = att.contents
+        for child2 in children2:
+            stringContents2 = str(child2) 
 
-            
-            monsters['monsters'][monsterIndex]['name'] = child.contents[0]
-            monsters['monsters'][monsterIndex]['level'] = child.find("span", {'class':'monster-level'}).text
-            monsters['monsters'][monsterIndex]['link'] = link
-            monsters['monsters'][monsterIndex]['type'] = child.find("span", {'class':'monster-type'}).text
-            monsters['monsters'][monsterIndex]['monsterText'] = []
-            monsters['monsters'][monsterIndex]['specials'] = []
-            isLineProcessed = True
-        
-        if tagName == "div":
-            print("checking for special")
-            try:
-                pClass = child['class'][0]
-                #print(pClass)
-            except: 
-                pClass = ""
-            print("specialCheck:", pClass)
-            if pClass == "special-abilities":
-                
-                specialScratch = child.findChildren(recursive=False)
-                if len(specialScratch) > 0:
-                    print("in here")
-                    for scratch in specialScratch:
-                        monsters['monsters'][monsterIndex]['specials'].append(scratch.text)
-
-        if tagName == "p":
-            text = child.text
-            if text == 'About':
-                aboutText = True
-
-            try:
-
-                pClass = child['class'][0]
-                #print(pClass)
-            except: 
-                pClass = ""
-
-            if pClass == "traits":
-                traitsScratch = child.find_all("span", {'class':'trait'})
-                traits = []
-                if traitsScratch is not None:
-                    if(len(traitsScratch) < 2):
-                        monsters['monsters'][monsterIndex]['monsterText'].append(traitsScratch[0].text)
-                    else:
-                        monsters['monsters'][monsterIndex]['alignment'] = child.find("span", {'class':'alignment'}).text
-                        monsters['monsters'][monsterIndex]['size'] = child.find("span", {'class':'size'}).text
-                        frequency = child.find("span", {'class':'frequency'})
-                        if frequency is not None:
-                            monsters['monsters'][monsterIndex]['frequency'] = frequency.text
-                        for trait in traitsScratch:
-                            traits.append(trait.text)
-                monsters['monsters'][monsterIndex]['traits'] = traits
-                print(monsters['monsters'][monsterIndex]['name'])
-                isLineProcessed = True
-            
-            if "Senses" in text:
-                start = text.find("Senses") + 7
-                monsters['monsters'][monsterIndex]['senses'] = re.split('; |, ',text[start:])
-                isLineProcessed = True
-            
-            if "Languages" in text:
-                start = text.find("Languages") + 10
-                monsters['monsters'][monsterIndex]['languages'] = re.split('; |, ',text[start:])
-                isLineProcessed = True
-
-            if "Skills" in text:
-                start = text.find("Skills") + 7
-                monsters['monsters'][monsterIndex]['skills'] = re.split('; |, ',text[start:])
-                isLineProcessed = True
-            
-            if text.startswith("Str"):
-                monsters['monsters'][monsterIndex]['abilities'] = text.split(',')
-                isLineProcessed = True
-
-            if "Items" in text:
-                start = text.find("Items") + 6
-                end = text.find(";", start)
-                endAC = text.find("AC", start)
-                if end < 0:
-                    if not endAC < 0:
-                        end = AC 
-                else:
-                    if endAC  < end:
-                        end = endAC 
-                if end < 0 :
-                    monsters['monsters'][monsterIndex]['items'] = text[start:].split(',')
-                else: 
-                    monsters['monsters'][monsterIndex]['items'] = text[start:end].split(',')
-                isLineProcessed = True
-
-            if "AC" in text:
-                start = text.find("AC") + 3
-                end = text.find(";", start)
-                if end < start:
-                    end = text.find("Fort", start)
-                monsters['monsters'][monsterIndex]['ac'] = text[start:end]
-                isLineProcessed = True
-
-            if "Fort " in text:
-                start = text.find("Fort")
-                end = text.find(";", start)
-                if end < 0 :
-                    monsters['monsters'][monsterIndex]['saves'] = text[start:].split(",")
-                else: 
-                    monsters['monsters'][monsterIndex]['saves'] = text[start:end].split(",")
-                isLineProcessed = True
-            
-            if "Will +" in text:
-                start = text.find("Will +") + 7
-                end = text.find(";", start) + 2
-                if end < start:
-                    print("no extra saves")
-                else:
-                    monsters['monsters'][monsterIndex]['saves'].append(text[end:])
-                isLineProcessed = True
-
-            if "HP" in text:
-                if 'hp' not in monsters['monsters'][monsterIndex]:
-                    start = text.find("HP") + 3
-                    end = text.find(";", start)
-                    if end < 0 :
-                        monsters['monsters'][monsterIndex]['hp'] = text[start:].split(',')
-                    else: 
-                        monsters['monsters'][monsterIndex]['hp'] = text[start:end].split(',')
-                    
-                isLineProcessed = True
-            
-            if "Immunities" in text:
-                start = text.find("Immunities") + 11
-                end = text.find(";", start)
-                if end < 0 :
-                    monsters['monsters'][monsterIndex]['immunities'] = text[start:].split(',')
-                else: 
-                    monsters['monsters'][monsterIndex]['immunities'] = text[start:end].split(',')
-                
-                isLineProcessed = True
-
-            if "Weaknesses" in text:
-                start = text.find("Weaknesses") + 11
-                end = text.find(";", start)
-                endResistences = text.find("Resistances", start)
-                if end < 0:
-                    if not endResistences < 0:
-                        end = endResistences
-                else:
-                    if endResistences < end:
-                        end = endResistences
-                if end < 0 :
-                    monsters['monsters'][monsterIndex]['weaknesses'] = text[start:].split(',')
-                else: 
-                    monsters['monsters'][monsterIndex]['weaknesses'] = text[start:end].split(',')
-                isLineProcessed = True
-            
-            if "Resistances" in text:
-                start = text.find("Resistances") + 11
-                end = text.find(";", start)
-                if end < 0 :
-                    monsters['monsters'][monsterIndex]['resistances'] = text[start:].split(',')
-                else: 
-                    monsters['monsters'][monsterIndex]['resistances'] = text[start:end].split(',')
-                isLineProcessed = True
-                
-            
-            if "Speed" in text:
-                if 'speed' not in monsters['monsters'][monsterIndex]:
-                    start = text.find("Speed") + 6
-                    end = text.find(";", start)
-                    if end < 0 :
-                        monsters['monsters'][monsterIndex]['speed'] = text[start:].split(',')
-                    else: 
-                        monsters['monsters'][monsterIndex]['speed'] = text[start:end].split(',')
-                isLineProcessed = True
-            
-            if text.startswith("Melee"):
-                
-                if 'actions' not in monsters['monsters'][monsterIndex]:
-                    actionHolder = []
-                    actionHolder.append(text)
-                    monsters['monsters'][monsterIndex]['actions'] = actionHolder
-                else:
-                    monsters['monsters'][monsterIndex]['actions'].append(text)
-                isLineProcessed = True
-            
-            if text.startswith("Ranged"):
-                if 'actions' not in monsters['monsters'][monsterIndex]:
-                    actionHolder = []
-                    actionHolder.append(text)
-                    monsters['monsters'][monsterIndex]['actions'] = actionHolder
-                else:
-                    monsters['monsters'][monsterIndex]['actions'].append(text)
-                isLineProcessed = True
-            
-            if text.startswith("Breath Weapon"):
-                
-                if 'breathWeapon' not in monsters['monsters'][monsterIndex]:
-                    actionHolder = []
-                    actionHolder.append(text)
-                    monsters['monsters'][monsterIndex]['breathWeapon'] = actionHolder
-                else:
-                    monsters['monsters'][monsterIndex]['breathWeapon'].append(text)
-                isLineProcessed = True
-            
-            if  (text.startswith("Divine Innate Spells")) or (text.startswith("Arcane Innate Spells")):
-                spells = {}
-                start = text.find("Innate Spells") + 13
-                end = text.find(";",start)
-                if end < 0 :
-                    spellAttack = text[start:].split(",")
-                else: 
-                    spellAttack = text[start:end].split(",")
-                
-                spells['dc'] = spellAttack[0][3:]
-                if len(spellAttack) > 1:
-                    spells['attack'] = spellAttack[1][7:]
-                spells['spells'] = text[end+1:].split(";")
-                monsters['monsters'][monsterIndex]['innateSpells'] = spells
-                lastSpellName = 'innateSpells'
-                isLineProcessed = True
-
-            if (text.startswith("Occult Spontaneous Spells")) or (text.startswith("Divine Spontaneous Spells")) or (text.startswith("Arcane Spontaneous Spells")):
-                spells = {}
-                start = text.find("Spontaneous Spells") + 19
-                end = text.find(";",start)
-                if end < 0 :
-                    spellAttack = text[start:].split(",")
-                else: 
-                    spellAttack = text[start:end].split(",")
-                
-                spells['dc'] = spellAttack[0][3:]
-                if len(spellAttack) > 1:
-                    spells['attack'] = spellAttack[1][7:]
-                if "Note:" in text:
-                    spells['note'] = spellAttack[2][5:]
-                else: 
-                    spells['spells'] = text[end+1:].split(";")
-                monsters['monsters'][monsterIndex]['spontaneousSpells'] = spells
-                lastSpellName = 'spontaneousSpells'
-                isLineProcessed = True
-            
-            if (text.startswith("Primal Prepared Spells")) or (text.startswith("Arcane Prepared Spells")) or (text.startswith("Divine Prepared Spells")) :
-                spells = {}
-                start = text.find("Prepared Spells") + 16
-                end = text.find(";",start)
-                if end < 0 :
-                    spellAttack = text[start:].split(",")
-                else: 
-                    spellAttack = text[start:end].split(",")
-                if "" != dragonType:
-                    position = 0
-                    for dragon in monsters['monsters']:
+            if stringContents2.startswith("<"):
+                if child2.name == "b":
+                    if "Spells" in stringContents2:
+                        spellProc = True
+                        if 'name' in spell:
+                            spellHolder.append(spell)
+                            spell = {}
+                        spell['name'] = child2.text
                         
-                        if dragonType == dragon['name']:
-                            monsterIndex = position
-                            print("monsterIndex:", monsterIndex)
+                    else:
+                        x = re.search("\A\d+(th|st|rd|nd)", child2.text)
+                        if 'Cantrips' in child2.text:
+                            if 'text' in spell:
+                                spell['text'] += child2.text
+                            else:
+                                spell['text'] = child2.text
+                        elif x:
+                            if 'text' in spell:
+                                spell['text'] += child2.text
+                            else:
+                                spell['text'] = child2.text
                         else:
-                            position += 1
-
-                spells['dc'] = spellAttack[0][3:]
-                if len(spellAttack) > 1:
-                    spells['attack'] = spellAttack[1][7:]
-                if "Note" in text:
-                    spells['note'] = text[end+6:]
-                else: 
-                    if "dragon, plus" in text:
-                        start = text.find("dragon, plus")  + 13
-                        print("in here 2", dragonType)
-                        
-                        previousIndex = monsterIndex - 1                           
-                        print (monsterIndex)
-                        listHolder =  text[start:].split(";") + monsters['monsters'][previousIndex]['preparedSpells']['spells']
-                        spells['spells'] = listHolder
+                            spellProc = False
+                            #not sure if this should be in the iff or not
+                            if child2.text == "Damage":
+                                inDamage = True
+                            elif child2.text in attackEle:
+                                attack['text'] += child2.text
+                            else:
+                                attack['name'] = child2.text
+                if child2.name == "i":
+                    print(child2.text)
+                if child2.name == "img":
+                    attack['actions'] = child2['alt']
+                if child2.name == "a":
+                    if spellProc:
+                        if 'text' in spell:
+                            spell['text'] += child2.text
+                        else:
+                            spell['text'] = child2.text
+                    elif 'text' in attack:
+                        attack['text'] += child2.text
                     else:
-                        spells['spells'] = text[end+1:].split(";")
-
-                monsters['monsters'][monsterIndex]['preparedSpells'] = spells
-                lastSpellName = 'preparedSpells'
-                isLineProcessed = True
-            
-            if not isLineProcessed:
-                x = re.search("\A\d+(th|st|rd|nd)", text)
-                if x:
-                    monsters['monsters'][monsterIndex][lastSpellName]['spells'] = text.split(";")
-                    isLineProcessed = True
-                
-                if "dragon, plus" in text:
-                    start = text.find("dragon, plus")  + 13
-                    previousIndex = monsterIndex - 1
-                    listHolder =  text[start:].split(";") + monsters['monsters'][previousIndex][lastSpellName]['spells']
-                    monsters['monsters'][monsterIndex][lastSpellName]['spells'] = listHolder
-                
-            
-            if not isLineProcessed:
-                if aboutText:
-                    aboutHolder.append(text)
-                else: 
-                    try:
-                        #print(para.parent['class'])
-                        parentClass = para.parent['class'][0]
-                    except: 
-                        #print("no Parent")
-                        parentClass = ""
-                    if "special-abilities" != parentClass:
-                        #print(text)
-                        monsters['monsters'][monsterIndex]['monsterText'].append(child.text)
+                        attack['text'] = child2.text
+            else:
+                if inDamage:
+                    attack['damage'] = stringContents2
+                else:
+                    if spellProc:
+                        if 'text' in spell:
+                            spell['text'] += stringContents2
+                        else:
+                            spell['text'] = stringContents2
                     else:
-                        
-                        print("skipped")
+                        if 'text' in attack:
+                            attack['text'] += stringContents2
+                        else:
+                            attack['text'] = stringContents2
+        attackHolder.append(attack)
+                
 
-    for monster in monsters['monsters']:
 
-        listHolder = monster['monsterText'] + aboutHolder
-        monster['monsterText'] = listHolder
 
+
+    traits = detail.find_all("span", {"class" : lambda L: L and L.startswith('trai')})
+    traitHolder = []
+    for trait in traits:
+        traitHolder.append(trait.text)
+    details['traits'] = traitHolder
+    children = detail.contents
+    detailHolder = []
+    tagType = ""
+    h1Count = 0
+    hrCount = 0
+    inActions = False
+    inAttacks = False
+    pastHp = False
+    actionHolder = []
+    action = {}
+    itemHolder = []
+    skillsHolder = []
+    string = ","
+    langHolder = []
+    attack = {}
+    
+    
+    for child in children:
+
+        stringContents = str(child)
+        if "All Monsters in" in stringContents:
+            break
+
+        if stringContents.startswith("<"):
+            #print(child.name,"|",tagType)
+            if child.name == "hr":
+                hrCount += 1
+                if hrCount == 1:
+                    inActions = True
+                if hrCount == 2:
+                    inActions = False
+                    inAttacks = True
+                tagType = ""
+
+            if child.name == "h1":
+                h1Count += 1
+            
+            if child.name == "h3":
+                tagType = ""
+            
+            if child.name == "a":
+
+                try:
+                    if child['class'][0] == "external-link" :
+                        details['source'] = child.text
+                        #print("In here 5")
+                        tagType = ""
+                except:
+                    pass
+                if not child.text.isspace():
+                    #print(child.text,"|",tagType)
+                    if spellProc:
+                        if 'text' in spell:
+                            spell['text'] += child.text
+                        else:
+                            spell['text'] = child.text
+                    elif tagType == "Skills":
+                        skillsHolder.append(child.text)
+                    elif tagType == "Items":
+                        itemHolder.append(child.text)
+                    elif tagType == "Languages":
+                        langHolder.append(child.text)
+                    elif tagType == "Resistances":
+                        if tagType in details:
+                            details[tagType] += child.text
+                        else:
+                            details[tagType] = child.text
+                    elif inActions:
+                        if 'text' in action:
+                            action['text'] += child.text
+                        else:
+                            action['text'] = child.text
+            if child.name == "u":
+                if  not child.text.isspace():
+                    if tagType == "Skills":
+                        skillsHolder.append(child.text) 
+                    if tagType == "Items":
+                        itemHolder.append(child.text)   
+            if child.name == "b":
+                spellProc = False
+                if inActions and pastHp:
+                    if child.text != "Trigger" and child.text != "Immunities" and child.text != "Resistances" and child.text != "Effect" and child.text != "Weaknesses":
+                        #print("in here 1")
+                        tagType = ""
+                        if (len(action.keys()) > 0):
+                            actionHolder.append(action)
+                            action = {}
+                        action['name'] = child.text
+                    else:
+                        #print(child.text)
+                        if "Spells" not in child.text:
+                            tagType = child.text 
+                    
+                elif inAttacks: 
+                    if "Spells" in child.text:
+                        spellProc = True
+                        #print("in here 2")
+                        tagType = ""
+                        if 'name' in spell:
+                            spellHolder.append(spell)
+                            spell = {}
+                        spell['name'] = child.text
+                        continue
+                    else: 
+                        spellProc = False
+                    x = re.search("\A\d+(th|st|rd|nd)", child.text)
+                    esc = re.escape("(")
+                    y = re.search("\A"+esc +"\d+(th|st|rd|nd)",child.text)
+                    if 'Cantrips' in child.text:
+                        spellProc = True
+                        if 'text' in spell:
+                            spell['text'] += child.text
+                        else:
+                            spell['text'] = child.text
+                        #print("IN here 3")
+                        tagtype = ""
+                    elif x:
+                        spellProc = True
+                        if 'text' in spell:
+                            spell['text'] += child.text
+                        else:
+                            spell['text'] = child.text
+                        #print("In here 6")
+                        tagtype = ""
+                    elif y:
+                        spellProc = True
+                        if 'text' in spell:
+                            spell['text'] += child.text
+                        else:
+                            spell['text'] = child.text
+                        #print("In here 7")
+                        tagtype = ""
+                    else:
+                        spellProc = False
+                        #print("2nd:",child.text)
+                        if 'name' in attack and (not tagType.startswith("Speed")) :
+                            pass
+                        else:
+                            tagType = child.text
+                    #print("3rd:",tagType)
+                
+                    
+                else:      
+                    if(child.text != "Source" and child.text != "Trigger" and "Spells" not in child.text):
+                        tagType = child.text
+                        if tagType == "HP":
+                            pastHp = True
+            #print("In here 11:",tagType)  
+            
+            if child.name == "img":
+                if inActions:
+                    action['action'] = child['alt']
+                else:
+                    details['actions'] = child['alt']
+            if child.name == "i":
+                #print(spellProc,child.text)
+                if spellProc:
+                    if 'text' in spell:
+                        spell['text'] += child.text
+                    else:
+                        spell['text'] = child.text
+                elif tagType != "":
+                    if not stringContents.isspace():
+                        details[tagType] = stringContents
+            #print("In here 10:",tagType)                 
+            if child.name == "li":
+                if inActions:
+                    action['Effect'] += child.text
+            if child.name == "ul":
+                if inActions:
+                    action['Effect'] += child.text
+            #else:
+                #if not stringContents.isspace() :
+                    #detailHolder.append(child.text)        
+        else:
+            if tagType != "" :
+                if not stringContents.isspace():
+                    
+                    if inActions and ('name' in action) and (tagType != "Speed"):
+                        action[tagType] = stringContents
+                    else:
+                        if tagType == "Skills":
+                            skillsHolder.append(stringContents)
+                        elif tagType == "Items":
+                            itemHolder.append(stringContents)
+                        else:
+                            if tagType in details:
+                                details[tagType] += stringContents
+                            else:
+                                details[tagType] = stringContents
+            else:
+                if inActions:
+                    if 'text' in action:
+                        action['text'] += stringContents
+                    else:
+                        action['text'] = stringContents
+                elif h1Count < 2:
+                    detailHolder.append(stringContents) 
+                elif spellProc:
+                    if 'text' in spell:
+                        spell['text'] += stringContents
+                    else:
+                        spell['text'] = stringContents
+        #print("4th:",stringContents,"|type:",tagType)       
+
+       #print(child)
+    #print("final:",stringContents)
+    if 'name' in action:
+        actionHolder.append(action)
+
+    if 'name' in spell:
+        spellHolder.append(spell)
+    details['spells'] = spellHolder
+    details['Languages'] = langHolder
+    details['skills'] = skillsHolder
+    details['items'] = itemHolder
+    details['actions'] = actionHolder
+    details['attacks'] = attackHolder
+    details['text'] = string.join(detailHolder)
+    return details
+
+def get_all():
+    monsters = []
+    res = requests.get("https://2e.aonprd.com/Monsters.aspx?Letter=All")
+    res.raise_for_status()
+    soup = BeautifulSoup(res.text, 'html.parser')
+    table = soup.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TableElement") 
+    rows = table.findAll(lambda tag: tag.name=='tr')
+    t = 0
+    for row in rows:
+        t += 1
+        #print(row)
+        #print("-----------------------------------")
+        monster = {}
+        entries = row.find_all(lambda tag: tag.name=='td')
+        #print(len(entries))
+        if entries is not None:
+            if len(entries) > 0:
+                monster['name'] = entries[0].find("a").text
+                monster['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                monster['family'] = entries[1].text
+                monster['level'] = entries[2].text
+                monster['alignment'] = entries[3].text
+                monster['type'] = entries[4].text
+                monster['size'] = entries[5].text
+                monsters.append(monster)
+                
+               
+                
+
+        #if t > 3:
+            #break
+    
+    for monster in monsters:
+        print("Getting details for :",monster['name'])
+        monsterDetails = get_single(monster['link'])
+        for key in monsterDetails.keys():
+            monster[key] = monsterDetails[key]
+        
+    
     return monsters
 
-def get_monster(link):
-    monsterDetail = {}
-    res = requests.get(link)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, 'lxml')
-    monster = soup.find_all("div", {'class':'article-content'})
-    
-    traitsScratch = monster[0].find_all("span", {'class':'trait'})
-    traits = []
-    if traitsScratch is not None:
-        for trait in traitsScratch:
-            traits.append(trait.text)
-    monsterDetail['traits'] = traits
-
-    frequency = monster[0].find("span", {'class':'frequency'})
-    if frequency is not None:
-        monsterDetail['frequency'] = frequency.text
-
-
-    monsterDetail['alignment'] = monster[0].find_all("span", {'class':'alignment'})[0].text
-    monsterDetail['size'] = monster[0].find_all("span", {'class':'size'})[0].text
-    typeScratch = monster[0].find_all("span", {'class':'monster-type'}) 
-    if typeScratch is not None:
-        if len(typeScratch) > 0:
-            monsterDetail['type'] = monster[0].find_all("span", {'class':'monster-type'})[0].text
-
-    monsterDetail['specials'] = []
-    specialScratch = monster[0].find_all("div", {'class':'special-abilities'})
-    if len(specialScratch) > 0:
-        for scratch in specialScratch:
-            specials = scratch.find_all("p")
-            for special in specials:
-                monsterDetail['specials'].append(special.text)
-
-    paras = monster[0].find_all("p")
-    monsterText = []
-    isFirstLine = True
-    lastSpellName = ""
-    for para in paras:
-        isLineProcessed = False
-        text = para.text
-        if "Senses" in text:
-            start = text.find("Senses") + 7
-            monsterDetail['senses'] = re.split('; |, ',text[start:])
-            isLineProcessed = True
-        
-        if "Languages" in text:
-            start = text.find("Languages") + 10
-            monsterDetail['languages'] = re.split('; |, ',text[start:])
-            isLineProcessed = True
-
-        if "Skills" in text:
-            start = text.find("Skills") + 7
-            monsterDetail['skills'] = re.split('; |, ',text[start:])
-            isLineProcessed = True
-        
-        if text.startswith("Str"):
-            monsterDetail['abilities'] = text.split(',')
-            isLineProcessed = True
-
-        if "Items" in text:
-            start = text.find("Items") + 6
-            end = text.find(";", start)
-            endAC = text.find("AC", start)
-            if end < 0:
-                if not endAC < 0:
-                    end = AC 
-            else:
-                if endAC  < end:
-                    end = endAC 
-            if end < 0 :
-                monsterDetail['items'] = text[start:].split(',')
-            else: 
-                monsterDetail['items'] = text[start:end].split(',')
-            isLineProcessed = True
-
-        if "AC" in text:
-            start = text.find("AC") + 3
-            end = text.find(";", start)
-            if end < start:
-                end = text.find("Fort", start)
-            monsterDetail['ac'] = text[start:end]
-            isLineProcessed = True
-
-        if "Fort " in text:
-            start = text.find("Fort")
-            end = text.find(";", start)
-            if end < 0 :
-                monsterDetail['saves'] = text[start:].split(",")
-            else: 
-                monsterDetail['saves'] = text[start:end].split(",")
-            isLineProcessed = True
-        
-        if "Will +" in text:
-            start = text.find("Will +") + 7
-            end = text.find(";", start) + 2
-            if end < start:
-                print("no extra saves")
-            else:
-                monsterDetail['saves'].append(text[end:])
-            isLineProcessed = True
-
-        if "HP" in text:
-            if 'hp' not in monsterDetail:
-                start = text.find("HP") + 3
-                end = text.find(";", start)
-                if end < 0 :
-                    monsterDetail['hp'] = text[start:].split(',')
-                else: 
-                    monsterDetail['hp'] = text[start:end].split(',')
-                
-            isLineProcessed = True
-        
-        if "Immunities" in text:
-            start = text.find("Immunities") + 11
-            end = text.find(";", start)
-            if end < 0 :
-                monsterDetail['immunities'] = text[start:].split(',')
-            else: 
-                monsterDetail['immunities'] = text[start:end].split(',')
-            
-            isLineProcessed = True
-
-        if "Weaknesses" in text:
-            start = text.find("Weaknesses") + 11
-            end = text.find(";", start)
-            endResistences = text.find("Resistances", start)
-            if end < 0:
-                if not endResistences < 0:
-                    end = endResistences
-            else:
-                if endResistences < end:
-                    end = endResistences
-            if end < 0 :
-                monsterDetail['weaknesses'] = text[start:].split(',')
-            else: 
-                monsterDetail['weaknesses'] = text[start:end].split(',')
-            isLineProcessed = True
-        
-        if "Resistances" in text:
-            start = text.find("Resistances") + 11
-            end = text.find(";", start)
-            if end < 0 :
-                monsterDetail['resistances'] = text[start:].split(',')
-            else: 
-                monsterDetail['resistances'] = text[start:end].split(',')
-            isLineProcessed = True
-            
-        
-        if "Speed" in text:
-            if 'speed' not in monsterDetail:
-                start = text.find("Speed") + 6
-                end = text.find(";", start)
-                if end < 0 :
-                    monsterDetail['speed'] = text[start:].split(',')
-                else: 
-                    monsterDetail['speed'] = text[start:end].split(',')
-            isLineProcessed = True
-        
-        if text.startswith("Melee"):
-            
-            if 'actions' not in monsterDetail:
-                actionHolder = []
-                actionHolder.append(text)
-                monsterDetail['actions'] = actionHolder
-            else:
-                monsterDetail['actions'].append(text)
-            isLineProcessed = True
-        
-        if text.startswith("Ranged"):
-            if 'actions' not in monsterDetail:
-                actionHolder = []
-                actionHolder.append(text)
-                monsterDetail['actions'] = actionHolder
-            else:
-                monsterDetail['actions'].append(text)
-            isLineProcessed = True
-
-        if (text.startswith("Occult Innate Spells")) or (text.startswith("Divine Innate Spells")) or (text.startswith("Arcane Innate Spells")):
-            spells = {}
-            start = text.find("Innate Spells") + 13
-            end = text.find(";",start)
-            if end < 0 :
-                spellAttack = text[start:].split(",")
-            else: 
-                spellAttack = text[start:end].split(",")
-            
-            spells['dc'] = spellAttack[0][3:]
-            if len(spellAttack) > 1:
-                spells['attack'] = spellAttack[1][7:]
-            spells['spells'] = text[end+1:].split(";")
-            monsterDetail['innateSpells'] = spells
-            lastSpellName = 'innateSpells'
-            isLineProcessed = True
-        
-        if (text.startswith("Occult Rituals")) or (text.startswith("Divine Rituals")) :
-            rituals = {}
-            start = text.find("Rituals") + 8
-            end = text.find(";",start)
-            ritualsAttack = text[start:end].split(",")
-            rituals['dc'] = ritualsAttack[0][3:]
-            if len(ritualsAttack) > 1:
-                rituals['attack'] = ritualsAttack[1][7:]
-            rituals['rituals'] = text[end+1:].split(";")
-            monsterDetail['rituals'] = rituals
-            lastSpellName = 'rituals'
-            isLineProcessed = True
-
-        if (text.startswith("Occult Spontaneous Spells")) or (text.startswith("Divine Spontaneous Spells")) or (text.startswith("Arcane Spontaneous Spells")):
-            spells = {}
-            start = text.find("Spontaneous Spells") + 19
-            end = text.find(";",start)
-            if end < 0 :
-                spellAttack = text[start:].split(",")
-            else: 
-                spellAttack = text[start:end].split(",")
-            
-            spells['dc'] = spellAttack[0][3:]
-            if len(spellAttack) > 1:
-                spells['attack'] = spellAttack[1][7:]
-            spells['spells'] = text[end+1:].split(";")
-            monsterDetail['spells'] = spells
-            lastSpellName = 'spells'
-            isLineProcessed = True
-
-        if (text.startswith("Primal Prepared Spells")):
-            spells = {}
-            start = text.find("Prepared Spells") + 16
-            end = text.find(";",start)
-            if end < 0 :
-                spellAttack = text[start:].split(",")
-            else: 
-                spellAttack = text[start:end].split(",")
-            
-            spells['dc'] = spellAttack[0][3:]
-            if len(spellAttack) > 1:
-                spells['attack'] = spellAttack[1][7:]
-            spells['spells'] = text[end+1:].split(";")
-            monsterDetail['primalPreparedSpells'] = spells
-            lastSpellName = 'primalPreparedSpells'
-            isLineProcessed = True
-
-        if (text.startswith("Primal Innate Spells")):
-            spells = {}
-            start = text.find("Prepared Spells") + 16
-            end = text.find(";",start)
-            if end < 0 :
-                spellAttack = text[start:].split(",")
-            else: 
-                spellAttack = text[start:end].split(",")
-            
-            spells['dc'] = spellAttack[0][3:]
-            if len(spellAttack) > 1:
-                spells['attack'] = spellAttack[1][7:]
-            spells['spells'] = text[end+1:].split(";")
-            monsterDetail['primalInnateSpells'] = spells
-            lastSpellName = 'primalInnateSpells'
-            isLineProcessed = True
-        
-        if not isLineProcessed:
-            x = re.search("\A\d+(th|st)", text)
-            if x:
-                monsterDetail[lastSpellName]['spells'] = text.split(";")
-                isLineProcessed = True
-            
-        if not isLineProcessed:
-            if isFirstLine:
-                isFirstLine = False
-                continue
-            else:
-                try:
-                    print(para.parent['class'])
-                    parentClass = para.parent['class'][0]
-                except: 
-                    print("no Parent")
-                    parentClass = ""
-                if "special-abilities" != parentClass:
-                    #print(text)
-                    monsterText.append(para.text)
-                else:
-                    
-                    print("skipped")
-          
-    #print(monsterText)
-    monsterDetail['monsterText'] = monsterText
-    return monsterDetail
-
-
-res = requests.get("http://pf2.d20pfsrd.com/monster")
-res.raise_for_status()
-soup = BeautifulSoup(res.text, 'html.parser')
-table = soup.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="archive-data-table") 
-rows = table.findAll(lambda tag: tag.name=='tr')
-t = 0
-for row in rows:
-    t += 1
-    print(row)
-    print("-----------------------------------")
-    monster = {}
-    entries = row.find_all(lambda tag: tag.name=='td')
-    #print(len(entries))
-    if entries is not None:
-        if len(entries) > 0:
-            name = entries[0].find("a").text
-            link = entries[0].find("a")['href']
-            #for entry in entries: 
-             #   print(entry)
-              #  print("row---------------")
-            family = entries[1].text
-            level = entries[2].text
-            source = entries[4].find("a").text
-
-            
-
-            if "Dragon" in name:
-                dragons = get_dragons(link)
-                for dragon in dragons['monsters']:
-                    monsters.append(dragon)
-            else: 
-                monsterDetails = get_monster(link)
-                monster['name'] = name
-                monster['level'] = level
-                monster['link'] = link
-                monster['family'] = family
-                monster['source'] = source
-                for key in monsterDetails.keys():
-                    monster[key] = monsterDetails[key]
-                if len(monster.keys()) > 0:
-                    monsters.append(monster)
-
-    
-    #if t > 5:
-        #break
-monsterHolder['monsters'] = monsters
+monsterHolder['monsters'] = get_all()
 json_data = json.dumps(monsterHolder)
 #print(monsters)
-filename = "monsters-pf2.json"
+filename = "monsters-v2-pf2.json"
 f = open(filename, "w")
 f.write(json_data)
 f.close
