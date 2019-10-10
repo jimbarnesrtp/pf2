@@ -39,6 +39,6 @@
 If you feel you need to get updated data be careful running these as they do a good number of requests over a short peroid onto the respective sites
 
 if you have a request for data let me know
-Monsters are not working correctly, I will be reworking the format for these
+
 
 
