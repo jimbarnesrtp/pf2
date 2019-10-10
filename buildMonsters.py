@@ -65,7 +65,7 @@ def get_single(link):
                             else:
                                 attack['name'] = child2.text
                 if child2.name == "i":
-                    print(child2.text)
+                    #print(child2.text)
                 if child2.name == "img":
                     attack['actions'] = child2['alt']
                 if child2.name == "a":
