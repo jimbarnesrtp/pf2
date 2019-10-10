@@ -9,7 +9,7 @@ monsterHolder = {}
 monsterHolder['name'] = 'Pathfinder 2.0 monster list'
 monsterHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
-attackEle = set(("Critical Success", "Success", "Failure", "Effect", "Frequency"))
+attackEle = set(("Critical Success", "Success", "Failure", "Effect", "Frequency", "Requirement"))
 
 def get_single(link):
     details = {}
@@ -20,6 +20,8 @@ def get_single(link):
     detail = soup2.find(lambda tag: tag.name=='span' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_DetailedOutput") 
 
     attacks = soup2.find_all("span", {'class':'hanging-indent'})
+
+    knowledgeCheck = ""
 
     inDamage = False
     attack = {}
@@ -65,7 +67,7 @@ def get_single(link):
                             else:
                                 attack['name'] = child2.text
                 if child2.name == "i":
-                    #print(child2.text)
+                    pass
                 if child2.name == "img":
                     attack['actions'] = child2['alt']
                 if child2.name == "a":
@@ -248,6 +250,10 @@ def get_single(link):
                 else:      
                     if(child.text != "Source" and child.text != "Trigger" and "Spells" not in child.text):
                         tagType = child.text
+                        if "Recall Knowledge" in tagType:
+                            startParen = stringContents.find("(")
+                            endParen = stringContents.find(")")
+                            knowledgeCheck = stringContents[startParen:endParen]
                         if tagType == "HP":
                             pastHp = True
             #print("In here 11:",tagType)  
@@ -288,6 +294,9 @@ def get_single(link):
                             skillsHolder.append(stringContents)
                         elif tagType == "Items":
                             itemHolder.append(stringContents)
+                        elif "Recall Knowledge" in tagType:
+                            
+                            details['recallKnowledge'] = knowledgeCheck + stringContents
                         else:
                             if tagType in details:
                                 details[tagType] += stringContents

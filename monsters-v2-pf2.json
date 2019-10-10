@@ -25874,7 +25874,7 @@
             "actions": "Single Action",
             "damage": " 1d6+3 bludgeoning plus Grab"
         }, {
-            "name": "Requirement",
+            "name": "Jaws",
             "text": "   (attack)  The zombie has a creature grabbed or restrained. Effect The zombie makes a jaws unarmed melee Strike against the grabbed or restrained creature with an attack modifier of +7 that deals 1d8+3 piercing damage.",
             "actions": "Single Action"
         }],
