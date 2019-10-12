@@ -28,12 +28,14 @@
 * Domains
 * Dieties
 * Rituals
+* Traits
 
 ### What is next
 * Artifacts
 * Drugs
 * Tattoos
 * Skills
+
 
 
 If you feel you need to get updated data be careful running these as they do a good number of requests over a short peroid onto the respective sites
