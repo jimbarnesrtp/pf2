@@ -56,9 +56,19 @@ def get_single(link):
         else:
             if not stringContents.isspace():
                 detailHolder.append(stringContents)
-
+        string = " "
        #print(child)
-        details['text'] = detailHolder
+        finalText = ""
+        for text in detailHolder:
+            if text.isspace():
+               pass
+            elif text == ", ":
+                pass
+            else:
+                #print("text:", text)
+                finalText += text
+            
+        details['text'] = finalText
     return details
 
 
@@ -101,11 +111,14 @@ def get_links():
                     itemHolder.append(trait)
                         #print()
                     #print(child.text)
-
+        t = 0
         for item in itemHolder:
+            t += 1
             holder = get_single(item['link'])
             for key in holder.keys():
                 item[key] = holder[key]
+            #if t > 5:
+                #break
 
     return itemHolder
 

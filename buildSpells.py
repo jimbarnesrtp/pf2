@@ -61,57 +61,69 @@ def get_spells(link):
             #print("Start", start)
             #print("End", end)
             if end < 0 :
-                spellDetail['cast'] = text[start:]
+                spellDetail['cast'] = text[start:].strip()
             else:
-                spellDetail['cast'] = text[start:end]
+                spellDetail['cast'] = text[start:end].strip()
 
         if "Duration" in text:
             start = text.find("Duration") + 8
             end = text.find(";", start)
             if end < 0 :
-                spellDetail['duration'] = text[start:]
+                spellDetail['duration'] = text[start:].strip()
             else: 
-                spellDetail['duration'] = text[start:end]
+                spellDetail['duration'] = text[start:end].strip()
         
         if "Requirements" in text:
             start = text.find("Requirements") + 12
             end = text.find(";", start)
-            spellDetail['requirements'] = text[start:end]
+            spellDetail['requirements'] = text[start:end].strip()
 
         if "Trigger" in text:
             start = text.find("Trigger") + 8
             end = text.find(";", start)
-            spellDetail['trigger'] = text[start:end]
+            spellDetail['trigger'] = text[start:end].strip()
         
         if "Range" in text:
             start = text.find("Range") + 5
             end = text.find(";", start)
-            spellDetail['range'] = text[start:end]
+            spellDetail['range'] = text[start:end].strip()
         
         if "Area" in text:
             start = text.find("Area") + 4
             end = text.find(";", start)
-            spellDetail['area'] = text[start:end]
+            if end < 0 :
+                spellDetail['area'] = text[start:].strip()
+            else: 
+                spellDetail['area'] = text[start:end].strip()
 
         
         if "Saving Throw" in text:
             start = text.find("Saving Throw") + 12
             end = text.find(";", start)
             if end < 0 :
-                spellDetail['savingThrow'] = text[start:]
+                spellDetail['savingThrow'] = text[start:].strip()
             else: 
-                spellDetail['savingThrow'] = text[start:end]
+                spellDetail['savingThrow'] = text[start:end].strip()
 
         if paraIndex > hrIndex:
             #print(para.text)
-            spellText.append(para.text)
+            spellText.append(para.text.strip())
         paraIndex += 1
         
     
     if spellDetail['cast'] is None:
         spellDetail['cast'] = ""
     #print(spellText)
-    spellDetail['spellText'] = spellText
+    finalText = ""
+    for text in spellText:
+        if text.isspace():
+            pass
+        elif text == ", ":
+            pass
+        else:
+            #print("text:", text)
+            finalText += " "+text
+    spellDetail['spellText'] = finalText.strip()
     return spellDetail
 
 
