@@ -253,7 +253,9 @@ def get_single(link):
                         if "Recall Knowledge" in tagType:
                             startParen = stringContents.find("(")
                             endParen = stringContents.find(")")
-                            knowledgeCheck = stringContents[startParen:endParen]
+                            knowledgeCheckStr = stringContents[startParen:endParen]
+                            endForReal = knowledgeCheckStr.find("</a></u>")
+                            knowledgeCheck = knowledgeCheckStr[32:endForReal]
                         if tagType == "HP":
                             pastHp = True
             #print("In here 11:",tagType)  
@@ -353,7 +355,7 @@ def get_all():
                 monster['name'] = entries[0].find("a").text
                 monster['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 monster['family'] = entries[1].text
-                monster['level'] = entries[2].text
+                monster['level'] = int(entries[2].text)
                 monster['alignment'] = entries[3].text
                 monster['type'] = entries[4].text
                 monster['size'] = entries[5].text

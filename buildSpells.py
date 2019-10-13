@@ -154,7 +154,7 @@ for row in rows:
             spellDetails = get_spells(link)
             
             spell['name'] = name
-            spell['level'] = level
+            spell['level'] = int(level)
             spell['link'] = link
             spell['traditions'] = traditions.split(',')
             spell['source'] = source

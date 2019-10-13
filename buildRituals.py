@@ -87,7 +87,7 @@ def get_rituals(link):
         #print(stringContents)
         if stringContents.startswith("<"):
             if child.name == "h2":
-                ritualLevel = child.text[0:1]
+                ritualLevel = int(child.text[0:1])
             if child.name == "a":
                 ritualHolder['name'] = child.text
                 ritualHolder['link'] = "https://2e.aonprd.com/"+child['href']
