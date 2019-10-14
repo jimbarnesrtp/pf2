@@ -1,0 +1,968 @@
+{
+    "name": "Pathfinder 2.0 item list",
+    "date": "October 14, 2019",
+    "adventuringGear": [{
+        "name": "Holly and Mistletoe",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=26",
+        "level": "",
+        "price": "",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Hands 1 Plants of supernatural significance provide a primal focus for primal spellcasters, such as druids, when using certain abilities and casting some spells. A bundle of holly and mistletoe must be held in one hand to use it. Other primal foci exist for druids focused on other aspects of nature."
+    }, {
+        "name": "Bedroll",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=7",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 1 cp Bulk L"
+    }, {
+        "name": "Candle",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=10",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 1 cp Hands 1 A lit candle sheds dim light in a 10-foot radius."
+    }, {
+        "name": "Chalk",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=12",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 1 cp Hands 1"
+    }, {
+        "name": "Mug",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=36",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 1 cp Hands 1"
+    }, {
+        "name": "Oil",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=38",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 cp Hands 2 You can use oil to fuel lanterns, but you can also set a pint of oil aflame and throw it. You must first spend an Interact action preparing the oil, then throw it with another action as a ranged attack. If you hit, it splatters on the creature or in a single 5-foot square you target. You must succeed at a DC 10 flat check for the oil to ignite successfully when it hits. If the oil ignites, the target takes 1d6 fire damage."
+    }, {
+        "name": "Piton",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=39",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 cp Hands 1 These small spikes can be used as anchors to make climbing easier. To affix a piton, you must hold it in one hand and use a hammer to drive it in with your other hand. You can attach a rope to the hammered piton so that you don\u2019t fall all the way to the ground on a critical failure while Climbing."
+    }, {
+        "name": "Sack",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=45",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 cp Hands 1; Bulk L A sack can hold up to 8 Bulk worth of items. A sack containing 2 Bulk or less can be worn on the body, usually tucked into a belt. You can carry a sack with one hand, but must use two hands to transfer items in and out."
+    }, {
+        "name": "Sheath",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=49",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 cp A sheath or scabbard lets you easily carry a weapon on your person."
+    }, {
+        "name": "Ten-Foot Pole",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=56",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 cp Hands 2; Bulk 1 When wielding this long pole, you can use Seek to search a square up to 10 feet away. The pole is not sturdy enough to use as a weapon."
+    }, {
+        "name": "Torch",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=60",
+        "level": "",
+        "price": "1 cp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "Price 1 cp Hands 1; Bulk L A torch sheds bright light in a 20-foot radius (and dim light to the next 20 feet). It can be used as an improvised weapon that deals 1d4 bludgeoning damage plus 1 fire damage."
+    }, {
+        "name": "Soap",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=52",
+        "level": "",
+        "price": "2 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 2 cp Hands 1"
+    }, {
+        "name": "Ladder",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=28",
+        "level": "",
+        "price": "3 cp",
+        "bulk": "3",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 3 cp Hands 2; Bulk 3"
+    }, {
+        "name": "Belt Pouch",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=8",
+        "level": "",
+        "price": "4 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 4 cp A belt pouch holds up to four items of light\u00a0Bulk."
+    }, {
+        "name": "Flint and Steel",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=21",
+        "level": "",
+        "price": "5 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 5 cp Hands 2 Flint and steel are useful in creating a fire if you have the time to catch a spark, though using them is typically too time-consuming to be practical during an encounter. Even in ideal conditions, using flint and steel to light a flame requires using at least 3 actions, and often significantly longer."
+    }, {
+        "name": "Vial",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=61",
+        "level": "",
+        "price": "5 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "Price 5 cp Hands 1 A simple glass vial holds up to 1 ounce of liquid."
+    }, {
+        "name": "Waterskin",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=62",
+        "level": "",
+        "price": "5 cp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "Price 5 cp Hands 1; Bulk L When it\u2019s full, a waterskin has 1 Bulk and contains roughly 1 day\u2019s worth of water for a Small or Medium creature."
+    }, {
+        "name": "Signal Whistle",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=50",
+        "level": "",
+        "price": "8 cp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 8 cp Hands 1 When sounded, a signal whistle can be heard clearly up to half a mile away across open terrain."
+    }, {
+        "name": "Backpack",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=4",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 1 sp A backpack holds up to 4 Bulk of items. If you\u2019re carrying or stowing the pack rather than wearing it on your back, its bulk is light instead of negligible."
+    }, {
+        "name": "Bandolier",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=5",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 1 sp A bandolier holds up to eight items of light Bulk within easy reach and is usually used for alchemical items or potions. If you are carrying or stowing a bandolier rather than wearing it around your chest, it has light Bulk instead of negligible. A bandolier can be dedicated to a full set of tools, such as healer\u2019s tools, allowing you to draw the tools as part of the action that requires them."
+    }, {
+        "name": "Basic Crafter's Book",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=6",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 1 sp Hands 2; Bulk L This book contains the formulas (page 293) for Crafting the common items in this chapter."
+    }, {
+        "name": "Clothing (Explorer's)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=15",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": " Clothing (Oridinary)Item 0 Source Price 1 sp Ordinary clothing is functional with basic tailoring, such as peasant garb, monk\u2019s robes, or work clothes.  Clothing (Explorer's)Item 0 Source Price 1 sp Bulk L Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see pages 275\u2013276.  Clothing (Fine)Item 0 Source Price 2 gp Bulk L Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper-class folk while wearing high-fashion fine clothing.  Clothing (High-Fashion Fine)Item 3 Source Level 3; Price 55 gp Bulk L  Clothing (Winter)Item 0 Source Price 4 sp Bulk L Winter clothing allows you to negate the damage from severe environmental cold and reduce the damage from extreme cold to that of severe cold."
+    }, {
+        "name": "Clothing (Oridinary)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=15",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": " Clothing (Oridinary)Item 0 Source Price 1 sp Ordinary clothing is functional with basic tailoring, such as peasant garb, monk\u2019s robes, or work clothes.  Clothing (Explorer's)Item 0 Source Price 1 sp Bulk L Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see pages 275\u2013276.  Clothing (Fine)Item 0 Source Price 2 gp Bulk L Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper-class folk while wearing high-fashion fine clothing.  Clothing (High-Fashion Fine)Item 3 Source Level 3; Price 55 gp Bulk L  Clothing (Winter)Item 0 Source Price 4 sp Bulk L Winter clothing allows you to negate the damage from severe environmental cold and reduce the damage from extreme cold to that of severe cold."
+    }, {
+        "name": "Disguise Kit (Replacement Cosmetics)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=19",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 2 gp Hands 2; Bulk L This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. An elite disguise kit adds a +1 item bonus to relevant checks. If you\u2019ve crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit.  Disguise KitItem 0 Source Price 2 gp Hands 2; Bulk L  Disguise Kit (Replacement Cosmetics)Item 0 Source Price 1 sp  Disguise Kit (Elite)Item 3 Source Level 3; Price 40 gp Hands 2; Bulk L  Disguise Kit (Elite Cosmetics)Item 3 Source Level 3; Price 5 sp"
+    }, {
+        "name": "Grappling Hook",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=23",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 1 sp Hands 1; Bulk L You can throw a grappling hook with a rope tied to it to make a climb easier. To anchor a grappling hook, make an attack roll with the secret trait against a DC depending on the target, typically at least DC 20. On a success, your hook has a firm hold, but on a critical failure, the hook seems like it will hold but actually falls when you\u2019re partway up."
+    }, {
+        "name": "Hammer",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=24",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 1 sp Hands 1; Bulk L"
+    }, {
+        "name": "Religious Symbol (Wooden)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=41",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some spells. A religious symbol must be held in one hand to use it.  Religious Symbol (Wooden)Item 0 Source Price 1 sp Hands 1; Bulk L  Religious Symbol (Silver)Item 0 Source Price 2 gp Hands 1; Bulk L"
+    }, {
+        "name": "Satchel",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=47",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 sp Hands 2 A satchel can hold up to 2 Bulk worth of items. If you are carrying or stowing a satchel rather than wearing it over your shoulder, it counts as light Bulk instead of negligible."
+    }, {
+        "name": "Scroll Case",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=48",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 sp Hands 2 Scrolls, maps, and other rolled documents are stored in scroll cases for safe transport."
+    }, {
+        "name": "Writing Set (Extra Ink and Paper)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=63",
+        "level": "",
+        "price": "1 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "Price 1 gp Hands 2; Bulk L Using a writing set, you can draft correspondence and scribe scrolls. A set includes stationery, including a variety of paper and parchment, as well as ink, a quill or inkpen, sealing wax, and a simple seal. If you\u2019ve written a large amount, you can refill your kit with extra ink and paper.  Writing SetItem 0 Source Price 1 gp Hands 2; Bulk L  Writing Set (Extra Ink and Paper)Item 0 Source Price 1 sp"
+    }, {
+        "name": "Lock (Poor)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=30",
+        "level": "",
+        "price": "2 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Picking a poor lock requires two successful DC 15 Thievery checks, a simple lock requires three successful DC\u00a020 Thievery checks, an average lock requires four successes at DC 25, a good lock requires five successes at DC 30, and a superior lock six successes at DC 40.  Lock (Poor)Item 0 Source Price 2 sp Hands 2  Lock (Simple)Item 1 Source Level 1; Price 2 gp Hands 2  Lock (Average)Item 3 Source Level 3; Price 15 gp Hands 2  Lock (Good)Item 9 Source Level 9; Price 200 gp Hands 2  Lock (Superior)Item 17 Source Level 17; Price 4,500 gp Hands 2"
+    }, {
+        "name": "Merchant's Scale",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=34",
+        "level": "",
+        "price": "2 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 2 sp Hands 2; Bulk L"
+    }, {
+        "name": "Saddlebags",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=46",
+        "level": "",
+        "price": "2 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 2 sp Hands 2 Saddlebags come in a pair. Each can hold up to 3 Bulk of items. The Bulk value given is for saddlebags worn by a mount. If you are carrying or stowing saddlebags, they count as 1 Bulk instead of light Bulk."
+    }, {
+        "name": "Caltrops",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=9",
+        "level": "",
+        "price": "3 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 3 sp Hands 1; Bulk L These four-pronged metal spikes can cause damage to a creature\u2019s feet. You can scatter caltrops in an empty square adjacent to you with an Interact action. The first creature that moves into that square must succeed at a DC 14 Acrobatics check or take 1d4 piercing damage and 1 persistent bleed damage. A creature taking persistent bleed damage from caltrops takes a \u20135-foot penalty to its Speed. Spending an Interact action to pluck the caltrops free reduces the DC to stop the bleeding. Once a creature takes damage from caltrops, enough caltrops are ruined that other creatures moving into the square are safe. Deployed caltrops can be salvaged and reused if no creatures took damage from them. Otherwise, enough caltrops are ruined that they can\u2019t be salvaged."
+    }, {
+        "name": "Manacles (Poor)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=32",
+        "level": "",
+        "price": "3 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10\u201330 seconds depending on the creature\u2019s size and how many manacles you apply. A two-legged creature with its legs bound takes a \u201315-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from poor manacles requires two successful DC 17 Thievery checks, simple manacles requires three successes at DC 22, average manacles require four successes at DC\u00a027, good manacles require five successes at DC 32, and superior manacles require six successes at DC 42.  Manacles (Poor)Item 0 Source Price 3 sp Hands 2  Manacles (Simple)Item 1 Source Level 1; Price 3 gp Hands 2  Manacles (Average)Item 3 Source Level 3; Price 20 gp Hands 2  Manacles (Good)Item 9 Source Level 9; Price 250 gp Hands 2  Manacles (Superior)Item 17 Source Level 17; Price 5,000 gp Hands 2"
+    }, {
+        "name": "Thieves' Tools (Replacement Picks)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=58",
+        "level": "",
+        "price": "3 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 3 gp Hands 2; Bulk L You need thieves\u2019 tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. Infiltrator thieves\u2019 tools add a +1 item bonus to checks to Pick Locks and Disable Devices. If your thieves\u2019 tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn\u2019t require using the Repair action.  Thieves' ToolsItem 0 Source Price 3 gp Hands 2; Bulk L  Thieves' Tools (Replacement Picks)Item 0 Source Price 3 sp  Thieve's Tools (Infiltrator)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk L  Thieve's Tools (Infiltrator Picks)Item 3 Source Level 3; Price 3 gp"
+    }, {
+        "name": "Clothing (Winter)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=15",
+        "level": "",
+        "price": "4 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": " Clothing (Oridinary)Item 0 Source Price 1 sp Ordinary clothing is functional with basic tailoring, such as peasant garb, monk\u2019s robes, or work clothes.  Clothing (Explorer's)Item 0 Source Price 1 sp Bulk L Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see pages 275\u2013276.  Clothing (Fine)Item 0 Source Price 2 gp Bulk L Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper-class folk while wearing high-fashion fine clothing.  Clothing (High-Fashion Fine)Item 3 Source Level 3; Price 55 gp Bulk L  Clothing (Winter)Item 0 Source Price 4 sp Bulk L Winter clothing allows you to negate the damage from severe environmental cold and reduce the damage from extreme cold to that of severe cold."
+    }, {
+        "name": "Rations",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=40",
+        "level": "",
+        "price": "4 sp ((1 week))",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 4 sp ((1 week)) Hands 1; Bulk L"
+    }, {
+        "name": "Tool (Short)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=59",
+        "level": "",
+        "price": "4 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "This entry is a catchall for basic hand tools that don\u2019t have a specific adventuring purpose. A hoe, shovel, or sledgehammer is a long tool, and a hand drill, ice hook, or trowel is a short tool. A tool can usually be used as an improvised weapon, dealing 1d4 damage for a short tool or 1d6 for a long tool. The GM determines the damage type that\u2019s appropriate or adjusts the damage if needed.  Tool (Long)Item 0 Source Price 1 gp Hands 2; Bulk 1  Tool (Short)Item 0 Source Price 4 sp Hands 1; Bulk L"
+    }, {
+        "name": "Climbing Kit",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=14",
+        "level": "",
+        "price": "5 sp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": "Price 5 sp Hands 2; Bulk 1 This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you\u2019re Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a DC 5 flat check whenever you critically fail to prevent a fall. You gain a +1 item bonus to Athletics checks to Climb while using an extreme climbing kit. A single kit has only enough materials for one climber; each climber needs their own kit.  Climbing KitItem 0 Source Price 5 sp Hands 2; Bulk 1  Climbing Kit (Extreme)Item 3 Source Level 3; Price 40 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Crowbar",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=18",
+        "level": "",
+        "price": "5 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 5 sp Hands 2; Bulk L When an object that doesn\u2019t have an easy grip, a crowbar makes it easier to gain the necessary leverage. Without a crowbar, prying something open takes a \u20132 item penalty to the Athletics check to Force Open (similar to using a shoddy item). A levered crowbar grants you a +1 item bonus to Athletics checks to Force Open anything that can be pried open.  CrowbarItem 0 Source Price 5 sp Hands 2; Bulk L  Crowbar (Levered)Item 3 Source Level 3; Price 20 gp Hands 2; Bulk L"
+    }, {
+        "name": "Material Component Pouch",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=33",
+        "level": "",
+        "price": "5 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 5 sp Hands 1; Bulk L This pouch contains material components for those spells that require them. Though the components are used up over time, you can refill spent components during your daily preparations."
+    }, {
+        "name": "Rope",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=44",
+        "level": "",
+        "price": "5 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 5 sp Hands 2; Bulk L"
+    }, {
+        "name": "Chest",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=13",
+        "level": "",
+        "price": "6 sp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 289",
+        "text": "Price 6 sp Hands 2; Bulk 2 A wooden chest can hold up to 8 Bulk of items."
+    }, {
+        "name": "Adventurer's Pack",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=1",
+        "level": "",
+        "price": "7 sp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "waterskin",
+        "text": "Price 7 sp Bulk 2 This item is the starter kit for an adventurer, containing the essential items for exploration and survival. The Bulk value is for the entire pack together, but see the descriptions of individual items as necessary. The pack contains the following items: (containing the other goods), , , , , , , , , and a ."
+    }, {
+        "name": "Lantern (Hooded)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=29",
+        "level": "",
+        "price": "7 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "A lantern sheds bright light and requires 1 pint of oil to function for 6 hours.  Lantern (Bull's-Eye)Item 0 Source Price 1 gp Hands 1; Bulk 1 A bull\u2019s-eye lantern emits its light in a 60-foot cone (and dim light in the next 60 feet).  Lantern (Hooded)Item 0 Source Price 7 sp Hands 1; Bulk L A hooded lantern sheds light in a 30-foot radius (and dim light in the next 30 feet) and is equipped with shutters, which you can close to block the light. Closing or opening the shutters takes an Interact action."
+    }, {
+        "name": "Fishing Tackle",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=20",
+        "level": "",
+        "price": "8 sp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 8 sp Hands 2; Bulk 1 This kit include a collapsible fishing pole, fishhooks, line, lures, and a fishing net. Professional fishing tackle grants a +1 item bonus to checks to fish.  Fishing TackleItem 0 Source Price 8 sp Hands 2; Bulk 1  Fishing Tackle (Professional)Item 3 Source Level 3; Price 20 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Musical Instrument (Handheld)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=37",
+        "level": "",
+        "price": "8 sp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments. The GM might rule that an especially large handheld instrument (like a tuba) has greater Bulk. Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while played. A virtuoso instrument gives a +1 item bonus to Performance checks using that instrument.  Musical Instrument (Handheld)Item 0 Source Price 8 sp Hands 2; Bulk 1  Musical Instrument (Virtuoso Handheld)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 1  Musical Instrument (Heavy)Item 0 Source Price 2 gp Hands 2; Bulk 16  Musical Instrument (Virtuoso Heavy)Item 3 Source Level 3; Price 100 gp Hands 2; Bulk 16"
+    }, {
+        "name": "Tent (Pup)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=57",
+        "level": "",
+        "price": "8 sp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": " Tent (Pup)Item 0 Source Price 8 sp Hands 2; Bulk L  Tent (Four-Person)Item 0 Source Price 5 gp Hands 2; Bulk 1  Tent (Pavilion)Item 2 Source Level 2; Price 40 gp Hands 2; Bulk 12"
+    }, {
+        "name": "Compass",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=16",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 1 gp Hands 1; Bulk L A compass helps you Sense Direction or navigate, provided you\u2019re in\u00a0a location with uniform magnetic fields. Without a compass, you take a \u20132 item penalty to these checks (similar to using a shoddy item). A lensatic compass gives you a\u00a0+1 item bonus to\u00a0these checks.  CompassItem 0 Source Price 1 gp Hands 1; Bulk L  Compass (Lensatic)Item 3 Source Level 3; Price 20 gp Hands 1; Bulk L"
+    }, {
+        "name": "Cookware",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=17",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 1 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Formula Book (Blank)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=22",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 1 gp Hands 1; Bulk 1 A formula book holds the formulas necessary to make items other than the common equipment from this chapter; alchemists typically get one for free. Each formula book can hold the formulas for up to 100 different items. Formulas can also appear on parchment sheets, tablets, and almost any other medium; there\u2019s no need for you to copy them into a specific book as long as you can keep them on hand to reference them."
+    }, {
+        "name": "Lantern (Bull's-Eye)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=29",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "A lantern sheds bright light and requires 1 pint of oil to function for 6 hours.  Lantern (Bull's-Eye)Item 0 Source Price 1 gp Hands 1; Bulk 1 A bull\u2019s-eye lantern emits its light in a 60-foot cone (and dim light in the next 60 feet).  Lantern (Hooded)Item 0 Source Price 7 sp Hands 1; Bulk L A hooded lantern sheds light in a 30-foot radius (and dim light in the next 30 feet) and is equipped with shutters, which you can close to block the light. Closing or opening the shutters takes an Interact action."
+    }, {
+        "name": "Mirror",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=35",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 1 gp Hands 1"
+    }, {
+        "name": "Religious Text",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=42",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 gp Hands 1; Bulk L This manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text as a divine focus to use certain abilities and cast some spells. A religious text must be held in one hand to use it."
+    }, {
+        "name": "Spellbook (Blank)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=53",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 1 gp Hands 1; Bulk 1 A spellbook holds the written knowledge necessary to learn and prepare various spells, a necessity for wizards (who typically get one for free) and a useful luxury for other spellcasters looking to learn additional spells. Each spellbook can hold up to 100 spells. The Price listed is for a blank spellbook."
+    }, {
+        "name": "Tool (Long)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=59",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "This entry is a catchall for basic hand tools that don\u2019t have a specific adventuring purpose. A hoe, shovel, or sledgehammer is a long tool, and a hand drill, ice hook, or trowel is a short tool. A tool can usually be used as an improvised weapon, dealing 1d4 damage for a short tool or 1d6 for a long tool. The GM determines the damage type that\u2019s appropriate or adjusts the damage if needed.  Tool (Long)Item 0 Source Price 1 gp Hands 2; Bulk 1  Tool (Short)Item 0 Source Price 4 sp Hands 1; Bulk L"
+    }, {
+        "name": "Writing Set",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=63",
+        "level": "",
+        "price": "1 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 292",
+        "text": "Price 1 gp Hands 2; Bulk L Using a writing set, you can draft correspondence and scribe scrolls. A set includes stationery, including a variety of paper and parchment, as well as ink, a quill or inkpen, sealing wax, and a simple seal. If you\u2019ve written a large amount, you can refill your kit with extra ink and paper.  Writing SetItem 0 Source Price 1 gp Hands 2; Bulk L  Writing Set (Extra Ink and Paper)Item 0 Source Price 1 sp"
+    }, {
+        "name": "Clothing (Fine)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=15",
+        "level": "",
+        "price": "2 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": " Clothing (Oridinary)Item 0 Source Price 1 sp Ordinary clothing is functional with basic tailoring, such as peasant garb, monk\u2019s robes, or work clothes.  Clothing (Explorer's)Item 0 Source Price 1 sp Bulk L Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see pages 275\u2013276.  Clothing (Fine)Item 0 Source Price 2 gp Bulk L Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper-class folk while wearing high-fashion fine clothing.  Clothing (High-Fashion Fine)Item 3 Source Level 3; Price 55 gp Bulk L  Clothing (Winter)Item 0 Source Price 4 sp Bulk L Winter clothing allows you to negate the damage from severe environmental cold and reduce the damage from extreme cold to that of severe cold."
+    }, {
+        "name": "Disguise Kit",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=19",
+        "level": "",
+        "price": "2 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 2 gp Hands 2; Bulk L This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. An elite disguise kit adds a +1 item bonus to relevant checks. If you\u2019ve crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit.  Disguise KitItem 0 Source Price 2 gp Hands 2; Bulk L  Disguise Kit (Replacement Cosmetics)Item 0 Source Price 1 sp  Disguise Kit (Elite)Item 3 Source Level 3; Price 40 gp Hands 2; Bulk L  Disguise Kit (Elite Cosmetics)Item 3 Source Level 3; Price 5 sp"
+    }, {
+        "name": "Jellyfish Lamp",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=495",
+        "level": "",
+        "price": "2 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Lost Omens World Guide pg. 68",
+        "text": "Price 2 gp Usage held in 1 hand; Bulk L These bioluminescent jellyfish are as bright\r\nas candles, come in a variety of colors, and\r\ncan act as living lanterns. They dry up and\r\ndie if removed from the water for more than\r\n1 hour, but as long as they\u2019re allowed access\r\nto seawater, they can usually survive for\r\nup to 1 year by feeding on micronutrients.\r\nRarely, a well-treated jellyfish lamp might\r\nlive longer and potentially develop stronger\r\nlight or additional abilities."
+    }, {
+        "name": "Musical Instrument (Heavy)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=37",
+        "level": "",
+        "price": "2 gp",
+        "bulk": "16",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments. The GM might rule that an especially large handheld instrument (like a tuba) has greater Bulk. Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while played. A virtuoso instrument gives a +1 item bonus to Performance checks using that instrument.  Musical Instrument (Handheld)Item 0 Source Price 8 sp Hands 2; Bulk 1  Musical Instrument (Virtuoso Handheld)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 1  Musical Instrument (Heavy)Item 0 Source Price 2 gp Hands 2; Bulk 16  Musical Instrument (Virtuoso Heavy)Item 3 Source Level 3; Price 100 gp Hands 2; Bulk 16"
+    }, {
+        "name": "Religious Symbol (Silver)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=41",
+        "level": "",
+        "price": "2 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity as a divine focus to use certain abilities and cast some spells. A religious symbol must be held in one hand to use it.  Religious Symbol (Wooden)Item 0 Source Price 1 sp Hands 1; Bulk L  Religious Symbol (Silver)Item 0 Source Price 2 gp Hands 1; Bulk L"
+    }, {
+        "name": "Repair Kit",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=43",
+        "level": "",
+        "price": "2 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to Repair items using the Crafting skill. A superb repair kit gives you a +1\u00a0item bonus to the check.  Repair KitItem 0 Source Price 2 gp Hands 2; Bulk 1  Repair Kit (Superb)Item 3 Source Level 3; Price 25 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Hourglass",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=27",
+        "level": "",
+        "price": "3 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 3 gp Hands 1; Bulk L"
+    }, {
+        "name": "Thieves' Tools",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=58",
+        "level": "",
+        "price": "3 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 3 gp Hands 2; Bulk L You need thieves\u2019 tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. Infiltrator thieves\u2019 tools add a +1 item bonus to checks to Pick Locks and Disable Devices. If your thieves\u2019 tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn\u2019t require using the Repair action.  Thieves' ToolsItem 0 Source Price 3 gp Hands 2; Bulk L  Thieves' Tools (Replacement Picks)Item 0 Source Price 3 sp  Thieve's Tools (Infiltrator)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk L  Thieve's Tools (Infiltrator Picks)Item 3 Source Level 3; Price 3 gp"
+    }, {
+        "name": "Artisan's Tools",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=3",
+        "level": "",
+        "price": "4 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": "Price 4 gp Hands 2; Bulk 2 You need these tools to create items from raw materials with the Craft skill. Sterling artisan\u2019s tools give you a +1 item bonus to the check. Different sets are needed for different work, as determined by the GM; for example, blacksmith\u2019s tools differ from woodworker\u2019s\u00a0tools.  Artisan's ToolsItem 0 Source Price 4 gp Hands 2; Bulk 2  Artisan's Tools (Sterling)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Chain",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=11",
+        "level": "",
+        "price": "4 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": "Price 4 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Tack",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=55",
+        "level": "",
+        "price": "4 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 4 gp Bulk 1 Tack includes all the gear required to outfit a riding animal, including a saddle, bit and bridle, and stirrups if necessary. Especially large or oddly shaped animals might require specialty saddles. These can be more expensive or hard to find, as determined by the GM. The Bulk value given is for tack worn by a creature. If carried, the Bulk increases to 2."
+    }, {
+        "name": "Alchemist's Tools",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=2",
+        "level": "",
+        "price": "5 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": "Price 5 gp Hands 2; Bulk 2 These beakers and chemicals can be used to set up a mobile alchemical laboratory. Expanded alchemist\u2019s tools give a +1 item bonus to Crafting checks to create alchemical items. When you carry the tools from place to place, you keep many of the components handy on your person, in pockets or bandoliers.  Alchemist's ToolsItem 0 Source Price 5 gp Hands 2; Bulk 2  Alchemist's Tools (Expanded)Item 3 Source Level 3; Price 55 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Healer's Tools",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=25",
+        "level": "",
+        "price": "5 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 5 gp Hands 2; Bulk 1 This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. Expanded healer\u2019s tools provide a +1 item bonus to such checks. When you carry the tools from place to place, you keep many of the components handy on your person, in pockets or\u00a0bandoliers.  Healer's ToolsItem 0 Source Price 5 gp Hands 2; Bulk 1  Healer's Tools (Expanded)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Snare Kit",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=51",
+        "level": "",
+        "price": "5 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 5 gp Hands 2; Bulk 2 This kit contains tools and materials for creating snares. A snare kit allows you to Craft snares using the Crafting skill. A specialist snare kit gives you a +1 item bonus to the check.  Snare KitItem 0 Source Price 5 gp Hands 2; Bulk 2  Snare Kit (Specialist)Item 3 Source Level 3; Price 55 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Swim Fins",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=496",
+        "level": "",
+        "price": "5 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Lost Omens World Guide pg. 69",
+        "text": "Price 5 gp Usage worn shoes; Bulk L These flippers attach to your feet like tight\r\nshoesdonning or removing them requires\r\nthree Interact actions. While worn, you\r\ngain a +5-foot item bonus to the distance\r\nyou move when rolling Athletics to Swim,\r\nnot when using a swim Speed, and you take\r\na \u201310-foot item penalty to your Speed."
+    }, {
+        "name": "Tent (Four-Person)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=57",
+        "level": "",
+        "price": "5 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": " Tent (Pup)Item 0 Source Price 8 sp Hands 2; Bulk L  Tent (Four-Person)Item 0 Source Price 5 gp Hands 2; Bulk 1  Tent (Pavilion)Item 2 Source Level 2; Price 40 gp Hands 2; Bulk 12"
+    }, {
+        "name": "Spyglass",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=54",
+        "level": "",
+        "price": "20 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 20 gp Hands 2; Bulk L A typical spyglass lets you see eight times farther than normal. A fine spyglass adds a +1 item bonus to Perception checks to notice details at a distance.  SpyglassItem 0 Source Price 20 gp Hands 2; Bulk L  Spyglass (Fine)Item 4 Source Level 4; Price 80 gp Hands 2; Bulk L"
+    }, {
+        "name": "Magnifying Glass",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=31",
+        "level": "",
+        "price": "40 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 40 gp Hands 1 This quality handheld lens gives you a +1 item bonus to Perception checks to notice minute details of documents, fabric, and the like."
+    }, {
+        "name": "Lock (Simple)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=30",
+        "level": "1",
+        "price": "2 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Picking a poor lock requires two successful DC 15 Thievery checks, a simple lock requires three successful DC\u00a020 Thievery checks, an average lock requires four successes at DC 25, a good lock requires five successes at DC 30, and a superior lock six successes at DC 40.  Lock (Poor)Item 0 Source Price 2 sp Hands 2  Lock (Simple)Item 1 Source Level 1; Price 2 gp Hands 2  Lock (Average)Item 3 Source Level 3; Price 15 gp Hands 2  Lock (Good)Item 9 Source Level 9; Price 200 gp Hands 2  Lock (Superior)Item 17 Source Level 17; Price 4,500 gp Hands 2"
+    }, {
+        "name": "Manacles (Simple)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=32",
+        "level": "1",
+        "price": "3 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10\u201330 seconds depending on the creature\u2019s size and how many manacles you apply. A two-legged creature with its legs bound takes a \u201315-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from poor manacles requires two successful DC 17 Thievery checks, simple manacles requires three successes at DC 22, average manacles require four successes at DC\u00a027, good manacles require five successes at DC 32, and superior manacles require six successes at DC 42.  Manacles (Poor)Item 0 Source Price 3 sp Hands 2  Manacles (Simple)Item 1 Source Level 1; Price 3 gp Hands 2  Manacles (Average)Item 3 Source Level 3; Price 20 gp Hands 2  Manacles (Good)Item 9 Source Level 9; Price 250 gp Hands 2  Manacles (Superior)Item 17 Source Level 17; Price 5,000 gp Hands 2"
+    }, {
+        "name": "Tent (Pavilion)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=57",
+        "level": "2",
+        "price": "40 gp",
+        "bulk": "12",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 288",
+        "text": " Tent (Pup)Item 0 Source Price 8 sp Hands 2; Bulk L  Tent (Four-Person)Item 0 Source Price 5 gp Hands 2; Bulk 1  Tent (Pavilion)Item 2 Source Level 2; Price 40 gp Hands 2; Bulk 12"
+    }, {
+        "name": "Disguise Kit (Elite Cosmetics)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=19",
+        "level": "3",
+        "price": "5 sp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 2 gp Hands 2; Bulk L This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. An elite disguise kit adds a +1 item bonus to relevant checks. If you\u2019ve crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit.  Disguise KitItem 0 Source Price 2 gp Hands 2; Bulk L  Disguise Kit (Replacement Cosmetics)Item 0 Source Price 1 sp  Disguise Kit (Elite)Item 3 Source Level 3; Price 40 gp Hands 2; Bulk L  Disguise Kit (Elite Cosmetics)Item 3 Source Level 3; Price 5 sp"
+    }, {
+        "name": "Thieve's Tools (Infiltrator Picks)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=58",
+        "level": "3",
+        "price": "3 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 3 gp Hands 2; Bulk L You need thieves\u2019 tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. Infiltrator thieves\u2019 tools add a +1 item bonus to checks to Pick Locks and Disable Devices. If your thieves\u2019 tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn\u2019t require using the Repair action.  Thieves' ToolsItem 0 Source Price 3 gp Hands 2; Bulk L  Thieves' Tools (Replacement Picks)Item 0 Source Price 3 sp  Thieve's Tools (Infiltrator)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk L  Thieve's Tools (Infiltrator Picks)Item 3 Source Level 3; Price 3 gp"
+    }, {
+        "name": "Scholarly Journal",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=64",
+        "level": "3",
+        "price": "6 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 6 gp Hands 1; Bulk L Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.  Scholarly JournalItem 3 Source Level 3; Price 6 gp Hands 1; Bulk L  Scholarly Journal (Compendium)Item 3 Source Level 3; Price 30 gp Hands 2; Bulk L"
+    }, {
+        "name": "Survey Map",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=65",
+        "level": "3",
+        "price": "10 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Maps are uncommon. Most maps you can find are simple and functional. A survey map details a single location in excellent detail. One of these maps gives you a +1 item bonus to Survival checks and any skill checks to Recall Knowledge, provided the checks are related to the location detailed on the map. Maps sometimes come in atlases, containing a number of maps of the same quality, often on similar topics. An atlas costs five times as much as a single map and requires both hands to use. The GM determines what maps are available in any location.  Survey MapItem 3 Source Level 3; Price 10 gp Hands 1; Bulk L  Survey Map (Atlas)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk L"
+    }, {
+        "name": "Lock (Average)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=30",
+        "level": "3",
+        "price": "15 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Picking a poor lock requires two successful DC 15 Thievery checks, a simple lock requires three successful DC\u00a020 Thievery checks, an average lock requires four successes at DC 25, a good lock requires five successes at DC 30, and a superior lock six successes at DC 40.  Lock (Poor)Item 0 Source Price 2 sp Hands 2  Lock (Simple)Item 1 Source Level 1; Price 2 gp Hands 2  Lock (Average)Item 3 Source Level 3; Price 15 gp Hands 2  Lock (Good)Item 9 Source Level 9; Price 200 gp Hands 2  Lock (Superior)Item 17 Source Level 17; Price 4,500 gp Hands 2"
+    }, {
+        "name": "Compass (Lensatic)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=16",
+        "level": "3",
+        "price": "20 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 1 gp Hands 1; Bulk L A compass helps you Sense Direction or navigate, provided you\u2019re in\u00a0a location with uniform magnetic fields. Without a compass, you take a \u20132 item penalty to these checks (similar to using a shoddy item). A lensatic compass gives you a\u00a0+1 item bonus to\u00a0these checks.  CompassItem 0 Source Price 1 gp Hands 1; Bulk L  Compass (Lensatic)Item 3 Source Level 3; Price 20 gp Hands 1; Bulk L"
+    }, {
+        "name": "Crowbar (Levered)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=18",
+        "level": "3",
+        "price": "20 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 5 sp Hands 2; Bulk L When an object that doesn\u2019t have an easy grip, a crowbar makes it easier to gain the necessary leverage. Without a crowbar, prying something open takes a \u20132 item penalty to the Athletics check to Force Open (similar to using a shoddy item). A levered crowbar grants you a +1 item bonus to Athletics checks to Force Open anything that can be pried open.  CrowbarItem 0 Source Price 5 sp Hands 2; Bulk L  Crowbar (Levered)Item 3 Source Level 3; Price 20 gp Hands 2; Bulk L"
+    }, {
+        "name": "Fishing Tackle (Professional)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=20",
+        "level": "3",
+        "price": "20 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 8 sp Hands 2; Bulk 1 This kit include a collapsible fishing pole, fishhooks, line, lures, and a fishing net. Professional fishing tackle grants a +1 item bonus to checks to fish.  Fishing TackleItem 0 Source Price 8 sp Hands 2; Bulk 1  Fishing Tackle (Professional)Item 3 Source Level 3; Price 20 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Manacles (Average)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=32",
+        "level": "3",
+        "price": "20 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10\u201330 seconds depending on the creature\u2019s size and how many manacles you apply. A two-legged creature with its legs bound takes a \u201315-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from poor manacles requires two successful DC 17 Thievery checks, simple manacles requires three successes at DC 22, average manacles require four successes at DC\u00a027, good manacles require five successes at DC 32, and superior manacles require six successes at DC 42.  Manacles (Poor)Item 0 Source Price 3 sp Hands 2  Manacles (Simple)Item 1 Source Level 1; Price 3 gp Hands 2  Manacles (Average)Item 3 Source Level 3; Price 20 gp Hands 2  Manacles (Good)Item 9 Source Level 9; Price 250 gp Hands 2  Manacles (Superior)Item 17 Source Level 17; Price 5,000 gp Hands 2"
+    }, {
+        "name": "Repair Kit (Superb)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=43",
+        "level": "3",
+        "price": "25 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to Repair items using the Crafting skill. A superb repair kit gives you a +1\u00a0item bonus to the check.  Repair KitItem 0 Source Price 2 gp Hands 2; Bulk 1  Repair Kit (Superb)Item 3 Source Level 3; Price 25 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Scholarly Journal (Compendium)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=64",
+        "level": "3",
+        "price": "30 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 6 gp Hands 1; Bulk L Scholarly journals are uncommon. Each scholarly journal is a folio on a very specific topic, such as vampires or the history of a single town or neighborhood of a city. If you spend 1 minute referencing an academic journal before attempting a skill check to Recall Knowledge about the subject, you gain a +1 item bonus to the check. A compendium of journals costs five times as much as a single journal and requires both hands to use; each compendium contains several journals and grants its bonus on a broader topic, such as all undead or a whole city. The GM determines what scholarly journals are available in any location.  Scholarly JournalItem 3 Source Level 3; Price 6 gp Hands 1; Bulk L  Scholarly Journal (Compendium)Item 3 Source Level 3; Price 30 gp Hands 2; Bulk L"
+    }, {
+        "name": "Climbing Kit (Extreme)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=14",
+        "level": "3",
+        "price": "40 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": "Price 5 sp Hands 2; Bulk 1 This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you\u2019re Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a DC 5 flat check whenever you critically fail to prevent a fall. You gain a +1 item bonus to Athletics checks to Climb while using an extreme climbing kit. A single kit has only enough materials for one climber; each climber needs their own kit.  Climbing KitItem 0 Source Price 5 sp Hands 2; Bulk 1  Climbing Kit (Extreme)Item 3 Source Level 3; Price 40 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Disguise Kit (Elite)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=19",
+        "level": "3",
+        "price": "40 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 2 gp Hands 2; Bulk L This small wooden box contains cosmetics, false facial hair, spirit gum, and a few simple wigs. You usually need a disguise kit to set up a disguise in order to Impersonate someone using the Deception skill. An elite disguise kit adds a +1 item bonus to relevant checks. If you\u2019ve crafted a large number of disguises, you can replenish your cosmetics supply with replacement cosmetics suitable for the type of your disguise kit.  Disguise KitItem 0 Source Price 2 gp Hands 2; Bulk L  Disguise Kit (Replacement Cosmetics)Item 0 Source Price 1 sp  Disguise Kit (Elite)Item 3 Source Level 3; Price 40 gp Hands 2; Bulk L  Disguise Kit (Elite Cosmetics)Item 3 Source Level 3; Price 5 sp"
+    }, {
+        "name": "Artisan's Tools (Sterling)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=3",
+        "level": "3",
+        "price": "50 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": "Price 4 gp Hands 2; Bulk 2 You need these tools to create items from raw materials with the Craft skill. Sterling artisan\u2019s tools give you a +1 item bonus to the check. Different sets are needed for different work, as determined by the GM; for example, blacksmith\u2019s tools differ from woodworker\u2019s\u00a0tools.  Artisan's ToolsItem 0 Source Price 4 gp Hands 2; Bulk 2  Artisan's Tools (Sterling)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Healer's Tools (Expanded)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=25",
+        "level": "3",
+        "price": "50 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Price 5 gp Hands 2; Bulk 1 This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to Administer First Aid, Treat Disease, Treat Poison, or Treat Wounds. Expanded healer\u2019s tools provide a +1 item bonus to such checks. When you carry the tools from place to place, you keep many of the components handy on your person, in pockets or\u00a0bandoliers.  Healer's ToolsItem 0 Source Price 5 gp Hands 2; Bulk 1  Healer's Tools (Expanded)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 1"
+    }, {
+        "name": "Musical Instrument (Virtuoso Handheld)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=37",
+        "level": "3",
+        "price": "50 gp",
+        "bulk": "1",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments. The GM might rule that an especially large handheld instrument (like a tuba) has greater Bulk. Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while played. A virtuoso instrument gives a +1 item bonus to Performance checks using that instrument.  Musical Instrument (Handheld)Item 0 Source Price 8 sp Hands 2; Bulk 1  Musical Instrument (Virtuoso Handheld)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 1  Musical Instrument (Heavy)Item 0 Source Price 2 gp Hands 2; Bulk 16  Musical Instrument (Virtuoso Heavy)Item 3 Source Level 3; Price 100 gp Hands 2; Bulk 16"
+    }, {
+        "name": "Survey Map (Atlas)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=65",
+        "level": "3",
+        "price": "50 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Maps are uncommon. Most maps you can find are simple and functional. A survey map details a single location in excellent detail. One of these maps gives you a +1 item bonus to Survival checks and any skill checks to Recall Knowledge, provided the checks are related to the location detailed on the map. Maps sometimes come in atlases, containing a number of maps of the same quality, often on similar topics. An atlas costs five times as much as a single map and requires both hands to use. The GM determines what maps are available in any location.  Survey MapItem 3 Source Level 3; Price 10 gp Hands 1; Bulk L  Survey Map (Atlas)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk L"
+    }, {
+        "name": "Thieve's Tools (Infiltrator)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=58",
+        "level": "3",
+        "price": "50 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 3 gp Hands 2; Bulk L You need thieves\u2019 tools to Pick Locks or Disable Devices (of some types) using the Thievery skill. Infiltrator thieves\u2019 tools add a +1 item bonus to checks to Pick Locks and Disable Devices. If your thieves\u2019 tools are broken, you can repair them by replacing the lock picks with replacement picks appropriate to your tools; this doesn\u2019t require using the Repair action.  Thieves' ToolsItem 0 Source Price 3 gp Hands 2; Bulk L  Thieves' Tools (Replacement Picks)Item 0 Source Price 3 sp  Thieve's Tools (Infiltrator)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk L  Thieve's Tools (Infiltrator Picks)Item 3 Source Level 3; Price 3 gp"
+    }, {
+        "name": "Alchemist's Tools (Expanded)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=2",
+        "level": "3",
+        "price": "55 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": "Price 5 gp Hands 2; Bulk 2 These beakers and chemicals can be used to set up a mobile alchemical laboratory. Expanded alchemist\u2019s tools give a +1 item bonus to Crafting checks to create alchemical items. When you carry the tools from place to place, you keep many of the components handy on your person, in pockets or bandoliers.  Alchemist's ToolsItem 0 Source Price 5 gp Hands 2; Bulk 2  Alchemist's Tools (Expanded)Item 3 Source Level 3; Price 55 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Clothing (High-Fashion Fine)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=15",
+        "level": "3",
+        "price": "55 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 287",
+        "text": " Clothing (Oridinary)Item 0 Source Price 1 sp Ordinary clothing is functional with basic tailoring, such as peasant garb, monk\u2019s robes, or work clothes.  Clothing (Explorer's)Item 0 Source Price 1 sp Bulk L Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see pages 275\u2013276.  Clothing (Fine)Item 0 Source Price 2 gp Bulk L Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns. You gain a +1 item bonus to checks to Make an Impression on nobility or other upper-class folk while wearing high-fashion fine clothing.  Clothing (High-Fashion Fine)Item 3 Source Level 3; Price 55 gp Bulk L  Clothing (Winter)Item 0 Source Price 4 sp Bulk L Winter clothing allows you to negate the damage from severe environmental cold and reduce the damage from extreme cold to that of severe cold."
+    }, {
+        "name": "Snare Kit (Specialist)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=51",
+        "level": "3",
+        "price": "55 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 5 gp Hands 2; Bulk 2 This kit contains tools and materials for creating snares. A snare kit allows you to Craft snares using the Crafting skill. A specialist snare kit gives you a +1 item bonus to the check.  Snare KitItem 0 Source Price 5 gp Hands 2; Bulk 2  Snare Kit (Specialist)Item 3 Source Level 3; Price 55 gp Hands 2; Bulk 2"
+    }, {
+        "name": "Musical Instrument (Virtuoso Heavy)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=37",
+        "level": "3",
+        "price": "100 gp",
+        "bulk": "16",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments. The GM might rule that an especially large handheld instrument (like a tuba) has greater Bulk. Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while played. A virtuoso instrument gives a +1 item bonus to Performance checks using that instrument.  Musical Instrument (Handheld)Item 0 Source Price 8 sp Hands 2; Bulk 1  Musical Instrument (Virtuoso Handheld)Item 3 Source Level 3; Price 50 gp Hands 2; Bulk 1  Musical Instrument (Heavy)Item 0 Source Price 2 gp Hands 2; Bulk 16  Musical Instrument (Virtuoso Heavy)Item 3 Source Level 3; Price 100 gp Hands 2; Bulk 16"
+    }, {
+        "name": "Spyglass (Fine)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=54",
+        "level": "4",
+        "price": "80 gp",
+        "bulk": "L",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 291",
+        "text": "Price 20 gp Hands 2; Bulk L A typical spyglass lets you see eight times farther than normal. A fine spyglass adds a +1 item bonus to Perception checks to notice details at a distance.  SpyglassItem 0 Source Price 20 gp Hands 2; Bulk L  Spyglass (Fine)Item 4 Source Level 4; Price 80 gp Hands 2; Bulk L"
+    }, {
+        "name": "Lock (Good)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=30",
+        "level": "9",
+        "price": "200 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Picking a poor lock requires two successful DC 15 Thievery checks, a simple lock requires three successful DC\u00a020 Thievery checks, an average lock requires four successes at DC 25, a good lock requires five successes at DC 30, and a superior lock six successes at DC 40.  Lock (Poor)Item 0 Source Price 2 sp Hands 2  Lock (Simple)Item 1 Source Level 1; Price 2 gp Hands 2  Lock (Average)Item 3 Source Level 3; Price 15 gp Hands 2  Lock (Good)Item 9 Source Level 9; Price 200 gp Hands 2  Lock (Superior)Item 17 Source Level 17; Price 4,500 gp Hands 2"
+    }, {
+        "name": "Manacles (Good)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=32",
+        "level": "9",
+        "price": "250 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10\u201330 seconds depending on the creature\u2019s size and how many manacles you apply. A two-legged creature with its legs bound takes a \u201315-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from poor manacles requires two successful DC 17 Thievery checks, simple manacles requires three successes at DC 22, average manacles require four successes at DC\u00a027, good manacles require five successes at DC 32, and superior manacles require six successes at DC 42.  Manacles (Poor)Item 0 Source Price 3 sp Hands 2  Manacles (Simple)Item 1 Source Level 1; Price 3 gp Hands 2  Manacles (Average)Item 3 Source Level 3; Price 20 gp Hands 2  Manacles (Good)Item 9 Source Level 9; Price 250 gp Hands 2  Manacles (Superior)Item 17 Source Level 17; Price 5,000 gp Hands 2"
+    }, {
+        "name": "Bountiful Cauldron",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=506",
+        "level": "9",
+        "price": "680 gp",
+        "bulk": "2",
+        "category": "Adventuring Gear",
+        "source": "create food",
+        "text": "Price 680 gp Bulk 2 This mid-sized, silver cauldron is a boon within areas where access to fresh food is limited, for it can be commanded to fill itself with hearty (and delicious) vegetable stew. It can also be put to a much greater use in the pursuit of crafting certain items. When used to Craft alchemical items, potions, or oils, a bountiful cauldron grants a +2 item bonus to the Crafting check. Activate   command, Interact; Frequency once per day; Effect You stir the cauldron, and it casts a 4th-level spell, filling itself with enough delicious vegetable stew to feed 12 Medium creatures."
+    }, {
+        "name": "Lock (Superior)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=30",
+        "level": "17",
+        "price": "4,500 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "Picking a poor lock requires two successful DC 15 Thievery checks, a simple lock requires three successful DC\u00a020 Thievery checks, an average lock requires four successes at DC 25, a good lock requires five successes at DC 30, and a superior lock six successes at DC 40.  Lock (Poor)Item 0 Source Price 2 sp Hands 2  Lock (Simple)Item 1 Source Level 1; Price 2 gp Hands 2  Lock (Average)Item 3 Source Level 3; Price 15 gp Hands 2  Lock (Good)Item 9 Source Level 9; Price 200 gp Hands 2  Lock (Superior)Item 17 Source Level 17; Price 4,500 gp Hands 2"
+    }, {
+        "name": "Manacles (Superior)",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=32",
+        "level": "17",
+        "price": "5,000 gp",
+        "bulk": "",
+        "category": "Adventuring Gear",
+        "source": "Core Rulebook pg. 290",
+        "text": "You can manacle someone who is willing or otherwise at your mercy as an exploration activity taking 10\u201330 seconds depending on the creature\u2019s size and how many manacles you apply. A two-legged creature with its legs bound takes a \u201315-foot circumstance penalty to its Speeds, and a two-handed creature with its wrists bound has to succeed at a DC 5 flat check any time it uses a manipulate action or else that action fails. This DC may be higher depending on how tightly the manacles constrain the hands. A creature bound to a stationary object is immobilized. For creatures with more or fewer limbs, the GM determines what effect manacles have, if any. Freeing a creature from poor manacles requires two successful DC 17 Thievery checks, simple manacles requires three successes at DC 22, average manacles require four successes at DC\u00a027, good manacles require five successes at DC 32, and superior manacles require six successes at DC 42.  Manacles (Poor)Item 0 Source Price 3 sp Hands 2  Manacles (Simple)Item 1 Source Level 1; Price 3 gp Hands 2  Manacles (Average)Item 3 Source Level 3; Price 20 gp Hands 2  Manacles (Good)Item 9 Source Level 9; Price 250 gp Hands 2  Manacles (Superior)Item 17 Source Level 17; Price 5,000 gp Hands 2"
+    }]
+}

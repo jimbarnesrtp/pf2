@@ -29,7 +29,7 @@ for child in children:
     if child.name == "a":
         spell = {}
         spell['type'] = spellType
-        spell['level'] = spellLevel
+        spell['level'] = int(spellLevel)
         spell['name'] = child.text
         spell['link'] = "https://2e.aonprd.com/"+child['href']
         focusSpells.append(spell)
@@ -42,7 +42,7 @@ for spell in focusSpells:
         #break
 
     res2 = requests.get(spell['link'])
-    print("getting spell:", spell['link'])
+    print("getting spell:", spell['name'])
     res2.raise_for_status()
     soup2 = BeautifulSoup(res2.text, 'lxml')
     detail2 = soup2.find(lambda tag: tag.name=='span' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_DetailedOutput") 
@@ -75,7 +75,7 @@ for spell in focusSpells:
                 if child2.name == "b":
 
                     if(child2.text != "Source"):
-                        tagType = child2.text
+                        tagType = child2.text.lower().replace(" ", "")
             else:
                 detailHolder.append(child2.text)        
         else:
@@ -85,8 +85,16 @@ for spell in focusSpells:
                 if tagType != "":
                     spell[tagType] = stringContents
        #print(child)
-       
-    spell['details'] = detailHolder
+    finalText = ""
+    for text in detailHolder:
+        if text.isspace():
+            pass
+        elif text == ", ":
+            pass
+        else:
+            #print("text:", text)
+            finalText += " "+text
+    spell['text'] = finalText.strip()
     #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
     
 

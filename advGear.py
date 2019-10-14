@@ -1,5 +1,12 @@
 from bs4 import BeautifulSoup
 import requests
+import datetime
+import json
+
+
+itemHolder = {}
+itemHolder['name'] = 'Pathfinder 2.0 item list'
+itemHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 items = []
 def get_details(link):
@@ -33,9 +40,11 @@ def get_details(link):
 
         
         #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
+    
         if "Source" in stringContents:
             reachedBreak = True
-    details['text'] = detailHolder
+    string = " "
+    details['text'] = string.join(detailHolder)
     return details
         
     
@@ -51,8 +60,8 @@ def get_adv(link, category):
     rows = table.findAll(lambda tag: tag.name=='tr')
     for row in rows:
         j += 1
-        print(row)
-        print("-----------------------------------")
+        #print(row)
+        #print("-----------------------------------")
         item = {}
         entries = row.find_all(lambda tag: tag.name=='td')
         if entries is not None:
@@ -68,16 +77,25 @@ def get_adv(link, category):
                 item['price'] = price
                 item['bulk'] = bulk
                 item['category'] = category
-
+                print("Getting item:", item['name'])
                 details = get_details(itemLink)
                 len(details.keys())
                 for key in details.keys():
-                    item[key] = details[key]
+                    item[key.lower()] = details[key]
 
                 items.append(item)
 
         
-        if j > 5:
-            break
+        #if j > 5:
+            #break
 
     return items
+
+itemHolder['adventuringGear'] = get_adv("https://2e.aonprd.com/Equipment.aspx?Category=1", "Adventuring Gear")
+
+json_data = json.dumps(itemHolder)
+#print(json_data)
+filename = "advGear-pf2.json"
+f = open(filename, "w")
+f.write(json_data)
+f.close

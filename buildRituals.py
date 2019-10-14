@@ -46,6 +46,9 @@ def get_details(link):
                 except:
                     pass
                 tagType = ""
+            if child.name == "ul":
+                #print(child.text)
+                detailHolder.append(child.text)
             if child.name == "b":
 
                 if(child.text != "Source"):
@@ -60,13 +63,16 @@ def get_details(link):
                     #detailHolder.append(child.text)        
         else:
             if tagType != "":
-                itemDetails[tagType] = stringContents
-                tagType = ""
+                if tagType in itemDetails:
+                    itemDetails[tagType] = itemDetails[tagType] + stringContents
+                else:
+                    itemDetails[tagType] = stringContents.strip()
+                #tagType = ""
             else:
                 if not stringContents.isspace():
                     detailHolder.append(stringContents)
 
-    itemDetails['text'] = string.join(detailHolder)
+    itemDetails['text'] = string.join(detailHolder).strip()
     return itemDetails
 
 
@@ -91,17 +97,21 @@ def get_rituals(link):
             if child.name == "a":
                 ritualHolder['name'] = child.text
                 ritualHolder['link'] = "https://2e.aonprd.com/"+child['href']
+                ritualHolder['level'] = int(ritualLevel)
         else:
             ritualHolder['text'] = stringContents
             items.append(ritualHolder)
             ritualHolder = {}
 
-    
+    t = 0
     for item in items:
+        t += 1
         [print("Getting ritual:", item['name'])]
         itemDetails = get_details(item['link'])
         for key in itemDetails.keys():
-            item[key] = itemDetails[key]
+            item[key.replace(" ", "").lower().replace("(","").replace(")","")] = itemDetails[key]
+        #if t > 3:
+            #break
     return items
 
 
