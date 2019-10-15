@@ -190,14 +190,14 @@ def get_single(link):
             if reachedBreak:
                 if tagType != "":
                     if not stringContents.isspace():
-                            details[tagType] = stringContents
+                            details[tagType] = stringContents.strip()
                 else:
                     if not stringContents.isspace() :
-                        detailHolder.append(stringContents)
+                        detailHolder.append(stringContents.strip())
             else:
                 if tagType != "":
                     if not stringContents.isspace():
-                        details[tagType] = stringContents
+                        details[tagType] = stringContents.strip()
                 
 
        #print(child)
@@ -231,6 +231,10 @@ def get_all():
                     name = entries[0].find("a").text
                     item['name'] = name
                     item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                    if entries[1].text == "—":
+                        item['level'] = 0
+                    else:
+                        item['level'] = int(entries[1].text)
 
                     if any(x['link'] == item['link'] for x in itemHolder):
                         #print("shortName:", shortName)
@@ -257,6 +261,7 @@ def get_all():
         else:
             single = get_single(item['link'])
             single['category'] = "adventuring gear"
+            single['level'] = item['level']
             items.append(single)
 
     wornHolder['wornItems'] = items
