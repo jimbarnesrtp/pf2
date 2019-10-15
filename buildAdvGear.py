@@ -20,29 +20,30 @@ def get_details(link):
     reachedBreak = False
     detailHolder = []
     details = {}
+    tagType = ""
     for child in children:
         stringContents = str(child)
-        if reachedBreak:
-            if stringContents != "<br/>" and stringContents != "<hr/>":
-                if(stringContents.startswith("<a")):
-                    details['source'] = child.text
-                else:
-                    #print("in here", stringContents)
-                    try:
-                        detailHolder.append(child.text)
-                        
-                    except Exception as e: 
-                        if(len(stringContents.strip()) > 0):
-                            detailHolder.append(stringContents.strip())
-                        #print("exception:", stringContents)
-                        #print(e)
-            #detailHolder.append(child.text)
 
-        
-        #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
+        if stringContents.startswith("<"):
+            if child.name == "hr":
+                reachedBreak = True
+            if child.name == "b":
+                if child.text == "Source":
+                    tagType = child.text.lower()
+                else:
+                    tagType = ""
+            if child.name == "h2":
+                break
+            if child.name == "a":
+                details[tagType] = child.text
+
+        else:
+            if tagType != "":
+                details[tagType] = stringContents
+            if reachedBreak:
+                detailHolder.append(stringContents)
+
     
-        if "Source" in stringContents:
-            reachedBreak = True
     string = " "
     details['text'] = string.join(detailHolder)
     return details

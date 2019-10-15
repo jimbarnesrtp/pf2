@@ -14,7 +14,7 @@ def get_afterhr(link):
     for child in children:
         stringContents = str(child)
         if stringContents.startswith("<"):
-            if stringContents == "<hr/>":
+            if child.name == "hr":
                 reachedBreak = True
         else:
             if reachedBreak:
