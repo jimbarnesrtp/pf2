@@ -196,7 +196,7 @@ def get_precious():
                     item['name'] = child.text[0:start].strip()
                 if child.name == "b":
                     if(child.text != "Source"):
-                        tagType = child.text.lower()
+                        tagType = child.text.lower().replace(" ", "")
             else:
                 if reachedBreak:
                     detailHolder.append(stringContents.strip())
