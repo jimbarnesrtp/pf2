@@ -28,42 +28,49 @@ def get_base_magic(link):
                 item['name'] = entries[0].find("a").text
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = "Magic Armor"
-                item['level'] = entries[1].text
+                item['level'] = 0 if entries[1].text == "" else int(entries[1].text)
                 item['price'] = entries[2].text
                 items.append(item)
     
     itemDetails = []
     traits = []
     detailHolder = []
+    string = " "
     if len(items) > 0:
         res = requests.get(items[0]['link'])
         res.raise_for_status()
         soup = BeautifulSoup(res.text, 'lxml')
         main = soup.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
         children = main.contents
+
+        traits = main.find_all("span", {"class" : lambda L: L and L.startswith('trai')})
+        traitHolder = []
+        for trait in traits:
+            traitHolder.append(trait.text)
         reachedBreak = False
         
-        traitsHolder = main.find_all("span", {'class':'trait'})
-        
-        for trait in traitsHolder:
-            traits.append(trait.text)
         
         reachedBreak = False
         reachedItem = False
         itemDetail = {}
         itemDetailHolder = []
         notFirstH2 = False
+        tagType = ""
+        rowCount = 0
         for child in children:
             
             stringContents = str(child)
             if stringContents.startswith("<"):
 
-                if stringContents == "<hr/>":
+                if child.name == "hr":
                     reachedBreak = True
-                if stringContents.startswith("<h2"):
+                if child.name == "i":
+                    if reachedItem:
+                        itemDetailHolder.append(child.text.strip())
+                if child.name == "h2":
                     if(notFirstH2):
-                        
-                        itemDetail['itemDetails'] = itemDetailHolder
+                        rowCount = 0
+                        itemDetail['text'] = string.join(itemDetailHolder)
                         itemDetails.append(itemDetail)
                         itemDetail = {}
                         itemDetailHolder = []
@@ -74,26 +81,29 @@ def get_base_magic(link):
                     reachedItem = True
                     name = child.text
                     start = child.text.find("Item")
-                    itemDetail['name'] = child.text[0:start]
+                    itemDetail['name'] = child.text[0:start].strip()
+                    itemDetail['traits'] = traitHolder
+                    
             else:
                 if reachedBreak:
-                    detailHolder.append(stringContents)
+                    detailHolder.append(stringContents.strip())
                 if reachedItem:
-                    itemDetailHolder.append(stringContents)
-        itemDetail['itemDetails'] = itemDetailHolder
+                    rowCount += 1
+                    if( rowCount > 3) :
+                        itemDetailHolder.append(stringContents.strip())
+        
+        itemDetail['text'] = string.join(itemDetailHolder)
         itemDetails.append(itemDetail)
 
     for item in items:
+        
         for itemDetail in itemDetails:
-
-            try:
-                if itemDetail['name'] == item['name']:
-
-                    item['traits'] = traits
-                    item['about'] = detailHolder
-                    item['details'] = itemDetail
-            except:
-                print("itemDetail:" , itemDetail)
+            
+            if itemDetail['name'] == item['name']:
+                
+                for key in itemDetail.keys():
+                    item[key] = itemDetail[key]
+                    
     
     return items
 
@@ -108,6 +118,7 @@ def get_armor(link):
     #print(detail.contents)
     table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
     j = 0
+    string = ""
     rows = table.findAll(lambda tag: tag.name=='tr')
     for row in rows:
         j += 1
@@ -119,18 +130,18 @@ def get_armor(link):
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = "Armor"
                 item['armorCategory'] = entries[1].text
-                item['level'] = entries[2].text.replace(u'\u2014', '')
+                item['level'] = 0 if entries[2].text == u'\u2014' else int(entries[2].text.replace(u'\u2014', ''))
                 item['price'] = entries[3].text.replace(u'\u2014', '')
                 item['acBonus'] = entries[4].text
                 item['dexCap'] = entries[5].text.replace(u'\u2014', '')
                 item['checkPenalty'] = entries[6].text.replace(u'\u2014', '')
                 item['speedPenalty'] = entries[7].text.replace(u'\u2014', '')
-                item['str'] = entries[8].text.replace(u'\u2014', '')
+                item['strength'] = entries[8].text.replace(u'\u2014', '')
                 item['bulk'] = entries[9].text.replace(u'\u2014', '')
                 item['group'] = entries[10].text.replace(u'\u2014', '')
-                item['traits'] = entries[11].text.replace(u'\u2014', '')
+                item['traits'] = entries[11].text.replace(u'\u2014', '').replace("\"", "").split(",")
 
-                item['text'] = hrDets.get_afterhr(item['link'])
+                item['text'] = string.join(hrDets.get_afterhr(item['link']))
 
                 items.append(item)
         #if j > 5:
@@ -139,6 +150,8 @@ def get_armor(link):
 
 def get_precious():
     items = []
+    string = ""
+
     listOfPages = codecs.open("preciousArmor.csv", encoding='utf-8')
     for line in listOfPages: 
         armorMD = line.split(",")
@@ -148,6 +161,10 @@ def get_precious():
         res2.raise_for_status()
         soup2 = BeautifulSoup(res2.text, 'lxml')
         main = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
+        traits = main.find_all("span", {"class" : lambda L: L and L.startswith('trai')})
+        traitHolder = []
+        for trait in traits:
+            traitHolder.append(trait.text)
         children = main.contents
         reachedBreak = False
         reachedItem = False
@@ -162,9 +179,11 @@ def get_precious():
                 if child.name == "hr":
                     tagType = ""
                     reachedBreak = True
+                
                 if child.name == "h2":
                     if notFirstH2: 
-                        item['text'] = detailHolder
+                        item['text'] = string.join(detailHolder).strip()
+                        item['traits'] = traitHolder
                         items.append(item)
                         item = {}
                     else:
@@ -174,17 +193,22 @@ def get_precious():
                     reachedItem = True
                     name = child.text
                     start = child.text.find("Item")
-                    item['name'] = child.text[0:start]
+                    item['name'] = child.text[0:start].strip()
                 if child.name == "b":
                     if(child.text != "Source"):
-                        tagType = child.text
+                        tagType = child.text.lower()
             else:
                 if reachedBreak:
-                    detailHolder.append(stringContents)
+                    detailHolder.append(stringContents.strip())
                 if reachedItem:
                     if tagType != "":
-                        item[tagType] = stringContents
-        item['text'] = detailHolder
+                        if tagType == "level":
+                            item[tagType] = int(stringContents.strip().replace(";",""))
+                        else:
+                            item[tagType] = stringContents.strip()
+                        
+        string = " "
+        item['text'] = string.join(detailHolder)
         items.append(item)
 
     return items
@@ -207,7 +231,7 @@ def get_magic_armor(link):
                 item['name'] = entries[0].find("a").text
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = "Magic Armor"
-                item['level'] = entries[1].text
+                item['level'] = 0 if entries[1].text == "" else int(entries[1].text)
                 item['price'] = entries[2].text
                 item['bulk'] = entries[3].text.replace(u'\u2014', '')
 
@@ -254,7 +278,7 @@ def get_armor_details(link):
                 if child2.name == "b":
 
                     if(child2.text != "Source"):
-                        tagType = child2.text
+                        tagType = child2.text.lower()
             else:
                 if not stringContents.isspace() :
                     detailHolder.append(child2.text)        
@@ -268,8 +292,8 @@ def get_armor_details(link):
                         if not stringContents.isspace():
                             itemDetails[tagType] = stringContents
        #print(child)
-       
-    itemDetails['text'] = detailHolder
+    string = " "
+    itemDetails['text'] = string.join(detailHolder)
 
     return itemDetails
 
