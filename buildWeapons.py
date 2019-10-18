@@ -223,7 +223,7 @@ def get_multi(link):
                     item['name'] = child.text[0:start].strip()
             if child.name == "b":
                 if(child.text != "Source"):
-                    tagType = child.text.lower()
+                    tagType = child.text.replace(" ", "").lower()
                     
             if child.name == "a":
 
