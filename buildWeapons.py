@@ -243,7 +243,10 @@ def get_multi(link):
         else:
             
             if reachedBreak:
-                if(tagType != ""):
+                if tagType == "level":
+                    
+                    item['level'] = int(stringContents.replace(";","").strip())
+                elif(tagType != ""):
                     if not stringContents.isspace():
                         if tagType in item:
                             item[tagType] += " " + stringContents.strip()
@@ -258,8 +261,10 @@ def get_multi(link):
                     parentDetails[tagType] = stringContents.strip()
                     tagType = ""
             if reachedItem:
-                
-                if tagType != "":
+                if tagType == "level":
+                    
+                    item['level'] = int(stringContents.replace(";","").strip())
+                elif tagType != "":
                     item[tagType] = stringContents.strip()
                     tagType = ""
                 else:
