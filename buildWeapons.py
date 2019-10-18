@@ -55,10 +55,10 @@ def get_details(link):
                     detailHolder.append(stringContents)
        #print(child)
        #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
-
-    critHolder['text'] = critText
-    itemDetails['critSpecial'] = critHolder
-    itemDetails['text'] = detailHolder
+    string = ""
+    critHolder['text'] = string.join(critText)
+    #itemDetails['critSpecial'] = critHolder
+    itemDetails['text'] = string.join(detailHolder)
     return itemDetails
 
 
@@ -85,10 +85,10 @@ def get_melee_weapons(link):
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = entries[1].text
                 item['price'] = entries[2].text.replace(u'\u2014', '')
-                item['damage'] = entries[3].text
+                item['damage'] = entries[3].text.replace(u'\u2014', '')
                 item['bulk'] = entries[4].text.replace(u'\u2014', '')
-                item['hands'] = entries[5].text
-                item['group'] = entries[6].text
+                item['hands'] = int(entries[5].text)
+                item['group'] = entries[6].text.replace(u'\u2014', '')
                 item['weaponTraits'] = entries[7].text.split(",")
                 print("getting held:",item['name'])
                 itemDetails = get_details(item['link'])
@@ -125,7 +125,7 @@ def get_range_weapons(link):
                 item['price'] = entries[2].text.replace(u'\u2014', '')
                 item['damage'] = entries[3].text.replace(u'\u2014', '')
                 item['range'] = entries[4].text.replace(u'\u2014', '')
-                item['reload'] = entries[5].text.replace(u'\u2014', '')
+                item['reload'] = 0 if entries[5].text.replace(u'\u2014', '') == "" else int(entries[5].text) 
                 item['bulk'] = entries[6].text.replace(u'\u2014', '')
                 item['hands'] = entries[7].text.replace(u'\u2014', '')
                 item['group'] = entries[8].text
@@ -163,6 +163,7 @@ def get_multi(link):
     item['link'] = link
     tagType = ""
     itemDetailHolder = []
+    string = " "
     for child in children:
         
         stringContents = str(child)
@@ -176,6 +177,21 @@ def get_multi(link):
                 inHeader = False
             if child.name == "img":
                 item['actions'] = child['alt']
+            if child.name == "i":
+
+                if(reachedBreak):
+                    if tagType != "":
+                        if tagType in item:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
+                    detailHolder.append(child.text) 
+                else:
+                    if tagType != "":
+                        if tagType in item:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
             if child.name == "h1":
                 inHeader = True
             if child.name == "h2":
@@ -188,7 +204,7 @@ def get_multi(link):
                 if className == "title":
                     if notFirstH2: 
                         
-                        item['text'] = detailHolder + itemDetailHolder
+                        item['text'] = string.join(detailHolder + itemDetailHolder)
                         for key in parentDetails.keys():
                             item[key] = parentDetails[key]
                         items.append(item)
@@ -204,10 +220,10 @@ def get_multi(link):
                     inHeader = False
                     name = child.text
                     start = child.text.find("Item")
-                    item['name'] = child.text[0:start]
+                    item['name'] = child.text[0:start].strip()
             if child.name == "b":
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower()
                     
             if child.name == "a":
 
@@ -216,33 +232,45 @@ def get_multi(link):
                         item['source'] = child.text
                 except:
                     pass
-                tagType = ""
+                if reachedBreak:
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text
+                        else:
+                            details[tagType] = child.text
+                else:
+                    tagType = ""
         else:
             
             if reachedBreak:
                 if(tagType != ""):
                     if not stringContents.isspace():
-                        parentDetails[tagType] = stringContents
+                        if tagType in item:
+                            item[tagType] += " " + stringContents.strip()
+                        else:
+                            item[tagType] = stringContents.strip()
+                        
                         tagType = ""
                 else: 
-                    detailHolder.append(stringContents)
+                    detailHolder.append(stringContents.strip())
             if inHeader:
                 if tagType != "":
-                    parentDetails[tagType] = stringContents
+                    parentDetails[tagType] = stringContents.strip()
                     tagType = ""
             if reachedItem:
                 
                 if tagType != "":
-                    item[tagType] = stringContents
+                    item[tagType] = stringContents.strip()
                     tagType = ""
                 else:
                     if not stringContents.isspace():
-                        itemDetailHolder.append(stringContents)
+                        itemDetailHolder.append(stringContents.strip())
                     #print(stringContents)
 
     for key in parentDetails.keys():
         item[key] = parentDetails[key]
-    item['text'] = detailHolder + itemDetailHolder
+    
+    item['text'] = string.join(detailHolder + itemDetailHolder)
     items.append(item)
     
     return items
@@ -264,6 +292,7 @@ def get_single(link):
     reachedBreak = False
     detailHolder = []
     tagType = ""
+    details['link'] = link
     for child in children:
 
         stringContents = str(child)
@@ -272,6 +301,7 @@ def get_single(link):
                 name = child.text
                 start = name.find("Item")
                 details['name'] = name[0:start].strip()
+                details['level'] = int(name[start+5:].strip())
             if child.name == "hr":
                 tagType = ""
                 reachedBreak = True
@@ -280,19 +310,38 @@ def get_single(link):
                 try:
                     if child['class'][0] == "external-link" :
                         
-                        details['source'] = child.text
+                        details['source'] = child.text.strip()
                 except:
                     pass
-                tagType = ""
+                if reachedBreak:
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
+                else:
+                    tagType = ""
             if child.name == "b":
 
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower()
             if child.name == "img":
                 details['actions'] = child['alt']
             if child.name == "i":
+
                 if(reachedBreak):
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
                     detailHolder.append(child.text) 
+                else:
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
             #else:
                 #if not stringContents.isspace() :
                     #detailHolder.append(child.text)        
@@ -300,18 +349,25 @@ def get_single(link):
             if reachedBreak:
                 if tagType != "":
                     if not stringContents.isspace():
-                            details[tagType] = stringContents
+                        if tagType in details:
+                            details[tagType] += " " + stringContents.strip()
+                        else:
+                            details[tagType] = stringContents.strip()
                 else:
                     if not stringContents.isspace() :
-                        detailHolder.append(stringContents)
+                        detailHolder.append(stringContents.strip())
             else:
                 if tagType != "":
                     if not stringContents.isspace():
-                        details[tagType] = stringContents
+                        if tagType in details:
+                            details[tagType] += " " + stringContents.strip()
+                        else:
+                            details[tagType] = stringContents.strip()
                 
 
        #print(child)
-        details['text'] = detailHolder
+        string = " "
+        details['text'] = string.join(detailHolder)
     return details
 
 def get_base_magic_weapons():
@@ -332,14 +388,80 @@ def get_weapons_from_list(fileName):
         print("Getting weapon for :", runeMD[0],"This url:", runeMD[2].strip('\n'),"|is it multi:",runeMD[1])
         if runeMD[1] == "True":
             multiHolder = get_multi(runeMD[2].strip('\n'))
-            for shield in multiHolder:
-                shield['category'] = "weapon"
-                items.append(shield)
+            for wep in multiHolder:
+                wep['category'] = "weapon"
+                items.append(wep)
         else:
             items.append(get_single(runeMD[2].strip('\n')))
     return items
 
+def get_crit_special(link):
+    items = []
+    res2 = requests.get(link)
+    res2.raise_for_status()
+    soup2 = BeautifulSoup(res2.text, 'lxml')
+    main = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
 
+    children = main.contents
+    reachedItems = False
+
+    item = {}
+    item['link'] = link
+    tagType = ""
+
+    for child in children:
+        
+        stringContents = str(child)
+        if stringContents.startswith("<"):
+
+            if child.name == "h2":
+                #print(child.text)
+                className = ""
+                try:
+                    className = child['class'][0]
+                except:
+                    className = ""
+                if className == "title":
+                    if reachedItems: 
+                        
+                        items.append(item)
+                        item = {}
+                        item['link'] = link
+                    else:
+                        reachedItems = True
+                    item['name'] = child.text.strip()
+            if child.name == "b":
+                if(child.text != "Source"):
+                    tagType = child.text.lower()
+                    
+            if child.name == "a":
+
+                try:
+                    if child['class'][0] == "external-link" :
+                        item['source'] = child.text
+                except:
+                    pass
+        else:
+            
+            if reachedItems:
+                if(tagType != ""):
+                    if not stringContents.isspace():
+                        if tagType in item:
+                            item[tagType] += stringContents.strip()
+                        else:
+                            item[tagType] = stringContents.strip()
+                        
+                        tagType = ""
+                else: 
+                    if "text" in item:
+                        item['text'] += stringContents.strip()
+                    else:
+                        item['text'] = stringContents.strip()
+            
+
+    items.append(item)
+    
+    return items
 
 def get_all():
     weaponHolder['meleeWeapons'] = get_melee_weapons("https://2e.aonprd.com/Weapons.aspx")
@@ -347,6 +469,7 @@ def get_all():
     weaponHolder['baseMagicWeapons'] = get_base_magic_weapons()
     weaponHolder['specialMaterialWeapons'] = get_weapons_from_list("materialWeapons.csv")
     weaponHolder['magicWeapons'] = get_weapons_from_list("magicWeapons.csv")
+    weaponHolder['critSpecialization'] = get_crit_special("https://2e.aonprd.com/WeaponGroups.aspx")
 
     #weaponHolder['rangedWeapons'] = get
 
