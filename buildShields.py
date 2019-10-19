@@ -12,6 +12,7 @@ shieldHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 
 def get_multi(link):
+    string = " "
     items = []
     res2 = requests.get(link)
     res2.raise_for_status()
@@ -58,7 +59,7 @@ def get_multi(link):
                 if className == "title":
                     if notFirstH2: 
                         
-                        item['text'] = detailHolder + itemDetailHolder
+                        item['text'] = string.join(detailHolder + itemDetailHolder)
                         for key in parentDetails.keys():
                             item[key] = parentDetails[key]
                         items.append(item)
@@ -77,7 +78,7 @@ def get_multi(link):
                     item['name'] = child.text[0:start]
             if child.name == "b":
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
                     
             if child.name == "a":
 
@@ -86,24 +87,52 @@ def get_multi(link):
                         item['source'] = child.text
                 except:
                     pass
-                tagType = ""
+                if reachedBreak:
+                    if tagType != "":
+                        if tagType in item:
+                            item[tagType] += " " + child.text
+                        else:
+                            item[tagType] = child.text
+                else:
+                    tagType = ""
+            if child.name == "i":
+
+                if(reachedBreak):
+                    if tagType != "":
+                        if tagType in item:
+                            item[tagType] += " " + child.text.strip()
+                        else:
+                            item[tagType] = child.text.strip()
+                    #detailHolder.append(child.text) 
+                else:
+                    if tagType != "":
+                        if tagType in parentDetails:
+                            parentDetails[tagType] += " " + child.text.strip()
+                        else:
+                            parentDetails[tagType] = child.text.strip()
         else:
             
             if reachedBreak:
                 if(tagType != ""):
                     if not stringContents.isspace():
-                        parentDetails[tagType] = stringContents
+                        if tagType in item:
+                            item[tagType] += " " + stringContents.strip()
+                        else:
+                            item[tagType] = stringContents.strip()
+                        
                         tagType = ""
                 else: 
                     detailHolder.append(stringContents)
             if inHeader:
                 if tagType != "":
-                    parentDetails[tagType] = stringContents
+                    parentDetails[tagType] = stringContents.strip()
                     tagType = ""
             if reachedItem:
-                
-                if tagType != "":
-                    item[tagType] = stringContents
+                if tagType == "level":
+                    
+                    item['level'] = int(stringContents.replace(";","").strip())
+                elif tagType != "":
+                    item[tagType] = stringContents.strip()
                     tagType = ""
                 else:
                     if not stringContents.isspace():
@@ -112,7 +141,8 @@ def get_multi(link):
 
     for key in parentDetails.keys():
         item[key] = parentDetails[key]
-    item['text'] = detailHolder + itemDetailHolder
+    
+    item['text'] = string.join(detailHolder + itemDetailHolder)
     items.append(item)
     
     return items
@@ -142,6 +172,7 @@ def get_single(link):
                 name = child.text
                 start = name.find("Item")
                 details['name'] = name[0:start].strip()
+                details['level'] = int(name[start+5:].strip())
             if child.name == "hr":
                 tagType = ""
                 reachedBreak = True
@@ -150,38 +181,68 @@ def get_single(link):
                 try:
                     if child['class'][0] == "external-link" :
                         
-                        details['source'] = child.text
+                        details['source'] = child.text.strip()
                 except:
                     pass
-                tagType = ""
+                if reachedBreak:
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
+                    else:
+                        detailHolder.append(child.text)
+                else:
+                    tagType = ""
             if child.name == "b":
 
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
             if child.name == "img":
                 details['actions'] = child['alt']
             if child.name == "i":
+
                 if(reachedBreak):
-                    detailHolder.append(child.text) 
-            #else:
-                #if not stringContents.isspace() :
-                    #detailHolder.append(child.text)        
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()
+                    #detailHolder.append(child.text) 
+                else:
+                    if tagType != "":
+                        if tagType in details:
+                            details[tagType] += " " + child.text.strip()
+                        else:
+                            details[tagType] = child.text.strip()      
         else:
             if reachedBreak:
+                if tagType == "level":
+                    
+                    details['level'] = int(stringContents.replace(";","").strip())
                 if tagType != "":
                     if not stringContents.isspace():
-                            details[tagType] = stringContents
+                            if tagType in details:
+                                details[tagType] += stringContents
+                            else:
+                                details[tagType] = stringContents
+                            
                 else:
                     if not stringContents.isspace() :
                         detailHolder.append(stringContents)
             else:
                 if tagType != "":
                     if not stringContents.isspace():
-                        details[tagType] = stringContents
+                        if tagType in details:
+                            details[tagType] += " " + stringContents.strip()
+                        else:
+                            details[tagType] = stringContents.strip()
                 
 
        #print(child)
-        details['text'] = detailHolder
+        string = " "
+        details['link'] = link
+        details['text'] = string.join(detailHolder)
     return details
 
 
@@ -207,6 +268,7 @@ def get_base_shields(link):
     multiItems = []
     res2 = requests.get(link)
     res2.raise_for_status()
+    string = " "
     soup2 = BeautifulSoup(res2.text, 'lxml')
     item = soup2.find_all("div", {'class':'main'})
     table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
@@ -229,12 +291,12 @@ def get_base_shields(link):
                 item['category'] = "shield"
                 item['price'] = entries[1].text
                 item['acBonus'] = entries[2].text
-                item['speedPenalty'] = entries[3].text
+                item['speedPenalty'] = entries[3].text.replace(u'\u2014', '')
                 item['bulk'] = entries[4].text
-                item['hardness'] = entries[5].text
-                item['hp-bt'] = entries[6].text
+                item['hardness'] = int(entries[5].text)
+                item['hp_bt'] = entries[6].text
 
-                item['text'] = hrDets.get_afterhr(item['link'])
+                item['text'] = string.join(hrDets.get_afterhr(item['link']))
 
                 
                 print("getting shield:",item['name'])

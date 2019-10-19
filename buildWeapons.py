@@ -182,16 +182,16 @@ def get_multi(link):
                 if(reachedBreak):
                     if tagType != "":
                         if tagType in item:
-                            details[tagType] += " " + child.text.strip()
+                            item[tagType] += " " + child.text.strip()
                         else:
-                            details[tagType] = child.text.strip()
+                            item[tagType] = child.text.strip()
                     detailHolder.append(child.text) 
                 else:
                     if tagType != "":
-                        if tagType in item:
-                            details[tagType] += " " + child.text.strip()
+                        if tagType in parentDetails:
+                            parentDetails[tagType] += " " + child.text.strip()
                         else:
-                            details[tagType] = child.text.strip()
+                            parentDetails[tagType] = child.text.strip()
             if child.name == "h1":
                 inHeader = True
             if child.name == "h2":
@@ -234,10 +234,10 @@ def get_multi(link):
                     pass
                 if reachedBreak:
                     if tagType != "":
-                        if tagType in details:
-                            details[tagType] += " " + child.text
+                        if tagType in item:
+                            item[tagType] += " " + child.text
                         else:
-                            details[tagType] = child.text
+                            item[tagType] = child.text
                 else:
                     tagType = ""
         else:
