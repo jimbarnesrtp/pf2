@@ -10,6 +10,7 @@ alHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 
 def get_bombs():
+    string = " "
     items = []
     listOfPages = codecs.open("bombs.csv", encoding='utf-8')
     t = 0
@@ -55,7 +56,7 @@ def get_bombs():
                 if child.name == "h2":
                     if notFirstH2: 
                         
-                        item['text'] = detailHolder + itemDetailHolder
+                        item['text'] = string.join(detailHolder + itemDetailHolder)
                         for key in parentDetails.keys():
                             item[key] = parentDetails[key]
                         items.append(item)
@@ -73,7 +74,7 @@ def get_bombs():
                     item['name'] = child.text[0:start]
                 if child.name == "b":
                     if(child.text != "Source"):
-                        tagType = child.text
+                        tagType = child.text.lower().replace(" ", "")
                         
                 if child.name == "a":
 
@@ -88,27 +89,28 @@ def get_bombs():
                 if reachedBreak:
                     if(tagType != ""):
                         if not stringContents.isspace():
-                            parentDetails[tagType] = stringContents
+                            parentDetails[tagType] = stringContents.strip()
                             tagType = ""
                     else: 
-                        detailHolder.append(stringContents)
+                        detailHolder.append(stringContents.strip())
                 if inHeader:
                     if tagType != "":
-                        parentDetails[tagType] = stringContents
+                        parentDetails[tagType] = stringContents.strip()
                         tagType = ""
                 if reachedItem:
-                    
-                    if tagType != "":
-                        item[tagType] = stringContents
+                    if tagType == "level":
+                        item['level'] = int(stringContents.replace(";","").strip()) 
+                    elif tagType != "":
+                        item[tagType] = stringContents.strip()
                         tagType = ""
                     else:
                         if not stringContents.isspace():
-                            itemDetailHolder.append(stringContents)
+                            itemDetailHolder.append(stringContents.strip())
                         #print(stringContents)
 
         for key in parentDetails.keys():
             item[key] = parentDetails[key]
-        item['text'] = detailHolder + itemDetailHolder
+        item['text'] = string.join(detailHolder + itemDetailHolder)
         items.append(item)
         #if t > 0:
             #break
@@ -116,6 +118,7 @@ def get_bombs():
     return items
 
 def get_elixirs():
+    string = " "
     items = []
     listOfPages = codecs.open("elixirs.csv", encoding='utf-8')
     t = 0
@@ -159,7 +162,7 @@ def get_elixirs():
                 if child.name == "h2":
                     if notFirstH2: 
                         
-                        item['text'] = detailHolder + itemDetailHolder
+                        item['text'] = string.join(detailHolder + itemDetailHolder)
                         for key in parentDetails.keys():
                             item[key] = parentDetails[key]
                         items.append(item)
@@ -177,7 +180,7 @@ def get_elixirs():
                     item['name'] = child.text[0:start]
                 if child.name == "b":
                     if(child.text != "Source"):
-                        tagType = child.text
+                        tagType = child.text.lower().replace(" ", "")
                         
                 if child.name == "a":
 
@@ -192,27 +195,30 @@ def get_elixirs():
                 if reachedBreak:
                     if(tagType != ""):
                         if not stringContents.isspace():
-                            parentDetails[tagType] = stringContents
+                            parentDetails[tagType] = stringContents.strip()
                             tagType = ""
                     else: 
-                        detailHolder.append(stringContents)
+                        detailHolder.append(stringContents.strip())
                 if inHeader:
                     if tagType != "":
-                        parentDetails[tagType] = stringContents
+                        parentDetails[tagType] = stringContents.strip()
                         tagType = ""
                 if reachedItem:
                     
-                    if tagType != "":
-                        item[tagType] = stringContents
+                    if tagType == "level":
+                        item['level'] = int(stringContents.replace(";","").strip()) 
+                    elif tagType != "":
+                        item[tagType] = stringContents.strip()
                         tagType = ""
                     else:
                         if not stringContents.isspace():
-                            itemDetailHolder.append(stringContents)
+                            itemDetailHolder.append(stringContents.strip())
                         #print(stringContents)
 
         for key in parentDetails.keys():
             item[key] = parentDetails[key]
-        item['text'] = detailHolder + itemDetailHolder
+        
+        item['text'] = string.join(detailHolder + itemDetailHolder)
         items.append(item)
         #if t > 3:
             #break
@@ -239,7 +245,7 @@ def get_poisons(link):
                 item['name'] = entries[0].find("a").text
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = "poison"
-                item['level'] = entries[1].text
+                item['level'] = int(entries[1].text)
                 item['price'] = entries[2].text
                 item['bulk'] = entries[3].text.replace(u'\u2014', '')
                 print("getting poison:",item['name'])
@@ -254,6 +260,7 @@ def get_poisons(link):
     return items
 
 def get_poison_details(link):
+    string = " "
     poisonDetails = {}
     itemDetails = {}
     res2 = requests.get(link)
@@ -289,7 +296,7 @@ def get_poison_details(link):
             if child.name == "b":
 
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
             if child.name == "img":
                 poisonDetails['actions'] = child['alt']
             #else:
@@ -311,7 +318,7 @@ def get_poison_details(link):
                 
 
        #print(child)
-        poisonDetails['text'] = detailHolder
+        poisonDetails['text'] = string.join(detailHolder)
     return poisonDetails
 
 def get_tools(link):
@@ -334,7 +341,7 @@ def get_tools(link):
                 item['name'] = entries[0].find("a").text
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = "tools"
-                item['level'] = entries[1].text
+                item['level'] = 0 if entries[1].text == "—" else int(entries[1].text)
                 item['price'] = entries[2].text
                 item['bulk'] = entries[3].text.replace(u'\u2014', '')
                 print("getting tool:",item['name'])
@@ -384,7 +391,7 @@ def get_tool_details(link):
             if child.name == "b":
 
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
             if child.name == "img":
                 toolDetails['actions'] = child['alt']
             #else:
@@ -406,7 +413,8 @@ def get_tool_details(link):
                 
 
        #print(child)
-        toolDetails['text'] = detailHolder
+        string = " "
+        toolDetails['text'] = string.join(detailHolder)
     return toolDetails
 
 def get_all():
