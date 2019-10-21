@@ -12,6 +12,7 @@ conHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 def get_consumable_multi(link):
     items = []
+    string = " "
     res2 = requests.get(link)
     res2.raise_for_status()
     soup2 = BeautifulSoup(res2.text, 'lxml')
@@ -50,7 +51,7 @@ def get_consumable_multi(link):
             if child.name == "h2":
                 if notFirstH2: 
                     
-                    item['text'] = detailHolder + itemDetailHolder
+                    item['text'] = string.join(detailHolder + itemDetailHolder)
                     for key in parentDetails.keys():
                         item[key] = parentDetails[key]
                     items.append(item)
@@ -69,7 +70,7 @@ def get_consumable_multi(link):
                 item['name'] = child.text[0:start]
             if child.name == "b":
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
                     
             if child.name == "a":
 
@@ -93,8 +94,9 @@ def get_consumable_multi(link):
                     parentDetails[tagType] = stringContents
                     tagType = ""
             if reachedItem:
-                
-                if tagType != "":
+                if tagType == "level":
+                    item['level'] = int(stringContents.replace(";","").strip()) 
+                elif tagType != "":
                     item[tagType] = stringContents
                     tagType = ""
                 else:
@@ -104,7 +106,7 @@ def get_consumable_multi(link):
 
     for key in parentDetails.keys():
         item[key] = parentDetails[key]
-    item['text'] = detailHolder + itemDetailHolder
+    item['text'] = string.join(detailHolder + itemDetailHolder)
     items.append(item)
     
     return items
@@ -147,7 +149,7 @@ def get_ammunition(link):
                     item['name'] = name
                     item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                     item['category'] = "ammunition"
-                    item['level'] = entries[1].text
+                    item['level'] = int(entries[1].text)
                     item['price'] = entries[2].text
                     print("getting ammunition:",item['name'])
                     itemDetails = get_consumable_details(item['link'])
@@ -196,7 +198,7 @@ def get_consumable_details(link):
             if child.name == "b":
 
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
             if child.name == "img":
                 consumDetails['actions'] = child['alt']
             if child.name == "i":
@@ -221,7 +223,8 @@ def get_consumable_details(link):
                 
 
        #print(child)
-        consumDetails['text'] = detailHolder
+        string = " "
+        consumDetails['text'] = string.join(detailHolder)
     return consumDetails
 
 def get_oils(link):
@@ -262,7 +265,7 @@ def get_oils(link):
                     item['name'] = name
                     item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                     item['category'] = "oil"
-                    item['level'] = entries[1].text
+                    item['level'] = int(entries[1].text)
                     item['price'] = entries[2].text
                     print("getting oil:",item['name'])
                     itemDetails = get_consumable_details(item['link'])
@@ -314,7 +317,7 @@ def get_others(link):
                     item['name'] = name
                     item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                     item['category'] = "other"
-                    item['level'] = entries[1].text
+                    item['level'] = int(entries[1].text)
                     item['price'] = entries[2].text
                     item['bulk'] = entries[3].text
                     print("getting other:",item['name'])
@@ -367,7 +370,7 @@ def get_potions(link):
                     item['name'] = name
                     item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                     item['category'] = "potion"
-                    item['level'] = entries[1].text
+                    item['level'] = int(entries[1].text)
                     item['price'] = entries[2].text
                     
                     print("getting potion:",item['name'])
@@ -405,7 +408,7 @@ def get_talismans(link):
                 item['name'] = name
                 item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
                 item['category'] = "talisman"
-                item['level'] = entries[1].text
+                item['level'] = int(entries[1].text)
                 item['price'] = entries[2].text
                 
                 print("getting talisman:",item['name'])

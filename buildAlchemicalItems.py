@@ -17,7 +17,7 @@ def get_bombs():
     for line in listOfPages: 
         t += 1
         alMD = line.split(",")
-        print("Getting bomb for :", alMD[0],"This url:", alMD[1])
+        print("Getting bomb for :", alMD[0],"This url:", alMD[1].strip('\n'))
 
         res2 = requests.get(alMD[1].strip('\n'))
         res2.raise_for_status()
@@ -72,6 +72,7 @@ def get_bombs():
                     name = child.text
                     start = child.text.find("Item")
                     item['name'] = child.text[0:start]
+                    item['link'] = alMD[1].strip('\n')
                 if child.name == "b":
                     if(child.text != "Source"):
                         tagType = child.text.lower().replace(" ", "")
@@ -82,7 +83,7 @@ def get_bombs():
                         if child['class'][0] == "external-link" :
                             item['source'] = child.text
                     except:
-                        print("")
+                        pass
                     tagType = ""
             else:
                 
@@ -125,7 +126,7 @@ def get_elixirs():
     for line in listOfPages: 
         t += 1
         alMD = line.split(",")
-        print("Getting bomb for :", alMD[0],"This url:", alMD[1])
+        print("Getting bomb for :", alMD[0],"This url:", alMD[1].strip('\n'))
 
         res2 = requests.get(alMD[1].strip('\n'))
         res2.raise_for_status()
@@ -146,6 +147,8 @@ def get_elixirs():
         item = {}
         tagType = ""
         itemDetailHolder = []
+        parentName = ""
+        parentLevel = ""
         for child in children:
             
             stringContents = str(child)
@@ -158,6 +161,10 @@ def get_elixirs():
                     reachedBreak = True
                     inHeader = False
                 if child.name == "h1":
+                    #name = child.text
+                    start = child.text.find("Item")
+                    parentName = child.text[0:start]
+                    parentLevel = child.text[start+5:]
                     inHeader = True
                 if child.name == "h2":
                     if notFirstH2: 
@@ -175,9 +182,10 @@ def get_elixirs():
                     reachedBreak = False
                     reachedItem = True
                     inHeader = False
-                    name = child.text
+                    #name = child.text
                     start = child.text.find("Item")
                     item['name'] = child.text[0:start]
+                    item['link'] = alMD[1].strip('\n')
                 if child.name == "b":
                     if(child.text != "Source"):
                         tagType = child.text.lower().replace(" ", "")
@@ -188,7 +196,7 @@ def get_elixirs():
                         if child['class'][0] == "external-link" :
                             item['source'] = child.text
                     except:
-                        print("")
+                        pass
                     tagType = ""
             else:
                 
@@ -217,8 +225,12 @@ def get_elixirs():
 
         for key in parentDetails.keys():
             item[key] = parentDetails[key]
-        
+        if 'name' not in item:
+            item['name'] = parentName
+            item['link'] = alMD[1].strip('\n')
+            item['level'] = int(parentLevel)
         item['text'] = string.join(detailHolder + itemDetailHolder)
+
         items.append(item)
         #if t > 3:
             #break
@@ -291,7 +303,7 @@ def get_poison_details(link):
                         
                         poisonDetails['source'] = child.text
                 except:
-                    print()
+                    pass
                 tagType = ""
             if child.name == "b":
 
@@ -386,7 +398,7 @@ def get_tool_details(link):
                         
                         toolDetails['source'] = child.text
                 except:
-                    print()
+                    pass
                 tagType = ""
             if child.name == "b":
 
