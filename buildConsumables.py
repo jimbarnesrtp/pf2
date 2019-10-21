@@ -36,76 +36,111 @@ def get_consumable_multi(link):
     for child in children:
         
         stringContents = str(child)
-        if stringContents.startswith("<"):
-            #print(stringContents)
-            if child.name == "img":
-                parentDetails['actions'] = child['alt']
+        if stringContents.startswith("<"):     
             if child.name == "hr":
                 tagType = ""
                 reachedBreak = True
                 inHeader = False
             if child.name == "img":
-                item['actions'] = child['alt']
+                if not reachedItem:
+                    parentDetails['actions'] = child['alt']
+                else:
+                    item['actions'] = child['alt']
             if child.name == "h1":
                 inHeader = True
             if child.name == "h2":
-                if notFirstH2: 
-                    
-                    item['text'] = string.join(detailHolder + itemDetailHolder)
-                    for key in parentDetails.keys():
-                        item[key] = parentDetails[key]
-                    items.append(item)
-                    item = {}
-                    item['link'] = link
-                    itemDetailHolder = []
-                else:
+                try: 
+                    className = child['class'][0]
+                    if notFirstH2: 
+                        item['text'] = string.join(detailHolder) + string.join(itemDetailHolder)
+                        for key in parentDetails.keys():
+                            if key == "text":
+                                item[key] += parentDetails[key]
+                            elif key not in item:
+                                item[key] = parentDetails[key]
+                        items.append(item)
+                        item = {}
+                        item['link'] = link
+                        itemDetailHolder = []
+                    else:
 
-                    notFirstH2 = True
-            
-                reachedBreak = False
-                reachedItem = True
-                inHeader = False
-                name = child.text
-                start = child.text.find("Item")
-                item['name'] = child.text[0:start]
+                        notFirstH2 = True
+                
+                    reachedBreak = False
+                    reachedItem = True
+                    inHeader = False
+                    name = child.text
+                    start = child.text.find("Item")
+                    item['name'] = child.text[0:start]
+                except:
+                    pass
             if child.name == "b":
                 if(child.text != "Source"):
                     tagType = child.text.lower().replace(" ", "")
                     
             if child.name == "a":
-
                 try:
                     if child['class'][0] == "external-link" :
                         item['source'] = child.text
                 except:
                     pass
-                tagType = ""
+                if inHeader:
+                    if tagType != "":
+                        if tagType in parentDetails:
+                            parentDetails[tagtype] += child.text
+                        else:
+                            parentDetails[tagType] = child.text
+
+                elif reachedBreak:
+                    if tagType != "":
+                        if tagType in item:
+                            item[tagType] += " " + child.text
+                        else:
+                            item[tagType] = child.text
+                else:
+                    tagType = ""
+            if child.name == "i":
+                if tagType in item:
+                    item[tagType] += child.text
+                else:
+                    item[tagType] = child.text
         else:
-            
+            #print(reachedBreak, inHeader, reachedItem, stringContents)
             if reachedBreak:
                 if(tagType != ""):
                     if not stringContents.isspace():
-                        parentDetails[tagType] = stringContents
+                        if tagType in parentDetails:
+                            parentDetails[tagtype] += stringContents.strip()
+                        else:
+                            parentDetails[tagType] = stringContents.strip()
                         tagType = ""
                 else: 
                     detailHolder.append(stringContents)
-            if inHeader:
+            elif inHeader:
                 if tagType != "":
-                    parentDetails[tagType] = stringContents
+                    if tagType in parentDetails:
+                        parentDetails[tagType] += stringContents.strip()
+                    else:
+                        parentDetails[tagType] = stringContents.strip()
                     tagType = ""
-            if reachedItem:
+            elif reachedItem:
                 if tagType == "level":
                     item['level'] = int(stringContents.replace(";","").strip()) 
                 elif tagType != "":
-                    item[tagType] = stringContents
-                    tagType = ""
+                    if tagType in item:
+                        item[tagType] += stringContents.strip()
+                    else:
+                        item[tagType] = stringContents.strip()
                 else:
                     if not stringContents.isspace():
-                        itemDetailHolder.append(stringContents)
-                    #print(stringContents)
+                        itemDetailHolder.append(stringContents.strip())
+                tagType = ""
 
     for key in parentDetails.keys():
-        item[key] = parentDetails[key]
+        if key == "text":
+            item[key] += parentDetails[key]
+        elif key not in item:
+            item[key] = parentDetails[key]
     item['text'] = string.join(detailHolder + itemDetailHolder)
     items.append(item)
     
@@ -167,6 +202,7 @@ def get_consumable_details(link):
     itemDetails = {}
     res2 = requests.get(link)
     res2.raise_for_status()
+    inHeader = False
     soup2 = BeautifulSoup(res2.text, 'lxml')
     detail = soup2.find(lambda tag: tag.name=='span' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_DetailedOutput") 
 
@@ -186,15 +222,26 @@ def get_consumable_details(link):
             if child.name == "hr":
                 tagType = ""
                 reachedBreak = True
-            
+                inHeader = False
+            if child.name == "img":
+                consumDetails['actions'] = child['alt']
+            if child.name == "h1":
+                inHeader = True
             if child.name == "a":
                 try:
                     if child['class'][0] == "external-link" :
-                        
                         consumDetails['source'] = child.text
+                        tagType = ""
                 except:
-                    pass
-                tagType = ""
+                    
+                    if tagType != "":
+                        if tagType in consumDetails:
+                            consumDetails[tagType] += " " + child.text
+                        else:
+                            consumDetails[tagType] = child.text
+                    else:
+                        detailHolder.append(child.text)
+
             if child.name == "b":
 
                 if(child.text != "Source"):
@@ -202,15 +249,25 @@ def get_consumable_details(link):
             if child.name == "img":
                 consumDetails['actions'] = child['alt']
             if child.name == "i":
-                if(reachedBreak):
-                    detailHolder.append(child.text) 
+                if tagType != "":
+                    if tagType in consumDetails:
+                        consumDetails[tagType] += child.text
+                    else:
+                        consumDetails[tagType] = child.text
+                else:
+                    if(reachedBreak):
+                        detailHolder.append(child.text) 
             #else:
                 #if not stringContents.isspace() :
                     #detailHolder.append(child.text)        
         else:
+
             if reachedBreak:
                 if tagType != "":
                     if not stringContents.isspace():
+                        if tagType in consumDetails:
+                            consumDetails[tagType] += stringContents
+                        else:
                             consumDetails[tagType] = stringContents
                 else:
                     if not stringContents.isspace() :
@@ -219,7 +276,10 @@ def get_consumable_details(link):
                 if tagType != "":
                     if (tagType != "Bulk") & (tagType!= "Price"):
                         if not stringContents.isspace():
-                            consumDetails[tagType] = stringContents
+                            if tagType in consumDetails:
+                                consumDetails[tagType] += stringContents
+                            else:
+                                consumDetails[tagType] = stringContents
                 
 
        #print(child)
