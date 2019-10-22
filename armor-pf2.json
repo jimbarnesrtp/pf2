@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 armor list",
-    "date": "October 16, 2019",
+    "date": "October 22, 2019",
     "baseArmor": [{
         "name": "Unarmored",
         "link": "https://2e.aonprd.com/Armor.aspx?ID=1",
@@ -209,6 +209,22 @@
         "group": "Plate",
         "traits": ["Bulwark"],
         "text": "Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor (see below) and a pair of gauntlets (page 285). Certain class features can grant you additional benefits with certain armors. This is called an armor specialization effect. The exact effect depends on which armor group your armor belongs to, as listed below. Only medium and heavy armors have armor specialization effects.: The sturdy plate provides no purchase for a cutting edge. You gain resistance to slashing damage equal to 1 + the value of the armor\u2019s potency rune for medium armor, or 2 + the value of the armor\u2019s potency rune for heavy armor."
+    }, {
+        "name": "Hellknight Plate",
+        "link": "https://2e.aonprd.com/Armor.aspx?ID=14",
+        "category": "Armor",
+        "armorCategory": "Heavy",
+        "level": 2,
+        "price": "35 gp",
+        "acBonus": "+6",
+        "dexCap": "+0",
+        "checkPenalty": "-3",
+        "speedPenalty": "-10 ft.",
+        "strength": "18",
+        "bulk": "4",
+        "group": "Plate",
+        "traits": [""],
+        "text": "Few armors in the Inner Sea region are as memorable as the iconic Hellknight plate. While each order has its own flourishes, Hellknight plate is instantly recognizable to any who know of the Hellknights. Hellknights go to extreme measures to punish non- Hellknights who get their hands on Hellknight plate, and the reward is not usually worth the risk, since for non-Hellknights, the armor is functionally similar to full plate. Certain class features can grant you additional benefits with certain armors. This is called an armor specialization effect. The exact effect depends on which armor group your armor belongs to, as listed below. Only medium and heavy armors have armor specialization effects.: The sturdy plate provides no purchase for a cutting edge. You gain resistance to slashing damage equal to 1 + the value of the armor\u2019s potency rune for medium armor, or 2 + the value of the armor\u2019s potency rune for heavy armor."
     }],
     "baseMagicArmor": [{
         "name": "Magic Armor (+1)",
@@ -448,6 +464,17 @@
         "source": "Core Rulebook pg. 558",
         "usage": " worn armor; ",
         "text": "This suit of  +2 resilient splint mail  has a large, green gemstone inset in a prominent location.   Activate    Envision;  Frequency  once per day;  Trigger  You are hit or critically hit with an attack, but damage hasn\u2019t been rolled yet;  Effect  You force the attacker to reroll the attack roll and use the worse result. This effect has the misfortune trait.    Activating the armor causes the gemstone to turn gray and become inert. You cannot activate the armor again until the stone returns to its original green color. The gem turns green again after 1 week or when a significant foe critically succeeds at an attack roll targeting you. (If an enemy rolls a critical success at an attack against you and you force the attacker to reroll that critical success, that critical success does not recharge the mail of luck.) Even if the armor\u2019s power returns before a week has elapsed, it can\u2019t be activated more than once per day."
+    }, {
+        "name": "Glorious Plate",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=520",
+        "category": "Magic Armor",
+        "level": 14,
+        "price": " 4,500 gp",
+        "bulk": " 4",
+        "traits": ["Rare", "Evocation", "Good", "Light", "Magical"],
+        "source": "Lost Omens Character Guide pg. 93",
+        "usage": " worn armor; ",
+        "text": "This elegant full plate is embossed with heraldic imagery and never tarnishes or loses its shine.  Glorious plate  is  +2 resilient full plate . In battle,  glorious plate  sheds bright light in a 10-foot radius, which enemies see as a blinding halo that obscures creatures other than the wearer. When an enemy looks at the wearer, it must attempt a DC 33 Will saving throw. The enemy is then temporarily immune for 1 minute."
     }, {
         "name": "Plate Armor of the Deep",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=157",

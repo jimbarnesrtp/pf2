@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Weapons list",
-    "date": "October 18, 2019",
+    "date": "October 22, 2019",
     "meleeWeapons": [{
         "name": "Fist",
         "link": "https://2e.aonprd.com/Weapons.aspx?ID=1",
@@ -241,6 +241,18 @@
         "weaponTraits": ["Forceful", " Sweep"],
         "source": "Core Rulebook pg. 283",
         "text": "This weapon is a heavier, two-handed version of the curved-bladed scimitar. It is weighted toward the blade\u2019s end, making it a powerful slashing weapon."
+    }, {
+        "name": "Fauchard",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=90",
+        "category": "Martial",
+        "price": "1 gp, 4 sp",
+        "damage": "1d8 S",
+        "bulk": "2",
+        "hands": 2,
+        "group": "Polearm",
+        "weaponTraits": ["Deadly d8", " Reach 10 ft.", " Sweep", " Trip"],
+        "source": "Core Rulebook pg. 283",
+        "text": "A fauchard is similar to a glaive, save that its cutting edge is along the concave side. Fauchards are favored by Crimson Reclaimers for hacking through waves of zombies. The fauchard is a martial melee weapon."
     }, {
         "name": "Filcher's Fork",
         "link": "https://2e.aonprd.com/Weapons.aspx?ID=51",
@@ -589,6 +601,18 @@
         "weaponTraits": ["Forceful", " Sweep"],
         "source": "Core Rulebook pg. 283",
         "text": "This one-handed curved blade is sharp on one side."
+    }, {
+        "name": "Scourge",
+        "link": "https://2e.aonprd.com/Weapons.aspx?ID=89",
+        "category": "Martial",
+        "price": "1 sp",
+        "damage": "1d4 S",
+        "bulk": "1",
+        "hands": 1,
+        "group": "Flail",
+        "weaponTraits": ["Agile", " Disarm", " Finesse", " Nonlethal", " Sweep"],
+        "source": "Core Rulebook pg. 283",
+        "text": "A scourge\u2014also known as a cat-o\u2019-nine-tails\u2014is a set of several knotted cords made from cotton or leather and attached to a handle. While most scourges are more suitable for torture than combat, the weapons used by the Order of the Scourge have metal barbs woven in to pierce clothing and armor. The scourge is a martial melee weapon."
     }, {
         "name": "Scythe",
         "link": "https://2e.aonprd.com/Weapons.aspx?ID=39",
@@ -1142,7 +1166,7 @@
         "text": "Cold iron weapons deal additional damage to creatures with weakness to cold iron, like demons and fey.",
         "traits": [],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=375",
         "name": "Cold Iron Weapon (Standard-Grade)",
@@ -1153,7 +1177,7 @@
         "text": "Cold iron weapons deal additional damage to creatures with weakness to cold iron, like demons and fey.",
         "traits": [],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=375",
         "name": "Cold Iron Weapon (High-Grade)",
@@ -1164,7 +1188,7 @@
         "traits": [],
         "usage": "varies by weapon",
         "text": "Cold iron weapons deal additional damage to creatures with weakness to cold iron, like demons and fey.",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=379",
         "source": "Core Rulebook pg. 599",
@@ -1175,7 +1199,7 @@
         "text": "Silver weapons deal additional damage to creatures with weakness to silver, like werewolves, and ignore the resistances of some other creatures, like devils.",
         "traits": [],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=379",
         "name": "Silver Weapon (Standard-Grade)",
@@ -1186,7 +1210,7 @@
         "text": "Silver weapons deal additional damage to creatures with weakness to silver, like werewolves, and ignore the resistances of some other creatures, like devils.",
         "traits": [],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=379",
         "name": "Silver Weapon (High-Grade)",
@@ -1197,7 +1221,7 @@
         "traits": [],
         "usage": "varies by weapon",
         "text": "Silver weapons deal additional damage to creatures with weakness to silver, like werewolves, and ignore the resistances of some other creatures, like devils.",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=374",
         "source": "Core Rulebook pg. 599",
@@ -1208,7 +1232,7 @@
         "text": "Adamantine weapons have a shiny black appearance and cut through lesser items with ease. They treat any object they hit as if it had half as much Hardness as usual, unless the object\u2019s Hardness is greater than that of the adamantine weapon.",
         "traits": ["Uncommon"],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=374",
         "name": "Adamantine Weapon (High-Grade)",
@@ -1219,7 +1243,7 @@
         "traits": ["Uncommon"],
         "usage": "varies by weapon",
         "text": "Adamantine weapons have a shiny black appearance and cut through lesser items with ease. They treat any object they hit as if it had half as much Hardness as usual, unless the object\u2019s Hardness is greater than that of the adamantine weapon.",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=376",
         "source": "Core Rulebook pg. 599",
@@ -1230,7 +1254,7 @@
         "text": "Darkwood weapons are as dark as ebony, with a slight purple tint. A darkwood weapon\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk).",
         "traits": ["Uncommon"],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=376",
         "name": "Darkwood Weapon (High-Grade)",
@@ -1241,7 +1265,7 @@
         "traits": ["Uncommon"],
         "usage": "varies by weapon",
         "text": "Darkwood weapons are as dark as ebony, with a slight purple tint. A darkwood weapon\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk).",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=377",
         "source": "Core Rulebook pg. 599",
@@ -1252,7 +1276,7 @@
         "text": "Mithral weapons are slightly lighter than silver. A mithral weapon is 1 Bulk lighter than normal (or light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk).",
         "traits": ["Uncommon"],
         "usage": "varies by weapon",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=377",
         "name": "Mithral Weapon (High-Grade)",
@@ -1263,20 +1287,31 @@
         "traits": ["Uncommon"],
         "usage": "varies by weapon",
         "text": "Mithral weapons are slightly lighter than silver. A mithral weapon is 1 Bulk lighter than normal (or light Bulk if its normal Bulk is 1, with no effect on a weapon that normally has light Bulk).",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=378",
-        "source": "Core Rulebook pg. 599",
-        "name": "Orichalcum Weapon (High-Grade)",
-        "level": 18,
-        "price": "22,500 gp (+ 2,250 gp per Bulk)",
-        "craftrequirements": "at least 11,250 gp of orichalcum + 1,125 gp per Bulk",
         "traits": ["Rare"],
-        "usage": "varies by weapon",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=378",
+        "name": "Orichalcum Weapon",
+        "level": 18,
         "text": "Orichalcum weapons can have four magic property runes instead of three. Due to orichalcum\u2019s temporal properties, etching the weapon property rune onto an orichalcum weapon costs half the normal Price (though transferring the rune to a weapon made of another material requires you to first pay the remaining Price and then pay the cost to transfer).",
-        "category": "weapon"
+        "source": "Core Rulebook pg. 599",
+        "usage": "varies by weapon",
+        "price": "22,500 gp (+ 2,250 gp per Bulk)",
+        "craft requirements": "at least 11,250 gp of orichalcum + 1,125 gp per Bulk",
+        "category": "weapon rune"
     }],
     "magicWeapons": [{
+        "traits": ["Uncommon", "Magical", "Transmutation"],
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=521",
+        "name": "Scrollstaff",
+        "level": 1,
+        "text": "A band of pliant wood encircles the head of this slender mahogany staff. The Magaambya created the first scrollstaves millennia ago, and even the few scrollstaves found beyond the organization often incorporate Magaambyan iconography as an homage to their source. A scrollstaff serves as a weapon just like an ordinary staff and can be improved via runes like any other staff. In addition, if you are capable of creating magical scrolls, you can inscribe a single scroll onto the staff\u2019s head for the same cost as normal for Crafting the scroll. If necessary, you can embed a required material focus into the staff as part of the same Craft activity. As long as you are holding the staff, you can cast the spell from the staff\u2019s head. Casting the written spell works just like casting from a scroll, but you can perform the necessary material component with the staff, even if you don\u2019t have a free hand. Once you cast the inscribed spell, any material focus remains embedded in the staff until removed as an Interact action. The staff can hold only a single scroll at a time. If you inscribe a new scroll before casting the previous spell, you replace the existing spell and remove any previous material focus as part of the Craft activity to write the new scroll.",
+        "source": "Lost Omens Character Guide pg. 100",
+        "price": "12 gp",
+        "usage": "held in 1 hand;",
+        "bulk": "1",
+        "category": "weapon rune"
+    }, {
         "traits": ["Magical", "Transmutation"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=385",
         "name": "Fighter's Fork",
@@ -1288,7 +1323,8 @@
         "bulk": "1",
         "actions": "Single Action",
         "activate": "Interact;",
-        "effect": "You extend or shorten the trident\u2019s haft. When extended, the trident requires two hands to wield and gains the reach trait, but loses the trident\u2019s normal thrown trait."
+        "effect": "You extend or shorten the trident\u2019s haft. When extended, the trident requires two hands to wield and gains the reach trait, but loses the trident\u2019s normal thrown trait.",
+        "category": "weapon rune"
     }, {
         "traits": ["Enchantment", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=393",
@@ -1298,7 +1334,8 @@
         "source": "Core Rulebook pg. 602",
         "price": "60 gp",
         "usage": "held in 2 hands;",
-        "bulk": "2"
+        "bulk": "2",
+        "category": "weapon rune"
     }, {
         "traits": ["Magical", "Necromancy", "Poison"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=383",
@@ -1317,7 +1354,8 @@
         "dagger venom": "(poison);",
         "saving throw": "Fortitude DC 21;",
         "maximum duration": "4 rounds.",
-        "stage 1": "1d8 poison damage and enfeebled 1."
+        "stage 1": "1d8 poison damage and enfeebled 1.",
+        "category": "weapon rune"
     }, {
         "traits": ["Evocation", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=382",
@@ -1331,7 +1369,8 @@
         "actions": "Two Actions",
         "activate": "Interact (sonic);",
         "frequency": "once per day;",
-        "effect": "You pull the white thread free, then whirl the sling in circles at high speed. It lets out an ear-piercing wave of sound. Each creature in a 30-foot cone takes 4d6 sonic damage (DC 21 basic Fortitude save). Any creature that fails is deafened for 1 round, or 1 hour on a critical failure."
+        "effect": "You pull the white thread free, then whirl the sling in circles at high speed. It lets out an ear-piercing wave of sound. Each creature in a 30-foot cone takes 4d6 sonic damage (DC 21 basic Fortitude save). Any creature that fails is deafened for 1 round, or 1 hour on a critical failure.",
+        "category": "weapon rune"
     }, {
         "traits": ["Uncommon", "Magical", "Necromancy"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=381",
@@ -1341,7 +1380,8 @@
         "source": "Core Rulebook pg. 600",
         "price": "240 gp",
         "usage": "held in 1 hand;",
-        "bulk": "L"
+        "bulk": "L",
+        "category": "weapon rune"
     }, {
         "traits": ["Magical", "Transmutation"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=396",
@@ -1353,7 +1393,8 @@
         "usage": "held in 1 or 2 hands",
         "actions": "Single Action",
         "activate": "Interact;",
-        "effect": "You cause the twigs to rapidly grow or contract, reshaping into a +1 striking staff , a +1 striking bo staff , or its disc form. In its disc form, it has negligible Bulk and must be held in one hand to be activated. In the other forms, it has the same Bulk as a normal weapon of its type. You can switch your grip as part of the activation. When you expand the item, you can use the force of the expansion to High Jump or to try to Force Open a door or the like by wedging the disc into a gap before activation. The staff makes the Athletics check with a +15 modifier."
+        "effect": "You cause the twigs to rapidly grow or contract, reshaping into a +1 striking staff , a +1 striking bo staff , or its disc form. In its disc form, it has negligible Bulk and must be held in one hand to be activated. In the other forms, it has the same Bulk as a normal weapon of its type. You can switch your grip as part of the activation. When you expand the item, you can use the force of the expansion to High Jump or to try to Force Open a door or the like by wedging the disc into a gap before activation. The staff makes the Athletics check with a +15 modifier.",
+        "category": "weapon rune"
     }, {
         "traits": ["Unique", "Evocation", "Light", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=503",
@@ -1369,7 +1410,19 @@
         "activate": "command; envision;",
         "frequency": "once per day; three times per day;",
         "effect": "Eclipse\u2019s blades glow like starlit night sky, causing it to shed light as a torch until you deactivate it as a single action, which has the concentrate trait. You absorb light, gaining a +2 status bonus to the Stealth check.",
-        "trigger": "You attempt a Stealth check to Hide or Sneak, but you haven\u2019t rolled yet;"
+        "trigger": "You attempt a Stealth check to Hide or Sneak, but you haven\u2019t rolled yet;",
+        "category": "weapon rune"
+    }, {
+        "traits": ["Uncommon", "Evocation", "Magical"],
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=515",
+        "name": "Crimson Brand",
+        "level": 9,
+        "text": "These ominous swords are decorated with crimson lacquer and serve as perfect conduits for the Crimson Oath\u2019s power. The first was granted to Clarethe Iomedar by a mysterious patron who many Reclaimers believe to be an emissary of Ragathiel. A crimson brand is a +1 striking wounding. When the wielder uses the crimson brand to cast invoke the Crimson Oath, they can generate a 60-foot line or a 30-foot cone instead of the normal 20-foot cone. Whenever the wielder would inflict persistent bleed damage on an undead creature with the crimson brand, they can instead wreathe the creature in ruby energy, inflicting the same amount of persistent positive damage instead of persistent bleed damage.",
+        "source": "Lost Omens Character Guide pg. 82",
+        "price": "700 gp",
+        "usage": "held in 1 or 2 hands;",
+        "bulk": "1",
+        "category": "weapon rune"
     }, {
         "traits": ["Evocation", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=388",
@@ -1379,7 +1432,8 @@
         "source": "Core Rulebook pg. 601",
         "price": "700 gp",
         "usage": "held in 1 hand;",
-        "bulk": "L"
+        "bulk": "L",
+        "category": "weapon rune"
     }, {
         "traits": ["Divination", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=392",
@@ -1392,7 +1446,8 @@
         "bulk": "2",
         "actions": "Single Action",
         "activate": "command;",
-        "effect": "You swear an oath to destroy one creature you can see. For the next 7 days or until that creature is slain, your attacks with the bow against that creature deal 1d6 additional damage, and you gain a +2 circumstance bonus to Survival checks to Track that creature. Your critical hits against the target gain the bow\u2019s critical specialization effect; if they would already do so, they instead increase the DC of the Athletics check to Escape when critically hit to DC 20. After you activate the bow, you can\u2019t activate it again for 7 days. If you kill the creature you\u2019ve sworn an oath against, the oath ends and you need to wait only 10 minutes before you can activate it again."
+        "effect": "You swear an oath to destroy one creature you can see. For the next 7 days or until that creature is slain, your attacks with the bow against that creature deal 1d6 additional damage, and you gain a +2 circumstance bonus to Survival checks to Track that creature. Your critical hits against the target gain the bow\u2019s critical specialization effect; if they would already do so, they instead increase the DC of the Athletics check to Escape when critically hit to DC 20. After you activate the bow, you can\u2019t activate it again for 7 days. If you kill the creature you\u2019ve sworn an oath against, the oath ends and you need to wait only 10 minutes before you can activate it again.",
+        "category": "weapon rune"
     }, {
         "traits": ["Evocation", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=384",
@@ -1402,7 +1457,8 @@
         "source": "Core Rulebook pg. 600",
         "price": "2,750 gp",
         "usage": "held in 1 hand;",
-        "bulk": "1"
+        "bulk": "1",
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=386",
         "source": "Core Rulebook pg. 600",
@@ -1416,7 +1472,7 @@
         "traits": ["Evocation", "Fire", "Magical"],
         "usage": "held in 1 hand;",
         "bulk": "1",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=386",
         "name": "Flame Tongue (Greater)",
@@ -1431,7 +1487,7 @@
         "usage": "held in 1 hand;",
         "bulk": "1",
         "text": "This +2 greater striking flaming longsword has an ornate brass hilt and a blade shaped like stylized flames. When wielded, the blade projects illumination resembling shimmering firelight, emitting dim light in a 10-foot radius. cantrip from the sword as a 7th-level arcane spell, using your melee attack modifier with flametongue as your spell attack modifier. This is a . When you activate the sword to cast , the spell is 9th level. command; for 1 minute. All weapon and unarmed attacks by you and your allies within the area gain the effect of the property rune.\r\nFrost BrandItem 16",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=395",
         "source": "Core Rulebook pg. 602",
@@ -1447,7 +1503,7 @@
         "traits": ["Electricity", "Evocation", "Magical"],
         "usage": "held in 1 hand;",
         "bulk": "1",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=395",
         "name": "Storm Flash (Greater)",
@@ -1459,7 +1515,7 @@
         "bulk": "1",
         "actions": "Reaction",
         "text": "This +2 greater striking shock rapier has a golden blade, and miniature electric arcs flash across its guard while it\u2019s wielded. When out of its sheath under an open sky, the blade causes storm clouds to gather slowly above. (DC 33). storm flash . Choose one eligible creature to protect and roll a melee attack roll against the DC of the electricity effect. If you succeed, the chosen creature takes no electricity damage from the triggering effect. This is a . When activating the sword to cast , the spell is 8th level.",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "traits": ["Uncommon", "Divine", "Evocation", "Good", "Lawful"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=389",
@@ -1476,7 +1532,8 @@
         "effect": "You command the sword and point it at a creature you can see. The sword casts detect alignment to detect evil, but this targets only the selected creature instead of detecting in an area. You cast dispel magic at the same level as your champion focus spells. It must target an illusion the creature you hit created, a spell affecting the creature you hit, or an item the creature you hit wears or carries. The spell or item you attempt to counteract must be within 120 feet of you.",
         "paladin wielder": "If you\u2019re a champion of the paladin cause, you also gain the following two benefits.",
         "requirements": "You hit a creature using the holy avenger on your previous action;",
-        "craft requirements": "You are a champion with the paladin cause; supply a casting of detect alignment and dispel magic . The initial raw materials must include 120 gp of cold iron."
+        "craft requirements": "You are a champion with the paladin cause; supply a casting of detect alignment and dispel magic . The initial raw materials must include 120 gp of cold iron.",
+        "category": "weapon rune"
     }, {
         "traits": ["Cold", "Evocation", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=387",
@@ -1489,7 +1546,26 @@
         "bulk": "2",
         "actions": "Two Actions",
         "activate": "command, Interact;",
-        "effect": "You swing the frost brand into the area of an ongoing magical fire, and the blade attempts to counteract the fire with a counteract modifier of +27. If it fails, it can\u2019t attempt to counteract the same fire again."
+        "effect": "You swing the frost brand into the area of an ongoing magical fire, and the blade attempts to counteract the fire with a counteract modifier of +27. If it fails, it can\u2019t attempt to counteract the same fire again.",
+        "category": "weapon rune"
+    }, {
+        "traits": ["Uncommon", "Divine", "Evocation", "Fire", "Good", "Light"],
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=517",
+        "name": "Radiant Lance",
+        "level": 17,
+        "text": "When wielded in battle, these silver lances blaze with light. A radiant lance is a +2 greater striking holy flaming silver lance . When wielded in battle, the radiant lance sheds bright light in a 60- foot radius. On a hit against an undead creature that is specifically vulnerable to sunlight, the lance bursts with a brilliant flash of light, and that undead must attempt a DC 35 Fortitude save. If the attack was a critical hit, the undead uses an outcome one degree of success worse than the result of its saving throw.",
+        "source": "Lost Omens Character Guide pg. 92",
+        "price": "5,750 gp",
+        "usage": "held in 2 hands;",
+        "bulk": "2",
+        "success": "The undead is unaffected.",
+        "failure": "The undead is slowed 1 for 1 round.",
+        "critical failure": "The undead is slowed 1 for 1 minute.",
+        "actions": "Two Actions",
+        "activate": "command, Interact;",
+        "frequency": "once per day;",
+        "effect": "You point the lance at a foe and call out, firing a beam with the effects of a 7th-level searing light .",
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=390",
         "source": "Core Rulebook pg. 601",
@@ -1505,7 +1581,7 @@
         "traits": ["Rare", "Divination", "Fortune", "Magical"],
         "usage": "held in 1 hand;",
         "bulk": "L",
-        "category": "weapon"
+        "category": "weapon rune"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=390",
         "name": "Luck Blade (Wishing)",
@@ -1517,7 +1593,23 @@
         "bulk": "L",
         "actions": "Reaction",
         "text": "Luck and good fortune bless the wielder of this +3 greater striking shortsword . Luck blades are crafted in a variety of styles, but their hilts or blades always incorporate symbols of luck, such as clovers, horseshoes, fish, ladybugs, or other symbols. effect. Some contain one when crafted. You can cast this spell as an arcane innate spell while wielding the , expending the spell. A spellcaster who can cast can place another into the blade by spending 8,000 gp and 4 days of downtime. A can hold no more than one at a time.",
-        "category": "weapon"
+        "category": "weapon rune"
+    }, {
+        "traits": ["Uncommon", "Evocation", "Magical"],
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=391",
+        "name": "Mattock of the Titans",
+        "level": 19,
+        "text": "This 15-foot-long adamantine digging tool is far too big for even a Large creature to wield, though if you\u2019re a Small or larger creature, you can wield it while wearing a , as though it were appropriately sized for you and had 2 Bulk. The GM might also allow you to wield the mattock if you have some other means of wielding oversized weapons, such as if you\u2019re a Large barbarian with the giant instinct or are a Huge creature. When it\u2019s used as a weapon, the mattock of the titans has the statistics of a +3 greater striking keen adamantine great\u00a0pick . While you\u2019re wielding the mattock of the titans , you gain a +3 item bonus to Athletics checks. You can use it to loosen or push soft earth at a rate of 1 minute per 5-foot cube or smash through solid stone at the rate of 5 minutes per 5-foot-cube.",
+        "source": "Core Rulebook pg. 601",
+        "price": "36,000 gp",
+        "usage": "held in 2 hands;",
+        "bulk": "16",
+        "actions": "Two Actions",
+        "activate": "Interact;",
+        "frequency": "once per day;",
+        "effect": "You dig furiously with the mattock to non-magically replicate the effects of an earthquake spell.",
+        "craft requirements": "You are a titan, and the initial raw materials must include 8,100 gp of adamantine.",
+        "category": "weapon rune"
     }, {
         "traits": ["Rare", "Evocation", "Magical"],
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=394",
@@ -1532,7 +1624,8 @@
         "activate": "command;",
         "trigger": "Your attack roll with the sky hammer is a critical success;",
         "effect": "A 6th-level arcane fireball spell explodes, centered on the sky hammer. The spell DC is 45. You are immune to the fireball\u2019s effect, though your allies are not.",
-        "craft requirements": "Supply a casting of fireball (6th level), and the initial raw materials must include 12,375 gp of orichalcum."
+        "craft requirements": "Supply a casting of fireball (6th level), and the initial raw materials must include 12,375 gp of orichalcum.",
+        "category": "weapon rune"
     }],
     "critSpecialization": [{
         "link": "https://2e.aonprd.com/WeaponGroups.aspx",

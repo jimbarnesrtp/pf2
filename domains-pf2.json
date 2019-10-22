@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder 2.0 domains list",
-    "date": "October 02, 2019",
-    "meleeWeapons": [{
+    "date": "October 22, 2019",
+    "domains": [{
         "name": "Air",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=2",
         "description": "You can control winds and the weather.",
@@ -16,7 +16,7 @@
         "domainSpell": "Blind Ambition",
         "advancedDomainSpell": "Competitive Edge",
         "Source": "Core Rulebook pg. 441",
-        "deities": "Zon-Kuthon"
+        "deities": "Droskar,Zon-Kuthon"
     }, {
         "name": "Cities",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=3",
@@ -80,7 +80,7 @@
         "domainSpell": "Hurtling Stone",
         "advancedDomainSpell": "Localized Quake",
         "Source": "Core Rulebook pg. 441",
-        "deities": "Abadar,Erastil,Rovagug,Torag"
+        "deities": "Abadar,Droskar,Erastil,Rovagug,Torag"
     }, {
         "name": "Family",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=11",
@@ -104,7 +104,7 @@
         "domainSpell": "Fire Ray",
         "advancedDomainSpell": "Flame Barrier",
         "Source": "Core Rulebook pg. 441",
-        "deities": "Asmodeus,Sarenrae"
+        "deities": "Asmodeus,Droskar,Sarenrae"
     }, {
         "name": "Freedom",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=14",
@@ -181,7 +181,7 @@
         "name": "Nightmares",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=23",
         "description": "You fill minds with horror and dread.",
-        "domainSpell": "Walking Nightmare",
+        "domainSpell": "Waking Nightmare",
         "advancedDomainSpell": "Shared Nightmare",
         "Source": "Core Rulebook pg. 441",
         "deities": "Lamashtu,Treerazer"
@@ -256,7 +256,7 @@
         "domainSpell": "Word of Truth",
         "advancedDomainSpell": "Glimpse the Truth",
         "Source": "Core Rulebook pg. 441",
-        "deities": "Iomedae,Irori,Sarenrae"
+        "deities": "Droskar,Iomedae,Irori,Sarenrae"
     }, {
         "name": "Tyranny",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=33",
@@ -264,7 +264,7 @@
         "domainSpell": "Touch of Obedience",
         "advancedDomainSpell": "Commanding Lash",
         "Source": "Core Rulebook pg. 441",
-        "deities": "Asmodeus,Gogunta,Treerazer"
+        "deities": "Asmodeus,Droskar,Gogunta,Treerazer"
     }, {
         "name": "Undeath",
         "link": "https://2e.aonprd.com/Domains.aspx?ID=34",

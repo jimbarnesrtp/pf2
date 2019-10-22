@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Alchemical Item list",
-    "date": "October 20, 2019",
+    "date": "October 22, 2019",
     "bombs": [{
         "source": "Core Rulebook pg. 544",
         "actions": "Single Action",
@@ -576,7 +576,7 @@
         "text": "Your features transform into something bestial and you take on muscle mass, but your lumbering form is clumsy. You gain a +4 item bonus, your claw deals 1d8 slashing damage, your jaws deal 1d10 piercing damage, and the duration is 1 hour. You gain weapon specialization with the claws and jaws, or greater weapon specialization, if you already have weapon specialization with these unarmed attacks."
     }, {
         "source": "Core Rulebook pg. 547",
-        "name": " Cognative Mutagen (Lesser)",
+        "name": " Cognitive Mutagen (Lesser)",
         "link": " https://2e.aonprd.com/Equipment.aspx?ID=87",
         "level": 1,
         "price": "4 gp",
@@ -589,7 +589,7 @@
         "actions": "Single Action",
         "activate": "Interact"
     }, {
-        "name": " Cognative Mutagen (Moderate)",
+        "name": " Cognitive Mutagen (Moderate)",
         "link": " https://2e.aonprd.com/Equipment.aspx?ID=87",
         "source": "Core Rulebook pg. 547",
         "level": 3,
@@ -603,7 +603,7 @@
         "actions": "Single Action",
         "activate": "Interact"
     }, {
-        "name": " Cognative Mutagen (Greater)",
+        "name": " Cognitive Mutagen (Greater)",
         "link": " https://2e.aonprd.com/Equipment.aspx?ID=87",
         "source": "Core Rulebook pg. 547",
         "level": 11,
@@ -617,7 +617,7 @@
         "actions": "Single Action",
         "activate": "Interact"
     }, {
-        "name": " Cognative Mutagen (Major)",
+        "name": " Cognitive Mutagen (Major)",
         "link": " https://2e.aonprd.com/Equipment.aspx?ID=87",
         "source": "Core Rulebook pg. 547",
         "level": 17,
@@ -1322,6 +1322,17 @@
         "link": " https://2e.aonprd.com/Equipment.aspx?ID=497",
         "level": 20,
         "text": "When you drink this elixir, you physically become as you were in whatever phase of your youth you desire. Your new body begins in peak health, regardless of what your actual condition was at that age. Any physical or mental imperfections\u2014 including scars, lost limbs, and curses, diseases, poisons of 20th level or lower\u2014 are removed, and you regain your full Hit Points. You immediately begin to age normally again, with your natural lifespan extended as if you had never aged past your new apparent age. You retain all your memories. Unlike Crafting most items, brewing the sun orchid elixir takes 1 month\u2019s time. While an individual vial of sun orchid elixir isn\u2019t unique, the formula is unique, and it\u2019s known only to Artokus Kirran of Thuvia."
+    }, {
+        "source": "Lost Omens Character Guide pg. 92",
+        "traits": ["Uncommon", "Alchemical", "Consumable", "Elixir"],
+        "price": "3 gp",
+        "usage": "held in 2 hands;",
+        "bulk": "L",
+        "activate": "1 minute (Interact)",
+        "name": "Lastwall Soup",
+        "link": " https://2e.aonprd.com/Equipment.aspx?ID=516",
+        "level": 1,
+        "text": "Crimson Reclaimers make this rich, hearty soup using herbs that baffle the senses of the undead. A bowl of Lastwall soup is as nourishing as a full meal. In addition, for 1 hour after consuming a bowl of Lastwall soup, you gain a +2 item bonus to checks and DCs against undead."
     }],
     "poisons": [{
         "name": "Arsenic",

@@ -90,7 +90,7 @@ def get_melee_weapons(link):
                 item['hands'] = int(entries[5].text)
                 item['group'] = entries[6].text.replace(u'\u2014', '')
                 item['weaponTraits'] = entries[7].text.split(",")
-                print("getting held:",item['name'])
+                print("getting melee:",item['name'])
                 itemDetails = get_details(item['link'])
 
                 for key in itemDetails.keys():
@@ -130,7 +130,7 @@ def get_range_weapons(link):
                 item['hands'] = entries[7].text.replace(u'\u2014', '')
                 item['group'] = entries[8].text
                 item['weaponTraits'] = entries[9].text.replace(u'\u2014', '').split(",")
-                print("getting held:",item['name'])
+                print("getting range:",item['name'])
                 itemDetails = get_details(item['link'])
 
                 for key in itemDetails.keys():
@@ -306,7 +306,7 @@ def get_single(link):
                 name = child.text
                 start = name.find("Item")
                 details['name'] = name[0:start].strip()
-                details['level'] = int(name[start+5:].strip())
+                details['level'] = int(name[start+5:].strip().replace("+",""))
             if child.name == "hr":
                 tagType = ""
                 reachedBreak = True
@@ -355,7 +355,10 @@ def get_single(link):
                 if tagType != "":
                     if not stringContents.isspace():
                         if tagType in details:
-                            details[tagType] += " " + stringContents.strip()
+                            if tagType == "level":
+                                details[tagType] = int(stringContents.strip().replace(";",""))
+                            else:
+                                details[tagType] += " " + stringContents.strip()
                         else:
                             details[tagType] = stringContents.strip()
                 else:
@@ -398,6 +401,131 @@ def get_weapons_from_list(fileName):
                 items.append(wep)
         else:
             items.append(get_single(runeMD[2].strip('\n')))
+    return items
+
+def get_special():
+    listOfLinks = []
+    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=37&Subcategory=38")
+
+
+    itemHolder = []
+    for link in listOfLinks:
+        res2 = requests.get(link)
+        res2.raise_for_status()
+        soup2 = BeautifulSoup(res2.text, 'lxml')
+        table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
+
+        rows = table.findAll(lambda tag: tag.name=='tr')
+        t = 0
+        for row in rows:
+            t += 1
+            #print(row)
+            #print("-----------------------------------")
+            item = {}
+            entries = row.find_all(lambda tag: tag.name=='td')
+            if entries is not None:
+                if len(entries) > 0:
+                    name = entries[0].find("a").text
+                    item['name'] = name
+                    item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                    if entries[1].text == "—":
+                        item['level'] = 0
+                    else:
+                        item['level'] = int(entries[1].text)
+                    item['price'] = entries[2].text.replace(u'\u2014', '')
+
+                    if any(x['link'] == item['link'] for x in itemHolder):
+                        #print("shortName:", shortName)
+                        for item2 in itemHolder:
+                            if item2['link'] == item['link']:
+                                item2['multi'] = True
+                    else:
+                        item['multi'] = False
+                        itemHolder.append(item)
+            #if t >6:
+                #break
+
+    
+    
+    items = []
+    for item in itemHolder:
+        #print(item)
+        print("Getting special material :", item['name'],"This url:", item['link'],"|is it multi:",item['multi'])
+        if item['multi'] == True:
+            multiHolder = get_multi(item['link'])
+            for multi in multiHolder:
+                multi['category'] = "weapon rune"
+                items.append(multi)
+        else:
+            single = get_single(item['link'])
+            single['category'] = "weapon rune"
+            single['level'] = item['level']
+            single['price'] = item['price']
+            items.append(single)
+
+    return items
+# get magic
+def get_specific():
+    listOfLinks = []
+    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=37&Subcategory=40")
+
+
+    itemHolder = []
+    for link in listOfLinks:
+        res2 = requests.get(link)
+        res2.raise_for_status()
+        soup2 = BeautifulSoup(res2.text, 'lxml')
+        table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
+
+        rows = table.findAll(lambda tag: tag.name=='tr')
+        t = 0
+        for row in rows:
+            t += 1
+            #print(row)
+            #print("-----------------------------------")
+            item = {}
+            entries = row.find_all(lambda tag: tag.name=='td')
+            if entries is not None:
+                if len(entries) > 0:
+                    name = entries[0].find("a").text
+                    item['name'] = name
+                    item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                    if entries[1].text == "—":
+                        item['level'] = 0
+                    else:
+                        item['level'] = int(entries[1].text)
+                    item['price'] = entries[2].text.replace(u'\u2014', '')
+                    item['bulk'] = entries[3].text
+
+                    if any(x['link'] == item['link'] for x in itemHolder):
+                        #print("shortName:", shortName)
+                        for item2 in itemHolder:
+                            if item2['link'] == item['link']:
+                                item2['multi'] = True
+                    else:
+                        item['multi'] = False
+                        itemHolder.append(item)
+            #if t >6:
+                #break
+
+    
+    
+    items = []
+    for item in itemHolder:
+        #print(item)
+        print("Getting magic weapon :", item['name'],"This url:", item['link'],"|is it multi:",item['multi'])
+        if item['multi'] == True:
+            multiHolder = get_multi(item['link'])
+            for multi in multiHolder:
+                multi['category'] = "weapon rune"
+                items.append(multi)
+        else:
+            single = get_single(item['link'])
+            single['category'] = "weapon rune"
+            single['level'] = item['level']
+            single['price'] = item['price']
+            items.append(single)
+
     return items
 
 def get_crit_special(link):
@@ -472,8 +600,8 @@ def get_all():
     weaponHolder['meleeWeapons'] = get_melee_weapons("https://2e.aonprd.com/Weapons.aspx")
     weaponHolder['rangeWeapons'] = get_range_weapons("https://2e.aonprd.com/Weapons.aspx")
     weaponHolder['baseMagicWeapons'] = get_base_magic_weapons()
-    weaponHolder['specialMaterialWeapons'] = get_weapons_from_list("materialWeapons.csv")
-    weaponHolder['magicWeapons'] = get_weapons_from_list("magicWeapons.csv")
+    weaponHolder['specialMaterialWeapons'] = get_special()
+    weaponHolder['magicWeapons'] = get_specific()
     weaponHolder['critSpecialization'] = get_crit_special("https://2e.aonprd.com/WeaponGroups.aspx")
 
     #weaponHolder['rangedWeapons'] = get

@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 shields list",
-    "date": "October 18, 2019",
+    "date": "October 22, 2019",
     "baseShields": [{
         "name": "Buckler",
         "link": "https://2e.aonprd.com/Shields.aspx?ID=1",
@@ -515,7 +515,8 @@
         "actions": "Single Action",
         "activate": " Raise a Shield; ",
         "frequency": " once per day; ",
-        "effect": " You animate the lion\u2019s head. You Raise the Shield and make a melee Strike with it as part of the same action. The shield\u2019s biting maw is a martial melee weapon that deals 2d6 piercing damage and has the deadly 1d6 trait; it can\u2019t be enhanced by runes. The shield remains animated for 1 minute, during which time you can Strike with it each time you Raise the Shield, as well as with a Strike action."
+        "effect": " You animate the lion\u2019s head. You Raise the Shield and make a melee Strike with it as part of the same action. The shield\u2019s biting maw is a martial melee weapon that deals 2d6 piercing damage and has the deadly 1d6 trait; it can\u2019t be enhanced by runes. The shield remains animated for 1 minute, during which time you can Strike with it each time you Raise the Shield, as well as with a Strike action.",
+        "category": "shield"
     }, {
         "traits": ["Abjuration", "Magical"],
         "name": "Spellguard Shield",
@@ -525,7 +526,8 @@
         "source": "Core Rulebook pg. 588",
         "price": "250 gp",
         "usage": "held in 1 hand;",
-        "bulk": "1"
+        "bulk": "1",
+        "category": "shield"
     }, {
         "traits": ["Evocation", "Magical"],
         "name": "Spined Shield",
@@ -535,7 +537,8 @@
         "source": "Core Rulebook pg. 588",
         "price": "360 gp",
         "usage": "held in 1 hand;",
-        "bulk": "1"
+        "bulk": "1",
+        "category": "shield"
     }, {
         "traits": ["Uncommon", "Evocation", "Force", "Magical"],
         "name": "Force Shield",
@@ -549,7 +552,8 @@
         "actions": "Single Action",
         "activate": " command; ",
         "frequency": " once per day; ",
-        "effect": " The shield surrounds you with a bubble of force that protects you from harm, granting you resistance 5 to physical damage for 1 minute. The bubble disappears if you cease holding the shield."
+        "effect": " The shield surrounds you with a bubble of force that protects you from harm, granting you resistance 5 to physical damage for 1 minute. The bubble disappears if you cease holding the shield.",
+        "category": "shield"
     }, {
         "traits": ["Uncommon", "Abjuration", "Magical"],
         "name": "Dragonslayer's Shield",
@@ -559,7 +563,8 @@
         "source": "Core Rulebook pg. 587",
         "price": "670 gp",
         "usage": "held in 1 hand;",
-        "bulk": "1"
+        "bulk": "1",
+        "category": "shield"
     }, {
         "traits": ["Uncommon", "Abjuration", "Magical"],
         "name": "Forge Warden",
@@ -573,7 +578,8 @@
         "actions": "Free Action",
         "activate": " command (fire); ",
         "trigger": " You use the forge warden to Shield Block an adjacent creature\u2019s attack and the shield takes damage; ",
-        "effect": " The attacking creature takes 2d6 fire damage."
+        "effect": " The attacking creature takes 2d6 fire damage.",
+        "category": "shield"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=319",
         "source": "Core Rulebook pg. 587",
@@ -615,7 +621,19 @@
         "actions": "Reaction",
         "activate": " Interact; ",
         "trigger": " A ranged weapon Strike targets a creature within 15 feet of you when you have this shield raised, and the attacker has not yet rolled their attack; ",
-        "effect": " The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the \r\n\r\n    "
+        "effect": " The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the \r\n\r\n    ",
+        "category": "shield"
+    }, {
+        "traits": ["Rare", "Abjuration", "Magical"],
+        "name": "Reforging Shield",
+        "level": 15,
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=542",
+        "text": "This steel shield contains a smoldering core of magma that never cools. Whenever the   current Hit Points are below its Break Threshold, the shield recovers 5 Hit Points at the start of its wielder\u2019s turn each round until it is no longer broken. Each time a character Repairs the shield, the shield recovers double the number of Hit Points. The shield has Hardness 15, HP 120, and BT 60.",
+        "source": "Pathfinder #148: Fires of the Haunted City pg. 76",
+        "price": "6,000 gp",
+        "usage": "held in 1 hand;",
+        "bulk": "1",
+        "category": "shield"
     }, {
         "traits": ["Uncommon", "Abjuration", "Magical"],
         "name": "Reflecting Shield",
@@ -632,7 +650,8 @@
         "trigger": " You are targeted by a spell; ",
         "requirements": " The  reflecting shield is raised; ",
         "effect": " You attempt to reflect the spell on its caster, with the effects of a 9th-level  spell turning with a counteract modifier of +40.",
-        "craftrequirements": " Supply one casting of  spell turning, and the initial raw materials must include at least 2,750 gp of silver."
+        "craftrequirements": " Supply one casting of  spell turning, and the initial raw materials must include at least 2,750 gp of silver.",
+        "category": "shield"
     }, {
         "traits": ["Rare", "Abjuration", "Magical"],
         "name": "Indestructible Shield",
@@ -643,6 +662,7 @@
         "price": "24,000 gp",
         "usage": "held in 1 hand;",
         "bulk": "1",
-        "craftrequirements": " The raw materials must include at least 4,400 gp of adamantine."
+        "craftrequirements": " The raw materials must include at least 4,400 gp of adamantine.",
+        "category": "shield"
     }]
 }

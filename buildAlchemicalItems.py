@@ -126,7 +126,7 @@ def get_elixirs():
     for line in listOfPages: 
         t += 1
         alMD = line.split(",")
-        print("Getting bomb for :", alMD[0],"This url:", alMD[1].strip('\n'))
+        print("Getting elixir for :", alMD[0],"This url:", alMD[1].strip('\n'))
 
         res2 = requests.get(alMD[1].strip('\n'))
         res2.raise_for_status()

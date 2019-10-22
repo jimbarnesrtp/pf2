@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 feat list",
-    "date": "September 23, 2019",
+    "date": "October 22, 2019",
     " generalFeats": [{
         "name": "Additional Lore",
         "level": "1",
@@ -538,6 +538,14 @@
         "benefits": "Expert in Recall Knowledge action, Recall Knowledge as a free action once per day",
         "text": ["You know basic facts off the top of your head. Choose a skill you\u2019re an expert in that has the Recall Knowledge action and for which you have the Assurance feat. You can use the Recall Knowledge action with that skill as a free action once per round. If you do, you must use Assurance on the skill check.", " You can select this feat multiple times, choosing a different skill each time. You can use Automatic Knowledge with any skills you have chosen, but you can still use Automatic Knowledge only once per round."]
     }, {
+        "name": "Backup Disguise",
+        "level": "2",
+        "traits": ["General", " Skill", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1064",
+        "prereq": "expert in Deception",
+        "benefits": "You have a specific disguise that you keep at the ready, worn underneath your outer garment",
+        "text": ["You have a specific disguise that you keep at the ready, worn underneath your outer garment. You can change into this disguise to ", " as a 3-action activity. If you have master proficiency in Deception, it is instead a 2-action activity, and if you have legendary proficiency, it is a single action. You can create a new backup disguise by spending the normal amount of time it takes you to Impersonate, but you can have only one backup disguise at a time. Having a backup disguise doesn\u2019t allow you to remove your armor or any other complex piece of clothing any more quickly, but once you have those off, the disguise is readily available. Because you have the backup disguise at the ready, it\u2019s possible that a thorough search might reveal some elements of the disguise (see ", " in the ", " skill)."]
+    }, {
         "name": "Bonded Animal",
         "level": "2",
         "traits": ["General", " Downtime", " Skill"],
@@ -671,8 +679,16 @@
         "traits": ["General", " Skill"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=836",
         "prereq": "expert in Medicine",
-        "benefits": "Greater benef ts from Treat Disease and Treat Poison",
+        "benefits": "Greater benefits from Treat Disease and Treat Poison",
         "text": ["You learned folk medicine to help recover from diseases and poison, and using it diligently has made you especially resilient. When you Treat a Disease or a Poison, or someone else uses one of these actions on you, increase the circumstance bonus granted on a success to +4, and if the result of the patient\u2019s saving throw is a success, the patient gets a critical success."]
+    }, {
+        "name": "Sow Rumor",
+        "level": "2",
+        "traits": ["General", " Secret", " Skill", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1065",
+        "prereq": "expert in Deception",
+        "benefits": "You spread rumors, which may or may not be true, about a specific subject",
+        "text": ["You spread rumors, which may or may not be true, about a specific subject. If the subject of your rumor is not currently the subject of any contradictory rumors, this takes as long as it would normally take you to ", " (typically 2 hours), at the end of which the GM rolls a secret Deception check to see how well you spread the rumor. If your rumor matches any current rumors about the subject, it takes less time to spread the rumor, and if you are attempting to overtake a particularly popular and contradictory rumor, it takes much longer or may be impossible. The DC similarly increases or decreases depending on how plausible your rumor is.", " Your rumor spreads like wildfire. Anyone who succeeds at a check to Gather Information on the specific subject learns your rumor in preference to other rumors about the subject. Your rumor persists for 1 month.", " You successfully spread the rumor. Anyone who succeeds at a check to Gather Information on the specific subject adds your rumor to the list of rumors they could learn about the subject. Your rumor persists for 1 week.", " Your rumor dies off, never becoming popular enough for other people to learn it via Gather Information.", " You are unable to spread a rumor and take a \u20134 circumstance penalty to Deception checks to Sow Rumors about the same subject within the same region for 1 week. In addition, a rumor spreads about someone trying to spread false rumors about the subject."]
     }, {
         "name": "Tweak Appearances",
         "level": "2",
@@ -745,6 +761,14 @@
         "prereq": "master in Occultism",
         "benefits": "Your magic becomes more difficult to identify",
         "text": ["You can draw upon strange variations in your spellcasting, whether or not you can cast occult spells. The DCs to Recognize Spells you cast and Identify Magic you use increase by 5."]
+    }, {
+        "name": "Entourage",
+        "level": "7",
+        "traits": ["General", " Rare", " Skill"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1066",
+        "prereq": "master in Diplomacy, Hobnobber",
+        "benefits": "You have a small group of admirers who tend to follow you around while you\u2019re in civilized settlements",
+        "text": ["You have a small group of admirers who tend to follow you around while you\u2019re in civilized settlements. Your admirers are helpful to you, allowing you to make simple ", " of them such as purchasing basic equipment with your funds or finding a room at an inn. These admirers do not travel with you to places that are obviously dangerous, including most adventure locations, but they\u2019ll wait for you at the nearest settlement. Your admirers never use actions in encounter mode other than to retreat, and they abandon you if you intentionally bring them harm or at the GM\u2019s discretion. When you ", ", you can use your admirers to assist you, granting a +1 circumstance bonus to your Diplomacy check and reducing the time it takes even further (typically to 30 minutes, rather than 1 hour with the Hobnobber feat alone). If you have the ", " feat, you can have your admirers assist you, with the same benefits as Gather Information."]
     }, {
         "name": "Expeditious Search",
         "level": "7",
@@ -1819,7 +1843,7 @@
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
         "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
-        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
+        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
         "name": "Eclectic Skill",
         "level": "8",
@@ -1990,6 +2014,14 @@
         "benefits": "You embody an aspect of your deity.",
         "text": ["You embody an aspect of your deity. Choose one of your deity\u2019s domains from those listed on page 441. You gain the domain\u2019s initial domain spell as a devotion spell."]
     }, {
+        "name": "Everstand Stance",
+        "level": "1",
+        "traits": ["Champion", " Fighter", " Stance", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1087",
+        "prereq": "",
+        "benefits": "You brace your shield with both hands, enhancing its potential for both offense and defense",
+        "text": ["You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield\u2019s boss or spikes by one step, and increase the shield\u2019s Hardness by 2 when using the ", " reaction."]
+    }, {
         "name": "Ranged Reprisal",
         "level": "1",
         "traits": ["Champion"],
@@ -2070,6 +2102,22 @@
         "benefits": "Your faith makes you resistant to disease.",
         "text": ["Your faith makes you resistant to disease, protecting you as you offer succor to the ill. You gain a +1 status bonus to saves against diseases. In addition, if you roll a success on a save against a disease, you get a critical success instead."]
     }, {
+        "name": "Everstand Strike",
+        "level": "4",
+        "traits": ["Champion", " Fighter", " Press", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1088",
+        "prereq": "Everstand Stance ",
+        "benefits": "Your follow-up blow leaves you an opening to set your shield",
+        "text": ["Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also ", "."]
+    }, {
+        "name": "Light of Revelation",
+        "level": "4",
+        "traits": ["Champion", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1089",
+        "prereq": "",
+        "benefits": "You\u2019ve learned to call upon light to reveal what is hidden",
+        "text": ["You\u2019ve learned to call upon light to reveal what is hidden. You gain the ", " devotion spell. Increase the number of Focus Points in your focus pool by 1."]
+    }, {
         "name": "Mercy",
         "level": "4",
         "traits": ["Champion", " Concentrate", " Metamagic"],
@@ -2077,6 +2125,14 @@
         "prereq": "",
         "benefits": "Your touch relieves fear and restores movement.",
         "text": ["Your touch relieves fear and restores movement. If the next action you use is to cast ", ", you can attempt to counteract a fear effect or an effect imposing the paralyzed condition on the target, in addition to the other benefits of ", "."]
+    }, {
+        "name": "Sun Blade",
+        "level": "4",
+        "traits": ["Champion", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1090",
+        "prereq": "",
+        "benefits": "You can unleash burning sunlight from your sword or spear",
+        "text": ["You can unleash burning sunlight from your sword or spear. You gain the ", " devotion spell. Increase the number of Focus Points in your focus pool by 1."]
     }, {
         "name": "Attack of Opportunity",
         "level": "6",
@@ -2141,6 +2197,14 @@
         "prereq": "divine ally (steed)",
         "benefits": "Your devotion to your mount manifests as a surge of positive energy.",
         "text": ["Your devotion to your mount manifests as a surge of positive energy. When you cast ", " on your mount, you can restore 10 Hit Points, plus 10 for each heightened level."]
+    }, {
+        "name": "Impassable Wall Stance",
+        "level": "8",
+        "traits": ["Champion", " Fighter", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1091",
+        "prereq": "Attack of Opportunity",
+        "benefits": "You refuse to let foes past your guard",
+        "text": ["You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an Attack of Opportunity triggered by a move action, you disrupt that move action."]
     }, {
         "name": "Quick Block",
         "level": "8",
@@ -2399,6 +2463,14 @@
         "benefits": "Your deity bestows a special spell related to their powers.",
         "text": ["Your deity bestows a special spell related to their powers. Select one domain\u2014a subject of particular interest to you within your religion\u2014from your deity\u2019s list. You gain an initial domain spell for that domain, a spell unique to the domain and not available to other clerics. Each domain\u2019s theme and domain spells appear in Table 8\u20132: Domains on page 441.", " Domain spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to pray to your deity or do service toward their causes.", " Focus spells are automatically heightened to half your level rounded up. Focus spells don\u2019t require spell slots, nor can you cast them using spell slots. Certain feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300.", " You can select this feat multiple times, selecting a different domain each time and gaining its domain spell."]
     }, {
+        "name": "False Faith",
+        "level": "1",
+        "traits": ["Cleric"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1144",
+        "prereq": "worshipper of Droskar",
+        "benefits": "Droskar knows you may need to disguise yourself in societies that oppose your faith.",
+        "text": ["Droskar knows you may need to disguise yourself in societies that oppose your faith. After spending 1 hour in prayer to Droskar, you can cast spells using the religious symbol of a different deity as your divine focus, and you can address verbal prayers to that deity. Droskar intercepts your prayers and answers them without the named god knowing.", " This ability applies to the religious symbol of only one god at a time\u2014making a different religious symbol work in this fashion requires another hour of prayer and causes the old one to cease functioning. You can always use a religious symbol of Droskar without affecting this ability."]
+    }, {
         "name": "Harming Hands",
         "level": "1",
         "traits": ["Cleric"],
@@ -2549,7 +2621,7 @@
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
         "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
-        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
+        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
         "name": "Advanced Domain",
         "level": "8",
@@ -2902,7 +2974,7 @@
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
         "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
-        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
+        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
         "name": "Storm Retribution",
         "level": "6",
@@ -3129,6 +3201,14 @@
         "benefits": "You lash out at your foe with both weapons. ",
         "text": ["You lash out at your foe with both weapons. Make two Strikes, one with each of your two melee weapons, each using your current multiple attack penalty. Both Strikes must have the same target. If the second Strike is made with a weapon that doesn\u2019t have the agile trait, it takes a \u20132 penalty.", " If both attacks hit, combine their damage, and then add any other applicable effects from both weapons. You add any precision damage only once, to the attack of your choice. Combine the damage from both Strikes and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty."]
     }, {
+        "name": "Everstand Stance",
+        "level": "1",
+        "traits": ["Fighter", " Champion", " Stance", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1087",
+        "prereq": "",
+        "benefits": "You brace your shield with both hands, enhancing its potential for both offense and defense",
+        "text": ["You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield\u2019s boss or spikes by one step, and increase the shield\u2019s Hardness by 2 when using the ", " reaction."]
+    }, {
         "name": "Exacting Strike",
         "level": "1",
         "traits": ["Fighter", " Press"],
@@ -3248,6 +3328,14 @@
         "prereq": "",
         "benefits": "You snap your free hand over to grip your weapon just long enough to add momentum and deliver a more powerful blow to your opponent. ",
         "text": ["You snap your free hand over to grip your weapon just long enough to add momentum and deliver a more powerful blow to your opponent. Make a Strike with the required weapon. You quickly switch your grip during the Strike in order to make the attack with two hands. If the weapon doesn\u2019t normally have the two-hand trait, increase its weapon damage die by one step for this attack. (Rules on increasing die size appear on page 279.) If the weapon has the two-hand trait, you gain the benefit of that trait and a circumstance bonus to damage equal to the weapon\u2019s number of damage dice. When the Strike is complete, you resume gripping the weapon with only one hand. This action doesn\u2019t end any stance or fighter feat effect that requires you to have one hand free."]
+    }, {
+        "name": "Everstand Strike",
+        "level": "4",
+        "traits": ["Fighter", " Champion", " Press", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1088",
+        "prereq": "Everstand Stance ",
+        "benefits": "Your follow-up blow leaves you an opening to set your shield",
+        "text": ["Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also ", "."]
     }, {
         "name": "Knockdown",
         "level": "4",
@@ -3400,6 +3488,14 @@
         "prereq": "",
         "benefits": "Your attack can ground an airborne foe.",
         "text": ["Your attack can ground an airborne foe. Make a Strike. If it hits and deals damage to a flying target, the target falls up to 120 feet. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall. If the attack is a critical hit, the target can\u2019t Fly, Leap, levitate, or otherwise leave the ground until the end of your next turn."]
+    }, {
+        "name": "Impassable Wall Stance",
+        "level": "8",
+        "traits": ["Fighter", " Champion", " Uncommon"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=1091",
+        "prereq": "Attack of Opportunity",
+        "benefits": "You refuse to let foes past your guard",
+        "text": ["You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an Attack of Opportunity triggered by a move action, you disrupt that move action."]
     }, {
         "name": "Incredible Aim",
         "level": "8",
@@ -3762,6 +3858,14 @@
         "benefits": "You enter the stance of an implacable mountain allowing you to strike with the weight of an avalanche.",
         "text": ["You enter the stance of an implacable mountain\u2014a technique first discovered by dwarven monks\u2014allowing you to strike with the weight of an avalanche. The only Strikes you can make are falling stone unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the forceful, nonlethal, and unarmed traits.", " While in Mountain Stance, you gain a +4 status bonus to AC and a +2 circumstance bonus to any defenses against being Shoved or Tripped. However, you have a Dexterity modifier cap to your AC of +0, meaning you don\u2019t add your Dexterity to your AC, and your Speeds are all reduced by 5 feet."]
     }, {
+        "name": "Rain of Embers Stance",
+        "level": "1",
+        "traits": ["Monk", " Rare", " Stance"],
+        "link": "https://2e.aonprd.com/Feats.aspx?ID=936",
+        "prereq": "",
+        "benefits": "You enter the stance of an enraged phoenix.",
+        "text": ["You enter the stance of an enraged phoenix, holding your fingers as rigid as deadly talons while moving with quick, flickering gestures that flicker with dancing flames. The only Strikes you can make are fire talon Strikes. These deal 1d4 fire damage; are in the brawling group; and have the agile, finesse, fire, nonlethal, and unarmed traits.", " While in Rain of Embers Stance, you gain a +1 status bonus to AC and fire resistance equal to half your level (minimum 1)."]
+    }, {
         "name": "Tiger Stance",
         "level": "1",
         "traits": ["Monk", " Stance"],
@@ -3952,7 +4056,7 @@
         "link": "https://2e.aonprd.com/Feats.aspx?ID=459",
         "prereq": "You are unarmored.",
         "benefits": "You enter the stance of impenetrable iron, refusing to yield to any blow.",
-        "text": ["You enter the stance of impenetrable iron, refusing to yield to any blow. You can make iron sweep unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the nonlethal, parry, sweep, and unarmed traits. While in Ironblood Stance, you gain resistance 2 to all damage. The resistance increases to 3 at 12th level, to 4 at 16th level, and to 5 at 20th level."]
+        "text": ["You enter the stance of impenetrable iron, refusing to yield to any blow. You can make iron sweep unarmed attacks. These deal 1d8 bludgeoning damage; are in the brawling group; and have the nonlethal, parry, sweep, and unarmed traits.", "While in Ironblood Stance, you gain resistance 2 to all damage. The resistance increases to 3 at 12th level, to 4 at 16th level, and to 5 at 20th level."]
     }, {
         "name": "Mixed Maneuver",
         "level": "8",
@@ -4640,7 +4744,7 @@
         "traits": ["Ranger", " Flourish"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=544",
         "prereq": "",
-        "benefits": "After watching the motions of combat with incredible intensity and precision, you f re at your prey at the perfect moment to deliver maximum pain.",
+        "benefits": "After watching the motions of combat with incredible intensity and precision, you fire at your prey at the perfect moment to deliver maximum pain.",
         "text": ["After watching the motions of combat with incredible intensity and precision, you fire at your prey at the perfect moment to deliver maximum pain. Make a ranged Strike with the required weapon against your hunted prey. If you hit, the Strike deals maximum damage. After the Strike, your turn ends."]
     }, {
         "name": "Shadow Hunter",
@@ -4945,7 +5049,7 @@
         "traits": ["Rogue", " Incapacitation"],
         "link": "https://2e.aonprd.com/Feats.aspx?ID=582",
         "prereq": "Debilitating Strike",
-        "benefits": "Your debilitations are especially ef ective on your most powerful attacks.",
+        "benefits": "Your debilitations are especially effective on your most powerful attacks.",
         "text": ["Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from. ", " ", " The target is unaffected. ", " The target is slowed 1 until the end of your next turn. ", " The target is slowed 2 until the end of your next turn. ", " The target is paralyzed until the end of your next turn."]
     }, {
         "name": "Fantastic Leap",
@@ -5211,7 +5315,7 @@
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
         "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
-        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
+        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
         "name": "Bloodline Resistance",
         "level": "8",
@@ -5460,7 +5564,7 @@
         "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
         "prereq": "",
         "benefits": "You don\u2019t lose spells easily",
-        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 fiat check. If you succeed, your action isn\u2019t disrupted."]
+        "text": ["Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted."]
     }, {
         "name": "Advanced School Spell",
         "level": "8",

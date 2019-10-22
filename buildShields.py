@@ -247,20 +247,69 @@ def get_single(link):
 
 
 def get_shields():
+    listOfLinks = []
+    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=28&Subcategory=29")
+    listOfLinks.append("https://2e.aonprd.com/Equipment.aspx?Category=28&Subcategory=30")
+
+    itemHolder = []
+    for link in listOfLinks:
+        res2 = requests.get(link)
+        res2.raise_for_status()
+        soup2 = BeautifulSoup(res2.text, 'lxml')
+        table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
+
+        rows = table.findAll(lambda tag: tag.name=='tr')
+        t = 0
+        for row in rows:
+            t += 1
+            #print(row)
+            #print("-----------------------------------")
+            item = {}
+            entries = row.find_all(lambda tag: tag.name=='td')
+            if entries is not None:
+                if len(entries) > 0:
+                    name = entries[0].find("a").text
+                    item['name'] = name
+                    item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                    if entries[1].text == "—":
+                        item['level'] = 0
+                    else:
+                        item['level'] = int(entries[1].text)
+                    item['price'] = entries[2].text.replace(u'\u2014', '')
+                    item['bulk'] = entries[3].text
+
+                    if any(x['link'] == item['link'] for x in itemHolder):
+                        #print("shortName:", shortName)
+                        for item2 in itemHolder:
+                            if item2['link'] == item['link']:
+                                item2['multi'] = True
+                    elif "Bloodbane" in item['name']:
+                        item['multi'] = True
+                        itemHolder.append(item)
+                    else:
+                        item['multi'] = False
+                        itemHolder.append(item)
+            #if t >6:
+                #break
+
+    
+    
     items = []
-    listOfPages = codecs.open("shields.csv", encoding='utf-8')
-    t = 0
-    for line in listOfPages: 
-        t += 1
-        runeMD = line.split(",")
-        print("Getting shield for :", runeMD[0],"This url:", runeMD[2].strip('\n'),"|is it multi:",runeMD[1])
-        if runeMD[1] == "True":
-            multiHolder = get_multi(runeMD[2].strip('\n'))
-            for shield in multiHolder:
-                shield['category'] = "shield"
-                items.append(shield)
+    for item in itemHolder:
+        #print(item)
+        print("Getting armor rune :", item['name'],"This url:", item['link'],"|is it multi:",item['multi'])
+        if item['multi'] == True:
+            multiHolder = get_multi(item['link'])
+            for multi in multiHolder:
+                multi['category'] = "shield"
+                items.append(multi)
         else:
-            items.append(get_single(runeMD[2].strip('\n')))
+            single = get_single(item['link'])
+            single['category'] = "shield"
+            single['level'] = item['level']
+            single['price'] = item['price']
+            items.append(single)
+
     return items
 
 def get_base_shields(link):

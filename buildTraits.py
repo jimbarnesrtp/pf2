@@ -44,7 +44,7 @@ def get_single(link):
             if child.name == "b":
 
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
             if child.name == "img":
                 details['actions'] = child['alt']
             if child.name == "i":
@@ -114,9 +114,13 @@ def get_links():
         t = 0
         for item in itemHolder:
             t += 1
-            holder = get_single(item['link'])
-            for key in holder.keys():
-                item[key] = holder[key]
+            print("get Item:", item['name'],"link:", item['link'])
+            try:
+                holder = get_single(item['link'])
+                for key in holder.keys():
+                    item[key] = holder[key]
+            except: 
+                print("error on getting item", item['name'])
             #if t > 5:
                 #break
 

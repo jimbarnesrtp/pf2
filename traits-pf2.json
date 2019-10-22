@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Condition list",
-    "date": "October 12, 2019",
+    "date": "October 22, 2019",
     "traits": [{
         "name": "Additive",
         "type": "",
@@ -362,6 +362,12 @@
         "text": "Effects with this trait see things as they truly are.",
         "source": "Core Rulebook pg. 635"
     }, {
+        "name": "Saggorak",
+        "type": "",
+        "link": "https://2e.aonprd.com/Traits.aspx?ID=269",
+        "text": "Ancient dwarven blacksmiths in Saggorak designed a series of spectacularly powerful runes. Only someone with legendary proficiency in Crafting, or a well-versed dwarven crafter from the city of Kovlar, can apply, transfer, or remove a rune with the Saggorak trait. Because of their considerable power, all Saggorak runes take up two property rune slots, and consequently they can be applied only to armor and weapons with at least a  rune.",
+        "source": "Pathfinder #148: Fires of the Haunted City pg. 73"
+    }, {
         "name": "Scrying",
         "type": "",
         "link": "https://2e.aonprd.com/Traits.aspx?ID=141",
@@ -512,17 +518,33 @@
         "text": "A creature with this trait is part human and part orc. An ability with this trait can be used or selected only by half-orcs.",
         "source": "Core Rulebook pg. 632"
     }, {
+        "name": "Hobgoblin",
+        "type": "Ancestry Traits",
+        "link": "https://2e.aonprd.com/Traits.aspx?ID=268",
+        "text": "Hobgoblins are a sturdy, clever people with a propensity for militaristic order",
+        "source": "Lost Omens Character Guide pg. 133"
+    }, {
         "name": "Human",
         "type": "Ancestry Traits",
         "link": "https://2e.aonprd.com/Traits.aspx?ID=90",
         "text": "A creature with this trait is a member of the human ancestry. Humans are a diverse array of people known for their adaptability. An ability with this trait can be used or selected only by humans.",
         "source": "Core Rulebook pg. 633"
     }, {
+        "name": "Leshy",
+        "type": "Ancestry Traits",
+        "link": "https://2e.aonprd.com/Traits.aspx?ID=225",
+        "text": "Leshys are small plant creatures, roughly humanoid in form.",
+        "source": "Bestiary pg. 347"
+    }, {
+        "name": "Lizardfolk",
+        "type": "Ancestry Traits",
+        "link": "https://2e.aonprd.com/Traits.aspx?ID=226",
+        "text": "Lizardfolk are a family of reptilian humanoids.",
+        "source": "Bestiary pg. 347"
+    }, {
         "name": "Bulwark",
         "type": "Armor Traits",
-        "link": "https://2e.aonprd.com/Traits.aspx?ID=202",
-        "text": "The armor covers you so completely that it provides benefits against some damaging effects. On Reflex saves to avoid a damaging effect, such as a , you add a +3 modifier instead of your Dexterity modifier.",
-        "source": "Core Rulebook pg. 274"
+        "link": "https://2e.aonprd.com/Traits.aspx?ID=202"
     }, {
         "name": "Comfort",
         "type": "Armor Traits",
@@ -1294,9 +1316,7 @@
     }, {
         "name": "Uncommon",
         "type": "Rarity Traits",
-        "link": "https://2e.aonprd.com/Traits.aspx?ID=159",
-        "text": "Something of uncommon rarity requires special training or comes from a particular culture or part of the world. Some character choices give access to uncommon options, and the GM can choose to allow access for anyone. Less is known about uncommon creatures than common creatures. They typically can\u2019t be summoned. The DC of Recall Knowledge checks related to these creature is increased by 2.",
-        "source": "Core Rulebook pg. 637"
+        "link": "https://2e.aonprd.com/Traits.aspx?ID=159"
     }, {
         "name": "Unique",
         "type": "Rarity Traits",

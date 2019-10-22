@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder 2.0 deities list",
-    "date": "October 02, 2019",
-    "deitiesWeapons": [{
+    "date": "October 22, 2019",
+    "deities": [{
         "name": "Abadar",
         "link": "https://2e.aonprd.com/Deities.aspx?ID=1",
         "alignment": ["LN"],
@@ -61,6 +61,18 @@
         "fontHolder": "heal",
         "clericSpells": " 1st:  sleep , 3rd:  dream message , 5th:  dreaming potential",
         "text": "The kindly Song of the Spheres presides over dreams, luck, stars, and travelers. An ancient goddess, Desna delights in freedom and mystery, and she encourages her followers to do the same. ,  ,  , "
+    }, {
+        "name": "Droskar",
+        "link": "https://2e.aonprd.com/Deities.aspx?ID=28",
+        "alignment": ["NE"],
+        "followerAlignments": ["LE", " NE", " CE"],
+        "domains": "Ambition, Duty, Earth, Fire, Toil, Truth, Tyranny",
+        "source": "Pathfinder #148: Fires of the Haunted City pg. 64",
+        "Edicts": " achieve goals at any cost, continually improve your abilities, establish dominance, work ceaselessly",
+        "Anathema": " fail to work toward goals or grow in skill, relax excessively or give into sloth",
+        "fontHolder": "harm",
+        "clericSpells": " 1st:  ant haul , 3rd:  haste , 6th:  dominate",
+        "text": "Cast out and cursed by  , the Dark Smith works constantly to prove his significance, cheating and enslaving others to further his goal ,  ,  ,  ,  ,  * Accessed by the Expanded Domain Initiate feat from  , not yet released"
     }, {
         "name": "Erastil",
         "link": "https://2e.aonprd.com/Deities.aspx?ID=6",

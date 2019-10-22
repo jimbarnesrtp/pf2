@@ -79,7 +79,7 @@ def get_multi(link):
                     item['name'] = child.text[0:start]
             if child.name == "b":
                 if(child.text != "Source"):
-                    tagType = child.text
+                    tagType = child.text.lower().replace(" ", "")
                     
             if child.name == "a":
 
@@ -112,7 +112,10 @@ def get_multi(link):
                     tagType = ""
             if reachedItem:
                 
-                if tagType != "":
+                if tagType == "level":
+                    
+                    item['level'] = int(stringContents.replace(";","").strip())
+                elif tagType != "":
                     item[tagType] = stringContents
                     tagType = ""
                 else:
