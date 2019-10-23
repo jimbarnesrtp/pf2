@@ -120,7 +120,7 @@ def get_spells(link):
         [print("Getting spell:", item['name'])]
         itemDetails = get_details(item['link'])
         for key in itemDetails.keys():
-            item[key.replace(" ", "").lower().replace("(","").replace(")","")] = itemDetails[key]
+            item[key.replace(" ", "").lower().replace("(","").replace(")","").replace("+","plus")] = itemDetails[key]
         #if t > 3:
             #break
     return items
