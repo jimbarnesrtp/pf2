@@ -63,7 +63,7 @@ def get_feats(link):
 
 
                 feat['name'] = name
-                feat['level'] = level
+                feat['level'] = int(level)
                 feat['traits'] = traits.split(",")
                 feat['link'] = "https://2e.aonprd.com/" +link
                 feat['prereq'] = prereq.replace(u'\u2014', '')
@@ -239,7 +239,7 @@ def get_archtype_feats():
 def get_all():
     #tempHolder = get_class_feats()
     #for key in tempHolder.keys():
-    featHolder['classFeats'] = get_class_feats()
+    featHolder['baseFeats'] = get_class_feats()
     
     #tempHolder = get_archtype_feats()
     #for key in tempHolder.keys():
