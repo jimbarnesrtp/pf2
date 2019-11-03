@@ -66,7 +66,7 @@ def get_feats(link):
                 feat['level'] = int(level)
                 feat['traits'] = traits.split(",")
                 feat['link'] = "https://2e.aonprd.com/" +link
-                feat['prereq'] = prereq.replace(u'\u2014', '')
+                feat['prerequisites'] = prereq.replace(u'\u2014', '')
                 feat['benefits'] = source
                 details = get_details(feat['link'])
                 feat['text'] = string.join(details)
@@ -147,7 +147,7 @@ def get_multi(link):
             
             if child.name == "b" and reachedFeats:
                 if(child.text != "Source"):
-                    tagType = child.text.replace(" ", "").lower()
+                    tagType = child.text.replace(" ", "").lower().strip()
             if child.name == "i" and reachedFeats:
 
                 if tagType != "":

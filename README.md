@@ -35,6 +35,7 @@
 * Drugs
 * Tattoos
 * Skills
+* redo backgrounds
 
 
 
