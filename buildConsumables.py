@@ -410,7 +410,7 @@ def get_potions(link):
         if entries is not None:
             if len(entries) > 0:
                 name = entries[0].find("a").text
-                if ("(" in name):
+                if ("(" in name) or ("Shrinking" in name) or ("Flying" in name):
                     #print("Type")
                     start = name.find("(")
                     shortName = ""

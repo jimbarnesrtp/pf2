@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Consumable Item list",
-    "date": "October 22, 2019",
+    "date": "November 03, 2019",
     "ammunition": [{
         "name": "Shining Ammunition",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=165",
@@ -710,17 +710,30 @@
         "actions": "Single Action",
         "activate": " Interact"
     }, {
-        "name": "Shrinking Potion",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=197",
-        "category": "potion",
-        "level": " 4;  8; ",
-        "price": " 15 gp 90 gpThis potion has no onset, lasts for 1 hour, and grants the effects of a 4th-level shrink spell. In addition, you gain a +2 item bonus to Stealth checks while shrunken.",
-        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
-        "text": "This fungus-flavored potion conveys the effects of the  shrink  spell to make you and all your gear smaller. After the onset, you remain small for 10 minutes. ",
         "source": "Core Rulebook pg. 564",
-        "usage": " held in 1 hand",
+        "name": " Shrinking Potion",
+        "level": 4,
+        "price": "15 gp",
+        "text": "This fungus-flavored potion conveys the effects of the   spell to make you and all your gear smaller. After the onset, you remain small for 10 minutes. ",
+        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
+        "usage": "held in 1 hand",
         "actions": "Single Action",
-        "activate": " Interact"
+        "activate": "Interact",
+        "category": "potion"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=197",
+        "name": " Shrinking Potion (Greater)",
+        "source": "Core Rulebook pg. 564",
+        "level": 8,
+        "price": "90 gp",
+        "": "shrink",
+        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
+        "usage": "held in 1 hand",
+        "actions": "Single Action",
+        "activate": "Interact",
+        "text": "This fungus-flavored potion conveys the effects of the   spell to make you and all your gear smaller. After the onset, you remain small for 10 minutes.  This potion has no onset, lasts for 1 hour, and grants the effects of a 4th-level spell. In addition, you gain a +2 item bonus to Stealth checks while shrunken.",
+        "category": "potion"
     }, {
         "name": "Invisibility Potion",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=187",
@@ -882,42 +895,29 @@
         "actions": "Single Action",
         "activate": " Interact"
     }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=197",
-        "source": "Core Rulebook pg. 564",
-        "name": " Shrinking Potion",
-        "level": 4,
-        "price": "15 gp",
-        "text": "This fungus-flavored potion conveys the effects of the   spell to make you and all your gear smaller. After the onset, you remain small for 10 minutes. ",
-        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
-        "usage": "held in 1 hand",
-        "actions": "Single Action",
-        "activate": "Interact",
-        "category": "potion"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=197",
-        "name": " Shrinking Potion (Greater)",
-        "source": "Core Rulebook pg. 564",
-        "level": 8,
-        "price": "90 gp",
-        "": "shrink",
-        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
-        "usage": "held in 1 hand",
-        "actions": "Single Action",
-        "activate": "Interact",
-        "text": "This fungus-flavored potion conveys the effects of the   spell to make you and all your gear smaller. After the onset, you remain small for 10 minutes.  This potion has no onset, lasts for 1 hour, and grants the effects of a 4th-level spell. In addition, you gain a +2 item bonus to Stealth checks while shrunken.",
-        "category": "potion"
-    }, {
-        "name": "Potion of Flying",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=189",
-        "category": "potion",
-        "level": " 8;  15; ",
-        "price": " 100 gp 1,000 gpThe fly Speed lasts for 1 hour.",
-        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
-        "text": "Upon drinking this effervescent concoction, you gain a fly Speed of 40 feet for 1 minute.",
         "source": "Core Rulebook pg. 563",
-        "usage": " held in 1 hand",
+        "name": " Potion of Flying",
+        "level": 8,
+        "price": "100 gp",
+        "text": "Upon drinking this effervescent concoction, you gain a fly Speed of 40 feet for 1 minute.",
+        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
+        "usage": "held in 1 hand",
         "actions": "Single Action",
-        "activate": " Interact"
+        "activate": "Interact",
+        "category": "potion"
+    }, {
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=189",
+        "name": " Potion of Flying (Greater)",
+        "source": "Core Rulebook pg. 563",
+        "level": 15,
+        "price": "1,000 gp",
+        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
+        "usage": "held in 1 hand",
+        "actions": "Single Action",
+        "activate": "Interact",
+        "text": "Upon drinking this effervescent concoction, you gain a fly Speed of 40 feet for 1 minute. The fly Speed lasts for 1 hour.",
+        "category": "potion"
     }, {
         "name": "Potion of Tongues",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=194",
@@ -942,30 +942,6 @@
         "usage": " held in 1 hand",
         "actions": "Single Action",
         "activate": " Interact"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=189",
-        "source": "Core Rulebook pg. 563",
-        "name": " Potion of Flying",
-        "level": 8,
-        "price": "100 gp",
-        "text": "Upon drinking this effervescent concoction, you gain a fly Speed of 40 feet for 1 minute.",
-        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
-        "usage": "held in 1 hand",
-        "actions": "Single Action",
-        "activate": "Interact",
-        "category": "potion"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=189",
-        "name": " Potion of Flying (Greater)",
-        "source": "Core Rulebook pg. 563",
-        "level": 15,
-        "price": "1,000 gp",
-        "traits": ["Consumable", "Magical", "Potion", "Transmutation"],
-        "usage": "held in 1 hand",
-        "actions": "Single Action",
-        "activate": "Interact",
-        "text": "Upon drinking this effervescent concoction, you gain a fly Speed of 40 feet for 1 minute. The fly Speed lasts for 1 hour.",
-        "category": "potion"
     }, {
         "name": "Truesight Potion",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=199",
