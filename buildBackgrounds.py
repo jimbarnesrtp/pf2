@@ -21,7 +21,6 @@ for row in rows:
     print("-----------------------------------")
     bg = {}
     entries = row.find_all(lambda tag: tag.name=='td')
-    entries = row.find_all(lambda tag: tag.name=='td')
     if entries is not None:
         if len(entries) > 0:
             name = entries[0].find("a").text

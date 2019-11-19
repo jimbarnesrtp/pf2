@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder 2.0 background list",
     "date": "September 19, 2019",
-    "backgrounds": [{}, {
+    "backgrounds": [ {
         "name": "Academic",
         "link": "http://pf2.d20pfsrd.com/background/academic-2/",
         "source": "Pathfinder Lost Omens World Guide (Second Edition)",

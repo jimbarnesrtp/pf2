@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Consumable Item list",
-    "date": "November 03, 2019",
+    "date": "November 19, 2019",
     "ammunition": [{
         "name": "Shining Ammunition",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=165",
@@ -1437,18 +1437,35 @@
         "trigger": " The affixed item would take damage; ",
         "requirements": " You are a master in Crafting"
     }, {
+        "name": "Grinning Pugwampi",
+        "link": "https://2e.aonprd.com/Equipment.aspx?ID=544",
+        "category": "talisman",
+        "level": 14,
+        "price": " 700 gp",
+        "traits": ["Uncommon", "Consumable", "Enchantment", "Magical", "Misfortune", "Talisman"],
+        "text": "This bone statuette of a sneering gremlin crumbles to dust when activated, imparting a fraction of its subject\u2019s infamous misfortune unto those you strike.",
+        "source": "Pathfinder #149: Against the Scarlet Triad pg. 77",
+        "usage": " affixed to weapon",
+        "actions": "Free Action",
+        "activate": " envision; ",
+        "trigger": " You damage a  flat-footed creature with the affixed weapon; ",
+        "effect": " The damaged creature must attempt a DC 33 Will save.",
+        "criticalsuccess": " The creature is unaffected.",
+        "success": " The creature must roll twice and take the worse result on the next check it attempts.",
+        "failure": " The creature must roll twice and take the worse result on all checks until the end of its next turn."
+    }, {
         "name": "Viper's Fang",
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=238",
         "category": "talisman",
         "level": 14,
         "price": " 850 gp",
         "traits": ["Consumable", "Evocation", "Magical", "Talisman"],
-        "text": "When you activate this resin-strengthened viper skull, you make an  You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn\u2019t count toward your multiple attack penalty, and your multiple attack penalty doesn\u2019t apply to this Strike.Attack of Opportunity against the triggering creature.  If you have Attack of Opportunity, you can activate the  viper\u2019s fang  as a free action.",
-        "source": "Core Rulebook pg. 142",
+        "text": "When you activate this resin-strengthened viper skull, you make an  Attack of Opportunity  against the triggering creature.  If you have Attack of Opportunity, you can activate the  viper\u2019s fang  as a free action.",
+        "source": "Core Rulebook pg. 569",
         "usage": " affixed to a weapon",
-        "trigger": " A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it\u2019s using. A creature within your reach uses a manipulate or move action, makes a ranged attack, or leaves a square during a moving action it's using; ",
         "actions": "Reaction",
         "activate": " Envision; ",
+        "trigger": " A creature within your reach uses a manipulate or move action, makes a ranged attack, or leaves a square during a moving action it's using; ",
         "requirements": " You are a master with the affixed weapon"
     }, {
         "name": "Dazing Coil",
@@ -1510,7 +1527,7 @@
         "level": 17,
         "price": " 2,400 gp",
         "traits": ["Abjuration", "Consumable", "Magical", "Talisman"],
-        "text": "Made from a treated sliver of cold iron, this talisman allows you to counteract magical effects. When you activate the  dispelling sliver , it attempts to counteract a single spell active on the target, with the effects of an 8th-level  dispel magic  spell.  If you activate the talisman on a successful  Dispelling Slice , the talisman attempts to counteract all spells active on the target.",
+        "text": "Made from a treated sliver of cold iron, this talisman allows you to counteract magical effects. When you activate the  dispelling sliver , it attempts to counteract a single spell active on the target, with the effects of an 8th-level  dispel magic  spell (counteract modifier +29)  If you activate the talisman on a successful  Dispelling Slice , the talisman attempts to counteract all spells active on the target.",
         "source": "Core Rulebook pg. 566",
         "usage": " affixed to a weapon",
         "actions": "Free Action",

@@ -29,6 +29,7 @@
 * Dieties
 * Rituals
 * Traits
+* Animal Companion
 
 ### What is next
 * Artifacts

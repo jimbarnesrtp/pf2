@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Worn Items list",
-    "date": "October 22, 2019",
+    "date": "November 19, 2019",
     "wornItems": [{
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=406",
         "source": "Core Rulebook pg. 604",
@@ -1652,6 +1652,17 @@
         "category": "worn item"
     }, {
         "traits": ["Uncommon", "Enchantment", "Invested", "Magical"],
+        "name": "Aluum Charm",
+        "text": ["This ornate pendant of brass is adorned with a vibrant blue gemstone. An ", "aluum charm", " grants control over a particular ", " and lesser influence over other such constructs. As long as you wear an aluum\u2019s linked ", "aluum charm", ", that aluum follows your verbal commands, including somewhat nuanced orders like \u201csubdue this target\u201d or \u201cstrike anyone wearing a blue robe.\u201d"],
+        "source": "Pathfinder #149: Against the Scarlet Triad pg. 82",
+        "Usage": " worn",
+        "actions": "Two Actions",
+        "Activate": " command; ",
+        "Frequency": " once per round; ",
+        "Effect": " The charm grants you control over an aluum you can see within 60 feet, with a level equal to or lower than the charm. This has the effect of dominate and allows a DC 28 Will save. If the aluum is currently under the control of someone wearing its linked charm, it gets a result on its saving throw one degree higher than what it rolled. You can control only one aluum at a time using this activation, and controlling a new aluum ends the effect for one you had previously affected.",
+        "category": "worn item"
+    }, {
+        "traits": ["Uncommon", "Enchantment", "Invested", "Magical"],
         "name": "Ring of Lies",
         "text": ["This plain silver ring has an almost oily sheen. While wearing the ring, you gain a +2 item bonus to Deception checks.", " on you with no visual manifestations of a spell being cast."],
         "source": "Core Rulebook pg. 614",
@@ -1890,6 +1901,14 @@
         "Activate": " Interact; ",
         "Frequency": " once per day; ",
         "Effect": " You click the heels of the boots together and gain the quickened condition for 1 minute. You can use the extra action to Stride, Climb, or Swim. (You must still attempt an Athletics check for the Climb and Swim actions unless you have the appropriate movement type.)",
+        "category": "worn item"
+    }, {
+        "traits": ["Uncommon", "Divination", "Invested", "Magical"],
+        "name": "Pactmaster's Grace",
+        "text": ["Granted by Katapesh\u2019s Pactmasters to influential merchants, exceptional ", ", and favorite retainers, these blue crystal\u2013studded platinum rings sharpen their wearers\u2019 urban instincts. You gain a +3 item bonus to Mercantile ", " checks while wearing the ring, and you can attempt checks that require a proficiency rank of master in ", ". While invested, the ring grants a +2 item bonus to saving throws while you are in an urban setting, and this increases to a +3 item bonus if you have legendary proficiency in Guild Lore, Katapesh Lore, Mercantile Lore, or Society."],
+        "source": "Pathfinder #149: Against the Scarlet Triad pg. 77",
+        "Price": " 4,000 gp",
+        "Usage": " worn",
         "category": "worn item"
     }, {
         "traits": ["Rare", "Enchantment", "Invested", "Magical"],
