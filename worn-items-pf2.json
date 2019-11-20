@@ -4,7 +4,7 @@
     "wornItems": [{
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=406",
         "source": "Core Rulebook pg. 604",
-        "name": " Horseshoes of Speed",
+        "name": "Horseshoes of Speed",
         "level": 7,
         "price": " 340 gp",
         "bulk": " 1",
@@ -14,7 +14,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=406",
-        "name": " Horseshoes of Speed (Greater)",
+        "name": "Horseshoes of Speed (Greater)",
         "source": "Core Rulebook pg. 604",
         "level": 14,
         "price": " 4,250 gp",
@@ -142,7 +142,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
         "source": "Core Rulebook pg. 604",
-        "name": " Aeon Stone (Clear Spindle)",
+        "name": "Aeon Stone (Clear Spindle)",
         "level": 7,
         "price": " 325 gp",
         "text": ["Over millennia, these mysterious, intricately cut gemstones have been hoarded by mystics and fanatics hoping to discover their secrets. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to construct the universe in primeval times.", " When you invest one of these precisely shaped crystals, the stone orbits your head instead of being worn on your body. You can stow an ", " with an Interact action, and an orbiting stone can be snatched out of the air with a successful Disarm action against you. A stowed or removed stone remains invested, but its effects are suppressed until you return it to orbit your head again.", " There are various types of ", ", each with a different shape, color, and magical effect. Each ", " also gains a resonant power when slotted into a special magical item called a ", ".", "You don\u2019t need to eat or drink while this ", " is invested by you. This ", " doesn\u2019t function until it has been worn continuously for a week and invested each day therein. If it\u2019s invested by someone else, this interval starts over.", " The resonant power allows you to cast ", " as a primal innate spell once per day. "],
@@ -151,7 +151,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Dull Gray)",
+        "name": "Aeon Stone (Dull Gray)",
         "source": "Core Rulebook pg. 604",
         "level": 1,
         "price": " 9 gp",
@@ -161,7 +161,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Gold Nodule)",
+        "name": "Aeon Stone (Gold Nodule)",
         "source": "Core Rulebook pg. 604",
         "level": 6,
         "price": " 230 gp",
@@ -171,7 +171,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Lavender and Green Ellipsoid)",
+        "name": "Aeon Stone (Lavender and Green Ellipsoid)",
         "source": "Core Rulebook pg. 604",
         "level": 19,
         "price": " 30,000 gp",
@@ -181,7 +181,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Orange Prism)",
+        "name": "Aeon Stone (Orange Prism)",
         "source": "Core Rulebook pg. 604",
         "level": 16,
         "price": " 9,750 gp",
@@ -194,7 +194,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Pale Lavender Ellipsoid)",
+        "name": "Aeon Stone (Pale Lavender Ellipsoid)",
         "source": "Core Rulebook pg. 604",
         "level": 13,
         "price": " 2,200 gp",
@@ -209,7 +209,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Pink Rhomboid)",
+        "name": "Aeon Stone (Pink Rhomboid)",
         "source": "Core Rulebook pg. 604",
         "level": 12,
         "price": " 1,900 gp",
@@ -220,7 +220,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=407",
-        "name": " Aeon Stone (Tourmaline Sphere)",
+        "name": "Aeon Stone (Tourmaline Sphere)",
         "source": "Core Rulebook pg. 604",
         "level": 7,
         "price": " 350 gp",
@@ -246,7 +246,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=470",
         "source": "Core Rulebook pg. 617",
-        "name": " Wayfinder",
+        "name": "Wayfinder",
         "level": 2,
         "price": " 28 gp",
         "usage": " worn",
@@ -270,7 +270,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=470",
-        "name": " Wayfinder of Rescue",
+        "name": "Wayfinder of Rescue",
         "source": "Pathfinder Society Scenario #1-03: Escaping the Grave pg. 42",
         "level": 4,
         "price": " 80 gp",
@@ -341,7 +341,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=442",
         "source": "Core Rulebook pg. 611",
-        "name": " Hat of Disguise",
+        "name": "Hat of Disguise",
         "level": 2,
         "price": " 30 gp",
         "text": ["This ordinary-looking hat allows you to cloak yourself in illusions.", " spell on you. While setting up the disguise, you can magically alter the hat to appear as a comb, ribbon, helm, or other piece of headwear."],
@@ -353,7 +353,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=442",
-        "name": " Hat of Disguise (Greater)",
+        "name": "Hat of Disguise (Greater)",
         "source": "Core Rulebook pg. 611",
         "level": 7,
         "price": " 340 gp",
@@ -367,7 +367,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=441",
         "source": "Core Rulebook pg. 611",
-        "name": " Handwraps of Mighty Blows (+1)",
+        "name": "Handwraps of Mighty Blows (+1)",
         "level": 2,
         "price": " 35 gp",
         "text": ["As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your hands. These handwraps have weapon runes etched into them to give your unarmed attacks the benefits of those runes, making your unarmed attacks work like magic weapons. For example, ", " would give you a +1 item bonus to attack rolls with your unarmed attacks and increase the damage of your unarmed attacks from one weapon die to two (normally 2d4 instead of 1d4, but if your fists have a different weapon damage die or you have other unarmed attacks, use two of that die size instead).", " You can upgrade, add, and transfer runes to and from the handwraps just as you would for a weapon, and you can attach ", " to the handwraps. Treat the handwraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you\u2019re using. For example, a property that must be applied to a slashing weapon wouldn\u2019t function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.", " The entries below list the most typical combinations of fundamental runes."],
@@ -376,7 +376,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=441",
-        "name": " Handwraps of Mighty Blows (+1 Striking)",
+        "name": "Handwraps of Mighty Blows (+1 Striking)",
         "source": "Core Rulebook pg. 611",
         "level": 4,
         "price": " 100 gp",
@@ -386,7 +386,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=441",
-        "name": " Handwraps of Mighty Blows (+2 Striking)",
+        "name": "Handwraps of Mighty Blows (+2 Striking)",
         "source": "Core Rulebook pg. 611",
         "level": 10,
         "price": " 1,000 gp",
@@ -396,7 +396,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=441",
-        "name": " Handwraps of Mighty Blows (+2 Greater Striking)",
+        "name": "Handwraps of Mighty Blows (+2 Greater Striking)",
         "source": "Core Rulebook pg. 611",
         "level": 12,
         "price": " 2,000 gp",
@@ -406,7 +406,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=441",
-        "name": " Handwraps of Mighty Blows (+3 Greater Striking)",
+        "name": "Handwraps of Mighty Blows (+3 Greater Striking)",
         "source": "Core Rulebook pg. 611",
         "level": 16,
         "price": " 10,000 gp",
@@ -416,7 +416,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=441",
-        "name": " Handwraps of Mighty Blows (+3 Major Striking)",
+        "name": "Handwraps of Mighty Blows (+3 Major Striking)",
         "source": "Core Rulebook pg. 611",
         "level": 19,
         "price": " 40,000 gp",
@@ -427,7 +427,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=432",
         "source": "Core Rulebook pg. 609",
-        "name": " Doubling Rings",
+        "name": "Doubling Rings",
         "level": 3,
         "price": " 50 gp",
         "text": ["This item consists of two magically linked rings: an intricate, gleaming golden ring with a square-cut ruby, and a thick, plain iron ring. When you wield a melee weapon in the hand wearing the golden ring, the weapon\u2019s fundamental runes are replicated onto any melee weapon you wield in\u00a0the hand wearing the iron ring. (The fundamental runes are ", " and ", ", which add an item bonus to attack rolls and extra weapon damage dice, respectively.) Any fundamental runes on the weapon in the hand wearing the iron ring are suppressed.", " The replication functions only if you wear both rings, and it ends as soon as you cease wielding a melee weapon in one of your hands. Consequently, the benefit doesn\u2019t apply to thrown attacks or if you\u2019re holding a weapon but not wielding it (such as holding in one hand a weapon that requires two hands to wield)."],
@@ -436,7 +436,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=432",
-        "name": " Doubling Rings (Greater)",
+        "name": "Doubling Rings (Greater)",
         "source": "Core Rulebook pg. 609",
         "level": 11,
         "price": " 1,300 gp",
@@ -447,7 +447,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=443",
         "source": "Core Rulebook pg. 611",
-        "name": " Hat of the Magi",
+        "name": "Hat of the Magi",
         "level": 3,
         "price": " 50 gp",
         "text": ["This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and can bear symbols or runes. It grants you a +1 item bonus to Arcana checks and allows you to cast the ", " cantrip as an arcane innate spell. "],
@@ -456,7 +456,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=443",
-        "name": " Hat of the Magi (Greater)",
+        "name": "Hat of the Magi (Greater)",
         "source": "Core Rulebook pg. 611",
         "level": 9,
         "price": " 650 gp",
@@ -472,7 +472,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=451",
         "source": "Core Rulebook pg. 613",
         "actions": "Single Action",
-        "name": " Persona Mask",
+        "name": "Persona Mask",
         "level": 3,
         "price": " 50 gp",
         "text": ["Despite covering the entire face, this alabaster mask does not hinder vision or other senses. Wearing the mask grants a +1 item bonus to Performance checks while acting, orating, performing comedy, or singing."],
@@ -483,7 +483,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=451",
-        "name": " Persona Mask (Greater)",
+        "name": "Persona Mask (Greater)",
         "source": "Core Rulebook pg. 613",
         "level": 9,
         "price": " 650 gp",
@@ -500,7 +500,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=417",
         "source": "Core Rulebook pg. 607",
         "actions": "Reaction",
-        "name": " Bracers of Missile Deflection",
+        "name": "Bracers of Missile Deflection",
         "level": 3,
         "price": " 52 gp",
         "bulk": " L",
@@ -515,7 +515,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=417",
-        "name": " Bracers of Missile Deflection (Greater)",
+        "name": "Bracers of Missile Deflection (Greater)",
         "source": "Core Rulebook pg. 607",
         "level": 9,
         "price": " 650 gp",
@@ -567,7 +567,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=426",
         "source": "Core Rulebook pg. 609",
-        "name": " Coyote Cloak",
+        "name": "Coyote Cloak",
         "level": 3,
         "price": " 60 gp",
         "text": ["This dusty coat is made of mangy brown-and-gray coyote fur. You gain a +1 item bonus to Survival checks. If you critically succeed at your Survival check to Subsist, you can feed twice as many additional creatures. "],
@@ -576,7 +576,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=426",
-        "name": " Coyote Cloak (Greater)",
+        "name": "Coyote Cloak (Greater)",
         "source": "Core Rulebook pg. 609",
         "level": 9,
         "price": " 650 gp",
@@ -587,7 +587,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=427",
         "source": "Core Rulebook pg. 609",
-        "name": " Crafter's Eyepiece",
+        "name": "Crafter's Eyepiece",
         "level": 3,
         "price": " 60 gp",
         "text": ["This rugged metal eyepiece etched with square patterns is designed to be worn over a single eye. Twisting the lens reveals a faint three-dimensional outline of an item you plan to build or repair, with helpful labels on the component parts. While worn, this eyepiece gives you a +1 item bonus to Crafting checks. When you Repair an item, increase the Hit Points restored by 15 per proficiency rank instead of 10."],
@@ -596,7 +596,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=427",
-        "name": " Crafter's Eyepiece (Greater)",
+        "name": "Crafter's Eyepiece (Greater)",
         "source": "Core Rulebook pg. 609",
         "level": 11,
         "price": " 1,200 gp",
@@ -610,7 +610,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=428",
         "source": "Core Rulebook pg. 609",
-        "name": " Dancing Scarf",
+        "name": "Dancing Scarf",
         "level": 3,
         "price": " 60 gp",
         "text": ["This long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 item bonus to Performance checks to dance. "],
@@ -622,7 +622,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=428",
-        "name": " Dancing Scarf (Greater)",
+        "name": "Dancing Scarf (Greater)",
         "source": "Core Rulebook pg. 609",
         "level": 9,
         "price": " 650 gp",
@@ -636,7 +636,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=450",
         "source": "Core Rulebook pg. 613",
-        "name": " Pendant of the Occult",
+        "name": "Pendant of the Occult",
         "level": 3,
         "price": " 60 gp",
         "text": ["This amulet is hollow and shaped in the form of an unblinking eye. Its cavity typically holds some fragment of occult text. While wearing the pendant, you gain a +1 item bonus to Occultism checks, and you can cast the ", " cantrip as an occult innate spell."],
@@ -645,7 +645,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=450",
-        "name": " Pendant of the Occult (Greater)",
+        "name": "Pendant of the Occult (Greater)",
         "source": "Core Rulebook pg. 613",
         "level": 9,
         "price": " 650 gp",
@@ -659,7 +659,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=467",
         "source": "Core Rulebook pg. 616",
-        "name": " Tracker's Goggles",
+        "name": "Tracker's Goggles",
         "level": 3,
         "price": " 60 gp",
         "text": ["These lenses of forest-green glass are bound in rough leather stitched with crude twine. While wearing these goggles, you gain a +1 bonus to Survival checks to Sense Direction and Track. If you fail a check to Track, you can try again after 30 minutes rather than an hour. "],
@@ -668,7 +668,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=467",
-        "name": " Tracker's Goggles (Greater)",
+        "name": "Tracker's Goggles (Greater)",
         "source": "Core Rulebook pg. 616",
         "level": 9,
         "price": " 660 gp",
@@ -680,7 +680,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=468",
         "source": "Core Rulebook pg. 617",
         "actions": "Two Actions",
-        "name": " Ventriloquist's Ring",
+        "name": "Ventriloquist's Ring",
         "level": 3,
         "price": " 60 gp",
         "text": ["This elegant copper ring has miniature images of songbirds engraved around its circumference. You gain a +1 item bonus to Deception checks.", " spell (DC 19)."],
@@ -692,7 +692,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=468",
-        "name": " Ventriloquist's Ring (Greater)",
+        "name": "Ventriloquist's Ring (Greater)",
         "source": "Core Rulebook pg. 617",
         "level": 9,
         "price": " 670 gp",
@@ -708,7 +708,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=444",
         "source": "Core Rulebook pg. 612",
         "actions": "Single Action",
-        "name": " Healer's Gloves",
+        "name": "Healer's Gloves",
         "level": 4,
         "price": " 80 gp",
         "bulk": " L",
@@ -721,7 +721,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=444",
-        "name": " Healer's Gloves (Greater)",
+        "name": "Healer's Gloves (Greater)",
         "source": "Core Rulebook pg. 612",
         "level": 9,
         "price": " 700 gp",
@@ -763,7 +763,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=430",
         "source": "Core Rulebook pg. 609",
         "actions": "Two Actions",
-        "name": " Demon Mask",
+        "name": "Demon Mask",
         "level": 4,
         "price": " 85 gp",
         "bulk": " L",
@@ -776,7 +776,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=430",
-        "name": " Demon Mask (Greater)",
+        "name": "Demon Mask (Greater)",
         "source": "Core Rulebook pg. 609",
         "level": 10,
         "price": " 900 gp",
@@ -837,7 +837,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=408",
         "source": "Core Rulebook pg. 605",
-        "name": " Alchemist Goggles",
+        "name": "Alchemist Goggles",
         "level": 4,
         "price": " 100 gp",
         "text": ["These brass goggles are engraved with flame patterns and have thick, heavy lenses. While worn, they give you a +1 item bonus to Crafting checks to Craft alchemical items and a +1 item bonus to attack rolls with alchemical bombs. You can also ignore lesser cover when making Strikes with alchemical\u00a0bombs."],
@@ -846,7 +846,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=408",
-        "name": " Alchemist Goggles (Greater)",
+        "name": "Alchemist Goggles (Greater)",
         "source": "Core Rulebook pg. 605",
         "level": 11,
         "price": " 1,400 gp",
@@ -856,7 +856,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=408",
-        "name": " Alchemist Goggles (Major)",
+        "name": "Alchemist Goggles (Major)",
         "source": "Core Rulebook pg. 605",
         "level": 17,
         "price": " 15,000 gp",
@@ -924,7 +924,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
         "source": "Core Rulebook pg. 613",
         "actions": "Single Action",
-        "name": " Necklace of Fireballs I",
+        "name": "Necklace of Fireballs I",
         "level": 5,
         "price": " 44 gp",
         "text": ["This string of beads appears to be a hemp string with lustrous red beads of various sizes hanging from it. When activated, it briefly appears in its true form: a golden chain with golden spheres attached by fine threads.", " Numerous varieties of the ", ". Each has a different basic Reflex save DC and includes a combination of spheres dealing different amounts of damage, as listed for each type below. When all the beads are gone, the necklace becomes a non-magical hemp string.", " where it lands. Your toss can place the center of the ", " anywhere within 70 feet, though at the GM\u2019s discretion you might need to make an attack roll if the throw is unusually challenging. If no one hurls the sphere by the start of your next turn, it turns into a non-magical red bead.", "One 6d6, two 4d6 (DC 21)"],
@@ -935,7 +935,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
-        "name": " Necklace of Fireballs II",
+        "name": "Necklace of Fireballs II",
         "source": "Core Rulebook pg. 613",
         "level": 7,
         "price": " 115 gp",
@@ -948,7 +948,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
-        "name": " Necklace of Fireballs III",
+        "name": "Necklace of Fireballs III",
         "source": "Core Rulebook pg. 613",
         "level": 9,
         "price": " 300 gp",
@@ -961,7 +961,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
-        "name": " Necklace of Fireballs IV",
+        "name": "Necklace of Fireballs IV",
         "source": "Core Rulebook pg. 613",
         "level": 11,
         "price": " 700 gp",
@@ -974,7 +974,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
-        "name": " Necklace of Fireballs V",
+        "name": "Necklace of Fireballs V",
         "source": "Core Rulebook pg. 613",
         "level": 13,
         "price": " 1,600 gp",
@@ -987,7 +987,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
-        "name": " Necklace of Fireballs VI",
+        "name": "Necklace of Fireballs VI",
         "source": "Core Rulebook pg. 613",
         "level": 15,
         "price": " 4,200 gp",
@@ -1000,7 +1000,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=449",
-        "name": " Necklace of Fireballs VII",
+        "name": "Necklace of Fireballs VII",
         "source": "Core Rulebook pg. 613",
         "level": 17,
         "price": " 9,600 gp",
@@ -1027,7 +1027,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=413",
         "source": "Core Rulebook pg. 606",
         "actions": "Free Action",
-        "name": " Boots of Elvenkind",
+        "name": "Boots of Elvenkind",
         "level": 5,
         "price": " 145 gp",
         "bulk": " L",
@@ -1040,7 +1040,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=413",
-        "name": " Boots of Elvenkind (Greater)",
+        "name": "Boots of Elvenkind (Greater)",
         "source": "Core Rulebook pg. 606",
         "level": 11,
         "price": " 1,250 gp",
@@ -1070,7 +1070,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=438",
         "source": "Core Rulebook pg. 610",
         "actions": "Single Action",
-        "name": " Goggles of Night",
+        "name": "Goggles of Night",
         "level": 5,
         "price": " 150 gp",
         "text": ["The opaque crystal lenses of these sleek goggles do not obscure vision, but rather enhance it. While wearing the goggles, you gain a +1 item bonus to Perception checks involving sight."],
@@ -1082,7 +1082,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=438",
-        "name": " Goggles of Night (Greater)",
+        "name": "Goggles of Night (Greater)",
         "source": "Core Rulebook pg. 610",
         "level": 11,
         "price": " 1,250 gp",
@@ -1096,7 +1096,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=438",
-        "name": " Goggles of Night (Major)",
+        "name": "Goggles of Night (Major)",
         "source": "Core Rulebook pg. 610",
         "level": 18,
         "price": " 20,000 gp",
@@ -1169,7 +1169,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=422",
         "source": "Core Rulebook pg. 608",
-        "name": " Choker of Elocution",
+        "name": "Choker of Elocution",
         "level": 6,
         "price": " 200 gp",
         "bulk": " L",
@@ -1180,7 +1180,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=422",
-        "name": " Choker of Elocution (Greater)",
+        "name": "Choker of Elocution (Greater)",
         "source": "Core Rulebook pg. 608",
         "level": 10,
         "price": " 850 gp",
@@ -1218,7 +1218,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=461",
         "source": "Core Rulebook pg. 615",
         "actions": "Single Action",
-        "name": " Ring of the Ram",
+        "name": "Ring of the Ram",
         "level": 6,
         "price": " 220 gp",
         "text": ["This heavy iron ring is shaped to look like the head of a ram, with curling horns."],
@@ -1234,7 +1234,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=461",
-        "name": " Ring of the Ram (Greater)",
+        "name": "Ring of the Ram (Greater)",
         "source": "Core Rulebook pg. 615",
         "level": 13,
         "price": " 2,700 gp",
@@ -1254,7 +1254,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=423",
         "source": "Core Rulebook pg. 608",
         "actions": "Two Actions",
-        "name": " Clandestine Cloak",
+        "name": "Clandestine Cloak",
         "level": 6,
         "price": " 230 gp",
         "bulk": " L",
@@ -1267,7 +1267,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=423",
-        "name": " Clandestine Cloak (Greater)",
+        "name": "Clandestine Cloak (Greater)",
         "source": "Core Rulebook pg. 608",
         "level": 10,
         "price": " 900 gp",
@@ -1283,7 +1283,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=455",
         "source": "Core Rulebook pg. 614",
-        "name": " Ring of Energy Resistance",
+        "name": "Ring of Energy Resistance",
         "level": 6,
         "price": " 245 gp",
         "text": ["This ring grants you resistance 5 against one type of energy damage: acid, cold, electricity, fire, or sonic. Each ring is crafted to protect against a particular type of energy damage, and its design usually embodies the type of energy it protects the wearer from in some way. For instance, a ", " might be capped with a ruby, whereas a ", " features a sapphire instead."],
@@ -1292,7 +1292,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=455",
-        "name": " Ring of Energy Resistance (Greater)",
+        "name": "Ring of Energy Resistance (Greater)",
         "source": "Core Rulebook pg. 614",
         "level": 10,
         "price": " 975 gp",
@@ -1302,7 +1302,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=455",
-        "name": " Ring of Energy Resistance (Major)",
+        "name": "Ring of Energy Resistance (Major)",
         "source": "Core Rulebook pg. 614",
         "level": 14,
         "price": " 4,400 gp",
@@ -1376,7 +1376,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=412",
         "source": "Core Rulebook pg. 606",
-        "name": " Boots of Bounding",
+        "name": "Boots of Bounding",
         "level": 7,
         "price": " 340 gp",
         "bulk": " L",
@@ -1386,7 +1386,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=412",
-        "name": " Boots of Bounding (Greater)",
+        "name": "Boots of Bounding (Greater)",
         "source": "Core Rulebook pg. 606",
         "level": 14,
         "price": " 4,250 gp",
@@ -1411,7 +1411,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=424",
         "source": "Core Rulebook pg. 608",
         "actions": "Two Actions",
-        "name": " Cloak of Elvenkind",
+        "name": "Cloak of Elvenkind",
         "level": 7,
         "price": " 360 gp",
         "bulk": " L",
@@ -1424,7 +1424,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=424",
-        "name": " Cloak of Elvenkind (Greater)",
+        "name": "Cloak of Elvenkind (Greater)",
         "source": "Core Rulebook pg. 608",
         "level": 12,
         "price": " 1,750 gp",
@@ -1440,7 +1440,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=462",
         "source": "Core Rulebook pg. 615",
-        "name": " Ring of Wizardry (Type I)",
+        "name": "Ring of Wizardry (Type I)",
         "level": 7,
         "price": " 360 gp",
         "text": ["This ring is made from the purest platinum and is covered in esoteric arcane symbols. It does nothing unless you have a spellcasting class feature with the arcane tradition. While wearing the ", ", you gain a +1 item bonus to Arcana checks and have two additional 1st-level arcane spell slots each day. You prepare spells in these slots or cast from them spontaneously, just as you normally cast your spells.", " If you take off the ring for any reason, you lose the additional spell slots. You can\u2019t gain spell slots from more than one ", " per day, nor can a single ", " grant spell slots more than once per day.", " If you can cast arcane spells in a variety of different ways (such as if you are a ", " with the ", "), you can divide the spell slots as you wish among your various sources of arcane spells."],
@@ -1450,7 +1450,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=462",
-        "name": " Ring of Wizardry (Type II)",
+        "name": "Ring of Wizardry (Type II)",
         "source": "Core Rulebook pg. 615",
         "level": 10,
         "price": " 1,000 gp",
@@ -1461,7 +1461,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=462",
-        "name": " Ring of Wizardry (Type III)",
+        "name": "Ring of Wizardry (Type III)",
         "source": "Core Rulebook pg. 615",
         "level": 12,
         "price": " 2,000 gp",
@@ -1472,7 +1472,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=462",
-        "name": " Ring of Wizardry (Type IV)",
+        "name": "Ring of Wizardry (Type IV)",
         "source": "Core Rulebook pg. 615",
         "level": 14,
         "price": " 4,500 gp",
@@ -1484,7 +1484,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=416",
         "source": "Core Rulebook pg. 607",
-        "name": " Bracers of Armor I",
+        "name": "Bracers of Armor I",
         "level": 8,
         "price": " 450 gp",
         "bulk": " L",
@@ -1494,7 +1494,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=416",
-        "name": " Bracers of Armor II",
+        "name": "Bracers of Armor II",
         "source": "Core Rulebook pg. 607",
         "level": 14,
         "price": " 4,000 gp",
@@ -1505,7 +1505,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=416",
-        "name": " Bracers of Armor III",
+        "name": "Bracers of Armor III",
         "source": "Core Rulebook pg. 607",
         "level": 20,
         "price": " 60,000 gp",
@@ -1530,7 +1530,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=409",
         "source": "Core Rulebook pg. 605",
-        "name": " Armbands of Athleticism",
+        "name": "Armbands of Athleticism",
         "level": 9,
         "price": " 645 gp",
         "bulk": " L",
@@ -1540,7 +1540,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=409",
-        "name": " Armbands of Athleticism (Greater)",
+        "name": "Armbands of Athleticism (Greater)",
         "source": "Core Rulebook pg. 605",
         "level": 17,
         "price": " 13,000 gp",
@@ -1566,7 +1566,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=446",
         "source": "Core Rulebook pg. 612",
-        "name": " Knapsack of Halflingkind",
+        "name": "Knapsack of Halflingkind",
         "level": 9,
         "price": " 675 gp",
         "bulk": " L",
@@ -1576,7 +1576,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=446",
-        "name": " Knapsack of Halflingkind (Greater)",
+        "name": "Knapsack of Halflingkind (Greater)",
         "source": "Core Rulebook pg. 612",
         "level": 13,
         "price": " 2,850 gp",
@@ -1589,7 +1589,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=452",
         "source": "Core Rulebook pg. 614",
         "actions": "Single Action",
-        "name": " Phylactery of Faithfulness",
+        "name": "Phylactery of Faithfulness",
         "level": 9,
         "price": " 680 gp",
         "bulk": " L",
@@ -1602,7 +1602,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=452",
-        "name": " Phylactery of Faithfulness (Greater)",
+        "name": "Phylactery of Faithfulness (Greater)",
         "source": "Core Rulebook pg. 614",
         "level": 17,
         "price": " 13,000 gp",
@@ -1626,7 +1626,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=448",
         "source": "Core Rulebook pg. 613",
-        "name": " Messenger's Ring",
+        "name": "Messenger's Ring",
         "level": 9,
         "price": " 700 gp",
         "text": ["This silver signet ring changes to match the insignia of a lord or organization you serve (or your own face, if you serve no one else). It grants you a +2 item bonus to Diplomacy checks and lets you cast ", " as an arcane innate spell at will.", " to your specification. The animal is a magical creature that springs from the ring, and its appearance suits the iconography or heraldry of the lord or organization represented by the ring."],
@@ -1638,7 +1638,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=448",
-        "name": " Messenger's Ring (Greater)",
+        "name": "Messenger's Ring (Greater)",
         "source": "Core Rulebook pg. 613",
         "level": 17,
         "price": " 13,500 gp",
@@ -1688,7 +1688,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=429",
         "source": "Core Rulebook pg. 609",
-        "name": " Daredevil Boots",
+        "name": "Daredevil Boots",
         "level": 10,
         "price": " 900 gp",
         "bulk": " L",
@@ -1698,7 +1698,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=429",
-        "name": " Daredevil Boots (Greater)",
+        "name": "Daredevil Boots (Greater)",
         "source": "Core Rulebook pg. 609",
         "level": 17,
         "price": " 14,000 gp",
@@ -1727,7 +1727,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=425",
         "source": "Core Rulebook pg. 608",
         "actions": "Two Actions",
-        "name": " Cloak of the Bat",
+        "name": "Cloak of the Bat",
         "level": 10,
         "price": " 950 gp",
         "bulk": " L",
@@ -1740,7 +1740,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=425",
-        "name": " Cloak of the Bat (Greater)",
+        "name": "Cloak of the Bat (Greater)",
         "source": "Core Rulebook pg. 608",
         "level": 17,
         "price": " 13,000 gp",
@@ -1797,7 +1797,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=457",
         "source": "Core Rulebook pg. 614",
-        "name": " Ring of Manical Devices",
+        "name": "Ring of Manical Devices",
         "level": 11,
         "price": " 1,175 gp",
         "text": ["This ring seems like simple tarnished brass, but it enhances your curiosity about traps and devices of all kinds. You can use an Interact action to pull a set of ", " from the ring. These tools appear in your hand and fold back into the ring if they would leave your possession. They grant you a +2 item bonus to Thievery checks to Disable a Device and to Pick a Lock, and the ring\u2019s insights grant you the same bonus to Crafting checks to Craft and Repair snares and traps.", " containing ", ". You can have only one ", " from a ", " active at a time, even if you have multiple rings, and the spell ends if you lose your investiture in the ring."],
@@ -1809,7 +1809,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=457",
-        "name": " Ring of Manical Devices (Greater)",
+        "name": "Ring of Manical Devices (Greater)",
         "source": "Core Rulebook pg. 614",
         "level": 18,
         "price": " 4,250 gp",
@@ -1856,7 +1856,7 @@
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=411",
         "source": "Core Rulebook pg. 606",
-        "name": " Berserker's Cloak",
+        "name": "Berserker's Cloak",
         "level": 12,
         "price": " 2,000 gp",
         "bulk": " 1",
@@ -1867,7 +1867,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=411",
-        "name": " Berserker's Cloak (Greater)",
+        "name": "Berserker's Cloak (Greater)",
         "source": "Core Rulebook pg. 606",
         "level": 19,
         "price": " 40,000 gp",
@@ -1926,7 +1926,7 @@
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=464",
         "source": "Core Rulebook pg. 616",
         "actions": "Reaction",
-        "name": " Robe of the Archmagi",
+        "name": "Robe of the Archmagi",
         "level": 15,
         "price": " 6,500 gp",
         "bulk": " 1",
@@ -1941,7 +1941,7 @@
         "category": "worn item"
     }, {
         "link": "https://2e.aonprd.com/Equipment.aspx?ID=464",
-        "name": " Robe of the Archmagi (Greater)",
+        "name": "Robe of the Archmagi (Greater)",
         "source": "Core Rulebook pg. 616",
         "level": 19,
         "price": " 32,000 gp",

@@ -166,9 +166,9 @@ def get_multi(link):
                 except:
                     if tagType != "":
                         if tagType in item:
-                            item[tagType] += " " + child.text
+                            item[tagType] += " " + child.text.strip()
                         else:
-                            item[tagType] = child.text
+                            item[tagType] = child.text.strip()
                     else:
                         tagType = ""
         else:
