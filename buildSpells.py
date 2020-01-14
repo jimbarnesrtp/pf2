@@ -166,7 +166,7 @@ for row in rows:
     #if t > 10:
         #break
 spellHolder['spells'] = spells
-json_data = json.dumps(spellHolder)
+json_data = json.dumps(spellHolder, indent=4)
 #print(spells)
 filename = "spells-pf2.json"
 f = open(filename, "w")

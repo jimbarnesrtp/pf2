@@ -245,7 +245,7 @@ def get_all():
     return materialHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "material-pf2.json"
 f = open(filename, "w")

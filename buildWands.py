@@ -242,7 +242,7 @@ def get_all():
     return wandHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "wands-pf2.json"
 f = open(filename, "w")

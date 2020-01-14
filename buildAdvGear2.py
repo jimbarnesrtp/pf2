@@ -271,7 +271,7 @@ def get_all():
     return wornHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "adv-gear-v2-pf2.json"
 f = open(filename, "w")

@@ -358,6 +358,6 @@ for monster in monsters['monsters']:
     listHolder = monster['monsterText'] + aboutHolder
     monster['monsterText'] = listHolder
 
-json_data = json.dumps(monsters)
+json_data = json.dumps(monsters, indent=4)
 print(json_data)
 

@@ -238,7 +238,7 @@ def get_all():
     return heldHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "held-items-pf2.json"
 f = open(filename, "w")

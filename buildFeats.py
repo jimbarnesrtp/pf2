@@ -251,7 +251,7 @@ def get_all():
 
     
 
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "feats-pf2-v2.json"
 f = open(filename, "w")

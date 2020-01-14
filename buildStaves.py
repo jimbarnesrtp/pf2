@@ -234,7 +234,7 @@ def get_all():
     return weaponHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "staves-pf2.json"
 f = open(filename, "w")

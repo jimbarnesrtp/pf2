@@ -68,10 +68,11 @@ for spell in focusSpells:
                 
                 if child2.name == "a":
 
-                    if child2['class'][0] == "external-link" :
-                        
-                        spell['source'] = child2.text
-                    tagType = ""
+                    try:
+                        if child['class'][0] == "external-link" :
+                            item['source'] = child.text
+                    except:
+                        pass
                 if child2.name == "b":
 
                     if(child2.text != "Source"):
@@ -101,7 +102,7 @@ for spell in focusSpells:
 
 
 focusSpellsHolder['spells'] = focusSpells
-json_data = json.dumps(focusSpellsHolder)
+json_data = json.dumps(focusSpellsHolder, indent=4)
 filename = "focus-spells-pf2.json"
 f = open(filename, "w")
 f.write(json_data)

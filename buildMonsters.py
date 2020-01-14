@@ -377,7 +377,7 @@ def get_all():
     return monsters
 
 monsterHolder['monsters'] = get_all()
-json_data = json.dumps(monsterHolder)
+json_data = json.dumps(monsterHolder, indent=4)
 #print(monsters)
 filename = "monsters-v2-pf2.json"
 f = open(filename, "w")

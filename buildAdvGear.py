@@ -94,7 +94,7 @@ def get_adv(link, category):
 
 itemHolder['adventuringGear'] = get_adv("https://2e.aonprd.com/Equipment.aspx?Category=1", "Adventuring Gear")
 
-json_data = json.dumps(itemHolder)
+json_data = json.dumps(itemHolder, indent=4)
 #print(json_data)
 filename = "advGear-pf2.json"
 f = open(filename, "w")

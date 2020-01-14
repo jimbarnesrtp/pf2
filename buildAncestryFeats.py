@@ -82,7 +82,7 @@ for line in listOfPages:
 
     featHolder[featMD[1]] = get_feats(featMD[2].strip('\n'))
 
-json_data = json.dumps(featHolder)
+json_data = json.dumps(featHolder, indent=4)
 #print(json_data)
 filename = "ancestry-feats-pf2.json"
 f = open(filename, "w")

@@ -210,7 +210,7 @@ def get_all():
     return structHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "structures-pf2.json"
 f = open(filename, "w")

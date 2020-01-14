@@ -56,7 +56,7 @@ for row in rows:
 
 
 
-json_data = json.dumps(bgHolder)
+json_data = json.dumps(bgHolder, indent=4)
 #print(json_data)
 filename = "backgrounds-pf2.json"
 f = open(filename, "w")

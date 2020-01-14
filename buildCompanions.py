@@ -209,7 +209,7 @@ def get_all():
     return compHolder
 
 #print(get_all())
-json_data = json.dumps(get_all())
+json_data = json.dumps(get_all(), indent=4)
 #print(json_data)
 filename = "companions-pf2.json"
 f = open(filename, "w")
