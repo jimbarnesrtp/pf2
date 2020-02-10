@@ -1,0 +1,6 @@
+buildAdvGear2.py
+buildAlchemicalItems.py
+buildSpellsv2.py
+buildWornItems.py
+buildWeapons.py
+buildWands.py
