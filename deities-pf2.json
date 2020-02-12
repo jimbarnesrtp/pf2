@@ -1,282 +1,438 @@
 {
     "name": "Pathfinder 2.0 deities list",
-    "date": "October 22, 2019",
-    "deities": [{
-        "name": "Abadar",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=1",
-        "alignment": ["LN"],
-        "followerAlignments": ["LG", " LN", " LE"],
-        "domains": "Cities, Earth, Travel, Wealth",
-        "source": "Core Rulebook pg. 437",
-        "Edicts": " bring civilization to the frontiers, earn wealth through hard work and trade, follow the rule of law",
-        "Anathema": " engage in banditry or piracy, steal, undermine a law-abiding court",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  illusory object , 4th:  creation , 7th:  magnificent mansion",
-        "text": "The Master of the First Vault holds sway over cities, the law, merchants, and wealth. Abadar seeks to bring civilization to the wild places of the world, encourages adherence to law, and promotes commerce and trade within civilization. He also encourages cooperation among the various ancestries. ,  ,  , "
-    }, {
-        "name": "Asmodeus",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=2",
-        "alignment": ["LE"],
-        "followerAlignments": ["LE"],
-        "domains": "Confidence, Fire, Trickery, Tyranny",
-        "source": "Core Rulebook pg. 437",
-        "Edicts": " negotiate contracts to your best advantage, rule tyrannically and torture weaker beings, show subservience to your betters",
-        "Anathema": " break a contract, free a slave, insult Asmodeus by showing mercy to your enemies",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  charm , 4th:  suggestion , 6th:  mislead",
-        "text": "The Prince of Darkness reigns over contracts, pride, slavery, and tyranny, and he delights in tempting mortals to the path of evil. He promotes strict hierarchies where everyone knows their place, and he takes advantage of order for his own selfish benefit. ,  ,  , "
-    }, {
-        "name": "Calistria",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=3",
-        "alignment": ["CN"],
-        "followerAlignments": ["CG", " CN", " CE"],
-        "domains": "Pain, Passion, Secrecy, Trickery",
-        "source": "Core Rulebook pg. 437",
-        "Edicts": " pursue your personal freedom, seek hedonistic thrills, take revenge",
-        "Anathema": " become too consumed by love or a need for revenge, let a slight go unanswered",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  charm , 3rd:  enthrall , 6th:  mislead",
-        "text": "The mischievous goddess known as the Savored Sting extols the virtues of lust, revenge, and trickery. Though Calistria is most widely worshipped by elves, members of many other ancestries follow her as well.  ,  ,  , "
-    }, {
-        "name": "Cayden Cailean",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=4",
-        "alignment": ["CG"],
-        "followerAlignments": ["NG", " CG", " CN"],
-        "domains": "Cities, Freedom, Indulgence, Might",
-        "source": "Core Rulebook pg. 437",
-        "Edicts": " drink, free slaves and aid the oppressed, seek glory and adventure",
-        "Anathema": " waste alcohol, be mean or standoffish when drunk, own a slave",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  fleet step , 2nd:  touch of idiocy , 5th:  hallucination",
-        "text": "The Drunken Hero ascended from mortal life on a drunken dare, becoming the god of ale, freedom, and wine. Cayden promotes freedom and encourages others to find their own path in life. He fights for just causes and delights in the best indulgences. ,  ,  , "
-    }, {
-        "name": "Desna",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=5",
-        "alignment": ["CG"],
-        "followerAlignments": ["NG", " CG", " CN"],
-        "domains": "Dreams, Luck, Moon, Travel",
-        "source": "Core Rulebook pg. 438",
-        "Edicts": " aid fellow travelers, explore new places, express yourself through art and song, find what life has to offer",
-        "Anathema": " or use similar magic to corrupt dreams, engage in bigoted behavior",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  sleep , 3rd:  dream message , 5th:  dreaming potential",
-        "text": "The kindly Song of the Spheres presides over dreams, luck, stars, and travelers. An ancient goddess, Desna delights in freedom and mystery, and she encourages her followers to do the same. ,  ,  , "
-    }, {
-        "name": "Droskar",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=28",
-        "alignment": ["NE"],
-        "followerAlignments": ["LE", " NE", " CE"],
-        "domains": "Ambition, Duty, Earth, Fire, Toil, Truth, Tyranny",
-        "source": "Pathfinder #148: Fires of the Haunted City pg. 64",
-        "Edicts": " achieve goals at any cost, continually improve your abilities, establish dominance, work ceaselessly",
-        "Anathema": " fail to work toward goals or grow in skill, relax excessively or give into sloth",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  ant haul , 3rd:  haste , 6th:  dominate",
-        "text": "Cast out and cursed by  , the Dark Smith works constantly to prove his significance, cheating and enslaving others to further his goal ,  ,  ,  ,  ,  * Accessed by the Expanded Domain Initiate feat from  , not yet released"
-    }, {
-        "name": "Erastil",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=6",
-        "alignment": ["LG"],
-        "followerAlignments": ["LG", " NG", " LN"],
-        "domains": "Earth, Family, Nature, Wealth",
-        "source": "Core Rulebook pg. 438",
-        "Edicts": " care for your home and family, fulfill your duties, keep the peace, protect the community",
-        "Anathema": " abandon your home in its time of need, choose yourself over your community, tarnish your reputation, tell lies",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  true strike , 3rd:  wall of thorns , 5th:  tree stride",
-        "text": "Old Deadeye is god of family, farming, hunting, and trade. Long ago he was a horned god of the hunt, but his worship evolved to focus on rural communities. ,  ,  , "
-    }, {
-        "name": "Gogunta",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=25",
-        "alignment": ["CE"],
-        "followerAlignments": ["CE"],
-        "domains": "Indulgence, Might, Tyranny, Water",
-        "source": "Bestiary pg. 45",
-        "Edicts": " sacrifice creatures by drowning them, frolic or sing in swamps, feed or aid amphibians",
-        "Anathema": " grant mercy to boggards who worship other gods",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  jump , 3rd:  stinking cloud , 5th:  black tentacles",
-        "text": "Gogunta is the patron of the boggard people, many of whom worship her as their goddess. ,  ,  , "
-    }, {
-        "name": "Gorum",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=7",
-        "alignment": ["CN"],
-        "followerAlignments": ["CN", " CE"],
-        "domains": "Confidence, Destruction, Might, Zeal",
-        "source": "Core Rulebook pg. 438",
-        "Edicts": " attain victory in fair combat, push your limits, wear armor in combat",
-        "Anathema": " kill prisoners or surrendering foes, prevent conflict through negotiation, win a battle through underhanded tactics or indirect magic",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  true strike , 2nd:  enlarge , 4th:  weapon storm",
-        "text": "Soldiers call out prayers to Our Lord in Iron, god of battle, strength, and weapons. Gorum emphasizes strength and power, encouraging his followers to seek out war and combat as the ultimate way to worship him. ,  ,  , "
-    }, {
-        "name": "Gozreh",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=8",
-        "alignment": ["N"],
-        "followerAlignments": ["NG", " LN", " N", " CN", " NE"],
-        "domains": "Air, Nature, Travel, Water",
-        "source": "Core Rulebook pg. 438",
-        "Edicts": " cherish, protect, and respect nature in all its forms",
-        "Anathema": " bring civilization to intrude on the wild, create undead, despoil areas of natural beauty",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  gust of wind , 3rd:  lightning bolt , 5th:  control water",
-        "text": "A deity of two aspects, known as the Wind and the Waves, Gozreh rules over nature, the sea, and weather. Gozreh is popular with druids and those who seek to preserve the wilds. ,  ,  , "
-    }, {
-        "name": "Iomedae",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=9",
-        "alignment": ["LG"],
-        "followerAlignments": ["LG", " NG"],
-        "domains": "Confidence, Might, Truth, Zeal",
-        "source": "Core Rulebook pg. 438",
-        "Edicts": " be temperate, fight for justice and honor, hold valor in your heart",
-        "Anathema": " abandon a companion in need, dishonor yourself, refuse a challenge from an equal",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  true strike , 2nd:  see invisibility , 4th:  fire shield",
-        "text": "Iomedae is goddess of honor, justice, rulership, and valor, and she is called the Inheritor because she inherited her mantle when the god of humanity perished. Prior to her ascension, Iomedae walked the planet as a mortal. Many paladins follow her faith. ,  ,  , "
-    }, {
-        "name": "Irori",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=10",
-        "alignment": ["LN"],
-        "followerAlignments": ["LG", " LN", " LE"],
-        "domains": "Knowledge, Might, Perfection, Truth",
-        "source": "Core Rulebook pg. 438",
-        "Edicts": " be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline",
-        "Anathema": " become addicted to a substance, destroy an important historical text, repeatedly fail to maintain self-control",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  jump , 3rd:  haste , 4th:  stoneskin",
-        "text": "When the Master of Masters attained true enlightenment, he became a god of history, knowledge, and self-perfection. Irori promotes discipline and teaches that one who can master themself finds the greatest benefits the world can provide. ,  ,  , "
-    }, {
-        "name": "Lamashtu",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=11",
-        "alignment": ["CE"],
-        "followerAlignments": ["CE"],
-        "domains": "Family, Might, Nightmares, Trickery",
-        "source": "Core Rulebook pg. 439",
-        "Edicts": " bring power to outcasts and the downtrodden, indoctrinate children in Lamashtu\u2019s teachings, make the beautiful monstrous, reveal the corruption and flaws in all things",
-        "Anathema": " attempt to treat a mental illness or deformity, provide succor to Lamashtu\u2019s enemies",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  magic fang , 2nd:  animal form , 4th:  nightmare",
-        "text": "The Mother of Monsters is goddess of aberrance, monsters, and nightmares. She seeks to corrupt mortals and populate the world with her twisted and monstrous brood. ,  ,  , "
-    }, {
-        "name": "Nethys",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=12",
-        "alignment": ["N"],
-        "followerAlignments": ["NG", " LN", " N", " CN", " NE"],
-        "domains": "Destruction, Knowledge, Magic, Protection",
-        "source": "Core Rulebook pg. 439",
-        "Edicts": " seek out magical power and use it",
-        "Anathema": " pursue mundane paths over magical ones",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  magic missile , 2nd:  magic mouth , 3rd:  levitate , 4th:  blink , 5th:  prying eye , 6th:  wall of force , 7th:  warp mind , 8th:  maze , 9th:  disjunction",
-        "text": "The All-Seeing Eye, god of magic, has a dualistic nature of destruction and preservation; his ability to witness all things has shattered his mind. ,  ,  , "
-    }, {
-        "name": "Norgorber",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=13",
-        "alignment": ["NE"],
-        "followerAlignments": ["N (see entry)", " LE", " NE", " CE"],
-        "domains": "Death, Secrecy, Trickery, Wealth",
-        "source": "Core Rulebook pg. 439",
-        "Edicts": " keep your true identity secret, sacrifice anyone necessary, take every advantage in a fight, work from the shadows",
-        "Anathema": " allow your true identity to be connected to your dark dealings, share a secret freely, show mercy",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  illusory disguise , 2nd:  invisibility , 4th:  phantasmal killer",
-        "text": "The god of greed, murder, poison, and secrets has four aspects: Blackfingers, ally of alchemists and poisoners; the murderous Father Skinsaw; the thieving Gray Master; and the secretive Reaper of Reputation. ,  ,  , "
-    }, {
-        "name": "Pharasma",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=14",
-        "alignment": ["N"],
-        "followerAlignments": ["NG", " LN", " N"],
-        "domains": "Death, Fate, Healing, Knowledge",
-        "source": "Core Rulebook pg. 439",
-        "Edicts": " strive to understand ancient prophecies, destroy undead, lay bodies to rest",
-        "Anathema": " create undead, desecrate a corpse, rob a tomb",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  mindlink , 3rd:  ghostly weapon , 4th:  phantasmal killer",
-        "text": "Ancient and powerful beyond even most other gods, the Lady of Graves presides over birth, death, fate, and prophecy. From her throne in the Boneyard, she judges the souls of all who perish, and she ensures that the natural cycle of birth and death\u2014the River of Souls\u2014is not disrupted. ,  ,  , "
-    }, {
-        "name": "Rovagug",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=15",
-        "alignment": ["CE"],
-        "followerAlignments": ["NE", " CE"],
-        "domains": "Air, Destruction, Earth, Zeal",
-        "source": "Core Rulebook pg. 439",
-        "Edicts": " destroy all things, free Rovagug from his prison",
-        "Anathema": " create something new, let material ties restrain you, torture a victim or otherwise delay its destruction",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  burning hands , 2nd:  enlarge , 6th:  disintegrate",
-        "text": "The Rough Beast is the god of destruction, disaster, and wrath. He was long ago imprisoned within Golarion\u2019s core at the hands of many other deities working in concert, and seeks to one day break free and wreak havoc upon the world. ,  ,  , "
-    }, {
-        "name": "Sarenrae",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=16",
-        "alignment": ["NG"],
-        "followerAlignments": ["LG", " NG", " CG"],
-        "domains": "Fire, Healing, Sun, Truth",
-        "source": "Core Rulebook pg. 439",
-        "Edicts": " destroy the Spawn of Rovagug, protect allies, provide aid to the sick and wounded, seek and allow redemption",
-        "Anathema": " create undead, lie, deny a repentant creature an opportunity for redemption, fail to strike down evil",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  burning hands , 3rd:  fireball , 4th:  wall of fire",
-        "text": "The Dawnflower is goddess of healing, honesty, redemption, and the sun. Once a powerful angel and empyreal lord, Sarenrae led the charge to imprison Rovagug. She seeks to redeem evil where possible, or else destroy it swiftly. ,  ,  , "
-    }, {
-        "name": "Shelyn",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=17",
-        "alignment": ["NG"],
-        "followerAlignments": ["LG", " NG", " CG"],
-        "domains": "Creation, Family, Passion, Protection",
-        "source": "Core Rulebook pg. 440",
-        "Edicts": " be peaceful, choose and perfect an art, lead by example, see the beauty in all things",
-        "Anathema": " destroy art or allow it to be destroyed, unless saving a life or pursuing greater art; refuse to accept surrender",
-        "Divine Skill": " or ",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  color spray , 3rd:  enthrall , 4th:  creation",
-        "text": "The Eternal Rose is the goddess of art, beauty, love, and music. She seeks to one day redeem her corrupted brother, Zon-Kuthon. Shelyn promotes peace and love, and she encourages her followers to create beauty in a sometimes dark world. ,  ,  , "
-    }, {
-        "name": "Torag",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=18",
-        "alignment": ["LG"],
-        "followerAlignments": ["LG", " LN"],
-        "domains": "Creation, Earth, Family, Protection",
-        "source": "Core Rulebook pg. 440",
-        "Edicts": " be honorable and forthright, keep your word, respect the forge, serve your people",
-        "Anathema": " tell lies or cheat someone, intentionally create inferior works, show mercy to the enemies of your people",
-        "fontHolder": "heal",
-        "clericSpells": " 1st:  mindlink , 3rd:  earthbind , 4th:  creation",
-        "text": "The dwarven deity called the Father of Creation is god of the forge, protection, and strategy. Though most widely worshipped by dwarves, those who treasure crafting and creation also follow Torag. ,  ,  , "
-    }, {
-        "name": "Treerazer",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=26",
-        "alignment": ["CE"],
-        "followerAlignments": ["NE", " CE"],
-        "domains": "Destruction, Nature, Nightmares, Tyranny",
-        "source": "Bestiary pg. 312",
-        "Edicts": " corrupt plant life with evil or fungal influences, slay elves, feast on rotten flesh or fungus",
-        "Anathema": " grant mercy to elves, plant trees, encourage natural plant growth",
-        "fontHolder": "harm  or  heal",
-        "clericSpells": " 1st:  grim tendrils , 3rd:  wall of thorns , 6th:  tangling creepers",
-        "text": "Treerazer is worshipped by cultists throughout the Inner Sea region. The majority of these deranged maniacs can be found within or near the expanse of the Tanglebriar, consisting of fungus-corrupted fey, debased elves, or other sinister demon worshippers. Beyond Tanglebriar, his cultists are rarer and tend to be loners or leaders of very small groups. Treerazer\u2019s religious symbol is a bleeding dead tree that\u2019s been split in half. ,  ,  , "
-    }, {
-        "name": "Urgathoa",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=19",
-        "alignment": ["NE"],
-        "followerAlignments": ["LE", " NE", " CE"],
-        "domains": "Indulgence, Magic, Might, Undeath",
-        "source": "Core Rulebook pg. 440",
-        "Edicts": " become undead upon death, create or protect the undead, sate your appetites",
-        "Anathema": " deny your appetites, destroy undead, sacrifice yourlife",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  goblin pox , 2nd:  false life , 7th:  mask of terror",
-        "text": "The amoral Pallid Princess oversees disease, gluttony, and undeath. ,  ,  , "
-    }, {
-        "name": "Zon-Kuthon",
-        "link": "https://2e.aonprd.com/Deities.aspx?ID=20",
-        "alignment": ["LE"],
-        "followerAlignments": ["LN", " LE", " NE"],
-        "domains": "Ambition, Darkness, Destruction, Pain",
-        "source": "Core Rulebook pg. 440",
-        "Edicts": " bring pain to the world, mutilate your body",
-        "Anathema": " create permanent or long-lasting sources of light, provide comfort to those who suffer",
-        "fontHolder": "harm",
-        "clericSpells": " 1st:  phantom pain , 3rd:  wall of thorns , 5th:  shadow walk",
-        "text": "The Midnight Lord is god of darkness, envy, loss, and pain. Once a god of art, beauty, and music, like Shelyn, he returned from a sojourn in the dark spaces between the planes horribly changed. ,  ,  , "
-    }]
+    "date": "February 11, 2020",
+    "deities": [
+        {
+            "name": "Abadar",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=1",
+            "alignment": [
+                "LN"
+            ],
+            "followerAlignments": [
+                "LG",
+                " LN",
+                " LE"
+            ],
+            "domains": "Cities, Earth, Travel, Wealth",
+            "source": "Core Rulebook pg. 437",
+            "Edicts": " bring civilization to the frontiers, earn wealth through hard work and trade, follow the rule of law",
+            "Anathema": " engage in banditry or piracy, steal, undermine a law-abiding court",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  illusory object , 4th:  creation , 7th:  magnificent mansion",
+            "text": "The Master of the First Vault holds sway over cities, the law, merchants, and wealth. Abadar seeks to bring civilization to the wild places of the world, encourages adherence to law, and promotes commerce and trade within civilization. He also encourages cooperation among the various ancestries. ,  ,  , "
+        },
+        {
+            "name": "Asmodeus",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=2",
+            "alignment": [
+                "LE"
+            ],
+            "followerAlignments": [
+                "LE"
+            ],
+            "domains": "Confidence, Fire, Trickery, Tyranny",
+            "source": "Core Rulebook pg. 437",
+            "Edicts": " negotiate contracts to your best advantage, rule tyrannically and torture weaker beings, show subservience to your betters",
+            "Anathema": " break a contract, free a slave, insult Asmodeus by showing mercy to your enemies",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  charm , 4th:  suggestion , 6th:  mislead",
+            "text": "The Prince of Darkness reigns over contracts, pride, slavery, and tyranny, and he delights in tempting mortals to the path of evil. He promotes strict hierarchies where everyone knows their place, and he takes advantage of order for his own selfish benefit. ,  ,  , "
+        },
+        {
+            "name": "Calistria",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=3",
+            "alignment": [
+                "CN"
+            ],
+            "followerAlignments": [
+                "CG",
+                " CN",
+                " CE"
+            ],
+            "domains": "Pain, Passion, Secrecy, Trickery",
+            "source": "Core Rulebook pg. 437",
+            "Edicts": " pursue your personal freedom, seek hedonistic thrills, take revenge",
+            "Anathema": " become too consumed by love or a need for revenge, let a slight go unanswered",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  charm , 3rd:  enthrall , 6th:  mislead",
+            "text": "The mischievous goddess known as the Savored Sting extols the virtues of lust, revenge, and trickery. Though Calistria is most widely worshipped by elves, members of many other ancestries follow her as well.  ,  ,  , "
+        },
+        {
+            "name": "Cayden Cailean",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=4",
+            "alignment": [
+                "CG"
+            ],
+            "followerAlignments": [
+                "NG",
+                " CG",
+                " CN"
+            ],
+            "domains": "Cities, Freedom, Indulgence, Might",
+            "source": "Core Rulebook pg. 437",
+            "Edicts": " drink, free slaves and aid the oppressed, seek glory and adventure",
+            "Anathema": " waste alcohol, be mean or standoffish when drunk, own a slave",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  fleet step , 2nd:  touch of idiocy , 5th:  hallucination",
+            "text": "The Drunken Hero ascended from mortal life on a drunken dare, becoming the god of ale, freedom, and wine. Cayden promotes freedom and encourages others to find their own path in life. He fights for just causes and delights in the best indulgences. ,  ,  , "
+        },
+        {
+            "name": "Desna",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=5",
+            "alignment": [
+                "CG"
+            ],
+            "followerAlignments": [
+                "NG",
+                " CG",
+                " CN"
+            ],
+            "domains": "Dreams, Luck, Moon, Travel",
+            "source": "Core Rulebook pg. 438",
+            "Edicts": " aid fellow travelers, explore new places, express yourself through art and song, find what life has to offer",
+            "Anathema": " or use similar magic to corrupt dreams, engage in bigoted behavior",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  sleep , 4th:  fly , 5th:  dreaming potential",
+            "text": "The kindly Song of the Spheres presides over dreams, luck, stars, and travelers. An ancient goddess, Desna delights in freedom and mystery, and she encourages her followers to do the same. ,  ,  , "
+        },
+        {
+            "name": "Droskar",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=28",
+            "alignment": [
+                "NE"
+            ],
+            "followerAlignments": [
+                "LE",
+                " NE",
+                " CE"
+            ],
+            "domains": "Ambition, Duty, Earth, Fire, Toil, Truth, Tyranny",
+            "source": "Pathfinder #148: Fires of the Haunted City pg. 64",
+            "Edicts": " achieve goals at any cost, continually improve your abilities, establish dominance, work ceaselessly",
+            "Anathema": " fail to work toward goals or grow in skill, relax excessively or give into sloth",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  ant haul , 3rd:  haste , 6th:  dominate",
+            "text": "Cast out and cursed by  , the Dark Smith works constantly to prove his significance, cheating and enslaving others to further his goal ,  ,  ,  ,  ,  * Accessed by the Expanded Domain Initiate feat from  , not yet released"
+        },
+        {
+            "name": "Erastil",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=6",
+            "alignment": [
+                "LG"
+            ],
+            "followerAlignments": [
+                "LG",
+                " NG",
+                " LN"
+            ],
+            "domains": "Earth, Family, Nature, Wealth",
+            "source": "Core Rulebook pg. 438",
+            "Edicts": " care for your home and family, fulfill your duties, keep the peace, protect the community",
+            "Anathema": " abandon your home in its time of need, choose yourself over your community, tarnish your reputation, tell lies",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  true strike , 3rd:  wall of thorns , 5th:  tree stride",
+            "text": "Old Deadeye is god of family, farming, hunting, and trade. Long ago he was a horned god of the hunt, but his worship evolved to focus on rural communities. ,  ,  , "
+        },
+        {
+            "name": "Gogunta",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=25",
+            "alignment": [
+                "CE"
+            ],
+            "followerAlignments": [
+                "CE"
+            ],
+            "domains": "Indulgence, Might, Tyranny, Water",
+            "source": "Bestiary pg. 45",
+            "Edicts": " sacrifice creatures by drowning them, frolic or sing in swamps, feed or aid amphibians",
+            "Anathema": " grant mercy to boggards who worship other gods",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  jump , 3rd:  stinking cloud , 5th:  black tentacles",
+            "text": "Gogunta is the patron of the boggard people, many of whom worship her as their goddess. ,  ,  , "
+        },
+        {
+            "name": "Gorum",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=7",
+            "alignment": [
+                "CN"
+            ],
+            "followerAlignments": [
+                "CN",
+                " CE"
+            ],
+            "domains": "Confidence, Destruction, Might, Zeal",
+            "source": "Core Rulebook pg. 438",
+            "Edicts": " attain victory in fair combat, push your limits, wear armor in combat",
+            "Anathema": " kill prisoners or surrendering foes, prevent conflict through negotiation, win a battle through underhanded tactics or indirect magic",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  true strike , 2nd:  enlarge , 4th:  weapon storm",
+            "text": "Soldiers call out prayers to Our Lord in Iron, god of battle, strength, and weapons. Gorum emphasizes strength and power, encouraging his followers to seek out war and combat as the ultimate way to worship him. ,  ,  , "
+        },
+        {
+            "name": "Gozreh",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=8",
+            "alignment": [
+                "N"
+            ],
+            "followerAlignments": [
+                "NG",
+                " LN",
+                " N",
+                " CN",
+                " NE"
+            ],
+            "domains": "Air, Nature, Travel, Water",
+            "source": "Core Rulebook pg. 438",
+            "Edicts": " cherish, protect, and respect nature in all its forms",
+            "Anathema": " bring civilization to intrude on the wild, create undead, despoil areas of natural beauty",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  gust of wind , 3rd:  lightning bolt , 5th:  control water",
+            "text": "A deity of two aspects, known as the Wind and the Waves, Gozreh rules over nature, the sea, and weather. Gozreh is popular with druids and those who seek to preserve the wilds. ,  ,  , "
+        },
+        {
+            "name": "Iomedae",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=9",
+            "alignment": [
+                "LG"
+            ],
+            "followerAlignments": [
+                "LG",
+                " NG"
+            ],
+            "domains": "Confidence, Might, Truth, Zeal",
+            "source": "Core Rulebook pg. 438",
+            "Edicts": " be temperate, fight for justice and honor, hold valor in your heart",
+            "Anathema": " abandon a companion in need, dishonor yourself, refuse a challenge from an equal",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  true strike , 2nd:  enlarge , 4th:  fire shield",
+            "text": "Iomedae is goddess of honor, justice, rulership, and valor, and she is called the Inheritor because she inherited her mantle when the god of humanity perished. Prior to her ascension, Iomedae walked the planet as a mortal. Many paladins follow her faith. ,  ,  , "
+        },
+        {
+            "name": "Irori",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=10",
+            "alignment": [
+                "LN"
+            ],
+            "followerAlignments": [
+                "LG",
+                " LN",
+                " LE"
+            ],
+            "domains": "Knowledge, Might, Perfection, Truth",
+            "source": "Core Rulebook pg. 438",
+            "Edicts": " be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state; practice discipline",
+            "Anathema": " become addicted to a substance, destroy an important historical text, repeatedly fail to maintain self-control",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  jump , 3rd:  haste , 4th:  stoneskin",
+            "text": "When the Master of Masters attained true enlightenment, he became a god of history, knowledge, and self-perfection. Irori promotes discipline and teaches that one who can master themself finds the greatest benefits the world can provide. ,  ,  , "
+        },
+        {
+            "name": "Lamashtu",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=11",
+            "alignment": [
+                "CE"
+            ],
+            "followerAlignments": [
+                "CE"
+            ],
+            "domains": "Family, Might, Nightmares, Trickery",
+            "source": "Core Rulebook pg. 439",
+            "Edicts": " bring power to outcasts and the downtrodden, indoctrinate children in Lamashtu\u2019s teachings, make the beautiful monstrous, reveal the corruption and flaws in all things",
+            "Anathema": " attempt to treat a mental illness or deformity, provide succor to Lamashtu\u2019s enemies",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  magic fang , 2nd:  animal form , 4th:  nightmare",
+            "text": "The Mother of Monsters is goddess of aberrance, monsters, and nightmares. She seeks to corrupt mortals and populate the world with her twisted and monstrous brood. ,  ,  , "
+        },
+        {
+            "name": "Nethys",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=12",
+            "alignment": [
+                "N"
+            ],
+            "followerAlignments": [
+                "NG",
+                " LN",
+                " N",
+                " CN",
+                " NE"
+            ],
+            "domains": "Destruction, Knowledge, Magic, Protection",
+            "source": "Core Rulebook pg. 439",
+            "Edicts": " seek out magical power and use it",
+            "Anathema": " pursue mundane paths over magical ones",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  magic missile , 2nd:  magic mouth , 3rd:  levitate , 4th:  blink , 5th:  prying eye , 6th:  wall of force , 7th:  warp mind , 8th:  maze , 9th:  disjunction",
+            "text": "The All-Seeing Eye, god of magic, has a dualistic nature of destruction and preservation; his ability to witness all things has shattered his mind. ,  ,  , "
+        },
+        {
+            "name": "Norgorber",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=13",
+            "alignment": [
+                "NE"
+            ],
+            "followerAlignments": [
+                "N (see entry)",
+                " LE",
+                " NE",
+                " CE"
+            ],
+            "domains": "Death, Secrecy, Trickery, Wealth",
+            "source": "Core Rulebook pg. 439",
+            "Edicts": " keep your true identity secret, sacrifice anyone necessary, take every advantage in a fight, work from the shadows",
+            "Anathema": " allow your true identity to be connected to your dark dealings, share a secret freely, show mercy",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  illusory disguise , 2nd:  invisibility , 4th:  phantasmal killer",
+            "text": "The god of greed, murder, poison, and secrets has four aspects: Blackfingers, ally of alchemists and poisoners; the murderous Father Skinsaw; the thieving Gray Master; and the secretive Reaper of Reputation. ,  ,  , "
+        },
+        {
+            "name": "Pharasma",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=14",
+            "alignment": [
+                "N"
+            ],
+            "followerAlignments": [
+                "NG",
+                " LN",
+                " N"
+            ],
+            "domains": "Death, Fate, Healing, Knowledge",
+            "source": "Core Rulebook pg. 439",
+            "Edicts": " strive to understand ancient prophecies, destroy undead, lay bodies to rest",
+            "Anathema": " create undead, desecrate a corpse, rob a tomb",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  mindlink , 3rd:  ghostly weapon , 4th:  phantasmal killer",
+            "text": "Ancient and powerful beyond even most other gods, the Lady of Graves presides over birth, death, fate, and prophecy. From her throne in the Boneyard, she judges the souls of all who perish, and she ensures that the natural cycle of birth and death\u2014the River of Souls\u2014is not disrupted. ,  ,  , "
+        },
+        {
+            "name": "Rovagug",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=15",
+            "alignment": [
+                "CE"
+            ],
+            "followerAlignments": [
+                "NE",
+                " CE"
+            ],
+            "domains": "Air, Destruction, Earth, Zeal",
+            "source": "Core Rulebook pg. 439",
+            "Edicts": " destroy all things, free Rovagug from his prison",
+            "Anathema": " create something new, let material ties restrain you, torture a victim or otherwise delay its destruction",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  burning hands , 2nd:  enlarge , 6th:  disintegrate",
+            "text": "The Rough Beast is the god of destruction, disaster, and wrath. He was long ago imprisoned within Golarion\u2019s core at the hands of many other deities working in concert, and seeks to one day break free and wreak havoc upon the world. ,  ,  , "
+        },
+        {
+            "name": "Sarenrae",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=16",
+            "alignment": [
+                "NG"
+            ],
+            "followerAlignments": [
+                "LG",
+                " NG",
+                " CG"
+            ],
+            "domains": "Fire, Healing, Sun, Truth",
+            "source": "Core Rulebook pg. 439",
+            "Edicts": " destroy the Spawn of Rovagug, protect allies, provide aid to the sick and wounded, seek and allow redemption",
+            "Anathema": " create undead, lie, deny a repentant creature an opportunity for redemption, fail to strike down evil",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  burning hands , 3rd:  fireball , 4th:  wall of fire",
+            "text": "The Dawnflower is goddess of healing, honesty, redemption, and the sun. Once a powerful angel and empyreal lord, Sarenrae led the charge to imprison Rovagug. She seeks to redeem evil where possible, or else destroy it swiftly. ,  ,  , "
+        },
+        {
+            "name": "Shelyn",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=17",
+            "alignment": [
+                "NG"
+            ],
+            "followerAlignments": [
+                "LG",
+                " NG",
+                " CG"
+            ],
+            "domains": "Creation, Family, Passion, Protection",
+            "source": "Core Rulebook pg. 440",
+            "Edicts": " be peaceful, choose and perfect an art, lead by example, see the beauty in all things",
+            "Anathema": " destroy art or allow it to be destroyed, unless saving a life or pursuing greater art; refuse to accept surrender",
+            "Divine Skill": " or ",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  color spray , 3rd:  enthrall , 4th:  creation",
+            "text": "The Eternal Rose is the goddess of art, beauty, love, and music. She seeks to one day redeem her corrupted brother, Zon-Kuthon. Shelyn promotes peace and love, and she encourages her followers to create beauty in a sometimes dark world. ,  ,  , "
+        },
+        {
+            "name": "Torag",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=18",
+            "alignment": [
+                "LG"
+            ],
+            "followerAlignments": [
+                "LG",
+                " LN"
+            ],
+            "domains": "Creation, Earth, Family, Protection",
+            "source": "Core Rulebook pg. 440",
+            "Edicts": " be honorable and forthright, keep your word, respect the forge, serve your people",
+            "Anathema": " tell lies or cheat someone, intentionally create inferior works, show mercy to the enemies of your people",
+            "fontHolder": "heal",
+            "clericSpells": " 1st:  mindlink , 3rd:  earthbind , 4th:  creation",
+            "text": "The dwarven deity called the Father of Creation is god of the forge, protection, and strategy. Though most widely worshipped by dwarves, those who treasure crafting and creation also follow Torag. ,  ,  , "
+        },
+        {
+            "name": "Treerazer",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=26",
+            "alignment": [
+                "CE"
+            ],
+            "followerAlignments": [
+                "NE",
+                " CE"
+            ],
+            "domains": "Destruction, Nature, Nightmares, Tyranny",
+            "source": "Bestiary pg. 312",
+            "Edicts": " corrupt plant life with evil or fungal influences, slay elves, feast on rotten flesh or fungus",
+            "Anathema": " grant mercy to elves, plant trees, encourage natural plant growth",
+            "fontHolder": "harm  or  heal",
+            "clericSpells": " 1st:  grim tendrils , 3rd:  wall of thorns , 6th:  tangling creepers",
+            "text": "Treerazer is worshipped by cultists throughout the Inner Sea region. The majority of these deranged maniacs can be found within or near the expanse of the Tanglebriar, consisting of fungus-corrupted fey, debased elves, or other sinister demon worshippers. Beyond Tanglebriar, his cultists are rarer and tend to be loners or leaders of very small groups. Treerazer\u2019s religious symbol is a bleeding dead tree that\u2019s been split in half. ,  ,  , "
+        },
+        {
+            "name": "Urgathoa",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=19",
+            "alignment": [
+                "NE"
+            ],
+            "followerAlignments": [
+                "LE",
+                " NE",
+                " CE"
+            ],
+            "domains": "Indulgence, Magic, Might, Undeath",
+            "source": "Core Rulebook pg. 440",
+            "Edicts": " become undead upon death, create or protect the undead, sate your appetites",
+            "Anathema": " deny your appetites, destroy undead, sacrifice yourlife",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  goblin pox , 2nd:  false life , 7th:  mask of terror",
+            "text": "The amoral Pallid Princess oversees disease, gluttony, and undeath. ,  ,  , "
+        },
+        {
+            "name": "Zon-Kuthon",
+            "link": "https://2e.aonprd.com/Deities.aspx?ID=20",
+            "alignment": [
+                "LE"
+            ],
+            "followerAlignments": [
+                "LN",
+                " LE",
+                " NE"
+            ],
+            "domains": "Ambition, Darkness, Destruction, Pain",
+            "source": "Core Rulebook pg. 440",
+            "Edicts": " bring pain to the world, mutilate your body",
+            "Anathema": " create permanent or long-lasting sources of light, provide comfort to those who suffer",
+            "fontHolder": "harm",
+            "clericSpells": " 1st:  phantom pain , 3rd:  wall of thorns , 5th:  shadow walk",
+            "text": "The Midnight Lord is god of darkness, envy, loss, and pain. Once a god of art, beauty, and music, like Shelyn, he returned from a sojourn in the dark spaces between the planes horribly changed. ,  ,  , "
+        }
+    ]
 }

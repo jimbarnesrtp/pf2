@@ -1,686 +1,849 @@
 {
     "name": "Pathfinder 2.0 shields list",
-    "date": "November 19, 2019",
-    "baseShields": [{
-        "name": "Buckler",
-        "link": "https://2e.aonprd.com/Shields.aspx?ID=1",
-        "category": "shield",
-        "price": "1 gp",
-        "acBonus": "+1",
-        "speedPenalty": "",
-        "bulk": "L",
-        "hardness": 3,
-        "hp_bt": "6 (3)",
-        "text": "This very small shield is a favorite of duelists and quick, lightly armored warriors. It\u2019s typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that\u2019s not a weapon in that hand."
-    }, {
-        "name": "Wooden Shield",
-        "link": "https://2e.aonprd.com/Shields.aspx?ID=2",
-        "category": "shield",
-        "price": "1 gp",
-        "acBonus": "+2",
-        "speedPenalty": "",
-        "bulk": "1",
-        "hardness": 3,
-        "hp_bt": "12 (6)",
-        "text": "Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily."
-    }, {
-        "name": "Steel Shield",
-        "link": "https://2e.aonprd.com/Shields.aspx?ID=3",
-        "category": "shield",
-        "price": "2 gp",
-        "acBonus": "+2",
-        "speedPenalty": "",
-        "bulk": "1",
-        "hardness": 5,
-        "hp_bt": "20 (10)",
-        "text": "Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable."
-    }, {
-        "name": "Tower Shield",
-        "link": "https://2e.aonprd.com/Shields.aspx?ID=4",
-        "category": "shield",
-        "price": "10 gp",
-        "acBonus": "+2 (+42)",
-        "speedPenalty": "-5 ft.",
-        "bulk": "4",
-        "hardness": 5,
-        "hp_bt": "20 (10)",
-        "text": "These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.  Getting the higher bonus for a tower shield requires using the   action while the shield is raised."
-    }],
-    "specialShields": [{
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
-        "source": "Core Rulebook pg. 586",
-        "name": " Cold Iron Buckler (Low-Grade)",
-        "level": 2,
-        "price": "30 gp",
-        "bulk": "L",
-        "craftrequirements": "cold iron worth at least 15 sp",
-        "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 3, HP 12, and BT 6.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
-        "name": " Cold Iron Shield (Low-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 2,
-        "price": "34 gp",
-        "bulk": "1",
-        "craftrequirements": "cold iron worth at least 17 sp",
-        "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 5, HP 20, and BT 10.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
-        "name": " Cold Iron Buckler (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 7,
-        "price": "300 gp",
-        "bulk": "L",
-        "craftrequirements": "cold iron worth at least 375 sp",
-        "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 5, HP 20, and BT 10.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
-        "name": " Cold Iron Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 7,
-        "price": "340 gp",
-        "bulk": "1",
-        "craftrequirements": "cold iron worth at least 425 sp",
-        "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 7, HP 28, and BT 14.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
-        "name": " Cold Iron Buckler (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 15,
-        "price": "5,000 gp",
-        "bulk": "L",
-        "craftrequirements": "cold iron worth at least 2,500 gp",
-        "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 8, HP 32, and BT 16.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
-        "name": " Cold Iron Shield (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 15,
-        "price": "5,500 gp",
-        "bulk": "1",
-        "craftrequirements": "cold iron worth at least 2,750 gp",
-        "traits": [],
-        "usage": "varies by shield",
-        "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 10, HP 40, and BT 20.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
-        "source": "Core Rulebook pg. 587",
-        "name": " Silver Buckler (Low-Grade)",
-        "level": 2,
-        "price": "30 gp",
-        "bulk": "L",
-        "craftrequirements": "silver worth at least 15 sp",
-        "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 1, HP 4, and BT 2.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
-        "name": " Silver Shield (Low-Grade)",
-        "source": "Core Rulebook pg. 587",
-        "level": 2,
-        "price": "34 gp",
-        "bulk": "1",
-        "craftrequirements": "silver worth at least 17 sp",
-        "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 3, HP 12, and BT 6.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
-        "name": " Silver Buckler (Standard-Grade)",
-        "source": "Core Rulebook pg. 587",
-        "level": 7,
-        "price": "300 gp",
-        "bulk": "L",
-        "craftrequirements": "silver worth at least 375 sp",
-        "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 3, HP 12, BT 6.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
-        "name": " Silver Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 587",
-        "level": 7,
-        "price": "340 gp",
-        "bulk": "1",
-        "craftrequirements": "silver worth at least 425 sp",
-        "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 5, HP 20, and BT 10.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
-        "name": " Silver Buckler (High-Grade)",
-        "source": "Core Rulebook pg. 587",
-        "level": 15,
-        "price": "5,000 gp",
-        "bulk": "L",
-        "craftrequirements": "silver worth at least 2,500 gp",
-        "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 6, HP 24, and BT 12.",
-        "traits": [],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
-        "name": " Silver Shield (High-Grade)",
-        "source": "Core Rulebook pg. 587",
-        "level": 15,
-        "price": "5,500 gp",
-        "bulk": "1",
-        "craftrequirements": "silver worth at least 2,750 gp",
-        "traits": [],
-        "usage": "varies by shield",
-        "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 8 HP 32, and BT 16.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
-        "source": "Core Rulebook pg. 586",
-        "name": " Adamantine Buckler (Standard-Grade)",
-        "level": 8,
-        "price": "400 gp",
-        "bulk": "L",
-        "craftrequirements": "adamantine worth at least 50 gp",
-        "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 8, HP 32, and BT 16.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
-        "name": " Adamantine Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 8,
-        "price": "440 gp",
-        "bulk": "1",
-        "craftrequirements": "adamantine shield; Level 8; Price 440; Bulk 1;",
-        "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 10, HP 40, and BT 20.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
-        "name": " Adamantine Buckler (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,000 gp",
-        "bulk": "L",
-        "craftrequirements": "adamantine worth at least 4,000 gp",
-        "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 11, HP 44, and BT 22.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
-        "name": " Adamantine Shield (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,800 gp",
-        "bulk": "1",
-        "craftrequirements": "adamantine worth at least 4,400 gp",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 13, HP 52, and BT 26.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
-        "source": "Core Rulebook pg. 586",
-        "name": " Darkwood Buckler (Standard-Grade)",
-        "level": 8,
-        "price": "400 gp",
-        "bulk": "L",
-        "craftrequirements": "darkwood worth at least 50 gp",
-        "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 3, HP 12, and BT 6.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
-        "name": " Darkwood Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 8,
-        "price": "440 gp",
-        "bulk": "1",
-        "craftrequirements": "darkwood worth at least 55 gp",
-        "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 5, HP 20, and BT 10.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
-        "name": " Darkwood Tower Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 8,
-        "price": "560 gp",
-        "bulk": "3",
-        "craftrequirements": "darkwood worth at least 70 gp",
-        "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 5, HP 20, and BT 10.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
-        "name": " Darkwood Buckler (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,000 gp",
-        "bulk": "L",
-        "craftrequirements": "darkwood worth at least 4,000 gp",
-        "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 6, HP 24, and BT 12.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
-        "name": " Darkwood Shield (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,800 gp",
-        "bulk": "1",
-        "craftrequirements": "darkwood worth at least 4,400 gp",
-        "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 8, HP 32, and BT 16.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
-        "name": " Darkwood Tower Shield (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "11,200 gp",
-        "bulk": "3",
-        "craftrequirements": "darkwood worth at least 5,600 gp",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 8, HP 32, and BT 16.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
-        "source": "Core Rulebook pg. 586",
-        "name": " Dragonhide Buckler (Standard-Grade)",
-        "level": 8,
-        "price": "400 gp",
-        "bulk": "L",
-        "craftrequirements": "dragonhide worth at least 50 gp",
-        "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 2, HP 8, and BT 4.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
-        "name": " Dragonhide Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 8,
-        "price": "440 gp",
-        "bulk": "1",
-        "craftrequirements": "dragonhide worth at least 55 gp",
-        "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 4, HP 16, and BT 8.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
-        "name": " Dragonhide Buckler (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,000 gp",
-        "bulk": "L",
-        "craftrequirements": "dragonhide worth at least 4,000 gp",
-        "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 5, HP 20, and BT 10.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
-        "name": " Dragonhide Shield (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,800 gp",
-        "bulk": "1",
-        "craftrequirements": "dragonhide worth at least 4,400 gp",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 7, HP 28, and BT 14.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
-        "source": "Core Rulebook pg. 586",
-        "name": " Mithral Buckler (Standard-Grade)",
-        "level": 8,
-        "price": "400 gp",
-        "bulk": "L",
-        "craftrequirements": "mithral worth at least 50 gp",
-        "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 3, HP 12, and BT 6.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
-        "name": " Mithral Shield (Standard-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 8,
-        "price": "440 gp",
-        "bulk": "L",
-        "craftrequirements": "mithral worth at least 55 gp",
-        "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 5, HP 20, BT 10.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
-        "name": " Mithral Buckler (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,000 gp",
-        "bulk": "L",
-        "craftrequirements": "mithral worth at least 4,000 gp",
-        "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 6, HP 24, and BT 12.",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
-        "name": " Mithral Shield (High-Grade)",
-        "source": "Core Rulebook pg. 586",
-        "level": 16,
-        "price": "8,800 gp",
-        "bulk": "L",
-        "craftrequirements": "at least 4,400 gp of mithral",
-        "traits": ["Uncommon"],
-        "usage": "varies by shield",
-        "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 8, HP 32, and BT 16.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=315",
-        "source": "Core Rulebook pg. 587",
-        "name": " Orichalcum Buckler (High-Grade)",
-        "level": 17,
-        "price": "12,000 gp",
-        "bulk": "L",
-        "craftrequirements": "orichalcum worth at least 6,000 gp",
-        "text": "Orichalcum shields\u2019 time-bending properties are particularly useful for keeping them intact. The first time each day an orichalcum shield would be destroyed, it is instead left with 1 Hit Point and the broken condition. The shield has Hardness 14, HP 56, and BT 28.",
-        "traits": ["Rare"],
-        "usage": "varies by shield",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=315",
-        "name": " Orichalcum Shield (High-Grade)",
-        "source": "Core Rulebook pg. 587",
-        "level": 17,
-        "price": "13,200 gp",
-        "bulk": "1",
-        "craftrequirements": "orichalcum worth at least 6,600 gp",
-        "traits": ["Rare"],
-        "usage": "varies by shield",
-        "text": "Orichalcum shields\u2019 time-bending properties are particularly useful for keeping them intact. The first time each day an orichalcum shield would be destroyed, it is instead left with 1 Hit Point and the broken condition. The shield has Hardness 16, HP 64, and BT 32.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
-        "source": "Core Rulebook pg. 588",
-        "name": " Sturdy Shield (Minor)",
-        "level": 4,
-        "price": "100 gp",
-        "bulk": "1",
-        "craftrequirements": "The shield has Hardness 8, HP 64, and BT 32.",
-        "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
-        "traits": ["Abjuration", "Magical"],
-        "usage": "held in 1 hand;",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
-        "name": " Sturdy Shield (Lesser)",
-        "source": "Core Rulebook pg. 588",
-        "level": 7,
-        "price": "360 gp",
-        "bulk": "1",
-        "craftrequirements": "The shield has Hardness 10, HP 80, and BT 40.",
-        "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
-        "traits": ["Abjuration", "Magical"],
-        "usage": "held in 1 hand;",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
-        "name": " Sturdy Shield (Moderate)",
-        "source": "Core Rulebook pg. 588",
-        "level": 10,
-        "price": "1,000 gp",
-        "bulk": "1",
-        "craftrequirements": "The shield has Hardness 13, HP 104, and BT 52.",
-        "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
-        "traits": ["Abjuration", "Magical"],
-        "usage": "held in 1 hand;",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
-        "name": " Sturdy Shield (Greater)",
-        "source": "Core Rulebook pg. 588",
-        "level": 13,
-        "price": "3,000 gp",
-        "bulk": "1",
-        "craftrequirements": "The shield has Hardness 15, HP 120, and BT 60.",
-        "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
-        "traits": ["Abjuration", "Magical"],
-        "usage": "held in 1 hand;",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
-        "name": " Sturdy Shield (Major)",
-        "source": "Core Rulebook pg. 588",
-        "level": 16,
-        "price": "10,000 gp",
-        "bulk": "1",
-        "craftrequirements": "The shield has Hardness 17, HP 136, and BT 68.",
-        "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
-        "traits": ["Abjuration", "Magical"],
-        "usage": "held in 1 hand;",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
-        "name": " Sturdy Shield (Supreme)",
-        "source": "Core Rulebook pg. 588",
-        "level": 19,
-        "price": "40,000 gp",
-        "bulk": "1",
-        "craftrequirements": "The shield has Hardness 20, HP 160, and BT 80.",
-        "traits": ["Abjuration", "Magical"],
-        "usage": "held in 1 hand;",
-        "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
-        "category": "shield"
-    }, {
-        "traits": ["Conjuration", "Magical"],
-        "name": "Lion's Shield",
-        "level": 6,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=323",
-        "text": "This steel shield (Hardness 6, HP 36, BT 18) is forged into the shape of a roaring lion\u2019s head. The lion\u2019s head functions as   that can\u2019t be removed from the shield.",
-        "source": "Core Rulebook pg. 588",
-        "price": "245 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "actions": "Single Action",
-        "activate": " Raise a Shield; ",
-        "frequency": " once per day; ",
-        "effect": " You animate the lion\u2019s head. You Raise the Shield and make a melee Strike with it as part of the same action. The shield\u2019s biting maw is a martial melee weapon that deals 2d6 piercing damage and has the deadly 1d6 trait; it can\u2019t be enhanced by runes. The shield remains animated for 1 minute, during which time you can Strike with it each time you Raise the Shield, as well as with a Strike action.",
-        "category": "shield"
-    }, {
-        "traits": ["Abjuration", "Magical"],
-        "name": "Spellguard Shield",
-        "level": 6,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=325",
-        "text": "This shield bears eldritch glyphs to guard against magic. While you have this steel shield (Hardness 6, HP 24, BT 12) raised, you gain its circumstance bonus to saving throws against spells that target you (as well as to AC).",
-        "source": "Core Rulebook pg. 588",
-        "price": "250 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "category": "shield"
-    }, {
-        "traits": ["Evocation", "Magical"],
-        "name": "Spined Shield",
-        "level": 7,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=326",
-        "text": "Five jagged spines project from the surface of this steel shield (Hardness 6, HP 24, BT 12). The spines are  . When you use the  Shield Block  reaction with this shield, the spines take the damage before the shield itself does. When the shield would take damage (after applying Hardness), one spine snaps off per 6 damage, reducing the damage by 6. The shield takes any remaining damage. When there are no spines left, the shield takes damage as normal. When all the spines are gone, you lose the ability to attack with them until the spines regenerate the next day.",
-        "source": "Core Rulebook pg. 588",
-        "price": "360 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "actions": "Single Action",
-        "activate": " Interact; ",
-        "effect": " You shoot one of the shield\u2019s spines at a target. A fired spine uses the spikes\u2019 statistics, but it is a martial ranged weapon with a range increment of 120 feet. ",
-        "category": "shield"
-    }, {
-        "traits": ["Uncommon", "Evocation", "Force", "Magical"],
-        "name": "Force Shield",
-        "level": 9,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=320",
-        "text": "The edges of this elaborately engraved steel shield (Hardness 8, HP 32, BT 16) bear tiny glass tiles set in mosaic patterns. ",
-        "source": "Core Rulebook pg. 587",
-        "price": "650 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "L",
-        "actions": "Single Action",
-        "activate": " command; ",
-        "frequency": " once per day; ",
-        "effect": " The shield surrounds you with a bubble of force that protects you from harm, granting you resistance 5 to physical damage for 1 minute. The bubble disappears if you cease holding the shield.",
-        "category": "shield"
-    }, {
-        "traits": ["Uncommon", "Abjuration", "Magical"],
-        "name": "Dragonslayer's Shield",
-        "level": 9,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=318",
-        "text": "A   is a steel shield covered with dragonhide from a certain type of dragon, which distinguishes each shield from the others. While raised, this steel shield (Hardness 8, HP 32, BT 16) grants its circumstance bonus to Reflex saves against area effects (as well as to AC, as normal).  While you hold the shield, it also grants you a +2 circumstance bonus to Will saves against a dragon\u2019s frightful presence ability. The shield has resistance 10 against the damage type corresponding to the type of dragon whose hide was used in its creation; this applies after reducing the damage for Hardness, so when you use Shield Block, the   takes 18 less damage from attacks of that damage type. You can use Shield Block against attacks that deal damage of that type.",
-        "source": "Core Rulebook pg. 587",
-        "price": "670 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "category": "shield"
-    }, {
-        "traits": ["Uncommon", "Abjuration", "Magical"],
-        "name": "Forge Warden",
-        "level": 10,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=321",
-        "text": "The religious symbol of  Torag , the forge god\u2014an ornate hammer of dwarven construction\u2014adorns the face of this steel shield (Hardness 6, HP 24, BT 12). The shield is a religious symbol of Torag.  You and any adjacent allies have fire resistance 5 while you have the shield raised. When used for a Shield Block, the   rings out like the hammer strike of a blacksmith, and the symbol glows as if lit by the fires of a furnace.",
-        "source": "Core Rulebook pg. 587",
-        "price": "975 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "actions": "Free Action",
-        "activate": " command (fire); ",
-        "trigger": " You use the forge warden to Shield Block an adjacent creature\u2019s attack and the shield takes damage; ",
-        "effect": " The attacking creature takes 2d6 fire damage.",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=319",
-        "source": "Core Rulebook pg. 587",
-        "actions": "Single Action",
-        "activate": "Interact;",
-        "frequency": "once per day;",
-        "effect": "The shield magically releases itself and floats off your arm into the air next to you, granting you its bonus automatically, as if you had Raised the Shield. Because you\u2019re not wielding the shield, you can\u2019t use reactions such as Shield Block with the shield, but you gain its benefits even when using both of your hands. After 1 minute, the shield drops to the ground, ending its floating effect. While the shield is adjacent to you, you can Interact to grasp it, ending its floating effect early.",
-        "name": " Floating Shield",
-        "level": 11,
-        "price": "1,250 gp",
-        "bulk": "L",
-        "text": "A   is usually carved with wing motifs. This buckler (Hardness 6, HP 24, BT 12) can protect you on its own.",
-        "traits": ["Uncommon", "Magical"],
-        "usage": "strapped to 1 hand;",
-        "category": "shield"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=319",
-        "name": " Floating Shield (Greater)",
-        "source": "Core Rulebook pg. 587",
-        "level": 16,
-        "price": "9,000 gp",
-        "bulk": "L",
-        "craftrequirements": "You can activate the shield any number of times per day.",
-        "traits": ["Uncommon", "Magical"],
-        "usage": "strapped to 1 hand;",
-        "actions": "Single Action",
-        "text": "A   is usually carved with wing motifs. This buckler (Hardness 6, HP 24, BT 12) can protect you on its own.",
-        "category": "shield"
-    }, {
-        "traits": ["Abjuration", "Magical"],
-        "name": "Arrow-Catching Shield",
-        "level": 11,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=317",
-        "text": "This wooden shield (Hardness 6, HP 24, BT 12) is carved with images of overlapping fletched arrows.",
-        "source": "Core Rulebook pg. 587",
-        "price": "1,350 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "actions": "Reaction",
-        "activate": " Interact; ",
-        "trigger": " A ranged weapon Strike targets a creature within 15 feet of you when you have this shield raised, and the attacker has not yet rolled their attack; ",
-        "effect": " The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the \r\n\r\n    ",
-        "category": "shield"
-    }, {
-        "traits": ["Rare", "Abjuration", "Magical"],
-        "name": "Reforging Shield",
-        "level": 15,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=542",
-        "text": "This steel shield contains a smoldering core of magma that never cools. Whenever the   current Hit Points are below its Break Threshold, the shield recovers 5 Hit Points at the start of its wielder\u2019s turn each round until it is no longer broken. Each time a character Repairs the shield, the shield recovers double the number of Hit Points. The shield has Hardness 15, HP 120, and BT 60.",
-        "source": "Pathfinder #148: Fires of the Haunted City pg. 76",
-        "price": "6,000 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "category": "shield"
-    }, {
-        "traits": ["Uncommon", "Abjuration", "Evocation", "Magical"],
-        "name": "Nethysian Bulwark",
-        "level": 16,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=546",
-        "text": "This round shield is often fashioned to resemble the religious symbol of its dual-natured namesake. A   is a  high-grade cold iron shield  (Hardness 10, HP 40, BT 20) that defends the wielder and can explode with retributive force when struck.",
-        "source": "Pathfinder #149: Against the Scarlet Triad pg. 77",
-        "price": "8,000 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "actions": "Free Action",
-        "activate": " envision; ",
-        "trigger": " The shield becomes broken when performing a  Shield Block; ",
-        "effect": " The shield explodes in a burst of bright light and shadowy tendrils, releasing a 15-foot cone of force that must include the attacker if possible. The cone deals 6d8 force damage to all creatures in the area (DC 34 basic Reflex save).",
-        "category": "shield"
-    }, {
-        "traits": ["Uncommon", "Abjuration", "Magical"],
-        "name": "Reflecting Shield",
-        "level": 18,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=324",
-        "text": "This high-grade silver buckler (Hardness 6, HP 24, BT 12) is polished to a mirrorlike sheen. The shield functions as a  spellguard shield  that can also reflect spells.",
-        "source": "Core Rulebook pg. 588",
-        "price": "18,000 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "L",
-        "actions": "Reaction",
-        "activate": " command; ",
-        "frequency": " once per day; ",
-        "trigger": " You are targeted by a spell; ",
-        "requirements": " The  reflecting shield is raised; ",
-        "effect": " You attempt to reflect the spell on its caster, with the effects of a 9th-level  spell turning with a counteract modifier of +40.",
-        "craftrequirements": " Supply one casting of  spell turning, and the initial raw materials must include at least 2,750 gp of silver.",
-        "category": "shield"
-    }, {
-        "traits": ["Rare", "Abjuration", "Magical"],
-        "name": "Indestructible Shield",
-        "level": 18,
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=322",
-        "text": "An   is a high-grade adamantine shield (Hardness 13, HP 90) that can withstand just about any damage. It can be damaged only by a  disintegrate  spell (roll damage as if against a creature that failed its save) or by an artifact tied to destruction, such as a  .",
-        "source": "Core Rulebook pg. 588",
-        "price": "24,000 gp",
-        "usage": "held in 1 hand;",
-        "bulk": "1",
-        "craftrequirements": " The raw materials must include at least 4,400 gp of adamantine.",
-        "category": "shield"
-    }]
+    "date": "February 11, 2020",
+    "baseShields": [
+        {
+            "name": "Buckler",
+            "link": "https://2e.aonprd.com/Shields.aspx?ID=1",
+            "category": "shield",
+            "price": "1 gp",
+            "acBonus": "+1",
+            "speedPenalty": "",
+            "bulk": "L",
+            "hardness": 3,
+            "hp_bt": "6 (3)",
+            "text": "This very small shield is a favorite of duelists and quick, lightly armored warriors. It\u2019s typically made of steel and strapped to your forearm. You can Raise a Shield with your buckler as long as you have that hand free or are holding a light object that\u2019s not a weapon in that hand."
+        },
+        {
+            "name": "Wooden Shield",
+            "link": "https://2e.aonprd.com/Shields.aspx?ID=2",
+            "category": "shield",
+            "price": "1 gp",
+            "acBonus": "+2",
+            "speedPenalty": "",
+            "bulk": "1",
+            "hardness": 3,
+            "hp_bt": "12 (6)",
+            "text": "Though they come in a variety of shapes and sizes, the protection offered by wooden shields comes from the stoutness of their materials. While wooden shields are less expensive than steel shields, they break more easily."
+        },
+        {
+            "name": "Steel Shield",
+            "link": "https://2e.aonprd.com/Shields.aspx?ID=3",
+            "category": "shield",
+            "price": "2 gp",
+            "acBonus": "+2",
+            "speedPenalty": "",
+            "bulk": "1",
+            "hardness": 5,
+            "hp_bt": "20 (10)",
+            "text": "Like wooden shields, steel shields come in a variety of shapes and sizes. Though more expensive than wooden shields, they are much more durable."
+        },
+        {
+            "name": "Tower Shield",
+            "link": "https://2e.aonprd.com/Shields.aspx?ID=4",
+            "category": "shield",
+            "price": "10 gp",
+            "acBonus": "+2 (+42)",
+            "speedPenalty": "-5 ft.",
+            "bulk": "4",
+            "hardness": 5,
+            "hp_bt": "20 (10)",
+            "text": "These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.  Getting the higher bonus for a tower shield requires using the   action while the shield is raised."
+        }
+    ],
+    "specialShields": [
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
+            "source": "Core Rulebook pg. 586",
+            "name": " Cold Iron Buckler (Low-Grade)",
+            "level": 2,
+            "price": "30 gp",
+            "bulk": "L",
+            "craftrequirements": "cold iron worth at least 15 sp",
+            "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 3, HP 12, and BT 6.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
+            "name": " Cold Iron Shield (Low-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 2,
+            "price": "34 gp",
+            "bulk": "1",
+            "craftrequirements": "cold iron worth at least 17 sp",
+            "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 5, HP 20, and BT 10.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
+            "name": " Cold Iron Buckler (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 7,
+            "price": "300 gp",
+            "bulk": "L",
+            "craftrequirements": "cold iron worth at least 375 sp",
+            "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 5, HP 20, and BT 10.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
+            "name": " Cold Iron Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 7,
+            "price": "340 gp",
+            "bulk": "1",
+            "craftrequirements": "cold iron worth at least 425 sp",
+            "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 7, HP 28, and BT 14.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
+            "name": " Cold Iron Buckler (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 15,
+            "price": "5,000 gp",
+            "bulk": "L",
+            "craftrequirements": "cold iron worth at least 2,500 gp",
+            "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 8, HP 32, and BT 16.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
+            "name": " Cold Iron Shield (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 15,
+            "price": "5,500 gp",
+            "bulk": "1",
+            "craftrequirements": "cold iron worth at least 2,750 gp",
+            "traits": [],
+            "usage": "varies by shield",
+            "text": "Cold iron shields don\u2019t typically have an additional effect, though when used for a shield bash, they are cold iron weapons. The shield has Hardness 10, HP 40, and BT 20.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
+            "source": "Core Rulebook pg. 587",
+            "name": " Silver Buckler (Low-Grade)",
+            "level": 2,
+            "price": "30 gp",
+            "bulk": "L",
+            "craftrequirements": "silver worth at least 15 sp",
+            "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 1, HP 4, and BT 2.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
+            "name": " Silver Shield (Low-Grade)",
+            "source": "Core Rulebook pg. 587",
+            "level": 2,
+            "price": "34 gp",
+            "bulk": "1",
+            "craftrequirements": "silver worth at least 17 sp",
+            "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 3, HP 12, and BT 6.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
+            "name": " Silver Buckler (Standard-Grade)",
+            "source": "Core Rulebook pg. 587",
+            "level": 7,
+            "price": "300 gp",
+            "bulk": "L",
+            "craftrequirements": "silver worth at least 375 sp",
+            "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 3, HP 12, BT 6.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
+            "name": " Silver Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 587",
+            "level": 7,
+            "price": "340 gp",
+            "bulk": "1",
+            "craftrequirements": "silver worth at least 425 sp",
+            "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 5, HP 20, and BT 10.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
+            "name": " Silver Buckler (High-Grade)",
+            "source": "Core Rulebook pg. 587",
+            "level": 15,
+            "price": "5,000 gp",
+            "bulk": "L",
+            "craftrequirements": "silver worth at least 2,500 gp",
+            "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 6, HP 24, and BT 12.",
+            "traits": [],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=316",
+            "name": " Silver Shield (High-Grade)",
+            "source": "Core Rulebook pg. 587",
+            "level": 15,
+            "price": "5,500 gp",
+            "bulk": "1",
+            "craftrequirements": "silver worth at least 2,750 gp",
+            "traits": [],
+            "usage": "varies by shield",
+            "text": "Silver shields don\u2019t typically have an additional effect, though when used for a shield bash, they are silver weapons. The shield has Hardness 8 HP 32, and BT 16.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
+            "source": "Core Rulebook pg. 586",
+            "name": " Adamantine Buckler (Standard-Grade)",
+            "level": 8,
+            "price": "400 gp",
+            "bulk": "L",
+            "craftrequirements": "adamantine worth at least 50 gp",
+            "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 8, HP 32, and BT 16.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
+            "name": " Adamantine Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 8,
+            "price": "440 gp",
+            "bulk": "1",
+            "craftrequirements": "adamantine shield; Level 8; Price 440; Bulk 1;",
+            "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 10, HP 40, and BT 20.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
+            "name": " Adamantine Buckler (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,000 gp",
+            "bulk": "L",
+            "craftrequirements": "adamantine worth at least 4,000 gp",
+            "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 11, HP 44, and BT 22.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=310",
+            "name": " Adamantine Shield (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,800 gp",
+            "bulk": "1",
+            "craftrequirements": "adamantine worth at least 4,400 gp",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "text": "Adamantine shields are particularly sturdy, and when used for a shield bash, they are adamantine weapons. The shield has Hardness 13, HP 52, and BT 26.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
+            "source": "Core Rulebook pg. 586",
+            "name": " Darkwood Buckler (Standard-Grade)",
+            "level": 8,
+            "price": "400 gp",
+            "bulk": "L",
+            "craftrequirements": "darkwood worth at least 50 gp",
+            "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 3, HP 12, and BT 6.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
+            "name": " Darkwood Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 8,
+            "price": "440 gp",
+            "bulk": "1",
+            "craftrequirements": "darkwood worth at least 55 gp",
+            "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 5, HP 20, and BT 10.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
+            "name": " Darkwood Tower Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 8,
+            "price": "560 gp",
+            "bulk": "3",
+            "craftrequirements": "darkwood worth at least 70 gp",
+            "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 5, HP 20, and BT 10.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
+            "name": " Darkwood Buckler (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,000 gp",
+            "bulk": "L",
+            "craftrequirements": "darkwood worth at least 4,000 gp",
+            "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 6, HP 24, and BT 12.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
+            "name": " Darkwood Shield (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,800 gp",
+            "bulk": "1",
+            "craftrequirements": "darkwood worth at least 4,400 gp",
+            "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 8, HP 32, and BT 16.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=312",
+            "name": " Darkwood Tower Shield (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "11,200 gp",
+            "bulk": "3",
+            "craftrequirements": "darkwood worth at least 5,600 gp",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "text": "Darkwood shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). The shield has Hardness 8, HP 32, and BT 16.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
+            "source": "Core Rulebook pg. 586",
+            "name": " Dragonhide Buckler (Standard-Grade)",
+            "level": 8,
+            "price": "400 gp",
+            "bulk": "L",
+            "craftrequirements": "dragonhide worth at least 50 gp",
+            "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 2, HP 8, and BT 4.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
+            "name": " Dragonhide Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 8,
+            "price": "440 gp",
+            "bulk": "1",
+            "craftrequirements": "dragonhide worth at least 55 gp",
+            "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 4, HP 16, and BT 8.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
+            "name": " Dragonhide Buckler (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,000 gp",
+            "bulk": "L",
+            "craftrequirements": "dragonhide worth at least 4,000 gp",
+            "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 5, HP 20, and BT 10.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=313",
+            "name": " Dragonhide Shield (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,800 gp",
+            "bulk": "1",
+            "craftrequirements": "dragonhide worth at least 4,400 gp",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "text": "Dragonhide shields are each immune to one damage type based on the type of dragon  . The shield has Hardness 7, HP 28, and BT 14.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
+            "source": "Core Rulebook pg. 586",
+            "name": " Mithral Buckler (Standard-Grade)",
+            "level": 8,
+            "price": "400 gp",
+            "bulk": "L",
+            "craftrequirements": "mithral worth at least 50 gp",
+            "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 3, HP 12, and BT 6.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
+            "name": " Mithral Shield (Standard-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 8,
+            "price": "440 gp",
+            "bulk": "L",
+            "craftrequirements": "mithral worth at least 55 gp",
+            "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 5, HP 20, BT 10.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
+            "name": " Mithral Buckler (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,000 gp",
+            "bulk": "L",
+            "craftrequirements": "mithral worth at least 4,000 gp",
+            "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 6, HP 24, and BT 12.",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=314",
+            "name": " Mithral Shield (High-Grade)",
+            "source": "Core Rulebook pg. 586",
+            "level": 16,
+            "price": "8,800 gp",
+            "bulk": "L",
+            "craftrequirements": "at least 4,400 gp of mithral",
+            "traits": [
+                "Uncommon"
+            ],
+            "usage": "varies by shield",
+            "text": "Mithral shields are 1 Bulk lighter than normal (or light Bulk if their normal Bulk is 1, with no effect on a shield that normally has light Bulk). When used for a shield bash, they are treated as silver weapons. The shield has Hardness 8, HP 32, and BT 16.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=315",
+            "source": "Core Rulebook pg. 587",
+            "name": " Orichalcum Buckler (High-Grade)",
+            "level": 17,
+            "price": "12,000 gp",
+            "bulk": "L",
+            "craftrequirements": "orichalcum worth at least 6,000 gp",
+            "text": "Orichalcum shields\u2019 time-bending properties are particularly useful for keeping them intact. The first time each day an orichalcum shield would be destroyed, it is instead left with 1 Hit Point and the broken condition. The shield has Hardness 14, HP 56, and BT 28.",
+            "traits": [
+                "Rare"
+            ],
+            "usage": "varies by shield",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=315",
+            "name": " Orichalcum Shield (High-Grade)",
+            "source": "Core Rulebook pg. 587",
+            "level": 17,
+            "price": "13,200 gp",
+            "bulk": "1",
+            "craftrequirements": "orichalcum worth at least 6,600 gp",
+            "traits": [
+                "Rare"
+            ],
+            "usage": "varies by shield",
+            "text": "Orichalcum shields\u2019 time-bending properties are particularly useful for keeping them intact. The first time each day an orichalcum shield would be destroyed, it is instead left with 1 Hit Point and the broken condition. The shield has Hardness 16, HP 64, and BT 32.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
+            "source": "Core Rulebook pg. 588",
+            "name": " Sturdy Shield (Minor)",
+            "level": 4,
+            "price": "100 gp",
+            "bulk": "1",
+            "craftrequirements": "The shield has Hardness 8, HP 64, and BT 32.",
+            "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "usage": "held in 1 hand;",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
+            "name": " Sturdy Shield (Lesser)",
+            "source": "Core Rulebook pg. 588",
+            "level": 7,
+            "price": "360 gp",
+            "bulk": "1",
+            "craftrequirements": "The shield has Hardness 10, HP 80, and BT 40.",
+            "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "usage": "held in 1 hand;",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
+            "name": " Sturdy Shield (Moderate)",
+            "source": "Core Rulebook pg. 588",
+            "level": 10,
+            "price": "1,000 gp",
+            "bulk": "1",
+            "craftrequirements": "The shield has Hardness 13, HP 104, and BT 52.",
+            "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "usage": "held in 1 hand;",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
+            "name": " Sturdy Shield (Greater)",
+            "source": "Core Rulebook pg. 588",
+            "level": 13,
+            "price": "3,000 gp",
+            "bulk": "1",
+            "craftrequirements": "The shield has Hardness 15, HP 120, and BT 60.",
+            "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "usage": "held in 1 hand;",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
+            "name": " Sturdy Shield (Major)",
+            "source": "Core Rulebook pg. 588",
+            "level": 16,
+            "price": "10,000 gp",
+            "bulk": "1",
+            "craftrequirements": "The shield has Hardness 17, HP 136, and BT 68.",
+            "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "usage": "held in 1 hand;",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
+            "name": " Sturdy Shield (Supreme)",
+            "source": "Core Rulebook pg. 588",
+            "level": 19,
+            "price": "40,000 gp",
+            "bulk": "1",
+            "craftrequirements": "The shield has Hardness 20, HP 160, and BT 80.",
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "usage": "held in 1 hand;",
+            "text": "With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Conjuration",
+                "Magical"
+            ],
+            "name": "Lion's Shield",
+            "level": 6,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=323",
+            "text": "This steel shield (Hardness 6, HP 36, BT 18) is forged into the shape of a roaring lion\u2019s head. The lion\u2019s head functions as   that can\u2019t be removed from the shield.",
+            "source": "Core Rulebook pg. 588",
+            "price": "245 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "actions": "Single Action",
+            "activate": " Raise a Shield; ",
+            "frequency": " once per day; ",
+            "effect": " You animate the lion\u2019s head. You Raise the Shield and make a melee Strike with it as part of the same action. The shield\u2019s biting maw is a martial melee weapon that deals 2d6 piercing damage and has the deadly 1d6 trait; it can\u2019t be enhanced by runes. The shield remains animated for 1 minute, during which time you can Strike with it each time you Raise the Shield, as well as with a Strike action.",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Spellguard Shield",
+            "level": 6,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=325",
+            "text": "This shield bears eldritch glyphs to guard against magic. While you have this steel shield (Hardness 6, HP 24, BT 12) raised, you gain its circumstance bonus to saving throws against spells that target you (as well as to AC).",
+            "source": "Core Rulebook pg. 588",
+            "price": "250 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Evocation",
+                "Magical"
+            ],
+            "name": "Spined Shield",
+            "level": 7,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=326",
+            "text": "Five jagged spines project from the surface of this steel shield (Hardness 6, HP 24, BT 12). The spines are  . When you use the  Shield Block  reaction with this shield, the spines take the damage before the shield itself does. When the shield would take damage (after applying Hardness), one spine snaps off per 6 damage, reducing the damage by 6. The shield takes any remaining damage. When there are no spines left, the shield takes damage as normal. When all the spines are gone, you lose the ability to attack with them until the spines regenerate the next day.",
+            "source": "Core Rulebook pg. 588",
+            "price": "360 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "actions": "Single Action",
+            "activate": " Interact; ",
+            "effect": " You shoot one of the shield\u2019s spines at a target. A fired spine uses the spikes\u2019 statistics, but it is a martial ranged weapon with a range increment of 120 feet. ",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Uncommon",
+                "Evocation",
+                "Force",
+                "Magical"
+            ],
+            "name": "Force Shield",
+            "level": 9,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=320",
+            "text": "The edges of this elaborately engraved steel shield (Hardness 8, HP 32, BT 16) bear tiny glass tiles set in mosaic patterns. ",
+            "source": "Core Rulebook pg. 587",
+            "price": "650 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "L",
+            "actions": "Single Action",
+            "activate": " command; ",
+            "frequency": " once per day; ",
+            "effect": " The shield surrounds you with a bubble of force that protects you from harm, granting you resistance 5 to physical damage for 1 minute. The bubble disappears if you cease holding the shield.",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Uncommon",
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Dragonslayer's Shield",
+            "level": 9,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=318",
+            "text": "A   is a steel shield covered with dragonhide from a certain type of dragon, which distinguishes each shield from the others. While raised, this steel shield (Hardness 8, HP 32, BT 16) grants its circumstance bonus to Reflex saves against area effects (as well as to AC, as normal).  While you hold the shield, it also grants you a +2 circumstance bonus to Will saves against a dragon\u2019s frightful presence ability. The shield has resistance 10 against the damage type corresponding to the type of dragon whose hide was used in its creation; this applies after reducing the damage for Hardness, so when you use Shield Block, the   takes 18 less damage from attacks of that damage type. You can use Shield Block against attacks that deal damage of that type.",
+            "source": "Core Rulebook pg. 587",
+            "price": "670 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Uncommon",
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Forge Warden",
+            "level": 10,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=321",
+            "text": "The religious symbol of  Torag , the forge god\u2014an ornate hammer of dwarven construction\u2014adorns the face of this steel shield (Hardness 6, HP 24, BT 12). The shield is a religious symbol of Torag.  You and any adjacent allies have fire resistance 5 while you have the shield raised. When used for a Shield Block, the   rings out like the hammer strike of a blacksmith, and the symbol glows as if lit by the fires of a furnace.",
+            "source": "Core Rulebook pg. 587",
+            "price": "975 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "actions": "Free Action",
+            "activate": " command (fire); ",
+            "trigger": " You use the forge warden to Shield Block an adjacent creature\u2019s attack and the shield takes damage; ",
+            "effect": " The attacking creature takes 2d6 fire damage.",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=319",
+            "source": "Core Rulebook pg. 587",
+            "actions": "Single Action",
+            "activate": "Interact;",
+            "frequency": "once per day;",
+            "effect": "The shield magically releases itself and floats off your arm into the air next to you, granting you its bonus automatically, as if you had Raised the Shield. Because you\u2019re not wielding the shield, you can\u2019t use reactions such as Shield Block with the shield, but you gain its benefits even when using both of your hands. After 1 minute, the shield drops to the ground, ending its floating effect. While the shield is adjacent to you, you can Interact to grasp it, ending its floating effect early.",
+            "name": " Floating Shield",
+            "level": 11,
+            "price": "1,250 gp",
+            "bulk": "L",
+            "text": "A   is usually carved with wing motifs. This buckler (Hardness 6, HP 24, BT 12) can protect you on its own.",
+            "traits": [
+                "Uncommon",
+                "Magical"
+            ],
+            "usage": "strapped to 1 hand;",
+            "category": "shield"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=319",
+            "name": " Floating Shield (Greater)",
+            "source": "Core Rulebook pg. 587",
+            "level": 16,
+            "price": "9,000 gp",
+            "bulk": "L",
+            "craftrequirements": "You can activate the shield any number of times per day.",
+            "traits": [
+                "Uncommon",
+                "Magical"
+            ],
+            "usage": "strapped to 1 hand;",
+            "actions": "Single Action",
+            "text": "A   is usually carved with wing motifs. This buckler (Hardness 6, HP 24, BT 12) can protect you on its own.",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Arrow-Catching Shield",
+            "level": 11,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=317",
+            "text": "This wooden shield (Hardness 6, HP 24, BT 12) is carved with images of overlapping fletched arrows.",
+            "source": "Core Rulebook pg. 587",
+            "price": "1,350 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "actions": "Reaction",
+            "activate": " Interact; ",
+            "trigger": " A ranged weapon Strike targets a creature within 15 feet of you when you have this shield raised, and the attacker has not yet rolled their attack; ",
+            "effect": " The triggering Strike targets you instead of its normal target. If it hits, you gain the effects of the \r\n\r\n    ",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Rare",
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Reforging Shield",
+            "level": 15,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=542",
+            "text": "This steel shield contains a smoldering core of magma that never cools. Whenever the   current Hit Points are below its Break Threshold, the shield recovers 5 Hit Points at the start of its wielder\u2019s turn each round until it is no longer broken. Each time a character Repairs the shield, the shield recovers double the number of Hit Points. The shield has Hardness 15, HP 120, and BT 60.",
+            "source": "Pathfinder #148: Fires of the Haunted City pg. 76",
+            "price": "6,000 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Uncommon",
+                "Abjuration",
+                "Evocation",
+                "Magical"
+            ],
+            "name": "Nethysian Bulwark",
+            "level": 16,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=546",
+            "text": "This round shield is often fashioned to resemble the religious symbol of its dual-natured namesake. A   is a  high-grade cold iron shield  (Hardness 10, HP 40, BT 20) that defends the wielder and can explode with retributive force when struck.",
+            "source": "Pathfinder #149: Against the Scarlet Triad pg. 77",
+            "price": "8,000 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "actions": "Free Action",
+            "activate": " envision; ",
+            "trigger": " The shield becomes broken when performing a  Shield Block; ",
+            "effect": " The shield explodes in a burst of bright light and shadowy tendrils, releasing a 15-foot cone of force that must include the attacker if possible. The cone deals 6d8 force damage to all creatures in the area (DC 34 basic Reflex save).",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Uncommon",
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Reflecting Shield",
+            "level": 18,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=324",
+            "text": "This high-grade silver buckler (Hardness 6, HP 24, BT 12) is polished to a mirrorlike sheen. The shield functions as a  spellguard shield  that can also reflect spells.",
+            "source": "Core Rulebook pg. 588",
+            "price": "18,000 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "L",
+            "actions": "Reaction",
+            "activate": " command; ",
+            "frequency": " once per day; ",
+            "trigger": " You are targeted by a spell; ",
+            "requirements": " The  reflecting shield is raised; ",
+            "effect": " You attempt to reflect the spell on its caster, with the effects of a 9th-level  spell turning with a counteract modifier of +40.",
+            "craftrequirements": " Supply one casting of  spell turning, and the initial raw materials must include at least 2,750 gp of silver.",
+            "category": "shield"
+        },
+        {
+            "traits": [
+                "Rare",
+                "Abjuration",
+                "Magical"
+            ],
+            "name": "Indestructible Shield",
+            "level": 18,
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=322",
+            "text": "An   is a high-grade adamantine shield (Hardness 13, HP 90) that can withstand just about any damage. It can be damaged only by a  disintegrate  spell (roll damage as if against a creature that failed its save) or by an artifact tied to destruction, such as a  .",
+            "source": "Core Rulebook pg. 588",
+            "price": "24,000 gp",
+            "usage": "held in 1 hand;",
+            "bulk": "1",
+            "craftrequirements": " The raw materials must include at least 4,400 gp of adamantine.",
+            "category": "shield"
+        }
+    ]
 }

@@ -227,7 +227,7 @@ def get_archtype_feats():
 
     for linkItem in listOfLinks:
         t += 1
-        print("Getting feats for :", linkItem['name'])
+        print("Getting feats for :", linkItem['name'].rstrip())
         holder[linkItem['name']] = get_multi(linkItem['link'])
         #if t > 3:
             #break

@@ -72,7 +72,7 @@ def get_acrobatics(link):
 
     for key in parentDetails.keys():
         item[key] = parentDetails[key]
-    item['text'] = detailHolder + itemDetailHolder
+    item['text'] = itemDetailHolder
     items.append(item)
     
     return items

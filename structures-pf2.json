@@ -1,46 +1,85 @@
 {
     "name": "Pathfinder 2.0 Structures list",
-    "date": "September 26, 2019",
-    "structures": [{
-        "traits": ["Conjuration", "Magical", "Structure"],
-        "name": "Pocket Stage",
-        "text": ["This item appears to be a miniature replica of a theater. It includes a small pocket full of minute set dressing and costumed paper dolls."],
-        "source": "Core Rulebook pg. 596",
-        "Price": " 138 gp",
-        "Bulk": " L",
-        "Activate": "  (1 minute) command, envision, Interact; ",
-        "Effect": " All the stage\u2019s set dressing is illusory and disappears if taken more than 20 feet from the stage. The costumes are physical but with illusory embellishments that fade at the same range, revealing only plain, white smocks."
-    }, {
-        "traits": ["Rare", "Conjuration", "Extradimensional", "Magical", "Structure"],
-        "name": "Gourd Home",
-        "text": ["This dried gourd seems entirely nondescript, as it is hollow and has a sturdy cord wrapped around its neck for easy carrying. Closer inspection reveals the gourd has grown in the rough shape of a hut or similar small dwelling.", "gourd home", "gourd home", "gourd home", "gourd home", "gourd home"],
-        "source": "Pathfinder #147: Tomorrow Must Burn pg. 72",
-        "Price": " 650 gp",
-        "Bulk": " L ((when not activated))",
-        "Activate": " Interact; ",
-        "Effect": " becomes inactive for 24 hours.",
-        "actions": "Single Action",
-        "Frequency": " once per day; ",
-        "Requirements": " The gourd home must be expanded into its house form atop earth or soil.; "
-    }, {
-        "traits": ["Conjuration", "Magical", "Structure"],
-        "name": "Explorer's Yurt",
-        "text": ["Before activation, this item appears to be nothing more than a simple rolled-up tent, barely large enough to fit four Medium creatures. Despite attempts to clean it, the tent is perpetually smudged with dirt in various places."],
-        "source": "Core Rulebook pg. 596",
-        "Price": " 880 gp",
-        "Bulk": " 1",
-        "Activate": "  (10 minutes) Interact; ",
-        "Frequency": " once per day; ",
-        "Effect": " A large loop of red cloth hangs from one wall. If this loop is pulled, which takes an Interact action, the entire yurt immediately folds back up into its deactivated form, ready for further travel."
-    }, {
-        "traits": ["Uncommon", "Conjuration", "Magical", "Structure"],
-        "name": "Instant Fortress",
-        "text": ["This metal cube is small enough to fit in your palm. Close inspection reveals fine lines in the dark gray metal, as though the cube were folded thousands of times.", "instant fortress", " spell or by someone who is legendary at\u00a0Crafting."],
-        "source": "Core Rulebook pg. 596",
-        "Price": " 9,300 gp",
-        "Bulk": " L",
-        "actions": "Three Actions",
-        "Activate": " command, Interact; ",
-        "Effect": " If the fortress becomes damaged, it can be repaired only with a "
-    }]
+    "date": "February 11, 2020",
+    "structures": [
+        {
+            "traits": [
+                "Conjuration",
+                "Magical",
+                "Structure"
+            ],
+            "name": "Pocket Stage",
+            "text": [
+                "This item appears to be a miniature replica of a theater. It includes a small pocket full of minute set dressing and costumed paper dolls."
+            ],
+            "source": "Core Rulebook pg. 596",
+            "Price": " 138 gp",
+            "Bulk": " L",
+            "Activate": "  (1 minute) command, envision, Interact; ",
+            "Effect": " All the stage\u2019s set dressing is illusory and disappears if taken more than 20 feet from the stage. The costumes are physical but with illusory embellishments that fade at the same range, revealing only plain, white smocks."
+        },
+        {
+            "traits": [
+                "Rare",
+                "Conjuration",
+                "Extradimensional",
+                "Magical",
+                "Structure"
+            ],
+            "name": "Gourd Home",
+            "text": [
+                "This dried gourd seems entirely nondescript, as it is hollow and has a sturdy cord wrapped around its neck for easy carrying. Closer inspection reveals the gourd has grown in the rough shape of a hut or similar small dwelling.",
+                "gourd home",
+                "gourd home",
+                "gourd home",
+                "gourd home",
+                "gourd home"
+            ],
+            "source": "Pathfinder #147: Tomorrow Must Burn pg. 72",
+            "Price": " 650 gp",
+            "Bulk": " L ((when not activated))",
+            "Activate": " Interact; ",
+            "Effect": " becomes inactive for 24 hours.",
+            "actions": "Single Action",
+            "Frequency": " once per day; ",
+            "Requirements": " The gourd home must be expanded into its house form atop earth or soil.; "
+        },
+        {
+            "traits": [
+                "Conjuration",
+                "Magical",
+                "Structure"
+            ],
+            "name": "Explorer's Yurt",
+            "text": [
+                "Before activation, this item appears to be nothing more than a simple rolled-up tent, barely large enough to fit four Medium creatures. Despite attempts to clean it, the tent is perpetually smudged with dirt in various places."
+            ],
+            "source": "Core Rulebook pg. 596",
+            "Price": " 880 gp",
+            "Bulk": " 1",
+            "Activate": "  (10 minutes) Interact; ",
+            "Frequency": " once per day; ",
+            "Effect": " A large loop of red cloth hangs from one wall. If this loop is pulled, which takes an Interact action, the entire yurt immediately folds back up into its deactivated form, ready for further travel."
+        },
+        {
+            "traits": [
+                "Uncommon",
+                "Conjuration",
+                "Magical",
+                "Structure"
+            ],
+            "name": "Instant Fortress",
+            "text": [
+                "This metal cube is small enough to fit in your palm. Close inspection reveals fine lines in the dark gray metal, as though the cube were folded thousands of times.",
+                "instant fortress",
+                " spell or by someone who is legendary at\u00a0Crafting."
+            ],
+            "source": "Core Rulebook pg. 596",
+            "Price": " 9,300 gp",
+            "Bulk": " L",
+            "actions": "Three Actions",
+            "Activate": " command, Interact; ",
+            "Effect": " If the fortress becomes damaged, it can be repaired only with a "
+        }
+    ]
 }

@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Condition list",
-    "date": "January 14, 2020",
+    "date": "February 11, 2020",
     "traits": [
         {
             "name": "Additive",
@@ -103,9 +103,7 @@
         {
             "name": "Curse",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=38",
-            "text": "A curse is an effect that places some long-term affliction on a creature. Curses are always magical and are typically the result of a spell or trap.",
-            "source": "Core Rulebook pg. 630"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=38"
         },
         {
             "name": "Darkness",
@@ -180,9 +178,7 @@
         {
             "name": "Extradimensional",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=67",
-            "text": "This effect or item creates an extradimensional space. An extradimensional effect placed inside another extradimensional space ceases to function until it is removed.",
-            "source": "Core Rulebook pg. 631"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=67"
         },
         {
             "name": "Fear",
@@ -208,9 +204,7 @@
         {
             "name": "Fortune",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=76",
-            "text": "A fortune effect beneficially alters how you roll your dice. You can never have more than one fortune effect alter a single roll. If multiple fortune effects would apply, you have to pick which to use. If a fortune effect and a misfortune effect would apply to the same roll, the two cancel each other out, and you roll normally.",
-            "source": "Core Rulebook pg. 632"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=76"
         },
         {
             "name": "General",
@@ -222,23 +216,17 @@
         {
             "name": "Haunt",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=88",
-            "text": "A hazard with this trait is a spiritual echo, often of someone with a tragic death. Putting a haunt to rest often involves resolving the haunt\u2019s unfinished business. A haunt that hasn\u2019t been properly put to rest always returns after a time.",
-            "source": "Core Rulebook pg. 632"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=88"
         },
         {
             "name": "Healing",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=89",
-            "text": "A healing effect restores a creature\u2019s body, typically by restoring Hit Points, but sometimes by removing diseases or other debilitating effects.",
-            "source": "Core Rulebook pg. 632"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=89"
         },
         {
             "name": "Incapacitation",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=93",
-            "text": "An ability with this trait can take a character completely out of the fight or even kill them, and it\u2019s harder to use on a more powerful character. If a spell has the incapacitation trait, any creature of more than twice the spell\u2019s level treats the result of their check to prevent being incapacitated by the spell as one degree of success better, or the result of any check the spellcaster made to incapacitate them as one degree of success worse. If any other effect has the incapacitation trait, a creature of higher level than the item, creature, or hazard generating the effect gains the same benefits.",
-            "source": "Core Rulebook pg. 633"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=93"
         },
         {
             "name": "Incorporeal",
@@ -320,9 +308,7 @@
         {
             "name": "Metamagic",
             "type": "",
-            "link": "https://2e.aonprd.com/Traits.aspx?ID=107",
-            "text": "Actions with the metamagic trait, usually from metamagic feats, tweak the properties of your spells. You must use a metamagic action directly before Casting the Spell you want to alter. If you use any action (including free actions and reactions) other than Cast a Spell directly after, you waste the benefits of the metamagic action. Any additional effects added by a metamagic action are part of the spell\u2019s effect, not of the metamagic action itself.",
-            "source": "Core Rulebook pg. 634"
+            "link": "https://2e.aonprd.com/Traits.aspx?ID=107"
         },
         {
             "name": "Minion",

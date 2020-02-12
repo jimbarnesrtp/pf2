@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 background list",
-    "date": "January 14, 2020",
+    "date": "February 11, 2020",
     "backgrounds": [
         {},
         {
@@ -308,7 +308,7 @@
             ],
             "backgroundText": [
                 "You grew up considering the existence of an undead nation an atrocity and trained to one day take part in destroying it and putting its vile inhabitants to their final rest. Key to your preparations is a thorough study of undead-related deities and their philosophies.",
-                "You\u2019re trained in the Religion skill and the Undead Lore skill.",
+                "You\u00e2\u0080\u0099re trained in the Religion skill and the Undead Lore skill.",
                 "You gain the Student of the Canon skill feat."
             ]
         },
@@ -334,8 +334,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u2019re at home blazing trails in the burning sands, and you made a living guiding or following creatures in the desert. You might be a native nomad, an experienced desert guide, a naturalist, a bandit driven into the dunes by the law\u2014or all of the above.",
-                "You\u2019re trained in the Survival skill and the Desert Lore skill. You gain the Experienced Tracker skill feat."
+                "You\u00e2\u0080\u0099re at home blazing trails in the burning sands, and you made a living guiding or following creatures in the desert. You might be a native nomad, an experienced desert guide, a naturalist, a bandit driven into the dunes by the law\u00e2\u0080\u0094or all of the above.",
+                "You\u00e2\u0080\u0099re trained in the Survival skill and the Desert Lore skill. You gain the Experienced Tracker skill feat."
             ]
         },
         {
@@ -348,7 +348,7 @@
             ],
             "backgroundText": [
                 "You solved crimes as a police inspector or took jobs for wealthy clients as a private investigator. You might have become an adventurer as part of your next big mystery, but likely it was due to the consequences or aftermath of a prior case.",
-                "You\u2019re trained in the Society skill and the Underworld Lore skill. You gain the Streetwise skill feat."
+                "You\u00e2\u0080\u0099re trained in the Society skill and the Underworld Lore skill. You gain the Streetwise skill feat."
             ]
         },
         {
@@ -361,7 +361,7 @@
             ],
             "backgroundText": [
                 "You were trained to be an ambassador, and you have now been sent out into the wider world to build alliances between neighboring kingdoms.",
-                "You\u2019re trained in the Society skill and the Politics Lore skill. You gain the Multilingual skill feat."
+                "You\u00e2\u0080\u0099re trained in the Society skill and the Politics Lore skill. You gain the Multilingual skill feat."
             ]
         },
         {
@@ -581,6 +581,22 @@
             ]
         },
         {
+            "name": "Hermean Heritor",
+            "link": "https://pf2.d20pfsrd.com/background/hermean-heritor/",
+            "source": "Pathfinder Adventure Path #150: Broken Promises",
+            "ability": [
+                "One must be in Constitution or Wisdom",
+                "and the other is a free ability boost."
+            ],
+            "backgroundText": [
+                "Hermean Heritor",
+                "Background Rare",
+                "With the restrictions on Hermean citizenship lifted, you may have fled the city of Promise or have spent some of your childhood in the company of someone who did.",
+                "You\u00e2\u0080\u0099re trained in the Society skill and the Legal Lore skill.",
+                "You gain the Multilingual skill feat or the Assurance skill feat for Society."
+            ]
+        },
+        {
             "name": "Hermit",
             "link": "https://pf2.d20pfsrd.com/background/hermit/",
             "source": "Pathfinder 2 Core Rulebook",
@@ -651,6 +667,21 @@
             ]
         },
         {
+            "name": "Legendary Parents",
+            "link": "https://pf2.d20pfsrd.com/background/legendary-parents/",
+            "source": "Pathfinder Adventure Path #150: Broken Promises",
+            "ability": [
+                "One must be in Dexterity or Charisma",
+                "and the other is a free ability boost."
+            ],
+            "backgroundText": [
+                "Legendary Parents",
+                "Background Rare",
+                "One or more of your parents were heroes. Others tend to treat you with a bit more respect, or perhaps fear your connections to people of great power.",
+                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Genealogy Lore skill. You gain the Group Coercion skill feat."
+            ]
+        },
+        {
             "name": "Loyalist",
             "link": "https://pf2.d20pfsrd.com/background/loyalist/",
             "source": "Pathfinder Lost Omens World Guide (Second Edition)",
@@ -674,7 +705,7 @@
             ],
             "backgroundText": [
                 "You have suffered as a worker, laboring under harsh conditions in dangerous wooded regions.",
-                "You\u2019re trained in the Athletics skill and the Forest Lore skill.",
+                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Forest Lore skill.",
                 "You gain the Assurance skill feat with Athletics."
             ]
         },
@@ -701,7 +732,7 @@
             ],
             "backgroundText": [
                 "At least one of your parents is a member of the notorious Crimson assassins, merciless killers for hire who rarely fail to claim their marks. Whether on purpose or by simple exposure, you were trained from a young age in the art of stalking and killing people.",
-                "You\u2019re trained in the Stealth skill and the Assassin Lore skill.",
+                "You\u00e2\u0080\u0099re trained in the Stealth skill and the Assassin Lore skill.",
                 "You gain the Assurance skill feat with Stealth."
             ]
         },
@@ -784,7 +815,7 @@
             ],
             "backgroundText": [
                 "Your initiations grant you a preternatural comprehension of the arcane underpinnings of existence.",
-                "You\u2019re trained in the Arcana skill and a Lore skill related to one plane of your choice (other than the Material Plane). You gain the Arcane Sense skill feat."
+                "You\u00e2\u0080\u0099re trained in the Arcana skill and a Lore skill related to one plane of your choice (other than the Material Plane). You gain the Arcane Sense skill feat."
             ]
         },
         {
@@ -946,8 +977,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You\u2019ve spent enough time buying and selling ancient or unusual items to give you an instinctive ability to quickly sort valuable trinkets from worthless baubles.",
-                "You\u2019re trained in the Arcana skill and the Mercantile Lore skill. You gain the Quick Identification skill feat."
+                "You\u00e2\u0080\u0099ve spent enough time buying and selling ancient or unusual items to give you an instinctive ability to quickly sort valuable trinkets from worthless baubles.",
+                "You\u00e2\u0080\u0099re trained in the Arcana skill and the Mercantile Lore skill. You gain the Quick Identification skill feat."
             ]
         },
         {
@@ -978,6 +1009,19 @@
             ]
         },
         {
+            "name": "Raised By Belief",
+            "link": "https://pf2.d20pfsrd.com/background/raised-by-belief/",
+            "source": "Pathfinder Lost Omens Gods & Magic (Second Edition)",
+            "ability": [
+                "One boost must be to an ability specified in the Divine Ability entry for your deity",
+                "and one is a free ability boost."
+            ],
+            "backgroundText": [
+                "Whether in a monastery, a religious household, or just as part of your everyday life, your upbringing was steeped in the traditions of a faith or philosophy. You might remain committed or you may have turned from your childhood creed, but your skills are still founded in your devotion.",
+                "You\u00e2\u0080\u0099re trained in your deity\u00e2\u0080\u0099s associated skill, and you gain Assurance with that skill. You gain a Lore skill with a subcategory associated with your deity (Abadar Lore, for instance)."
+            ]
+        },
+        {
             "name": "Rancher",
             "link": "https://pf2.d20pfsrd.com/background/rancher/",
             "source": "Pathfinder Lost Omens World Guide (Second Edition)",
@@ -1000,7 +1044,7 @@
             ],
             "backgroundText": [
                 "You may have helped liberate a nation, or you might be involved in another rebellion.",
-                "You\u2019re trained in the Society skill and a Regional Lore skill. You gain the Streetwise skill feat."
+                "You\u00e2\u0080\u0099re trained in the Society skill and a Regional Lore skill. You gain the Streetwise skill feat."
             ]
         },
         {
@@ -1109,7 +1153,7 @@
             ],
             "backgroundText": [
                 "Whether willing or unwilling, you have been involved in the many cutthroat political intrigues. You might have been born into it as a member of the aristocracy, or you might have taken an active role in recent events.",
-                "You\u2019re trained in the Diplomacy skill and the Politics Lore skill. You gain the Hobnobber skill feat."
+                "You\u00e2\u0080\u0099re trained in the Diplomacy skill and the Politics Lore skill. You gain the Hobnobber skill feat."
             ]
         },
         {
@@ -1149,8 +1193,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "Your family has long been associated with an enigmatic death cult. Whether or not you have followed in their footsteps, you know many of the philosophy\u2019s secrets.",
-                "You\u2019re trained in the Religion skill and the Undead Lore skill. You gain the Student of the Canon skill feat."
+                "Your family has long been associated with an enigmatic death cult. Whether or not you have followed in their footsteps, you know many of the philosophy\u00e2\u0080\u0099s secrets.",
+                "You\u00e2\u0080\u0099re trained in the Religion skill and the Undead Lore skill. You gain the Student of the Canon skill feat."
             ]
         },
         {
@@ -1181,6 +1225,20 @@
             ]
         },
         {
+            "name": "Seeker",
+            "link": "https://pf2.d20pfsrd.com/background/seeker/",
+            "source": "Pathfinder Adventure Path #150: Broken Promises",
+            "ability": [
+                "One must be in Intelligence or Wisdom",
+                "and the other is a free ability boost."
+            ],
+            "backgroundText": [
+                "Seeker",
+                "Background Rare",
+                "You\u00e2\u0080\u0099re trained in the Arcana skill and the Portal Lore skill. You gain the Quick Identification skill feat."
+            ]
+        },
+        {
             "name": "Shadow Haunted",
             "link": "https://pf2.d20pfsrd.com/background/shadow-haunted/",
             "source": "Pathfinder Lost Omens World Guide (Second Edition)",
@@ -1190,7 +1248,7 @@
             ],
             "backgroundText": [
                 "A dark entity has a claim on your soul due to an ancient pact.",
-                "You\u2019re trained in the Intimidation skill and the Shadow Plane Lore skill. You gain the Quick Coercion skill feat."
+                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Shadow Plane Lore skill. You gain the Quick Coercion skill feat."
             ]
         },
         {
@@ -1313,6 +1371,21 @@
             ]
         },
         {
+            "name": "Touched By Dragons",
+            "link": "https://pf2.d20pfsrd.com/background/touched-by-dragons/",
+            "source": "Pathfinder Adventure Path #150: Broken Promises",
+            "ability": [
+                "One must be in Strength or Charisma",
+                "and the other is a free ability boost."
+            ],
+            "backgroundText": [
+                "Touched By Dragons",
+                "Background Rare",
+                "A shard of a dragon god\u00e2\u0080\u0099s wrathful nature infused you, resulting in a violent temper, strange apocalyptic dreams, an obsession with dragon hunting, or some other touch of his influence.",
+                "You\u00e2\u0080\u0099re trained in the Athletics skill and the Dragon Lore skill. You gain the Titan Wrestler skill feat."
+            ]
+        },
+        {
             "name": "Trade Consortium Underling",
             "link": "https://pf2.d20pfsrd.com/background/trade-consortium-underling/",
             "source": "Pathfinder Lost Omens World Guide (Second Edition)",
@@ -1322,7 +1395,7 @@
             ],
             "backgroundText": [
                 "Your experience as a ledger-keeper for a trade guild has made you a canny investor and shrewd entrepreneur.",
-                "You\u2019re trained in the Society skill and the Business Lore skill.",
+                "You\u00e2\u0080\u0099re trained in the Society skill and the Business Lore skill.",
                 "You gain the Experienced Professional skill feat."
             ]
         },
@@ -1362,8 +1435,8 @@
                 "and one is a free ability boost."
             ],
             "backgroundText": [
-                "You believe the various city-states should be united into one nation under the rule of your home city, and you\u2019re willing to do whatever it takes to make it happen.",
-                "You\u2019re trained in the Intimidation skill and the Politics Lore skill. You gain the Quick Coercion skill feat."
+                "You believe the various city-states should be united into one nation under the rule of your home city, and you\u00e2\u0080\u0099re willing to do whatever it takes to make it happen.",
+                "You\u00e2\u0080\u0099re trained in the Intimidation skill and the Politics Lore skill. You gain the Quick Coercion skill feat."
             ]
         },
         {

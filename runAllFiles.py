@@ -22,8 +22,12 @@ if my_file.is_file():
 
 for fileName in pf2Files:
     if fileName not in processedFiles:
-        exec(open(fileName).read())
-        processedFiles.append(fileName)
+        try:
+            print("Processing File:", fileName)
+            exec(open(fileName).read())
+            processedFiles.append(fileName)
+        except Exception as e:
+            print("Error processing file:", fileName, "Exception,", e)
     
 
 

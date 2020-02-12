@@ -1,547 +1,810 @@
 {
     "name": "Pathfinder 2.0 marterial list",
-    "date": "September 27, 2019",
-    "material": [{
-        "name": "Cold Iron",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "Low-grade",
-                "hardness": "5",
-                "hp": "20",
-                "bt": "10"
-            }, {
-                "name": "Standard-grade",
-                "hardness": "7",
-                "hp": "28",
-                "bt": "14"
-            }, {
-                "name": "High-grade",
-                "hardness": "10",
-                "hp": "40",
-                "bt": "20"
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "Low-grade",
-                "hardness": "9",
-                "hp": "36",
-                "bt": "18"
-            }, {
-                "name": "Standard-grade",
-                "hardness": "11",
-                "hp": "44",
-                "bt": "22"
-            }, {
-                "name": "High-grade",
-                "hardness": "14",
-                "hp": "56",
-                "bt": "28"
-            }]
-        }, {
-            "name": "Structure",
-            "specs": [{
-                "name": "Low-grade",
-                "hardness": "18",
-                "hp": "72",
-                "bt": "36"
-            }, {
-                "name": "Standard-grade",
-                "hardness": "22",
-                "hp": "88",
-                "bt": "44"
-            }, {
-                "name": "High-grade",
-                "hardness": "28",
-                "hp": "112",
-                "bt": "56"
-            }]
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
-            "source": "Core Rulebook pg. 578",
-            "name": "Cold Iron Chunk",
-            "Price": " 10 gp",
-            "Bulk": " L",
-            "text": ["Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
-            "name": "Cold Iron Ingot",
-            "source": "Core Rulebook pg. 578",
-            "Price": " 100 gp",
-            "Bulk": " 1",
-            "text": ["Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
-            "name": "Cold Iron Object (Low-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 2; ",
-            "Price": " 20 gp (per Bulk)",
-            "text": ["Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
-            "name": "Cold Iron Object (Standard-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 7; ",
-            "Price": " 250 gp (per Bulk)",
-            "text": ["Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
-            "name": "Cold Iron Object (High-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 15; ",
-            "Price": " 4,500 gp (per Bulk)",
-            "traits": ["Precious"],
-            "text": ["Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."]
-        }],
-        "category": "material"
-    }, {
-        "name": "Silver",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "Low-grade",
-                "hardness": "3",
-                "hp": "12",
-                "bt": "6"
-            }, {
-                "name": "Standard-grade",
-                "hardness": "5",
-                "hp": "20",
-                "bt": "10"
-            }, {
-                "name": "High-grade",
-                "hardness": "8",
-                "hp": "32",
-                "bt": "16"
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "Low-grade",
-                "hardness": "5",
-                "hp": "20",
-                "bt": "10"
-            }, {
-                "name": "Standard-grade",
-                "hardness": "7",
-                "hp": "28",
-                "bt": "14"
-            }, {
-                "name": "High-grade",
-                "hardness": "10",
-                "hp": "40",
-                "bt": "20"
-            }]
-        }, {
-            "name": "Structure",
-            "specs": [{
-                "name": "Low-grade",
-                "hardness": "10",
-                "hp": "40",
-                "bt": "20"
-            }, {
-                "name": "Standard-grade",
-                "hardness": "14",
-                "hp": "56",
-                "bt": "28"
-            }, {
-                "name": "High-grade",
-                "hardness": "20",
-                "hp": "80",
-                "bt": "40"
-            }]
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
-            "source": "Core Rulebook pg. 579",
-            "name": "Silver Chunk",
-            "Price": " 10 gp",
-            "Bulk": " L",
-            "text": ["Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
-            "name": "Silver Ingot",
-            "source": "Core Rulebook pg. 579",
-            "Price": " 100 gp",
-            "Bulk": " 1",
-            "text": ["Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
-            "name": "Silver Object (Low-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 2; ",
-            "Price": " 20 gp (per Bulk)",
-            "text": ["Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
-            "name": "Silver Object (Standard-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 7; ",
-            "Price": " 250 gp (per Bulk)",
-            "text": ["Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "],
-            "traits": ["Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
-            "name": "Silver Object (High-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 15; ",
-            "Price": " 4,500 gp (per Bulk)",
-            "traits": ["Precious"],
-            "text": ["Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "]
-        }],
-        "category": "material"
-    }, {
-        "name": "Mithral",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "5",
-                "hp": "20",
-                "bt": "10"
-            }, {
-                "name": "High-grade",
-                "hardness": "8",
-                "hp": "32",
-                "bt": "16"
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "9",
-                "hp": "36",
-                "bt": "18"
-            }, {
-                "name": "High-grade",
-                "hardness": "12",
-                "hp": "48",
-                "bt": "24"
-            }]
-        }, {
-            "name": "Structure",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "18",
-                "hp": "72",
-                "bt": "36"
-            }, {
-                "name": "High-grade",
-                "hardness": "24",
-                "hp": "96",
-                "bt": "48"
-            }]
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
-            "source": "Core Rulebook pg. 579",
-            "name": "Mithral Chunk",
-            "Price": " 50 gp",
-            "Bulk": " L",
-            "text": ["Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
-            "name": "Mithral Ingot",
-            "source": "Core Rulebook pg. 579",
-            "Price": " 500 gp",
-            "Bulk": " 1",
-            "text": ["Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
-            "name": "Mithral Object (Low-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 8; ",
-            "Price": " 350 gp (per Bulk)",
-            "text": ["Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
-            "name": "Mithral Object (High-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 16; ",
-            "Price": " 6,000 gp (per Bulk)",
-            "traits": ["Uncommon", "Precious"],
-            "text": ["Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."]
-        }],
-        "category": "material"
-    }, {
-        "name": "Adamantine",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "10",
-                "hp": "40",
-                "bt": "20"
-            }, {
-                "name": "High-grade",
-                "hardness": "13",
-                "hp": "52",
-                "bt": "26"
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "14",
-                "hp": "56",
-                "bt": "28"
-            }, {
-                "name": "High-grade",
-                "hardness": "17",
-                "hp": "68",
-                "bt": "34"
-            }]
-        }, {
-            "name": "Structure",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "28",
-                "hp": "112",
-                "bt": "56"
-            }, {
-                "name": "High-grade",
-                "hardness": "34",
-                "hp": "136",
-                "bt": "68"
-            }]
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
-            "source": "Core Rulebook pg. 578",
-            "name": "Adamantine Chunk",
-            "Price": " 500 gp",
-            "Bulk": " L",
-            "text": ["Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
-            "name": "Adamantine Ingot",
-            "source": "Core Rulebook pg. 578",
-            "Price": " 5,000 gp",
-            "Bulk": " 1",
-            "text": ["Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
-            "name": "Adamantine Object (Standard-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 8; ",
-            "Price": " 350 gp (per Bulk)",
-            "text": ["Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
-            "name": "Adamantine Object (High-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 16; ",
-            "Price": " 6,000 gp (per Bulk)",
-            "traits": ["Uncommon", "Precious"],
-            "text": ["Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."]
-        }],
-        "category": "material"
-    }, {
-        "name": "Darkwood",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "5",
-                "hp": "",
-                "bt": ""
-            }, {
-                "name": "High-grade",
-                "hardness": "8",
-                "hp": "",
-                "bt": ""
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "7",
-                "hp": "28",
-                "bt": "14"
-            }, {
-                "name": "High-grade",
-                "hardness": "10",
-                "hp": "40",
-                "bt": "20"
-            }]
-        }, {
-            "name": "Structure",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "14",
-                "hp": "56",
-                "bt": "28"
-            }, {
-                "name": "High-grade",
-                "hardness": "20",
-                "hp": "80",
-                "bt": "40"
-            }]
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
-            "source": "Core Rulebook pg. 578",
-            "name": "Darkwood Branch",
-            "Price": " 500 gp",
-            "Bulk": " L",
-            "text": ["Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
-            "name": "Darkwood Lumber",
-            "source": "Core Rulebook pg. 578",
-            "Price": " 5,000 gp",
-            "Bulk": " 1",
-            "text": ["Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
-            "name": "Darkwood Object (Standard-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 8; ",
-            "Price": " 350 gp (per Bulk)",
-            "text": ["Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
-            "name": "Darkwood Object (High-Grade)",
-            "source": "Core Rulebook pg. 578",
-            "Level": " 16; ",
-            "Price": " 6,000 gp (per Bulk)",
-            "traits": ["Uncommon", "Precious"],
-            "text": ["Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."]
-        }],
-        "category": "material"
-    }, {
-        "name": "Orichalcum",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "High-grade",
-                "hardness": "16",
-                "hp": "64",
-                "bt": "32"
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "High-grade",
-                "hardness": "18",
-                "hp": "72",
-                "bt": "36"
-            }]
-        }, {
-            "name": "Structure",
-            "specs": [{
-                "name": "High-grade",
-                "hardness": "35",
-                "hp": "140",
-                "bt": "70"
-            }]
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=276",
-            "source": "Core Rulebook pg. 579",
-            "name": "Orichalcum Chunk",
-            "Price": " 1,000 gp",
-            "Bulk": " L",
-            "text": ["The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn\u2019t as physically sturdy as adamantine, but orichalcum\u2019s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn\u2019t destroyed, it repairs itself completely 24 hours later."],
-            "traits": ["Rare", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=276",
-            "name": "Orichalcum Ingot",
-            "source": "Core Rulebook pg. 579",
-            "Price": " 10,000 gp",
-            "Bulk": " 1",
-            "text": ["The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn\u2019t as physically sturdy as adamantine, but orichalcum\u2019s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn\u2019t destroyed, it repairs itself completely 24 hours later."],
-            "traits": ["Rare", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=276",
-            "name": "Orichalcum Object (High-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 17; ",
-            "Price": " 1,000 gp (per Bulk)",
-            "traits": ["Rare", "Precious"],
-            "text": ["The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn\u2019t as physically sturdy as adamantine, but orichalcum\u2019s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn\u2019t destroyed, it repairs itself completely 24 hours later."]
-        }],
-        "category": "material"
-    }, {
-        "name": "Dragonhide",
-        "stats": [{
-            "name": "Thin Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "4",
-                "hp": "16",
-                "bt": "8"
-            }, {
-                "name": "High-grade",
-                "hardness": "8",
-                "hp": "32",
-                "bt": "16"
-            }]
-        }, {
-            "name": "Items",
-            "specs": [{
-                "name": "Standard-grade",
-                "hardness": "7",
-                "hp": "28",
-                "bt": "14"
-            }, {
-                "name": "High-grade",
-                "hardness": "11",
-                "hp": "44",
-                "bt": "22"
-            }]
-        }],
-        "armorStats": [{
-            "type": "Black or copper",
-            "resistance": "Acid"
-        }, {
-            "type": "Blue or bronze",
-            "resistance": "Electricity"
-        }, {
-            "type": "Brass, gold, or red",
-            "resistance": "Fire"
-        }, {
-            "type": "Green",
-            "resistance": "Poison"
-        }, {
-            "type": "Silver or white",
-            "resistance": "Cold"
-        }],
-        "itemList": [{
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=274",
-            "source": "Core Rulebook pg. 579",
-            "name": "Dragonhide Object (Standard-Grade)",
-            "Level": " 8; ",
-            "Price": " 350 gp (per Bulk)",
-            "text": ["The hide and scales of a dragon can be used to Craft any item normally made of ordinary leather or hide. Dragonhide varies in color from blue to glittering gold, depending on the dragon it came from. Due to the scales\u2019 resiliency, it can also be used to Craft armor usually made out of metal plates (such as a breastplate, half plate, and full plate), allowing such armor to be made without metal. Dragonhide objects are immune to one damage type, depending on the type of dragon."],
-            "traits": ["Uncommon", "Precious"]
-        }, {
-            "link": "https://2e.aonprd.com/Equipment.aspx?ID=274",
-            "name": "Dragonhide Object (High-Grade)",
-            "source": "Core Rulebook pg. 579",
-            "Level": " 16; ",
-            "Price": " 6,000 gp (per Bulk)",
-            "traits": ["Uncommon", "Precious"],
-            "text": ["The hide and scales of a dragon can be used to Craft any item normally made of ordinary leather or hide. Dragonhide varies in color from blue to glittering gold, depending on the dragon it came from. Due to the scales\u2019 resiliency, it can also be used to Craft armor usually made out of metal plates (such as a breastplate, half plate, and full plate), allowing such armor to be made without metal. Dragonhide objects are immune to one damage type, depending on the type of dragon."]
-        }],
-        "category": "material"
-    }]
+    "date": "February 11, 2020",
+    "material": [
+        {
+            "name": "Cold Iron",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "Low-grade",
+                            "hardness": "5",
+                            "hp": "20",
+                            "bt": "10"
+                        },
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "7",
+                            "hp": "28",
+                            "bt": "14"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "10",
+                            "hp": "40",
+                            "bt": "20"
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "Low-grade",
+                            "hardness": "9",
+                            "hp": "36",
+                            "bt": "18"
+                        },
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "11",
+                            "hp": "44",
+                            "bt": "22"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "14",
+                            "hp": "56",
+                            "bt": "28"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structure",
+                    "specs": [
+                        {
+                            "name": "Low-grade",
+                            "hardness": "18",
+                            "hp": "72",
+                            "bt": "36"
+                        },
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "22",
+                            "hp": "88",
+                            "bt": "44"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "28",
+                            "hp": "112",
+                            "bt": "56"
+                        }
+                    ]
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
+                    "source": "Core Rulebook pg. 578",
+                    "name": " Cold Iron Chunk",
+                    "Price": " 10 gp",
+                    "Bulk": " L",
+                    "text": [
+                        "Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
+                    "name": " Cold Iron Ingot",
+                    "source": "Core Rulebook pg. 578",
+                    "Price": " 100 gp",
+                    "Bulk": " 1",
+                    "text": [
+                        "Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
+                    "name": " Cold Iron Object (Low-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 2; ",
+                    "Price": " 20 gp (per Bulk)",
+                    "text": [
+                        "Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
+                    "name": " Cold Iron Object (Standard-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 7; ",
+                    "Price": " 250 gp (per Bulk)",
+                    "text": [
+                        "Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=272",
+                    "name": " Cold Iron Object (High-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 15; ",
+                    "Price": " 4,500 gp (per Bulk)",
+                    "traits": [
+                        "Precious"
+                    ],
+                    "text": [
+                        "Weapons made from cold iron are deadly to demons and fey alike. Cold iron looks like normal iron but is mined from particularly pure sources and shaped with little or no heat. This process is extremely difficult, especially for high-grade cold iron items."
+                    ]
+                }
+            ],
+            "category": "material"
+        },
+        {
+            "name": "Silver",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "Low-grade",
+                            "hardness": "3",
+                            "hp": "12",
+                            "bt": "6"
+                        },
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "5",
+                            "hp": "20",
+                            "bt": "10"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "8",
+                            "hp": "32",
+                            "bt": "16"
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "Low-grade",
+                            "hardness": "5",
+                            "hp": "20",
+                            "bt": "10"
+                        },
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "7",
+                            "hp": "28",
+                            "bt": "14"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "10",
+                            "hp": "40",
+                            "bt": "20"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structure",
+                    "specs": [
+                        {
+                            "name": "Low-grade",
+                            "hardness": "10",
+                            "hp": "40",
+                            "bt": "20"
+                        },
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "14",
+                            "hp": "56",
+                            "bt": "28"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "20",
+                            "hp": "80",
+                            "bt": "40"
+                        }
+                    ]
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
+                    "source": "Core Rulebook pg. 579",
+                    "name": " Silver Chunk",
+                    "Price": " 10 gp",
+                    "Bulk": " L",
+                    "text": [
+                        "Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
+                    "name": " Silver Ingot",
+                    "source": "Core Rulebook pg. 579",
+                    "Price": " 100 gp",
+                    "Bulk": " 1",
+                    "text": [
+                        "Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
+                    "name": " Silver Object (Low-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 2; ",
+                    "Price": " 20 gp (per Bulk)",
+                    "text": [
+                        "Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
+                    "name": " Silver Object (Standard-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 7; ",
+                    "Price": " 250 gp (per Bulk)",
+                    "text": [
+                        "Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "
+                    ],
+                    "traits": [
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=277",
+                    "name": " Silver Object (High-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 15; ",
+                    "Price": " 4,500 gp (per Bulk)",
+                    "traits": [
+                        "Precious"
+                    ],
+                    "text": [
+                        "Silver weapons are a bane to creatures ranging from devils to werewolves. Silver items are less durable than steel items, and low-grade silver items are usually merely silver-plated. "
+                    ]
+                }
+            ],
+            "category": "material"
+        },
+        {
+            "name": "Mithral",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "5",
+                            "hp": "20",
+                            "bt": "10"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "8",
+                            "hp": "32",
+                            "bt": "16"
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "9",
+                            "hp": "36",
+                            "bt": "18"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "12",
+                            "hp": "48",
+                            "bt": "24"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structure",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "18",
+                            "hp": "72",
+                            "bt": "36"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "24",
+                            "hp": "96",
+                            "bt": "48"
+                        }
+                    ]
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
+                    "source": "Core Rulebook pg. 579",
+                    "name": " Mithral Chunk",
+                    "Price": " 50 gp",
+                    "Bulk": " L",
+                    "text": [
+                        "Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
+                    "name": " Mithral Ingot",
+                    "source": "Core Rulebook pg. 579",
+                    "Price": " 500 gp",
+                    "Bulk": " 1",
+                    "text": [
+                        "Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
+                    "name": " Mithral Object (Low-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 8; ",
+                    "Price": " 350 gp (per Bulk)",
+                    "text": [
+                        "Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=275",
+                    "name": " Mithral Object (High-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 16; ",
+                    "Price": " 6,000 gp (per Bulk)",
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ],
+                    "text": [
+                        "Mithral is renowned for its lightness, durability, and effectiveness against a range of creatures including devils and lycanthropes. It has the same sheen as silver but a slightly lighter hue. Mithral weapons and armor are treated as if they were silver for the purpose of damaging creatures with weakness to silver. A metal item made of mithral is lighter than one made of iron or steel: the item\u2019s Bulk is reduced by 1 (reduced to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of this material is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of mithral, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ]
+                }
+            ],
+            "category": "material"
+        },
+        {
+            "name": "Adamantine",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "10",
+                            "hp": "40",
+                            "bt": "20"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "13",
+                            "hp": "52",
+                            "bt": "26"
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "14",
+                            "hp": "56",
+                            "bt": "28"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "17",
+                            "hp": "68",
+                            "bt": "34"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structure",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "28",
+                            "hp": "112",
+                            "bt": "56"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "34",
+                            "hp": "136",
+                            "bt": "68"
+                        }
+                    ]
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
+                    "source": "Core Rulebook pg. 578",
+                    "name": " Adamantine Chunk",
+                    "Price": " 500 gp",
+                    "Bulk": " L",
+                    "text": [
+                        "Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
+                    "name": " Adamantine Ingot",
+                    "source": "Core Rulebook pg. 578",
+                    "Price": " 5,000 gp",
+                    "Bulk": " 1",
+                    "text": [
+                        "Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
+                    "name": " Adamantine Object (Standard-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 8; ",
+                    "Price": " 350 gp (per Bulk)",
+                    "text": [
+                        "Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=271",
+                    "name": " Adamantine Object (High-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 16; ",
+                    "Price": " 6,000 gp (per Bulk)",
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ],
+                    "text": [
+                        "Mined from rocks that fell from the heavens, adamantine is one of the hardest metals known. It has a shiny, black appearance, and it is prized for its amazing resiliency and ability to hold an incredibly sharp edge."
+                    ]
+                }
+            ],
+            "category": "material"
+        },
+        {
+            "name": "Darkwood",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "5",
+                            "hp": "",
+                            "bt": ""
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "8",
+                            "hp": "",
+                            "bt": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "7",
+                            "hp": "28",
+                            "bt": "14"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "10",
+                            "hp": "40",
+                            "bt": "20"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structure",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "14",
+                            "hp": "56",
+                            "bt": "28"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "20",
+                            "hp": "80",
+                            "bt": "40"
+                        }
+                    ]
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
+                    "source": "Core Rulebook pg. 578",
+                    "name": " Darkwood Branch",
+                    "Price": " 500 gp",
+                    "Bulk": " L",
+                    "text": [
+                        "Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
+                    "name": " Darkwood Lumber",
+                    "source": "Core Rulebook pg. 578",
+                    "Price": " 5,000 gp",
+                    "Bulk": " 1",
+                    "text": [
+                        "Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
+                    "name": " Darkwood Object (Standard-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 8; ",
+                    "Price": " 350 gp (per Bulk)",
+                    "text": [
+                        "Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=273",
+                    "name": " Darkwood Object (High-Grade)",
+                    "source": "Core Rulebook pg. 578",
+                    "Level": " 16; ",
+                    "Price": " 6,000 gp (per Bulk)",
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ],
+                    "text": [
+                        "Darkwood is a very lightweight wood found primarily in old-growth forests in south-central Avistan; it is dark as ebony but has a slight purple tint. A darkwood item\u2019s Bulk is reduced by 1 (or to light Bulk if its normal Bulk is 1, with no effect on an item that normally has light Bulk). The Price of an item made of darkwood is based on the item\u2019s normal Bulk, not its reduced Bulk for being made of darkwood, but reduce the Bulk before making any further Bulk adjustments for the size of the item."
+                    ]
+                }
+            ],
+            "category": "material"
+        },
+        {
+            "name": "Orichalcum",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "High-grade",
+                            "hardness": "16",
+                            "hp": "64",
+                            "bt": "32"
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "High-grade",
+                            "hardness": "18",
+                            "hp": "72",
+                            "bt": "36"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structure",
+                    "specs": [
+                        {
+                            "name": "High-grade",
+                            "hardness": "35",
+                            "hp": "140",
+                            "bt": "70"
+                        }
+                    ]
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=276",
+                    "source": "Core Rulebook pg. 579",
+                    "name": " Orichalcum Chunk",
+                    "Price": " 1,000 gp",
+                    "Bulk": " L",
+                    "text": [
+                        "The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn\u2019t as physically sturdy as adamantine, but orichalcum\u2019s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn\u2019t destroyed, it repairs itself completely 24 hours later."
+                    ],
+                    "traits": [
+                        "Rare",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=276",
+                    "name": " Orichalcum Ingot",
+                    "source": "Core Rulebook pg. 579",
+                    "Price": " 10,000 gp",
+                    "Bulk": " 1",
+                    "text": [
+                        "The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn\u2019t as physically sturdy as adamantine, but orichalcum\u2019s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn\u2019t destroyed, it repairs itself completely 24 hours later."
+                    ],
+                    "traits": [
+                        "Rare",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=276",
+                    "name": " Orichalcum Object (High-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 17; ",
+                    "Price": " 1,000 gp (per Bulk)",
+                    "traits": [
+                        "Rare",
+                        "Precious"
+                    ],
+                    "text": [
+                        "The most rare and valuable skymetal, orichalcum is coveted for its incredible time-related magical properties. This dull, coppery metal isn\u2019t as physically sturdy as adamantine, but orichalcum\u2019s time-bending properties protect it, granting it greater Hardness and Hit Points. If an orichalcum item takes damage but isn\u2019t destroyed, it repairs itself completely 24 hours later."
+                    ]
+                }
+            ],
+            "category": "material"
+        },
+        {
+            "name": "Dragonhide",
+            "stats": [
+                {
+                    "name": "Thin Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "4",
+                            "hp": "16",
+                            "bt": "8"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "8",
+                            "hp": "32",
+                            "bt": "16"
+                        }
+                    ]
+                },
+                {
+                    "name": "Items",
+                    "specs": [
+                        {
+                            "name": "Standard-grade",
+                            "hardness": "7",
+                            "hp": "28",
+                            "bt": "14"
+                        },
+                        {
+                            "name": "High-grade",
+                            "hardness": "11",
+                            "hp": "44",
+                            "bt": "22"
+                        }
+                    ]
+                }
+            ],
+            "armorStats": [
+                {
+                    "type": "Black or copper",
+                    "resistance": "Acid"
+                },
+                {
+                    "type": "Blue or bronze",
+                    "resistance": "Electricity"
+                },
+                {
+                    "type": "Brass, gold, or red",
+                    "resistance": "Fire"
+                },
+                {
+                    "type": "Green",
+                    "resistance": "Poison"
+                },
+                {
+                    "type": "Silver or white",
+                    "resistance": "Cold"
+                }
+            ],
+            "itemList": [
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=274",
+                    "source": "Core Rulebook pg. 579",
+                    "name": " Dragonhide Object (Standard-Grade)",
+                    "Level": " 8; ",
+                    "Price": " 350 gp (per Bulk)",
+                    "text": [
+                        "The hide and scales of a dragon can be used to Craft any item normally made of ordinary leather or hide. Dragonhide varies in color from blue to glittering gold, depending on the dragon it came from. Due to the scales\u2019 resiliency, it can also be used to Craft armor usually made out of metal plates (such as a breastplate, half plate, and full plate), allowing such armor to be made without metal. Dragonhide objects are immune to one damage type, depending on the type of dragon."
+                    ],
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ]
+                },
+                {
+                    "link": "https://2e.aonprd.com/Equipment.aspx?ID=274",
+                    "name": " Dragonhide Object (High-Grade)",
+                    "source": "Core Rulebook pg. 579",
+                    "Level": " 16; ",
+                    "Price": " 6,000 gp (per Bulk)",
+                    "traits": [
+                        "Uncommon",
+                        "Precious"
+                    ],
+                    "text": [
+                        "The hide and scales of a dragon can be used to Craft any item normally made of ordinary leather or hide. Dragonhide varies in color from blue to glittering gold, depending on the dragon it came from. Due to the scales\u2019 resiliency, it can also be used to Craft armor usually made out of metal plates (such as a breastplate, half plate, and full plate), allowing such armor to be made without metal. Dragonhide objects are immune to one damage type, depending on the type of dragon."
+                    ]
+                }
+            ],
+            "category": "material"
+        }
+    ]
 }

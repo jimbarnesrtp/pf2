@@ -1,249 +1,367 @@
 {
     "name": "Pathfinder 2.0 services list",
-    "date": "September 24, 2019",
-    "services": [{
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
-        "source": "Core Rulebook pg. 294",
-        "name": "Beverages (Mug of Ale)",
-        "Price": " 1 cp",
-        "Hands": " 1; ",
-        "Bulk": " L",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
-        "name": "Beverages (Keg of Ale)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 2 sp",
-        "Hands": " 2; ",
-        "Bulk": " 2",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
-        "name": "Beverages (Pot of Coffee or Tea)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 2 cp",
-        "Hands": " 1; ",
-        "Bulk": " L",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
-        "name": "Beverages (Bottle of Wine)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 1 sp",
-        "Hands": " 1; ",
-        "Bulk": " L",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
-        "name": "Beverages (Bottle of Fine Wine)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 1 gp",
-        "Hands": " 1; ",
-        "Bulk": " L",
-        "traits": [],
-        "text": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=69",
-        "source": "Core Rulebook pg. 294",
-        "name": "Meal (Poor)",
-        "Price": " 1 cp",
-        "Hands": " 2; ",
-        "Bulk": " L",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=69",
-        "name": "Meal (Square)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 3 cp",
-        "Hands": " 2; ",
-        "Bulk": " L",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=69",
-        "name": "Meal (Fine Dining)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 1 gp",
-        "Hands": " 2; ",
-        "Bulk": " L",
-        "traits": [],
-        "text": [],
-        "category": "service"
-    }, {
-        "traits": [],
-        "name": "Toll",
-        "text": [],
-        "source": "Core Rulebook pg. 294",
-        "Price": " 1 cp"
-    }, {
-        "traits": [],
-        "name": "Stabling",
-        "text": [],
-        "source": "Core Rulebook pg. 294",
-        "Price": " 2 cp"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
-        "source": "Core Rulebook pg. 294",
-        "name": "Lodging (Floor Space)",
-        "Price": " 3 cp",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
-        "name": "Lodging (Bed)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 1 sp",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
-        "name": "Lodging (Private Room)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 8 sp",
-        "text": [],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
-        "name": "Lodging (Extravagent Suite)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 10 gp",
-        "traits": [],
-        "text": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=67",
-        "source": "Core Rulebook pg. 294",
-        "name": "Hireling (Unskilled)",
-        "Price": " 1 sp",
-        "text": ["Paid laborers can provide services for you. Unskilled hirelings can perform simple manual labor and are untrained at most skills. Skilled hirelings have expert proficiency in a particular skill. Hirelings are level 0. If a skill check is needed, an untrained hireling has a +0 modifier, while a skilled hireling has a +4 modifier in their area of expertise and +0 for other skill checks. Hirelings\u2019 rates double if they\u2019re going adventuring with you."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=67",
-        "name": "Hireling (Skilled)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 5 sp",
-        "traits": [],
-        "text": ["Paid laborers can provide services for you. Unskilled hirelings can perform simple manual labor and are untrained at most skills. Skilled hirelings have expert proficiency in a particular skill. Hirelings are level 0. If a skill check is needed, an untrained hireling has a +0 modifier, while a skilled hireling has a +4 modifier in their area of expertise and +0 for other skill checks. Hirelings\u2019 rates double if they\u2019re going adventuring with you."],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "source": "Core Rulebook pg. 294",
-        "name": "Spellcasting (1st level)",
-        "Price": " 3 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (2nd level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 7 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (3rd level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 18 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (4th level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 40 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (5th level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 80 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (6th level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 160 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (7th level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 360 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (8th level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 720 gp (plus any cost required to cast the specific spell)",
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
-        "name": "Spellcasting (9th level)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 1,800 gp (plus any cost required to cast the specific spell)",
-        "traits": [],
-        "text": ["Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
-        "source": "Core Rulebook pg. 294",
-        "name": "Transportation (Caravan)",
-        "Price": " 3 cp",
-        "text": ["The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
-        "name": "Transportation (Carriage)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 2 sp",
-        "text": ["The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
-        "name": "Transportation (Ferry or Riverboat)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 4 cp",
-        "text": ["The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."],
-        "traits": [],
-        "category": "service"
-    }, {
-        "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
-        "name": "Transportation (Sailing Ship)",
-        "source": "Core Rulebook pg. 294",
-        "Price": " 6 cp",
-        "traits": [],
-        "text": ["The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."],
-        "category": "service"
-    }]
+    "date": "February 11, 2020",
+    "services": [
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
+            "source": "Core Rulebook pg. 294",
+            "name": " Beverages (Mug of Ale)",
+            "Price": " 1 cp",
+            "Hands": " 1; ",
+            "Bulk": " L",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
+            "name": " Beverages (Keg of Ale)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 2 sp",
+            "Hands": " 2; ",
+            "Bulk": " 2",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
+            "name": " Beverages (Pot of Coffee or Tea)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 2 cp",
+            "Hands": " 1; ",
+            "Bulk": " L",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
+            "name": " Beverages (Bottle of Wine)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 1 sp",
+            "Hands": " 1; ",
+            "Bulk": " L",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=66",
+            "name": " Beverages (Bottle of Fine Wine)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 1 gp",
+            "Hands": " 1; ",
+            "Bulk": " L",
+            "traits": [],
+            "text": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=69",
+            "source": "Core Rulebook pg. 294",
+            "name": " Meal (Poor)",
+            "Price": " 1 cp",
+            "Hands": " 2; ",
+            "Bulk": " L",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=69",
+            "name": " Meal (Square)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 3 cp",
+            "Hands": " 2; ",
+            "Bulk": " L",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=69",
+            "name": " Meal (Fine Dining)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 1 gp",
+            "Hands": " 2; ",
+            "Bulk": " L",
+            "traits": [],
+            "text": [],
+            "category": "service"
+        },
+        {
+            "traits": [],
+            "name": "Toll",
+            "text": [],
+            "source": "Core Rulebook pg. 294",
+            "Price": " 1 cp"
+        },
+        {
+            "traits": [],
+            "name": "Stabling",
+            "text": [],
+            "source": "Core Rulebook pg. 294",
+            "Price": " 2 cp (per day)"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
+            "source": "Core Rulebook pg. 294",
+            "name": " Lodging (Floor Space)",
+            "Price": " 3 cp (per day)",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
+            "name": " Lodging (Bed)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 1 sp (per day)",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
+            "name": " Lodging (Private Room)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 8 sp (per day)",
+            "text": [],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=68",
+            "name": " Lodging (Extravagant Suite)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 10 gp (per day)",
+            "traits": [],
+            "text": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=67",
+            "source": "Core Rulebook pg. 294",
+            "name": " Hireling (Unskilled)",
+            "Price": " 1 sp (per day)",
+            "text": [
+                "Paid laborers can provide services for you. Unskilled hirelings can perform simple manual labor and are untrained at most skills. Skilled hirelings have expert proficiency in a particular skill. Hirelings are level 0. If a skill check is needed, an untrained hireling has a +0 modifier, while a skilled hireling has a +4 modifier in their area of expertise and +0 for other skill checks. Hirelings\u2019 rates double if they\u2019re going adventuring with you."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=67",
+            "name": " Hireling (Skilled)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 5 sp (per day)",
+            "traits": [],
+            "text": [
+                "Paid laborers can provide services for you. Unskilled hirelings can perform simple manual labor and are untrained at most skills. Skilled hirelings have expert proficiency in a particular skill. Hirelings are level 0. If a skill check is needed, an untrained hireling has a +0 modifier, while a skilled hireling has a +4 modifier in their area of expertise and +0 for other skill checks. Hirelings\u2019 rates double if they\u2019re going adventuring with you."
+            ],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "source": "Core Rulebook pg. 294",
+            "name": " Spellcasting (1st level)",
+            "Price": " 3 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (2nd level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 7 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (3rd level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 18 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (4th level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 40 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (5th level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 80 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (6th level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 160 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (7th level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 360 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (8th level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 720 gp (plus any cost required to cast the specific spell)",
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=73",
+            "name": " Spellcasting (9th level)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 1,800 gp (plus any cost required to cast the specific spell)",
+            "traits": [],
+            "text": [
+                "Spellcasting services, listed on Table 6\u201315, are uncommon. Having a spell cast for you requires finding a spellcaster who knows and is willing to cast it. It\u2019s hard to find someone who can cast higher-level spells, and uncommon spells typically cost at least 100% more, if you can find someone who knows them at all. Spells that take a long time to cast (over 1 minute) usually cost 25% more. You must pay any cost listed in the spell in addition to the Price on the table."
+            ],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
+            "source": "Core Rulebook pg. 294",
+            "name": " Transportation (Caravan)",
+            "Price": " 3 cp (per 5 miles)",
+            "text": [
+                "The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
+            "name": " Transportation (Carriage)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 2 sp (per 5 miles)",
+            "text": [
+                "The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
+            "name": " Transportation (Ferry or Riverboat)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 4 cp (per 5 miles)",
+            "text": [
+                "The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."
+            ],
+            "traits": [],
+            "category": "service"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=72",
+            "name": " Transportation (Sailing Ship)",
+            "source": "Core Rulebook pg. 294",
+            "Price": " 6 cp (per 5 miles)",
+            "traits": [],
+            "text": [
+                "The cost to hire transportation includes standard travel with no amenities. Most transit services provide basic sleeping arrangements, and some provide meals at the rates listed on Table 6\u201314. Arranging transportation into dangerous lands can be more expensive or impossible."
+            ],
+            "category": "service"
+        }
+    ],
+    "animals": [
+        {
+            "name": "Guard Dog",
+            "link": "https://2e.aonprd.com/Monsters.aspx?ID=124",
+            "category": "animal, service",
+            "family": "Dog",
+            "rentalPrice": "1 cp per day",
+            "price": "2 sp"
+        },
+        {
+            "name": "Riding Dog",
+            "link": "https://2e.aonprd.com/Monsters.aspx?ID=125",
+            "category": "animal, service",
+            "family": "Dog",
+            "rentalPrice": "6 cp per day",
+            "price": "4 gp"
+        },
+        {
+            "name": "Pack Animal",
+            "link": "",
+            "category": "animal, service",
+            "family": "Horse",
+            "rentalPrice": "2 cp per day",
+            "price": "2 gp"
+        },
+        {
+            "name": "Riding Horse",
+            "link": "https://2e.aonprd.com/Monsters.aspx?ID=266",
+            "category": "animal, service",
+            "family": "Horse",
+            "rentalPrice": "1 sp per day",
+            "price": "8 gp"
+        },
+        {
+            "name": "Warhorse",
+            "link": "https://2e.aonprd.com/Monsters.aspx?ID=268",
+            "category": "animal, service",
+            "family": "Horse",
+            "rentalPrice": "1 gp per day",
+            "price": "30 gp (level 2)"
+        },
+        {
+            "name": "Riding Pony",
+            "link": "https://2e.aonprd.com/Monsters.aspx?ID=265",
+            "category": "animal, service",
+            "family": "Pony",
+            "rentalPrice": "8 cp per day",
+            "price": "7 gp"
+        },
+        {
+            "name": "Warpony",
+            "link": "https://2e.aonprd.com/Monsters.aspx?ID=267",
+            "category": "animal, service",
+            "family": "Pony",
+            "rentalPrice": "8 sp per day",
+            "price": "24 gp (level 2)"
+        }
+    ]
 }

@@ -1,375 +1,439 @@
 {
     "name": "Pathfinder 2.0 Companion Animal list",
-    "date": "November 19, 2019",
-    "companions": [{
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "name": "Badger",
-        "source": "Core Rulebook pg. 215",
-        "size": "Small",
-        "attacks": [{
-            "text": "jaws,",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }, {
-            "text": "claw (agile),",
-            "actions": "Single Action",
-            "damage": "1d6 slashing"
-        }],
-        "str": "2,",
-        "dex": "2,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "2,",
-        "cha": "0",
-        "hitpoints": "8",
-        "skill": "Survival",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "25 feet, burrow 10 feet, climb 10 feet",
-        "supportbenefit": "Your badger digs around your foe\u2019s position, interfering with its footing. Until the start of your next turn, if you hit and deal damage to a creature your badger threatens, the target can\u2019t use a Step action (unless it can Step through difficult terrain) until it moves from its current position.",
-        "advancedmaneuver": "Badger Rage",
-        "special": {
-            "name": "Badger Rage",
-            "traits": ["Concentrate", "Emotion", "Mental"],
-            "text": "The badger enters a state of pure rage that lasts for 1 minute, until there are no enemies it can perceive, or until it fallsunconscious, whichever comes first. It can\u2019t voluntarily stop raging. While raging, the badger is affected in the following ways.After it has stopped raging, it can\u2019t use Badger Rage again for 1 minute.",
-            "requirements": "The badger isn\u2019tfatiguedor raging."
+    "date": "February 11, 2020",
+    "companions": [
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "name": "Badger",
+            "source": "Core Rulebook pg. 215",
+            "size": "Small",
+            "attacks": [
+                {
+                    "text": "jaws,",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                },
+                {
+                    "text": "claw (agile),",
+                    "actions": "Single Action",
+                    "damage": "1d6 slashing"
+                }
+            ],
+            "str": "2,",
+            "dex": "2,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "2,",
+            "cha": "0",
+            "hitpoints": "8",
+            "skill": "Survival",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "25 feet, burrow 10 feet, climb 10 feet",
+            "supportbenefit": "Your badger digs around your foe\u2019s position, interfering with its footing. Until the start of your next turn, if you hit and deal damage to a creature your badger threatens, the target can\u2019t use a Step action (unless it can Step through difficult terrain) until it moves from its current position.",
+            "advancedmaneuver": "Badger Rage",
+            "special": {
+                "name": "Badger Rage",
+                "traits": [
+                    "Concentrate",
+                    "Emotion",
+                    "Mental"
+                ],
+                "text": "The badger enters a state of pure rage that lasts for 1 minute, until there are no enemies it can perceive, or until it fallsunconscious, whichever comes first. It can\u2019t voluntarily stop raging. While raging, the badger is affected in the following ways.After it has stopped raging, it can\u2019t use Badger Rage again for 1 minute.",
+                "requirements": "The badger isn\u2019tfatiguedor raging."
+            },
+            "text": "Your companion is a badger, wolverine, or other big mustelid."
         },
-        "text": "Your companion is a badger, wolverine, or other big mustelid."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "claw (agile),",
-            "actions": "Single Action",
-            "damage": "1d6 slashing"
-        }, {
-            "text": "jaws,",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }, {
-            "text": "claw (agile),",
-            "actions": "Single Action",
-            "damage": "1d6 slashing"
-        }],
-        "name": "Bear",
-        "source": "Core Rulebook pg. 215",
-        "size": "Small",
-        "str": "3,",
-        "dex": "2,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "8",
-        "skill": "Intimidation",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "35 feet",
-        "supportbenefit": "Your bear mauls your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the bear\u2019s reach with a Strike, the creature takes 1d8 slashing damage from the bear. If your bear is nimble or savage, the slashing damage increases to 2d8.",
-        "advancedmaneuver": "Bear Hug",
-        "special": {
-            "name": "Bear Hug",
-            "text": "The bear makes another claw Strike against the same target. If this Strike hits, the target is alsograbbed, as if the bear had successfullyGrappledthe target.",
-            "requirements": "The bear\u2019s last action was a successful claw Strike."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "claw (agile),",
+                    "actions": "Single Action",
+                    "damage": "1d6 slashing"
+                },
+                {
+                    "text": "jaws,",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                },
+                {
+                    "text": "claw (agile),",
+                    "actions": "Single Action",
+                    "damage": "1d6 slashing"
+                }
+            ],
+            "name": "Bear",
+            "source": "Core Rulebook pg. 215",
+            "size": "Small",
+            "str": "3,",
+            "dex": "2,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "8",
+            "skill": "Intimidation",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "35 feet",
+            "supportbenefit": "Your bear mauls your enemies when you create an opening. Until the start of your next turn, each time you hit a creature in the bear\u2019s reach with a Strike, the creature takes 1d8 slashing damage from the bear. If your bear is nimble or savage, the slashing damage increases to 2d8.",
+            "advancedmaneuver": "Bear Hug",
+            "special": {
+                "name": "Bear Hug",
+                "text": "The bear makes another claw Strike against the same target. If this Strike hits, the target is alsograbbed, as if the bear had successfullyGrappledthe target.",
+                "requirements": "The bear\u2019s last action was a successful claw Strike."
+            },
+            "text": "Your companion is a black, grizzly, polar, or other type of bear."
         },
-        "text": "Your companion is a black, grizzly, polar, or other type of bear."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "claw (agile),",
-            "actions": "Single Action",
-            "damage": "1d6 slashing"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d6 piercing"
-        }, {
-            "text": "talon (agile,finesse),",
-            "actions": "Single Action",
-            "damage": "1d4 slashing"
-        }],
-        "name": "Bird",
-        "source": "Core Rulebook pg. 215",
-        "size": "Small",
-        "str": "2,",
-        "dex": "3,",
-        "con": "1,",
-        "int": "-4,",
-        "wis": "2,",
-        "cha": "0",
-        "hitpoints": "4",
-        "skill": "Stealth",
-        "senses": "low-light vision",
-        "speed": "10 feet, fly 60 feet",
-        "supportbenefit": "The bird pecks at your foes\u2019 eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal 1d4persistentbleed damage, and the target isdazzleduntil it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to 2d4.",
-        "advancedmaneuver": "Flyby Attack",
-        "special": {
-            "name": "Flyby Attack",
-            "text": "The bird Flies and makes a talon Strike at any point along the way."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "claw (agile),",
+                    "actions": "Single Action",
+                    "damage": "1d6 slashing"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d6 piercing"
+                },
+                {
+                    "text": "talon (agile,finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d4 slashing"
+                }
+            ],
+            "name": "Bird",
+            "source": "Core Rulebook pg. 215",
+            "size": "Small",
+            "str": "2,",
+            "dex": "3,",
+            "con": "1,",
+            "int": "-4,",
+            "wis": "2,",
+            "cha": "0",
+            "hitpoints": "4",
+            "skill": "Stealth",
+            "senses": "low-light vision",
+            "speed": "10 feet, fly 60 feet",
+            "supportbenefit": "The bird pecks at your foes\u2019 eyes when you create an opening. Until the start of your next turn, your Strikes that damage a creature that your bird threatens also deal 1d4persistentbleed damage, and the target isdazzleduntil it removes the bleed damage. If your bird is nimble or savage, the persistent bleed damage increases to 2d4.",
+            "advancedmaneuver": "Flyby Attack",
+            "special": {
+                "name": "Flyby Attack",
+                "text": "The bird Flies and makes a talon Strike at any point along the way."
+            },
+            "text": "Your companion is a bird of prey, such as an eagle, hawk, or owl."
         },
-        "text": "Your companion is a bird of prey, such as an eagle, hawk, or owl."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "talon (agile,finesse),",
-            "actions": "Single Action",
-            "damage": "1d4 slashing"
-        }, {
-            "text": "jaws,",
-            "actions": "Single Action",
-            "damage": "1d6 piercing"
-        }],
-        "name": "Camel",
-        "source": "Pathfinder #149: Against the Scarlet Triad pg. 80",
-        "size": "Medium or Large",
-        "str": "3,",
-        "dex": "2,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "8",
-        "skill": "Survival",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "35 feet",
-        "special": {
-            "name": "Sand Stride",
-            "traits": ["Move"],
-            "text": "The camel Strides twice with a +5-foot circumstance bonus to Speed, ignoring difficult terrain caused by rubble, sand, and uneven ground made of earth and stone."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "talon (agile,finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d4 slashing"
+                },
+                {
+                    "text": "jaws,",
+                    "actions": "Single Action",
+                    "damage": "1d6 piercing"
+                }
+            ],
+            "name": "Camel",
+            "source": "Pathfinder #149: Against the Scarlet Triad pg. 80",
+            "size": "Medium or Large",
+            "str": "3,",
+            "dex": "2,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "8",
+            "skill": "Survival",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "35 feet",
+            "special": {
+                "name": "Sand Stride",
+                "traits": [
+                    "Move"
+                ],
+                "text": "The camel Strides twice with a +5-foot circumstance bonus to Speed, ignoring difficult terrain caused by rubble, sand, and uneven ground made of earth and stone."
+            },
+            "supportbenefit": "The camel makes a ranged attack to spit a long string of saliva at a foe within 10 feet. On a hit, the foe isdazzledfor 1 round.",
+            "advancedmaneuver": "Sand Stride",
+            "text": "Your companion is a camel or llama"
         },
-        "supportbenefit": "The camel makes a ranged attack to spit a long string of saliva at a foe within 10 feet. On a hit, the foe isdazzledfor 1 round.",
-        "advancedmaneuver": "Sand Stride",
-        "text": "Your companion is a camel or llama"
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "jaws,",
-            "actions": "Single Action",
-            "damage": "1d6 piercing"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d6 piercing"
-        }, {
-            "text": "claw (agile,finesse),",
-            "actions": "Single Action",
-            "damage": "1d4 slashing"
-        }],
-        "name": "Cat",
-        "source": "Core Rulebook pg. 215",
-        "size": "Small",
-        "str": "2,",
-        "dex": "3,",
-        "con": "1,",
-        "int": "-4,",
-        "wis": "2,",
-        "cha": "0",
-        "hitpoints": "4",
-        "skill": "Stealth",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "35 feet",
-        "special": {
-            "name": "Cat Pounce",
-            "traits": ["Flourish"],
-            "text": "The cat Strides and then Strikes. If it wasundetectedat the start of its Cat Pounce, it remains undetected until after the attack."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "jaws,",
+                    "actions": "Single Action",
+                    "damage": "1d6 piercing"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d6 piercing"
+                },
+                {
+                    "text": "claw (agile,finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d4 slashing"
+                }
+            ],
+            "name": "Cat",
+            "source": "Core Rulebook pg. 215",
+            "size": "Small",
+            "str": "2,",
+            "dex": "3,",
+            "con": "1,",
+            "int": "-4,",
+            "wis": "2,",
+            "cha": "0",
+            "hitpoints": "4",
+            "skill": "Stealth",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "35 feet",
+            "special": {
+                "name": "Cat Pounce",
+                "traits": [
+                    "Flourish"
+                ],
+                "text": "The cat Strides and then Strikes. If it wasundetectedat the start of its Cat Pounce, it remains undetected until after the attack."
+            },
+            "supportbenefit": "Your cat throws your enemies off-balance when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature that your cat threatens make the targetflat-footeduntil the end of your next turn.",
+            "advancedmaneuver": "Cat Pounce",
+            "text": "Your companion is a big cat, such as a leopard or tiger."
         },
-        "supportbenefit": "Your cat throws your enemies off-balance when you create an opening. Until the start of your next turn, your Strikes that deal damage to a creature that your cat threatens make the targetflat-footeduntil the end of your next turn.",
-        "advancedmaneuver": "Cat Pounce",
-        "text": "Your companion is a big cat, such as a leopard or tiger."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "claw (agile,finesse),",
-            "actions": "Single Action",
-            "damage": "1d4 slashing"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }, {
-            "text": "talon (agile,finesse),",
-            "actions": "Single Action",
-            "damage": "1d6 slashing"
-        }],
-        "name": "Dromaeosaur",
-        "source": "Core Rulebook pg. 216",
-        "size": "Small",
-        "str": "2,",
-        "dex": "3,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "6",
-        "skill": "Stealth",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "50 feet",
-        "supportbenefit": "Your raptor constantly darts into flanking position. Until the start of your next turn, it counts as being in its space or an empty space of your choice within 10 feet when determining whether you and your companion areflanking; you can choose a different space for each of your attacks).",
-        "advancedmaneuver": "Darting Attack",
-        "special": {
-            "name": "Darting Attack",
-            "traits": ["Flourish"],
-            "text": "The raptor Steps up to 10 feet and then Strikes, or Strikes and then Steps up to 10 feet."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "claw (agile,finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d4 slashing"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                },
+                {
+                    "text": "talon (agile,finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d6 slashing"
+                }
+            ],
+            "name": "Dromaeosaur",
+            "source": "Core Rulebook pg. 216",
+            "size": "Small",
+            "str": "2,",
+            "dex": "3,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "6",
+            "skill": "Stealth",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "50 feet",
+            "supportbenefit": "Your raptor constantly darts into flanking position. Until the start of your next turn, it counts as being in its space or an empty space of your choice within 10 feet when determining whether you and your companion areflanking; you can choose a different space for each of your attacks).",
+            "advancedmaneuver": "Darting Attack",
+            "special": {
+                "name": "Darting Attack",
+                "traits": [
+                    "Flourish"
+                ],
+                "text": "The raptor Steps up to 10 feet and then Strikes, or Strikes and then Steps up to 10 feet."
+            },
+            "text": "Your companion is a dromaeosaur (also called a raptor), such as a velociraptor or deinonychus."
         },
-        "text": "Your companion is a dromaeosaur (also called a raptor), such as a velociraptor or deinonychus."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "talon (agile,finesse),",
-            "actions": "Single Action",
-            "damage": "1d6 slashing"
-        }, {
-            "text": "hoof (agile),",
-            "actions": "Single Action",
-            "damage": "1d6 bludgeoning"
-        }],
-        "name": "Horse",
-        "source": "Core Rulebook pg. 216",
-        "size": "Medium or Large",
-        "str": "3,",
-        "dex": "2,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "8",
-        "skill": "Survival",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "40 feet",
-        "special": {
-            "name": "Gallop",
-            "traits": ["Move"],
-            "text": "The horse Strides twice at a +10-foot circumstance bonus to Speed."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "talon (agile,finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d6 slashing"
+                },
+                {
+                    "text": "hoof (agile),",
+                    "actions": "Single Action",
+                    "damage": "1d6 bludgeoning"
+                }
+            ],
+            "name": "Horse",
+            "source": "Core Rulebook pg. 216",
+            "size": "Medium or Large",
+            "str": "3,",
+            "dex": "2,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "8",
+            "skill": "Survival",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "40 feet",
+            "special": {
+                "name": "Gallop",
+                "traits": [
+                    "Move"
+                ],
+                "text": "The horse Strides twice at a +10-foot circumstance bonus to Speed."
+            },
+            "supportbenefit": "Your horse adds momentum to your charge. Until the start of your next turn, if you moved at least 10 feet on the action before your attack, add a circumstance bonus to damage to that attack equal to twice the number of damage dice. If your weapon already has thejoustingweapon trait, increase the trait\u2019s damage bonus by 2 per die instead.",
+            "advancedmaneuver": "Gallop",
+            "text": "Your companion is a horse, pony, or similar equine."
         },
-        "supportbenefit": "Your horse adds momentum to your charge. Until the start of your next turn, if you moved at least 10 feet on the action before your attack, add a circumstance bonus to damage to that attack equal to twice the number of damage dice. If your weapon already has thejoustingweapon trait, increase the trait\u2019s damage bonus by 2 per die instead.",
-        "advancedmaneuver": "Gallop",
-        "text": "Your companion is a horse, pony, or similar equine."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "hoof (agile),",
-            "actions": "Single Action",
-            "damage": "1d6 bludgeoning"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }],
-        "name": "Hyena",
-        "source": "Pathfinder #149: Against the Scarlet Triad pg. 80",
-        "size": "Small",
-        "str": "2,",
-        "dex": "3,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "6",
-        "skill": "Intimidation",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "40 feet",
-        "supportbenefit": "The hyena mockingly yowls at your enemies and bites at them when you create an opening. Until the start of your next turn, each time you hit a creature in the hyena\u2019s reach with a Strike, the creature becomesfrightened 1.",
-        "advancedmaneuver": "Gnaw",
-        "special": {
-            "name": "Gnaw",
-            "text": "The Strike\u2019s target takes 1d6persistentbleed damage and takes a \u201310-foot status penalty to its Speed until it removes the bleed damage. If the hyena is a specialized animal companion, the persistent bleed damage increases to 2d6.",
-            "requirements": "The animal companion\u2019s last action was a successful jaws Strike."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "hoof (agile),",
+                    "actions": "Single Action",
+                    "damage": "1d6 bludgeoning"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                }
+            ],
+            "name": "Hyena",
+            "source": "Pathfinder #149: Against the Scarlet Triad pg. 80",
+            "size": "Small",
+            "str": "2,",
+            "dex": "3,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "6",
+            "skill": "Intimidation",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "40 feet",
+            "supportbenefit": "The hyena mockingly yowls at your enemies and bites at them when you create an opening. Until the start of your next turn, each time you hit a creature in the hyena\u2019s reach with a Strike, the creature becomesfrightened 1.",
+            "advancedmaneuver": "Gnaw",
+            "special": {
+                "name": "Gnaw",
+                "text": "The Strike\u2019s target takes 1d6persistentbleed damage and takes a \u201310-foot status penalty to its Speed until it removes the bleed damage. If the hyena is a specialized animal companion, the persistent bleed damage increases to 2d6.",
+                "requirements": "The animal companion\u2019s last action was a successful jaws Strike."
+            },
+            "text": "Your companion is a hyena"
         },
-        "text": "Your companion is a hyena"
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }],
-        "name": "Snake",
-        "source": "Core Rulebook pg. 216",
-        "size": "Small",
-        "str": "3,",
-        "dex": "3,",
-        "con": "1,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "6",
-        "skill": "Stealth",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "20 feet, climb 20 feet, swim 20 feet",
-        "supportbenefit": "Your snake holds your enemies with its coils, interfering with reactions. Until the start of your next turn, any creature your snake threatens can\u2019t use reactions triggered by your actions unless its level is higher than yours.",
-        "advancedmaneuver": "Constrict",
-        "special": {
-            "name": "Constrict",
-            "text": "The snake deals 12 bludgeoning damage to thegrabbedcreature; the creature must attempt a basic Fortitude save. If the snake is a specialized animal companion, increase this damage to 20.",
-            "requirements": "The snake has a smaller creaturegrabbed."
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                }
+            ],
+            "name": "Snake",
+            "source": "Core Rulebook pg. 216",
+            "size": "Small",
+            "str": "3,",
+            "dex": "3,",
+            "con": "1,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "6",
+            "skill": "Stealth",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "20 feet, climb 20 feet, swim 20 feet",
+            "supportbenefit": "Your snake holds your enemies with its coils, interfering with reactions. Until the start of your next turn, any creature your snake threatens can\u2019t use reactions triggered by your actions unless its level is higher than yours.",
+            "advancedmaneuver": "Constrict",
+            "special": {
+                "name": "Constrict",
+                "text": "The snake deals 12 bludgeoning damage to thegrabbedcreature; the creature must attempt a basic Fortitude save. If the snake is a specialized animal companion, increase this damage to 20.",
+                "requirements": "The snake has a smaller creaturegrabbed."
+            },
+            "text": "Your companion is a constrictor snake, such as a boa or python."
         },
-        "text": "Your companion is a constrictor snake, such as a boa or python."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }],
-        "name": "Vulture",
-        "source": "Pathfinder #149: Against the Scarlet Triad pg. 80",
-        "size": "Small",
-        "str": "2,",
-        "dex": "2,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "2,",
-        "cha": "0",
-        "hitpoints": "6",
-        "skill": "Survival",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "10 feet, fly 45 feet",
-        "special": {
-            "name": "Feast on the Fallen",
-            "traits": ["Healing", "Manipulate"],
-            "text": "The vulture consumes a piece of the defeated foe, regaining 18 Hit Points. If the vulture is a specialized animal companion, increase the Hit Points regained to 30.",
-            "frequency": "once per hour",
-            "trigger": "A creature adjacent to the vulture is reduced to 0 Hit Points"
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                }
+            ],
+            "name": "Vulture",
+            "source": "Pathfinder #149: Against the Scarlet Triad pg. 80",
+            "size": "Small",
+            "str": "2,",
+            "dex": "2,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "2,",
+            "cha": "0",
+            "hitpoints": "6",
+            "skill": "Survival",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "10 feet, fly 45 feet",
+            "special": {
+                "name": "Feast on the Fallen",
+                "traits": [
+                    "Healing",
+                    "Manipulate"
+                ],
+                "text": "The vulture consumes a piece of the defeated foe, regaining 18 Hit Points. If the vulture is a specialized animal companion, increase the Hit Points regained to 30.",
+                "frequency": "once per hour",
+                "trigger": "A creature adjacent to the vulture is reduced to 0 Hit Points"
+            },
+            "supportbenefit": "The vulture retches and vomits onto a foe within 10 feet. Until the start of your next turn, if you hit and deal damage to the target, the target must succeed at a Fortitude save or becomesickened 1(sickened 2 on a critical failure). The DC of the Fortitude save is 12 (or 14, if the vulture is a specialized animal companion) + your level + the vulture\u2019s Constitution modifier.",
+            "advancedmaneuver": "Feast on the Fallen",
+            "text": "Your companion is a vulture, condor, or other large scavenging bird."
         },
-        "supportbenefit": "The vulture retches and vomits onto a foe within 10 feet. Until the start of your next turn, if you hit and deal damage to the target, the target must succeed at a Fortitude save or becomesickened 1(sickened 2 on a critical failure). The DC of the Fortitude save is 12 (or 14, if the vulture is a specialized animal companion) + your level + the vulture\u2019s Constitution modifier.",
-        "advancedmaneuver": "Feast on the Fallen",
-        "text": "Your companion is a vulture, condor, or other large scavenging bird."
-    }, {
-        "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
-        "attacks": [{
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }, {
-            "text": "jaws (finesse),",
-            "actions": "Single Action",
-            "damage": "1d8 piercing"
-        }],
-        "name": "Wolf",
-        "source": "Core Rulebook pg. 216",
-        "size": "Small",
-        "str": "2,",
-        "dex": "3,",
-        "con": "2,",
-        "int": "-4,",
-        "wis": "1,",
-        "cha": "0",
-        "hitpoints": "6",
-        "skill": "Survival",
-        "senses": "low-light vision, scent (imprecise, 30 feet)",
-        "speed": "40 feet",
-        "supportbenefit": "Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a \u20135-foot status penalty to its Speeds for 1 minute (\u201310 on a critical success).",
-        "advancedmaneuver": "Knockdown",
-        "special": {
-            "name": "Knockdown",
-            "text": "The wolf automatically knocks the target of its jaws Strikeprone.",
-            "requirements": "The animal companion\u2019s last action was a successful jaws Strike."
-        },
-        "text": "Your companion is a wolf or other canine creature, such as a dog."
-    }]
+        {
+            "link": "https://2e.aonprd.com/AnimalCompanions.aspx",
+            "attacks": [
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                },
+                {
+                    "text": "jaws (finesse),",
+                    "actions": "Single Action",
+                    "damage": "1d8 piercing"
+                }
+            ],
+            "name": "Wolf",
+            "source": "Core Rulebook pg. 216",
+            "size": "Small",
+            "str": "2,",
+            "dex": "3,",
+            "con": "2,",
+            "int": "-4,",
+            "wis": "1,",
+            "cha": "0",
+            "hitpoints": "6",
+            "skill": "Survival",
+            "senses": "low-light vision, scent (imprecise, 30 feet)",
+            "speed": "40 feet",
+            "supportbenefit": "Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a \u20135-foot status penalty to its Speeds for 1 minute (\u201310 on a critical success).",
+            "advancedmaneuver": "Knockdown",
+            "special": {
+                "name": "Knockdown",
+                "text": "The wolf automatically knocks the target of its jaws Strikeprone.",
+                "requirements": "The animal companion\u2019s last action was a successful jaws Strike."
+            },
+            "text": "Your companion is a wolf or other canine creature, such as a dog."
+        }
+    ]
 }
