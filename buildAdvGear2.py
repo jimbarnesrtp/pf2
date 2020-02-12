@@ -264,7 +264,7 @@ def get_all():
             single['level'] = item['level']
             items.append(single)
 
-    wornHolder['wornItems'] = items
+    wornHolder['itemList'] = items
 
 
     

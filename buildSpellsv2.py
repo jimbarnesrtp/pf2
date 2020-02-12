@@ -126,7 +126,7 @@ def get_spells(link):
     return items
 
 def get_all():
-    spellHolder['meleeWeapons'] = get_spells("https://2e.aonprd.com/Spells.aspx?Tradition=0")
+    spellHolder['spells'] = get_spells("https://2e.aonprd.com/Spells.aspx?Tradition=0")
 
 
     #spellHolder['rangedWeapons'] = get
