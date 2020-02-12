@@ -44,5 +44,5 @@ If you feel you need to get updated data be careful running these as they do a g
 
 if you have a request for data let me know
 
-
+To pull all new data run python runAllFiles.py  While running it will build a file of pf2Update-YYYYMMDD.txt . If the process fails it uses this to pick back up without rewrunning everything.
 
