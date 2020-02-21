@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder 2.0 Spells v2 list",
     "date": "February 10, 2020",
-    "meleeWeapons": [
+    "spells": [
         {
             "name": "Acid Splash (evo)",
             "link": "https://2e.aonprd.com/Spells.aspx?ID=3",
