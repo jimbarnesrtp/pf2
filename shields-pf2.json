@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 shields list",
-    "date": "February 11, 2020",
+    "date": "February 21, 2020",
     "baseShields": [
         {
             "name": "Buckler",
@@ -51,7 +51,7 @@
             "text": "These massive shields can be used to provide cover to nearly the entire body. Due to their size, they are typically made of wood reinforced with metal.  Getting the higher bonus for a tower shield requires using the   action while the shield is raised."
         }
     ],
-    "specialShields": [
+    "specialMaterialShields": [
         {
             "link": "https://2e.aonprd.com/Equipment.aspx?ID=311",
             "source": "Core Rulebook pg. 586",
@@ -507,7 +507,9 @@
             "usage": "varies by shield",
             "text": "Orichalcum shields\u2019 time-bending properties are particularly useful for keeping them intact. The first time each day an orichalcum shield would be destroyed, it is instead left with 1 Hit Point and the broken condition. The shield has Hardness 16, HP 64, and BT 32.",
             "category": "shield"
-        },
+        }
+    ],
+    "specificShields": [
         {
             "link": "https://2e.aonprd.com/Equipment.aspx?ID=327",
             "source": "Core Rulebook pg. 588",

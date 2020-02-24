@@ -25,6 +25,10 @@ def get_details(link):
         if stringContents.startswith("<"):
             if stringContents == "<hr/>":
                 reachedBreak = True
+            if reachedBreak:
+                if child.name == "a":
+                    detailHolder.append(child.text)
+
         else:
             if reachedBreak:
                 detailHolder.append(stringContents)
@@ -159,7 +163,6 @@ def get_multi(link):
                     itemDetailHolder.append(child.text) 
                     
             if child.name == "a" and reachedFeats:
-
                 try:
                     if child['class'][0] == "external-link" :
                         item['source'] = child.text
@@ -170,6 +173,7 @@ def get_multi(link):
                         else:
                             item[tagType] = child.text.strip()
                     else:
+                        itemDetailHolder.append(child.text.strip())
                         tagType = ""
         else:
             if reachedFeats:
