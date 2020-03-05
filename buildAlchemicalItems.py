@@ -398,7 +398,10 @@ def get_tool_details(link):
                         
                         toolDetails['source'] = child.text
                 except:
-                    pass
+                    if reachedBreak:
+                        if tagType == "":
+                            detailHolder.append(child.text)
+
                 tagType = ""
             if child.name == "b":
 

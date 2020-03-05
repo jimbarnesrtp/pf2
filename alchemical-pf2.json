@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Alchemical Item list",
-    "date": "February 10, 2020",
+    "date": "March 05, 2020",
     "bombs": [
         {
             "source": "Core Rulebook pg. 544",
@@ -3005,7 +3005,7 @@
                 "Uncommon",
                 "Alchemical"
             ],
-            "text": "This crossbow can deliver alchemically infused bolts. The strange weapon has a metal bracket mounted on the side of the stock near the lath. As an action, you can load a single lesser alchemical bomb into the bracket; this bomb must be one that deals energy damage (such as an  ,  ,  ,  , or  ). The next three attacks made with the crossbow deal 1d6 damage of the bomb\u2019s damage type in addition to the crossbow\u2019s normal damage. If the second and third attacks are not all made within 1 minute of the first attack, the bomb\u2019s energy is wasted. These attacks never deal splash damage or other special effects of the bomb and are not modified by any abilities that add to or modify a bomb\u2019s effect. The addition of the bracket serves to unbalance the weapon, reducing its range to 30 feet. It otherwise functions as a crossbow (when determining damage, reload, and so on). Creatures use their crossbow proficiency when using the alchemical crossbow. The alchemical crossbow costs 25 gp.",
+            "text": "This crossbow can deliver alchemically infused bolts. The strange weapon has a metal bracket mounted on the side of the stock near the lath. As an action, you can load a single lesser alchemical bomb into the bracket; this bomb must be one that deals energy damage (such as an  acid flask ,  alchemist\u2019s fire ,  bottled lightning ,  frost vial , or  thunderstone ). The next three attacks made with the crossbow deal 1d6 damage of the bomb\u2019s damage type in addition to the crossbow\u2019s normal damage. If the second and third attacks are not all made within 1 minute of the first attack, the bomb\u2019s energy is wasted. These attacks never deal splash damage or other special effects of the bomb and are not modified by any abilities that add to or modify a bomb\u2019s effect. The addition of the bracket serves to unbalance the weapon, reducing its range to 30 feet. It otherwise functions as a crossbow (when determining damage, reload, and so on). Creatures use their crossbow proficiency when using the alchemical crossbow. The alchemical crossbow costs 25 gp.",
             "source": "The Fall of Plaguestone pg. 56",
             "hands": " 2; "
         },
@@ -3125,7 +3125,7 @@
                 "Alchemical",
                 "Consumable"
             ],
-            "text": "An alchemist with the   feat can create a philosopher\u2019s stone once per month by spending 1 batch of infused reagents during their daily preparations using the advanced alchemy class feature. This is the only way to create a philosopher\u2019s stone.  At a glance, a philosopher\u2019s stone appears to be an ordinary, sooty piece of natural rock. Breaking the rock open with a   action (DC 35) reveals a cavity at the stone\u2019s heart. The cavity is lined with a rare type of quicksilver that can transmute base metals into precious metals or create an  .   To use the quicksilver, you must be legendary in Crafting and have the   feat. You can then use the stone\u2019s quicksilver for one of two effects: ",
+            "text": "An alchemist with the  Craft Philosopher\u2019s Stone  feat can create a philosopher\u2019s stone once per month by spending 1 batch of infused reagents during their daily preparations using the advanced alchemy class feature. This is the only way to create a philosopher\u2019s stone.  At a glance, a philosopher\u2019s stone appears to be an ordinary, sooty piece of natural rock. Breaking the rock open with a  Force Open  action (DC 35) reveals a cavity at the stone\u2019s heart. The cavity is lined with a rare type of quicksilver that can transmute base metals into precious metals or create an  elixir of rejuvenation .   To use the quicksilver, you must be legendary in Crafting and have the  Alchemical Crafting  feat. You can then use the stone\u2019s quicksilver for one of two effects: ",
             "source": "Core Rulebook pg. 554",
             "usage": " held in 2 hands; ",
             "actions": "Single Action",

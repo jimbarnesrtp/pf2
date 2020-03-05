@@ -97,13 +97,37 @@ def get_multi(link):
                     tagType = child.text
                     
             if child.name == "a":
-
+                print(child.text)
                 try:
                     if child['class'][0] == "external-link" :
                         item['source'] = child.text
                 except:
                     pass
-                tagType = ""
+                if reachedBreak:
+                    if tagType != "":
+                        if tagType in parentDetails:
+                            parentDetails[tagType] = parentDetails[tagType] + child.text
+                        else:
+                            if tagType == "Craft Requirements":
+                                craftHolder.append(child.text)
+                            else:
+                                parentDetails[tagType] = child.text
+                    else:
+                        itemDetailHolder.append(child.text)
+                else:
+                    tagType = ""
+            if child.name == "i":
+                if reachedBreak:
+                    if tagType != "":
+                        if tagType in parentDetails:
+                            parentDetails[tagType] = parentDetails[tagType] + child.text
+                        else:
+                            if tagType == "Craft Requirements":
+                                craftHolder.append(child.text)
+                            else:
+                                parentDetails[tagType] = child.text
+                    else:
+                        itemDetailHolder.append(child.text)
         else:
             
             if reachedBreak:
@@ -114,7 +138,11 @@ def get_multi(link):
                         elif tagType == "Craft Requirements":
                             craftHolder.append(stringContents)
                         else:
-                            parentDetails[tagType] = stringContents
+                            if tagType in parentDetails:
+                                parentDetails[tagType] = parentDetails[tagType] + stringContents
+                            else:
+
+                                parentDetails[tagType] = stringContents
                         #tagType = ""
                 else: 
                     detailHolder.append(stringContents)
@@ -126,13 +154,17 @@ def get_multi(link):
                     elif tagType == "Craft Requirements":
                         craftHolder.append(stringContents)
                     else:
-                        parentDetails[tagType] = stringContents
+                        if tagType in parentDetails:
+                                parentDetails[tagType] = parentDetails[tagType] + stringContents
+                        else:
+
+                            parentDetails[tagType] = stringContents
                     #tagType = ""
             if reachedItem:
                 
                 if tagType != "":
                     item[tagType] = stringContents
-                    tagType = ""
+                    #tagType = ""
                 else:
                     if not stringContents.isspace():
                         itemDetailHolder.append(stringContents)
@@ -142,7 +174,7 @@ def get_multi(link):
         item[key] = parentDetails[key]
     item['frequency'] = string.join(frequencyHolder)
     item['craftRequirements'] = string.join(craftHolder)
-    item['text'] = detailHolder + itemDetailHolder
+    item['text'] = string.join(detailHolder) + string.join(itemDetailHolder)
     items.append(item)
     
     return items
@@ -182,8 +214,11 @@ def get_single(link):
                         
                         details['source'] = child.text
                 except:
-                    pass
-                tagType = ""
+                    if tagType != "":
+                        details[tagType] = details[tagType] + child.text
+                    else:
+                        detailHolder.append(child.text)
+
             if child.name == "b":
 
                 if(child.text != "Source"):
@@ -191,6 +226,7 @@ def get_single(link):
             if child.name == "img":
                 details['actions'] = child['alt']
             if child.name == "i":
+                
                 if(reachedBreak):
                     detailHolder.append(child.text) 
             #else:
@@ -211,7 +247,7 @@ def get_single(link):
                 
 
        #print(child)
-        details['text'] = detailHolder
+        details['text'] = string.join(detailHolder)
     return details
 
 
