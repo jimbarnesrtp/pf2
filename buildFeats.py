@@ -20,6 +20,7 @@ def get_details(link):
     children = detail.contents
     reachedBreak = False
     detailHolder = []
+    details = {}
     for child in children:
         stringContents = str(child)
         if stringContents.startswith("<"):
@@ -28,13 +29,32 @@ def get_details(link):
             if reachedBreak:
                 if child.name == "a":
                     detailHolder.append(child.text)
+            if child.name == "h1":
+                #print(child.text)
+                children2 = child.contents
+                for child2 in children2:
+                    stringContents2 = str(child2)
+                    if stringContents2.startswith("<"):
+                        if child2.name == "img":
+                            try: 
+                                if child2['title'] == "PFS Legal":
+                                    details['pfsLegal'] = True
+
+                            except:
+                                pass
+                            try:
+                                details['actions'] = child2['alt']
+                            except:
+                                pass
 
         else:
             if reachedBreak:
                 detailHolder.append(stringContents)
        #print(child)
        #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
-    return detailHolder
+        string = " "
+        details['text'] = string.join(detailHolder)
+    return details
         
 
 
@@ -73,7 +93,10 @@ def get_feats(link):
                 feat['prerequisites'] = prereq.replace(u'\u2014', '')
                 feat['benefits'] = source
                 details = get_details(feat['link'])
-                feat['text'] = string.join(details)
+                feat['text'] = details['text']
+                for key in details.keys():
+                    if key != 'text':
+                        feat[key] = details[key]
                 feats.append(feat)
         #if t > 5:
             #break
@@ -261,3 +284,35 @@ filename = "feats-pf2-v2.json"
 f = open(filename, "w")
 f.write(json_data)
 f.close
+
+filename = "feats-pf2-v2.json"
+f = open(filename, "w")
+f.write(json_data)
+f.close 
+
+featHolder2 = {}
+featHolder2['name'] = 'Pathfinder 2.0 Consolidated feat list'
+featHolder2['date'] = datetime.date.today().strftime("%B %d, %Y")
+scratchHolder = []
+scratchHolder.extend(featHolder['baseFeats'][' generalFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' alchemistFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' barbarianFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' bardFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' championFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' clericFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' druidFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' fighterFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' monkFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' rangerFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' rogueFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' sorcererFeats'])
+scratchHolder.extend(featHolder['baseFeats'][' wizardFeats'])
+for key3 in featHolder['archTypeFeats']:
+    scratchHolder.extend(featHolder['archTypeFeats'][key3])
+featHolder2['feats'] = scratchHolder
+json_data2 = json.dumps(featHolder2, indent=4)
+
+filename2 = "feats-pf2-consolidated.json"
+f2 = open(filename2, "w")
+f2.write(json_data2)
+f2.close 
