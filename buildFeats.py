@@ -29,6 +29,16 @@ def get_details(link):
             if reachedBreak:
                 if child.name == "a":
                     detailHolder.append(child.text)
+                if child.name == "ul":
+                    #print(child.text)
+                    children3 = child.contents
+                    for child3 in children3:
+                        stringContents3 = str(child3)
+                        if stringContents3.startswith("<"):
+                            if child3.name == "li":
+                                #print(child3.text)
+                                detailHolder.append(child3.text)
+
             if child.name == "h1":
                 #print(child.text)
                 children2 = child.contents
@@ -108,6 +118,7 @@ def get_class_feats():
     for line in listOfPages: 
         featMD = line.split(",")
         print("Getting feats for :", featMD[0],"This url:", featMD[2].strip('\n'))
+        #if featMD[0] == "Ranger Feats":
         holder[featMD[1]]  = get_feats(featMD[2].strip('\n'))
 
     return holder

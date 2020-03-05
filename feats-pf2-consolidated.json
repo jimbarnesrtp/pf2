@@ -4182,7 +4182,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=272",
             "prerequisites": "",
             "benefits": "Carefully etching a sacred image into a physical object, you steel yourself for battle.",
-            "text": "Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn\u2019t fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents. ",
+            "text": "Carefully etching a sacred image into a physical object, you steel yourself for battle. You can spend 10 minutes emblazoning a symbol of your deity upon a weapon or shield. The symbol doesn\u2019t fade until 1 year has passed, but if you Emblazon an Armament, any symbol you previously emblazoned and any symbol already emblazoned on that item instantly disappears. The item becomes a religious symbol of your deity and can be used as a divine focus while emblazoned, and it gains another benefit determined by the type of item. This benefit applies only to followers of the deity the symbol represents.  Shield The shield gains a +1 status bonus to its Hardness. (This causes it to reduce more damage with the Shield Block reaction.)  Weapon The wielder gains a +1 status bonus to damage rolls.",
             "pfsLegal": true
         },
         {
@@ -4407,7 +4407,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=289",
             "prerequisites": "Emblazon Armament",
             "benefits": "With elemental forces, you make your emblazoned symbols more potent.",
-            "text": "With elemental forces, you make your emblazoned symbols more potent. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. ",
+            "text": "With elemental forces, you make your emblazoned symbols more potent. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options.  Shield Choose acid, cold, electricity, fire, or sonic. The wielder gain the shield\u2019s circumstance bonus to saving throws against that damage type and can use Shield Block against damage of that type. The shield also gains resistance to that damage type equal to half your level if you have a domain spell with a trait matching that type (such as fire).  Weapon Choose acid, cold, electricity, fire, or sonic. The weapon deals an extra 1d4 damage of that type. Increase this extra damage to 1d6 if you have a domain spell with a trait matching that type (such as fire).",
             "pfsLegal": true
         },
         {
@@ -4497,7 +4497,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=296",
             "prerequisites": "Emblazon Armament",
             "benefits": "Your deity\u2019s symbol protects against offensive magic.",
-            "text": "Your deity\u2019s symbol protects against offensive magic. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options. ",
+            "text": "Your deity\u2019s symbol protects against offensive magic. When you Emblazon an Armament, you can choose from the following effects instead of the effects listed in that feat. These effects have the same restrictions as the base options.  Shield When the wielder has the shield raised, they gain the shield\u2019s circumstance bonus to saving throws against magic, and they can use Shield Block against damage from their enemies\u2019 spells. Weapon When the weapon\u2019s wielder critically hits with the weapon, they can attempt to counteract a spell on their target, using their level as the counteract level. If they attempt to do so, the emblazoned symbol immediately disappears.",
             "pfsLegal": true
         },
         {
@@ -7218,7 +7218,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=495",
             "prerequisites": "",
             "benefits": "You have studied a specific terrain to overcome its\u00a0challenges.",
-            "text": "You have studied a specific terrain to overcome its challenges. Choose aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground as your favored terrain. When in that terrain, you can ignore the effects of non-magical diffcult terrain. If you have the wild stride class feature, you gain a second benefit while in your favored terrain, depending on your choice. ",
+            "text": "You have studied a specific terrain to overcome its challenges. Choose aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground as your favored terrain. When in that terrain, you can ignore the effects of non-magical diffcult terrain. If you have the wild stride class feature, you gain a second benefit while in your favored terrain, depending on your choice.  Aquatic You gain a swim Speed equal to your Speed. If you already had a swim Speed, you gain a +10-foot status bonus to your swim Speed.  Arctic You need to eat and drink only one-tenth as much as usual, you aren\u2019t affected by severe or extreme cold, and you can walk across ice and snow at full Speed without needing to Balance.  Desert You need to eat and drink only one-tenth as much as usual, you aren\u2019t affected by severe or extreme heat, and you can walk along sand at full Speed without needing to Balance.  Forest, Mountain, or Underground You gain a climb Speed equal to your Speed. If you already had a climb Speed, you gain a +10-foot status bonus to your climb Speed.  Plains You gain a +10-foot status bonus to your land Speed.  Sky You gain a +10-foot status bonus to your fly Speed, if you have one.  Swamp You can move across bogs at full Speed, even if they are deep enough to be greater difficult terrain or to normally require you to Swim.",
             "pfsLegal": true
         },
         {
@@ -8304,7 +8304,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=578",
             "prerequisites": "thief racket, Debilitating Strike",
             "benefits": "You carefully aim and gracefully deliver your debilitations.",
-            "text": "You carefully aim and gracefully deliver your debilitations. Add the following debilitations to the list you can choose from when you use Debilitating Strike. ",
+            "text": "You carefully aim and gracefully deliver your debilitations. Add the following debilitations to the list you can choose from when you use Debilitating Strike.  Debilitation The target takes an additional 2d6 precision damage from your attacks.  Debilitation The target becomes flat-footed.",
             "pfsLegal": true
         },
         {
@@ -8328,7 +8328,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=580",
             "prerequisites": "scoundrel racket, Debilitating Strike",
             "benefits": "You learn new debilitations that grant you tactical advantages against your foes.",
-            "text": "You learn new debilitations that grant you tactical advantages against your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike. ",
+            "text": "You learn new debilitations that grant you tactical advantages against your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.  Debilitation The target can\u2019t use reactions.  Debilitation The target can\u2019t flank or contribute to allies\u2019 flanking.",
             "pfsLegal": true
         },
         {
@@ -8340,7 +8340,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=581",
             "prerequisites": "ruffian an racket, Debilitating Strike",
             "benefits": "The debilitations you dish out seriously impair your foes.",
-            "text": "The debilitations you dish out seriously impair your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike. ",
+            "text": "The debilitations you dish out seriously impair your foes. Add the following debilitations to the list you can choose from when you use Debilitating Strike.  Debilitation The target gains weakness 5 to your choice of bludgeoning, piercing, or slashing damage.  Debilitation The target becomes clumsy 1.",
             "pfsLegal": true
         },
         {
@@ -8353,7 +8353,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=582",
             "prerequisites": "Debilitating Strike",
             "benefits": "Your debilitations are especially effective on your most powerful attacks.",
-            "text": "Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.   The target is unaffected.  The target is slowed 1 until the end of your next turn.  The target is slowed 2 until the end of your next turn.  The target is paralyzed until the end of your next turn.",
+            "text": "Your debilitations are especially effective on your most powerful attacks. Whenever you critically succeed at an attack roll against an enemy and use Debilitating Strike, add the following debilitation to the list you can choose from.  Debilitation The target attempts a Fortitude save against your class DC with the following effects.  The target is unaffected.  The target is slowed 1 until the end of your next turn.  The target is slowed 2 until the end of your next turn.  The target is paralyzed until the end of your next turn.",
             "pfsLegal": true
         },
         {
@@ -8758,7 +8758,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=610",
             "prerequisites": "",
             "benefits": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding.",
-            "text": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. ",
+            "text": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast.  Abjuration force damage  Conjuration or Transmutation the same type as the weapon  Divination, Enchantment, or Illusion mental damage  Evocation a type the spell dealt, or force damage if the spell didn\u2019t deal damage  Necromancy negative damage",
             "pfsLegal": true,
             "actions": "Free Action"
         },
@@ -9211,7 +9211,7 @@
             "link": "https://2e.aonprd.com/Feats.aspx?ID=610",
             "prerequisites": "",
             "benefits": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding.",
-            "text": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast. ",
+            "text": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast.  Abjuration force damage  Conjuration or Transmutation the same type as the weapon  Divination, Enchantment, or Illusion mental damage  Evocation a type the spell dealt, or force damage if the spell didn\u2019t deal damage  Necromancy negative damage",
             "pfsLegal": true,
             "actions": "Free Action"
         },
