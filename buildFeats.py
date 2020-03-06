@@ -301,23 +301,54 @@ f = open(filename, "w")
 f.write(json_data)
 f.close 
 
+def is_feat_not_in_list(linkText, listToCheck):
+
+    for featToCheck in listToCheck:
+        if(linkText == featToCheck['link']):
+            return False
+    return True
+
 featHolder2 = {}
 featHolder2['name'] = 'Pathfinder 2.0 Consolidated feat list'
 featHolder2['date'] = datetime.date.today().strftime("%B %d, %Y")
 scratchHolder = []
 scratchHolder.extend(featHolder['baseFeats'][' generalFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' alchemistFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' barbarianFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' bardFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' championFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' clericFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' druidFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' fighterFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' monkFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' rangerFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' rogueFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' sorcererFeats'])
-scratchHolder.extend(featHolder['baseFeats'][' wizardFeats'])
+for feat in featHolder['baseFeats'][' alchemistFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' barbarianFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' bardFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' championFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' clericFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' druidFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' fighterFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' monkFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' rangerFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' rogueFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' sorcererFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
+for feat in featHolder['baseFeats'][' wizardFeats']:
+    if is_feat_not_in_list(feat['link'], scratchHolder):
+        scratchHolder.append(feat)
 for key3 in featHolder['archTypeFeats']:
     scratchHolder.extend(featHolder['archTypeFeats'][key3])
 featHolder2['feats'] = scratchHolder
