@@ -1,6 +1,6 @@
 {
     "name": "Pathfinder 2.0 Consolidated feat list",
-    "date": "March 05, 2020",
+    "date": "March 06, 2020",
     "feats": [
         {
             "name": "Additional Lore",
@@ -3565,20 +3565,6 @@
             "text": "You can unleash burning sunlight from your sword or spear. You gain the  sun blade  devotion spell. Increase the number of Focus Points in your focus pool by 1.   Lost Omens Character Guide pg. 90 The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn\u2019t apply to your class. :  ,  ,  , "
         },
         {
-            "name": "Attack of Opportunity",
-            "level": 6,
-            "traits": [
-                "Champion",
-                " Barbarian"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=145",
-            "prerequisites": "",
-            "benefits": "You swat a foe that leaves an opening.",
-            "text": "You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a  manipulate  action, you disrupt that action. This Strike doesn\u2019t count toward your multiple attack penalty, and your multiple attack penalty doesn\u2019t apply to this Strike.",
-            "pfsLegal": true,
-            "actions": "Reaction"
-        },
-        {
             "name": "Litany Against Wrath",
             "level": 6,
             "traits": [
@@ -4125,40 +4111,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Reach Spell",
-            "level": 1,
-            "traits": [
-                "Cleric",
-                " Bard",
-                " Concentrate",
-                " Druid",
-                " Metamagic",
-                " Sorcerer",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-            "prerequisites": "",
-            "benefits": "You can extend your spells\u2019 range.",
-            "text": "You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Cantrip Expansion",
-            "level": 2,
-            "traits": [
-                "Cleric",
-                " Bard",
-                " Sorcerer",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-            "prerequisites": "",
-            "benefits": "Study broadens your range of simple spells.",
-            "text": "A greater understanding of your magic broadens your range of simple spells. : You can prepare two additional cantrips each day. : Add two additional cantrips from your spell list to your repertoire.",
-            "pfsLegal": true
-        },
-        {
             "name": "Communal Healing",
             "level": 2,
             "traits": [
@@ -4329,22 +4281,6 @@
             "prerequisites": "",
             "benefits": "As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt.",
             "text": "As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt. When you cast a version of  harm  or  heal  that has an area, you can designate a number of creatures equal to your Charisma modifier (minimum 1) that are not targeted by the spell.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Steady Spellcasting",
-            "level": 6,
-            "traits": [
-                "Cleric",
-                " Bard",
-                " Druid",
-                " Sorcerer",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-            "prerequisites": "",
-            "benefits": "You don\u2019t lose spells easily.",
-            "text": "Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted.",
             "pfsLegal": true
         },
         {
@@ -4712,25 +4648,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Reach Spell",
-            "level": 1,
-            "traits": [
-                "Druid",
-                " Bard",
-                " Cleric",
-                " Concentrate",
-                " Metamagic",
-                " Sorcerer",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-            "prerequisites": "",
-            "benefits": "You can extend your spells\u2019 range.",
-            "text": "You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
             "name": "Storm Born",
             "level": 1,
             "traits": [
@@ -4807,19 +4724,6 @@
             "prerequisites": "",
             "benefits": "You have learned the secrets of another druidic order.",
             "text": "You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don\u2019t gain any of the other benefits of the order you chose.  You can take this feat multiple times. Each time you do, you must choose a different order other than your own.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Poison Resistance",
-            "level": 2,
-            "traits": [
-                "Druid",
-                " Alchemist"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=96",
-            "prerequisites": "",
-            "benefits": "Repeated exposure to toxic reagents has fortified your body against poisons of all kinds.",
-            "text": "Your body has become fortified against toxins. You gain poison resistance equal to half your level, and you gain a +1 status bonus to saving throws against poisons.",
             "pfsLegal": true
         },
         {
@@ -4907,22 +4811,6 @@
             "prerequisites": "Wild Shape",
             "benefits": "Your understanding of life expands, allowing you to mimic a wider range of creatures.",
             "text": "Your understanding of life expands, allowing you to mimic a wider range of creatures. Add the forms in  insect form  to your  wild shape  list. Whenever you use   to polymorph into the non-flying insect form listed in  pest form , the duration is 24 hours instead of 10 minutes.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Steady Spellcasting",
-            "level": 6,
-            "traits": [
-                "Druid",
-                " Bard",
-                " Cleric",
-                " Sorcerer",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-            "prerequisites": "",
-            "benefits": "You don\u2019t lose spells easily.",
-            "text": "Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted.",
             "pfsLegal": true
         },
         {
@@ -5164,22 +5052,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Effortless Concentration",
-            "level": 16,
-            "traits": [
-                "Druid",
-                " Bard",
-                " Sorcerer",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-            "prerequisites": "",
-            "benefits": "You can maintain a spell with hardly a thought.",
-            "text": "You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.",
-            "pfsLegal": true,
-            "actions": "Free Action"
-        },
-        {
             "name": "Impaling Briars",
             "level": 16,
             "traits": [
@@ -5307,21 +5179,6 @@
             "actions": "Two Actions"
         },
         {
-            "name": "Everstand Stance",
-            "level": 1,
-            "traits": [
-                "Fighter",
-                " Champion",
-                " Stance",
-                " Uncommon"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=1087",
-            "prerequisites": "",
-            "benefits": "You brace your shield with both hands, enhancing its potential for both offense and defense.",
-            "text": "You brace your shield with both hands, enhancing its potential for both offense and defense. When in this stance, you wield the shield with both hands. When wielding a shield this way, increase the weapon damage die of the shield\u2019s boss or spikes by one step, and increase the shield\u2019s Hardness by 2 when using the  Shield Block  reaction.   Lost Omens Character Guide pg. 90 The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn\u2019t apply to your class. :  ,  ,  , ",
-            "actions": "Single Action"
-        },
-        {
             "name": "Exacting Strike",
             "level": 1,
             "traits": [
@@ -5389,22 +5246,6 @@
             "text": "You combine an attack with quick grappling moves to throw an enemy off balance as long as it stays in your reach. Make a Strike while keeping one hand free. If this Strike hits, the target is flat-footed until the start of your next turn or until it\u2019s no longer within the reach of your hand, whichever comes first.",
             "pfsLegal": true,
             "actions": "Single Action"
-        },
-        {
-            "name": "Sudden Charge",
-            "level": 1,
-            "traits": [
-                "Fighter",
-                " Barbarian",
-                " Flourish",
-                " Open"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=134",
-            "prerequisites": "",
-            "benefits": "With a quick sprint, you dash up to your foe and swing.",
-            "text": "With a quick sprint, you dash up to your foe and swing. Stride twice. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy. You can use Sudden Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type.",
-            "pfsLegal": true,
-            "actions": "Two Actions"
         },
         {
             "name": "Aggressive Block",
@@ -5531,21 +5372,6 @@
             "actions": "Single Action"
         },
         {
-            "name": "Everstand Strike",
-            "level": 4,
-            "traits": [
-                "Fighter",
-                " Champion",
-                " Press",
-                " Uncommon"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=1088",
-            "prerequisites": "Everstand Stance ",
-            "benefits": "Your follow-up blow leaves you an opening to set your shield.",
-            "text": "Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also  Raise your Shield .   Lost Omens Character Guide pg. 90 The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn\u2019t apply to your class. :  ,  ,  , ",
-            "actions": "Single Action"
-        },
-        {
             "name": "Knockdown",
             "level": 4,
             "traits": [
@@ -5597,21 +5423,6 @@
             "benefits": "When your shield is up, your enemies\u2019 blows can\u2019t touch\u00a0you.",
             "text": "When your shield is up, your enemies\u2019 blows can\u2019t touch you. hen you have your shield raised, you can Stride to move half your Speed without triggering reactions that are triggered by your movement (such as Attacks of Opportunity). You can use Shielded Stride while Flying or Swimming instead of Striding if you have the corresponding movement type.",
             "pfsLegal": true
-        },
-        {
-            "name": "Swipe",
-            "level": 4,
-            "traits": [
-                "Fighter",
-                " Barbarian",
-                " Flourish"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=142",
-            "prerequisites": "",
-            "benefits": "You make a wide, arcing swing.",
-            "text": "You make a wide, arcing swing. Make a single melee Strike and compare the attack roll result to the ACs of up to two foes, each of whom must be within your melee reach and adjacent to the other. Roll damage only once and apply it to each creature you hit. A Swipe counts as two attacks for your multiple attack penalty. If you\u2019re using a weapon with the sweep trait, its modifier applies to all your Swipe attacks.",
-            "pfsLegal": true,
-            "actions": "Two Actions"
         },
         {
             "name": "Twin Parry",
@@ -5732,19 +5543,6 @@
             "actions": "Single Action"
         },
         {
-            "name": "Shield Warden",
-            "level": 6,
-            "traits": [
-                "Fighter",
-                " Champion"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=229",
-            "prerequisites": "[Champion] divine ally (shield), tenets of good; [Fighter] shield block",
-            "benefits": "You use your shield to protect your allies as well as yourself.",
-            "text": "You use your shield to protect your allies. When you have a shield raised, you can use your Shield Block reaction when an attack is made against an ally adjacent to you. If you do, the shield prevents that ally from taking damage instead of preventing you from taking damage, following the normal rules for Shield Block.",
-            "pfsLegal": true
-        },
-        {
             "name": "Triple Shot",
             "level": 6,
             "traits": [
@@ -5795,20 +5593,6 @@
             "text": "Your attack can ground an airborne foe. Make a Strike. If it hits and deals damage to a flying target, the target falls up to 120 feet. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall. If the attack is a critical hit, the target can\u2019t Fly, Leap, levitate, or otherwise leave the ground until the end of your next turn.",
             "pfsLegal": true,
             "actions": "Two Actions"
-        },
-        {
-            "name": "Impassable Wall Stance",
-            "level": 8,
-            "traits": [
-                "Fighter",
-                " Champion",
-                " Uncommon"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=1091",
-            "prerequisites": "Attack of Opportunity",
-            "benefits": "You refuse to let foes past your guard.",
-            "text": "You refuse to let foes past your guard. As long as you are in this stance, when you critically hit with an Attack of Opportunity triggered by a move action, you disrupt that move action.   Lost Omens Character Guide pg. 90 The following class feats are available to Knights of Lastwall. Those with the champion trait are champion class feats. Those with both the champion and fighter traits are both champion class feats and fighter class feats; when you take one of these feats, it loses the trait that doesn\u2019t apply to your class. :  ,  ,  , ",
-            "actions": "Single Action"
         },
         {
             "name": "Incredible Aim",
@@ -5863,20 +5647,6 @@
             "benefits": "You can bring your shield into place with hardly a thought.",
             "text": "You can bring your shield into place with hardly a thought. At the start of each of your turns, you gain an additional reaction that you can use only to Shield Block.",
             "pfsLegal": true
-        },
-        {
-            "name": "Sudden Leap",
-            "level": 8,
-            "traits": [
-                "Fighter",
-                " Barbarian"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=155",
-            "prerequisites": "",
-            "benefits": "You swing at a foe while mid-leap.",
-            "text": "You make an impressive leap and swing while you soar. Make a Leap, High Jump, or Long Jump and attempt one melee Strike at any point during your jump. Immediately after the Strike, you fall to the ground if you\u2019re in the air, even if you haven\u2019t reached the maximum distance of your jump. If the distance you fall is no more than the height of your jump, you take no damage and land upright.  When attempting a High Jump or Long Jump during a Sudden Leap, determine the DC using the Long Jump DCs, and increase your maximum distance to double your Speed.  If you have  Felling Strike , you can spend 3 actions to make a Sudden Leap and use Felling Strike instead of a normal Strike.",
-            "pfsLegal": true,
-            "actions": "Two Actions"
         },
         {
             "name": "Agile Grace",
@@ -6210,22 +5980,6 @@
             "text": "You lash out with both your weapons in a sudden frenzy. Strike twice, once with each weapon.",
             "pfsLegal": true,
             "actions": "Single Action"
-        },
-        {
-            "name": "Whirlwind Strike",
-            "level": 14,
-            "traits": [
-                "Fighter",
-                " Barbarian",
-                " Flourish",
-                " Open"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=170",
-            "prerequisites": "",
-            "benefits": "You attack all nearby adversaries.",
-            "text": "You attack all nearby adversaries. Make a melee Strike against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.",
-            "pfsLegal": true,
-            "actions": "Three Actions"
         },
         {
             "name": "Graceful Poise",
@@ -7145,19 +6899,6 @@
             "actions": "Reaction"
         },
         {
-            "name": "Animal Companion",
-            "level": 1,
-            "traits": [
-                "Ranger",
-                " Druid"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=311",
-            "prerequisites": "[Druid] animal order",
-            "benefits": "You gain the service of a young animal companion that travels with you.",
-            "text": "You gain the service of a young animal companion that travels with you on your adventures and obeys any simple commands you give it to the best of its abilities. See Animal Companions on page 214 for more information. : When you Hunt Prey, your animal companion gains the action\u2019s benefits and your hunter\u2019s edge benefit if you have one.",
-            "pfsLegal": true
-        },
-        {
             "name": "Crossbow Ace",
             "level": 1,
             "traits": [
@@ -7376,20 +7117,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Twin Parry",
-            "level": 4,
-            "traits": [
-                "Ranger",
-                " Fighter"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=377",
-            "prerequisites": "",
-            "benefits": "You use your two weapons to parry attacks.",
-            "text": "You use your two weapons to parry attacks. You gain a +1 circumstance bonus to AC until the start of your next turn, or a +2 circumstance bonus if either weapon has the parry trait. You lose this circumstance bonus if you no longer meet this feat\u2019s requirement.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
             "name": "Mature Animal Companion (Ranger)",
             "level": 6,
             "traits": [
@@ -7450,20 +7177,6 @@
             "prerequisites": "expert in Survival, Experienced Tracker",
             "benefits": "Your keen eyes catch signs of passage even when you\u2019re moving.",
             "text": "Your keen eyes catch signs of passage even when you\u2019re moving. You can move at your full Speed while you Track. If you have master proficiency in Survival, you don\u2019t need to attempt a new Survival check every hour while Tracking. If you have legendary proficiency in Survival, you can use another exploration activity while Tracking.  If you roll Survival for initiative while tracking your hunted prey, when you start your first turn of the encounter, you can Stride toward your hunted prey as a free action.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Blind-Fight",
-            "level": 8,
-            "traits": [
-                "Ranger",
-                " Fighter",
-                " Rogue"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=388",
-            "prerequisites": "master in Perception",
-            "benefits": "Your battle instincts make you more aware of concealed and invisible opponents.",
-            "text": "Your battle instincts make you more aware of concealed and invisible opponents. You don\u2019t need to succeed at a flat check to target concealed creatures. You\u2019re not flat-footed to creatures that are hidden from you (unless you\u2019re flat-footed to them for reasons other than the hidden condition), and you need only a successful DC 5 flat check to target a hidden creature.  While you\u2019re adjacent to an undetected creature of your level or lower, it is instead only hidden from you.",
             "pfsLegal": true
         },
         {
@@ -7578,20 +7291,6 @@
             "text": "You shoot clear through an intervening creature to hit your prey. Choose a target that is giving lesser cover to your hunted prey. Make a single ranged Strike with the required weapon against the chosen target and your hunted prey. This attack ignores any lesser cover the chosen target provides your hunted prey. Roll damage only once, and apply it to each creature you hit. A Penetrating Shot counts as two attacks for your multiple attack penalty.",
             "pfsLegal": true,
             "actions": "Two Actions"
-        },
-        {
-            "name": "Twin Riposte",
-            "level": 10,
-            "traits": [
-                "Ranger",
-                " Fighter"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=523",
-            "prerequisites": "",
-            "benefits": "A clever parry with one weapon leaves your opponent open to an attack with the other weapon.",
-            "text": "A clever parry with one weapon leaves your opponent open to an attack with the other weapon. Make a melee Strike or use a Disarm action against the triggering opponent.",
-            "pfsLegal": true,
-            "actions": "Reaction"
         },
         {
             "name": "Warden's Step",
@@ -7808,22 +7507,6 @@
             "actions": "Three Actions"
         },
         {
-            "name": "Impossible Volley",
-            "level": 18,
-            "traits": [
-                "Ranger",
-                " Fighter",
-                " Flourish",
-                " Open"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=426",
-            "prerequisites": "",
-            "benefits": "You fire a volley at all foes in an area.",
-            "text": "You fire a volley at all foes in an area. Make one Strike with a \u20132 penalty against each enemy within a 10-foot-radius burst centered at or beyond your weapon\u2019s volley range. Roll the damage only once for all targets.  Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks.  When taken as a Fighter feat, this feat has the  Flourish  and  Open  traits.",
-            "pfsLegal": true,
-            "actions": "Three Actions"
-        },
-        {
             "name": "Manifold Edge",
             "level": 18,
             "traits": [
@@ -8036,20 +7719,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Quick Draw",
-            "level": 2,
-            "traits": [
-                "Rogue",
-                " Ranger"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=498",
-            "prerequisites": "",
-            "benefits": "You draw your weapon and attack with the same motion.",
-            "text": "You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
             "name": "Unbalancing Blow",
             "level": 2,
             "traits": [
@@ -8141,20 +7810,6 @@
             "actions": "Single Action"
         },
         {
-            "name": "Scout's Warning",
-            "level": 4,
-            "traits": [
-                "Rogue",
-                " Ranger"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=505",
-            "prerequisites": "",
-            "benefits": "You visually or audibly warn your allies of danger.",
-            "text": "You visually or audibly warn your allies of danger, granting them each a +1 circumstance bonus to their initiative rolls. Depending on whether you use gestures or call out, this action gains either the visual or auditory trait, respectively.",
-            "pfsLegal": true,
-            "actions": "Free Action"
-        },
-        {
             "name": "Gang Up",
             "level": 6,
             "traits": [
@@ -8179,21 +7834,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Skirmish Strike",
-            "level": 6,
-            "traits": [
-                "Rogue",
-                " Flourish",
-                " Ranger"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=510",
-            "prerequisites": "",
-            "benefits": "Your feet and weapon move in tandem.",
-            "text": "Your feet and weapon move in tandem. Either Step and then Strike, or Strike and then Step.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
             "name": "Twist the Knife",
             "level": 6,
             "traits": [
@@ -8205,20 +7845,6 @@
             "text": "After stabbing your opponent in a weak spot, you tear the wound open. You deal persistent bleed damage to the target equal to your number of sneak attack damage dice.",
             "pfsLegal": true,
             "actions": "Single Action"
-        },
-        {
-            "name": "Blind-Fight",
-            "level": 8,
-            "traits": [
-                "Rogue",
-                " Fighter",
-                " Ranger"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=388",
-            "prerequisites": "master in Perception",
-            "benefits": "Your battle instincts make you more aware of concealed and invisible opponents.",
-            "text": "Your battle instincts make you more aware of concealed and invisible opponents. You don\u2019t need to succeed at a flat check to target concealed creatures. You\u2019re not flat-footed to creatures that are hidden from you (unless you\u2019re flat-footed to them for reasons other than the hidden condition), and you need only a successful DC 5 flat check to target a hidden creature.  While you\u2019re adjacent to an undetected creature of your level or lower, it is instead only hidden from you.",
-            "pfsLegal": true
         },
         {
             "name": "Delay Trap",
@@ -8461,20 +8087,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Sense the Unseen",
-            "level": 14,
-            "traits": [
-                "Rogue",
-                " Ranger"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=530",
-            "prerequisites": "",
-            "benefits": "When you look for foes, you can catch even the slightest cues.",
-            "text": "When you look for foes, you can catch even the slightest cues, such as their minute movements or the shifting of air currents on your skin. Even though you failed at the triggering check, you automatically sense any undetected creatures in the area where you\u2019re Seeking, making them merely hidden to you.",
-            "pfsLegal": true,
-            "actions": "Reaction"
-        },
-        {
             "name": "Blank Slate",
             "level": 16,
             "traits": [
@@ -8671,71 +8283,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Reach Spell",
-            "level": 1,
-            "traits": [
-                "Sorcerer",
-                " Bard",
-                " Cleric",
-                " Concentrate",
-                " Druid",
-                " Metamagic",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-            "prerequisites": "",
-            "benefits": "You can extend your spells\u2019 range.",
-            "text": "You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Widen Spell",
-            "level": 1,
-            "traits": [
-                "Sorcerer",
-                " Druid",
-                " Manipulate",
-                " Metamagic",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=315",
-            "prerequisites": "",
-            "benefits": "You manipulate the energy of your spell, causing it to spread out and affect a wider area.",
-            "text": "You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Cantrip Expansion",
-            "level": 2,
-            "traits": [
-                "Sorcerer",
-                " Bard",
-                " Cleric",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-            "prerequisites": "",
-            "benefits": "Study broadens your range of simple spells.",
-            "text": "A greater understanding of your magic broadens your range of simple spells. : You can prepare two additional cantrips each day. : Add two additional cantrips from your spell list to your repertoire.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Enhanced Familiar",
-            "level": 2,
-            "traits": [
-                "Sorcerer",
-                " Druid",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=318",
-            "prerequisites": "a familiar",
-            "benefits": "You infuse your familiar with additional primal energy, increasing its abilities.",
-            "text": "You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.  (Wizard) If your arcane thesis is improved familiar attunement, your familiar\u2019s base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.",
-            "pfsLegal": true
-        },
-        {
             "name": "Arcane Evolution",
             "level": 4,
             "traits": [
@@ -8814,22 +8361,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Steady Spellcasting",
-            "level": 6,
-            "traits": [
-                "Sorcerer",
-                " Bard",
-                " Cleric",
-                " Druid",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-            "prerequisites": "",
-            "benefits": "You don\u2019t lose spells easily.",
-            "text": "Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted.",
-            "pfsLegal": true
-        },
-        {
             "name": "Bloodline Resistance",
             "level": 8,
             "traits": [
@@ -8864,40 +8395,6 @@
             "benefits": "Further communion with the legacy of your bloodline has uncovered greater secrets.",
             "text": "Further communion with the legacy of your bloodline has uncovered greater secrets. You gain the greater bloodline spell associated with your bloodline. Increase the number of Focus Points in your focus pool by 1.",
             "pfsLegal": true
-        },
-        {
-            "name": "Overwhelming Energy",
-            "level": 10,
-            "traits": [
-                "Sorcerer",
-                " Druid",
-                " Manipulate",
-                " Metamagic",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=337",
-            "prerequisites": "",
-            "benefits": "You alter your spells to overcome resistances.",
-            "text": "You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\u2019s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by  wall of fire . A creature\u2019s immunities are unaffected.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Quickened Casting",
-            "level": 10,
-            "traits": [
-                "Sorcerer",
-                " Bard",
-                " Concentrate",
-                " Metamagic",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=199",
-            "prerequisites": "",
-            "benefits": "You are able to quickly cast a spell.",
-            "text": "If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action).  This can only be used on a cantrip or spell from the class matching the one you gained this feat from.",
-            "pfsLegal": true,
-            "actions": "Free Action"
         },
         {
             "name": "Bloodline Focus",
@@ -8952,22 +8449,6 @@
             "benefits": "You cause a spell to fire back at its caster.",
             "text": "When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell\u2019s effect back on its caster. When reflected, the spell affects only the original caster, even if it\u2019s an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal.",
             "pfsLegal": true
-        },
-        {
-            "name": "Effortless Concentration",
-            "level": 16,
-            "traits": [
-                "Sorcerer",
-                " Bard",
-                " Druid",
-                " Wizard"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-            "prerequisites": "",
-            "benefits": "You can maintain a spell with hardly a thought.",
-            "text": "You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.",
-            "pfsLegal": true,
-            "actions": "Free Action"
         },
         {
             "name": "Greater Mental Evolution",
@@ -9096,19 +8577,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Familiar",
-            "level": 1,
-            "traits": [
-                "Wizard",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=604",
-            "prerequisites": "",
-            "benefits": "An animal serves you and assists your spellcasting.",
-            "text": "You make a pact with creature that serves you and assists your spellcasting. You gain a familiar (page 217).",
-            "pfsLegal": true
-        },
-        {
             "name": "Hand of the Apprentice",
             "level": 1,
             "traits": [
@@ -9118,57 +8586,6 @@
             "prerequisites": "universalist wizard",
             "benefits": "You can magically hurl your weapon at your foe.",
             "text": "You can magically hurl your weapon at your foe. You gain the  hand of the apprentice  universalist spell. Universalist spells are a type of focus spell, much like school spells. You start with a focus pool of 1 Focus Point. See Arcane Schools on page 207 for more information about focus spells.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Reach Spell",
-            "level": 1,
-            "traits": [
-                "Wizard",
-                " Bard",
-                " Cleric",
-                " Concentrate",
-                " Druid",
-                " Metamagic",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=181",
-            "prerequisites": "",
-            "benefits": "You can extend your spells\u2019 range.",
-            "text": "You can extend the range of your spells. If the next action you use is to Cast a Spell that has a range, increase that spell\u2019s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Widen Spell",
-            "level": 1,
-            "traits": [
-                "Wizard",
-                " Druid",
-                " Manipulate",
-                " Metamagic",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=315",
-            "prerequisites": "",
-            "benefits": "You manipulate the energy of your spell, causing it to spread out and affect a wider area.",
-            "text": "You manipulate the energy of your spell, causing it to spread out and affect a wider area. If the next action you use is to Cast a Spell that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Cantrip Expansion",
-            "level": 2,
-            "traits": [
-                "Wizard",
-                " Bard",
-                " Cleric",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=183",
-            "prerequisites": "",
-            "benefits": "Study broadens your range of simple spells.",
-            "text": "A greater understanding of your magic broadens your range of simple spells. : You can prepare two additional cantrips each day. : Add two additional cantrips from your spell list to your repertoire.",
             "pfsLegal": true
         },
         {
@@ -9186,34 +8603,6 @@
             "text": "Hiding your gestures and incantations within other speech and movement, you attempt to conceal the fact that you are Casting a Spell. If the next action you use is to Cast a Spell, attempt a Stealth check against one or more observers\u2019 Perception DCs; if the spell has verbal components, you must also attempt a Deception check against the observers\u2019 Perception DC. If you succeed at your check (or checks) against an observer\u2019s DC, that observer doesn\u2019t notice you\u2019re casting a spell, even though material, somatic, and verbal components are usually noticeable and spells normally have sensory manifestations that would make spellcasting obvious to those nearby.  This ability hides only the spell\u2019s spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.",
             "pfsLegal": true,
             "actions": "Single Action"
-        },
-        {
-            "name": "Enhanced Familiar",
-            "level": 2,
-            "traits": [
-                "Wizard",
-                " Druid",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=318",
-            "prerequisites": "a familiar",
-            "benefits": "You infuse your familiar with additional primal energy, increasing its abilities.",
-            "text": "You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two.  (Wizard) If your arcane thesis is improved familiar attunement, your familiar\u2019s base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Bespell Weapon",
-            "level": 4,
-            "traits": [
-                "Wizard",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=610",
-            "prerequisites": "",
-            "benefits": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding.",
-            "text": "You siphon the residual energy from the last spell you cast into one weapon you\u2019re wielding. Until the end of your turn, the weapon deals an extra 1d6 damage of a type depending on the school of the spell you just cast.  Abjuration force damage  Conjuration or Transmutation the same type as the weapon  Divination, Enchantment, or Illusion mental damage  Evocation a type the spell dealt, or force damage if the spell didn\u2019t deal damage  Necromancy negative damage",
-            "pfsLegal": true,
-            "actions": "Free Action"
         },
         {
             "name": "Linked Focus",
@@ -9252,22 +8641,6 @@
             "prerequisites": "",
             "benefits": "You\u2019ve studied ways of overcoming the innate magical resistance that certain powerful creatures have.",
             "text": "You\u2019ve studied ways of overcoming the innate magical resistance that dragons, otherworldly beings, and certain other powerful creatures have. Any creature that has a status bonus to saving throws against magic reduces that bonus by 1 against your spells.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Steady Spellcasting",
-            "level": 6,
-            "traits": [
-                "Wizard",
-                " Bard",
-                " Cleric",
-                " Druid",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=194",
-            "prerequisites": "",
-            "benefits": "You don\u2019t lose spells easily.",
-            "text": "Confident in your technique, you don\u2019t easily lose your concentration when you Cast a Spell. If a reaction would disrupt your spellcasting action, attempt a DC 15 flat check. If you succeed, your action isn\u2019t disrupted.",
             "pfsLegal": true
         },
         {
@@ -9310,40 +8683,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Overwhelming Energy",
-            "level": 10,
-            "traits": [
-                "Wizard",
-                " Druid",
-                " Manipulate",
-                " Metamagic",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=337",
-            "prerequisites": "",
-            "benefits": "You alter your spells to overcome resistances.",
-            "text": "You alter your spells to overcome resistances. If the next action you use is to Cast a Spell, the spell ignores an amount of the target\u2019s resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by  wall of fire . A creature\u2019s immunities are unaffected.",
-            "pfsLegal": true,
-            "actions": "Single Action"
-        },
-        {
-            "name": "Quickened Casting",
-            "level": 10,
-            "traits": [
-                "Wizard",
-                " Bard",
-                " Concentrate",
-                " Metamagic",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=199",
-            "prerequisites": "",
-            "benefits": "You are able to quickly cast a spell.",
-            "text": "If your next action is to cast a cantrip or a spell that is at least 2 levels lower than the highest level spell you can cast, reduce the number of actions to cast it by 1 (minimum 1 action).  This can only be used on a cantrip or spell from the class matching the one you gained this feat from.",
-            "pfsLegal": true,
-            "actions": "Free Action"
-        },
-        {
             "name": "Scroll Savant",
             "level": 10,
             "traits": [
@@ -9368,21 +8707,6 @@
             "pfsLegal": true
         },
         {
-            "name": "Magic Sense",
-            "level": 12,
-            "traits": [
-                "Wizard",
-                " Detection",
-                " Divination",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=622",
-            "prerequisites": "",
-            "benefits": "You have a literal sixth sense for magic.",
-            "text": "You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level  detect magic  spell. This detects magic in your field of vision only. When you Seek, you gain the benefits of a 3rd-level  detect magic  spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.  (Wizard) This feat has the  Arcane  trait.",
-            "pfsLegal": true
-        },
-        {
             "name": "Bonded Focus",
             "level": 14,
             "traits": [
@@ -9392,19 +8716,6 @@
             "prerequisites": "arcane bond",
             "benefits": "Your connection to your bonded item increases your focus pool.",
             "text": "Your connection to your bonded item increases your focus pool. If you have spent at least 2 Focus Points since the last time you Refocused and your bonded item is in your possession, you recover 2 Focus Points when you Refocus instead of 1.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Reflect Spell",
-            "level": 14,
-            "traits": [
-                "Wizard",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=624",
-            "prerequisites": "Counterspell",
-            "benefits": "You cause a spell to fire back at its caster.",
-            "text": "When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell\u2019s effect back on its caster. When reflected, the spell affects only the original caster, even if it\u2019s an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal.",
             "pfsLegal": true
         },
         {
@@ -9418,22 +8729,6 @@
             "benefits": "When you draw upon your bonded item, you can leave a bit of energy within it for later use.",
             "text": "When you draw upon your bonded item, you can leave a bit of energy within it for later use. You can use Drain Bonded Item one additional time per day, but only to cast a spell 2 or more levels lower than your highest-level spell.",
             "pfsLegal": true
-        },
-        {
-            "name": "Effortless Concentration",
-            "level": 16,
-            "traits": [
-                "Wizard",
-                " Bard",
-                " Druid",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=206",
-            "prerequisites": "",
-            "benefits": "You can maintain a spell with hardly a thought.",
-            "text": "You maintain a spell with hardly a thought. You immediately gain the effects of the Sustain a Spell action, allowing you to extend the duration of one of your active class spells.",
-            "pfsLegal": true,
-            "actions": "Free Action"
         },
         {
             "name": "Spell Tinker",
@@ -9483,19 +8778,6 @@
             "prerequisites": "archwizard\u2019s spellcraft",
             "benefits": "You have mastered the greatest secrets of arcane magic.",
             "text": "You have mastered the greatest secrets of arcane magic. You gain an additional 10th-level spell slot.",
-            "pfsLegal": true
-        },
-        {
-            "name": "Metamagic Mastery",
-            "level": 20,
-            "traits": [
-                "Wizard",
-                " Sorcerer"
-            ],
-            "link": "https://2e.aonprd.com/Feats.aspx?ID=632",
-            "prerequisites": "",
-            "benefits": "Altering your spells doesn\u2019t take any longer than casting them normally.",
-            "text": "Altering your spells doesn\u2019t take any longer than casting them normally. You can use metamagic single actions as free actions.",
             "pfsLegal": true
         },
         {
