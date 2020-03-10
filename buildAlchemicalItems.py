@@ -9,17 +9,40 @@ alHolder['name'] = 'Pathfinder 2.0 Alchemical Item list'
 alHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
 
-def get_bombs():
+def get_bombs(url):
     string = " "
     items = []
-    listOfPages = codecs.open("bombs.csv", encoding='utf-8')
-    t = 0
-    for line in listOfPages: 
-        t += 1
-        alMD = line.split(",")
-        print("Getting bomb for :", alMD[0],"This url:", alMD[1].strip('\n'))
+    res1 = requests.get(url)
+    res1.raise_for_status()
+    soup1 = BeautifulSoup(res1.text, 'lxml')
+    mainlist = soup1.find("table", {'id':'ctl00_MainContent_TreasureElement'})
+    rows = mainlist.findAll(lambda tag: tag.name=='tr')
+    listOfPages = []
+    for row in rows:
+        entries = row.find_all(lambda tag: tag.name=='td')
+        if entries is not None:
+            if len(entries) > 0:
+                item = {}
+                name = entries[0].find("a").text
+                parenIndex = name.find("(")
+                name = name[0:parenIndex-1]
+                item['name'] = name
+                item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                if item not in listOfPages:
+                    listOfPages.append(item)
+                    print("adding:",item['name'])
+                else:
+                    print("Skipping:",item['name'])
 
-        res2 = requests.get(alMD[1].strip('\n'))
+
+
+    
+    t = 0
+    for page in listOfPages: 
+        t += 1
+        print("Getting bomb for :", page['name'],"This url:", page['link'].strip('\n'))
+
+        res2 = requests.get(page['link'].strip('\n'))
         res2.raise_for_status()
         soup2 = BeautifulSoup(res2.text, 'lxml')
         main = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
@@ -72,7 +95,7 @@ def get_bombs():
                     name = child.text
                     start = child.text.find("Item")
                     item['name'] = child.text[0:start]
-                    item['link'] = alMD[1].strip('\n')
+                    item['link'] = page['link'].strip('\n')
                 if child.name == "b":
                     if(child.text != "Source"):
                         tagType = child.text.lower().replace(" ", "")
@@ -118,17 +141,37 @@ def get_bombs():
     
     return items
 
-def get_elixirs():
+def get_elixirs(url):
     string = " "
     items = []
-    listOfPages = codecs.open("elixirs.csv", encoding='utf-8')
+    res1 = requests.get(url)
+    res1.raise_for_status()
+    soup1 = BeautifulSoup(res1.text, 'lxml')
+    mainlist = soup1.find("table", {'id':'ctl00_MainContent_TreasureElement'})
+    rows = mainlist.findAll(lambda tag: tag.name=='tr')
+    listOfPages = []
+    for row in rows:
+        entries = row.find_all(lambda tag: tag.name=='td')
+        if entries is not None:
+            if len(entries) > 0:
+                item = {}
+                name = entries[0].find("a").text
+                parenIndex = name.find("(")
+                name = name[0:parenIndex-1]
+                item['name'] = name
+                item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                if item not in listOfPages:
+                    listOfPages.append(item)
+                    print("adding:",item['name'])
+                else:
+                    print("Skipping:",item['name'])
+    
     t = 0
-    for line in listOfPages: 
+    for page in listOfPages: 
         t += 1
-        alMD = line.split(",")
-        print("Getting elixir for :", alMD[0],"This url:", alMD[1].strip('\n'))
+        print("Getting elixir for :", page['name'],"This url:", page['link'].strip('\n'))
 
-        res2 = requests.get(alMD[1].strip('\n'))
+        res2 = requests.get(page['link'].strip('\n'))
         res2.raise_for_status()
         soup2 = BeautifulSoup(res2.text, 'lxml')
         main = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
@@ -185,7 +228,7 @@ def get_elixirs():
                     #name = child.text
                     start = child.text.find("Item")
                     item['name'] = child.text[0:start]
-                    item['link'] = alMD[1].strip('\n')
+                    item['link'] = page['link'].strip('\n')
                 if child.name == "b":
                     if(child.text != "Source"):
                         tagType = child.text.lower().replace(" ", "")
@@ -195,9 +238,25 @@ def get_elixirs():
                     try:
                         if child['class'][0] == "external-link" :
                             item['source'] = child.text
+                            tagType = ""
                     except:
-                        pass
-                    tagType = ""
+                        if reachedItem:
+                            if tagType != "":
+                                if tagType in item:
+                                    item[tagType] += child.text
+                                else:
+                                    item[tagType] = child.text
+                            else:
+                                itemDetailHolder.append(child.text)
+                        else:    
+                            if tagType != "":
+                                if tagType in parentDetails:
+                                    parentDetails[tagType] += child.text
+                                else:
+                                    parentDetails[tagType] = child.text
+                            else:
+                                detailHolder.append(child.text)
+                    
             else:
                 
                 if reachedBreak:
@@ -227,7 +286,7 @@ def get_elixirs():
             item[key] = parentDetails[key]
         if 'name' not in item:
             item['name'] = parentName
-            item['link'] = alMD[1].strip('\n')
+            item['link'] = page['link'].strip('\n')
             item['level'] = int(parentLevel)
         item['text'] = string.join(detailHolder + itemDetailHolder)
 
@@ -302,9 +361,14 @@ def get_poison_details(link):
                     if child['class'][0] == "external-link" :
                         
                         poisonDetails['source'] = child.text
+                        tagType = ""
                 except:
-                    pass
-                tagType = ""
+                    if tagType != "":
+                        if tagType in poisonDetails:
+                            poisonDetails[tagType] += child.text
+                        else:
+                            poisonDetails[tagType] = child.text
+                
             if child.name == "b":
 
                 if(child.text != "Source"):
@@ -318,6 +382,9 @@ def get_poison_details(link):
             if reachedBreak:
                 if tagType != "":
                     if not stringContents.isspace():
+                        if tagType in poisonDetails:
+                            poisonDetails[tagType] += stringContents
+                        else:
                             poisonDetails[tagType] = stringContents
                 else:
                     if not stringContents.isspace() :
@@ -326,7 +393,10 @@ def get_poison_details(link):
                 if tagType != "":
                     if (tagType != "Bulk") & (tagType!= "Price"):
                         if not stringContents.isspace():
-                            poisonDetails[tagType] = stringContents
+                            if tagType in poisonDetails:
+                                poisonDetails[tagType] += stringContents
+                            else:
+                                poisonDetails[tagType] = stringContents
                 
 
        #print(child)
@@ -433,8 +503,8 @@ def get_tool_details(link):
     return toolDetails
 
 def get_all():
-    alHolder['bombs'] = get_bombs()
-    alHolder['elixirs'] = get_elixirs()
+    alHolder['bombs'] = get_bombs("https://2e.aonprd.com/Equipment.aspx?Category=6&Subcategory=7")
+    alHolder['elixirs'] = get_elixirs("https://2e.aonprd.com/Equipment.aspx?Category=6&Subcategory=8")
     alHolder['poisons'] = get_poisons("https://2e.aonprd.com/Equipment.aspx?Category=6&Subcategory=9")
     alHolder['tools'] = get_tools("https://2e.aonprd.com/Equipment.aspx?Category=6&Subcategory=10")
 
