@@ -1,5 +1,7 @@
 # PF2 JSON data project
 
+# H1 Be aware most of the archives of nethys html is currently broken and will end up with no data pulled
+
 ### Completed items
 * Spells
 * Focus Spells
