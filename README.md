@@ -7,6 +7,7 @@
 * Focus Spells
 * General Feats
 * Class Feats
+* Ancestry
 * Ancestry Feats
 * Adventuring Gear
 * Monsters - I believe(Verified as much as the data I can)
