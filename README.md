@@ -8,6 +8,7 @@
 * General Feats
 * Class Feats
 * Ancestry
+* Heritages
 * Ancestry Feats
 * Adventuring Gear
 * Monsters - I believe(Verified as much as the data I can)
