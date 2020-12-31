@@ -3,6 +3,7 @@ import requests
 import json
 import datetime
 import codecs
+import re
 
 featHolder = {}
 featHolder['name'] = 'Pathfinder 2.0 Ancestry feat list'
@@ -15,22 +16,11 @@ def get_details(link):
     res.raise_for_status()
     soup = BeautifulSoup(res.text, 'lxml')
     feat = soup.find_all("div", {'class':'main'})
-    detail = soup.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
-    #print(detail.contents)
-    children = detail.contents
-    reachedBreak = False
-    detailHolder = []
-    for child in children:
-        stringContents = str(child)
-        if stringContents.startswith("<"):
-            if stringContents == "<hr/>":
-                reachedBreak = True
-        else:
-            if reachedBreak:
-                detailHolder.append(stringContents)
-       #print(child)
-       #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
-    return detailHolder
+    detailraw = soup.find("meta", {'name':'description'})['content'] #First we grab the content from the meta tag
+    detailsplit = re.split('<(.*?)>', detailraw) #Now we split it into groups of strings seperated by < >, to pull out any links
+    detail = ''.join(detailsplit[::2]) #Finally, we join every other group together (passing over the link groups) into one string
+    #print(detail)
+    return detail
         
 
 
@@ -50,8 +40,8 @@ def get_feats(link):
         entries = row.find_all(lambda tag: tag.name=='td')
         if entries is not None:
             if len(entries) > 0:
-                name = entries[0].find("a").text
-                link = entries[0].find("a")['href']
+                name = entries[0].find("a").next_sibling.text #We do next_sibling here because the source puts PFS links first, which we want to skip over.
+                link = entries[0].find("a").next_sibling.a['href']
                 #for entry in entries: 
                 #   print(entry)
                 #  print("row---------------")
@@ -63,7 +53,7 @@ def get_feats(link):
 
                 feat['name'] = name
                 feat['level'] = level
-                feat['traits'] = traits.split(",")
+                feat['traits'] = traits.split(", ")
                 feat['link'] = "https://2e.aonprd.com/" +link
                 feat['prereq'] = prereq
                 feat['benefits'] = source
