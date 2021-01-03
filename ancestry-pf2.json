@@ -1,753 +1,1034 @@
 {
-    "date": "March 17, 2020", 
-    "name": "Pathfinder 2.0 Ancestry feat list", 
+    "name": "Pathfinder 2.0 Ancestry feat list",
+    "date": "January 02, 2021",
     "Ancestries": [
         {
-            "pfsLegal": true, 
+            "name": "Dwarf",
+            "source": "Core Rulebook pg. 35",
+            "traits": [
+                "Dwarf",
+                "Humanoid"
+            ],
+            "description": [
+                "Dwarves have a well-earned reputation as a stoic and stern people, ensconced within citadels and cities carved from solid rock. While some see them as dour and humorless crafters of stone and metal, dwarves and those who have spent time among them understand their unbridled zeal for their work, caring far more about quality than quantity. To a stranger, they can seem untrusting and clannish, but to their friends and family, they are warm and caring, their halls filled with the sounds of laughter and hammers hitting anvils."
+            ],
+            "text": "Dwarves are slow to trust those outside their kin, but this wariness is not without reason. Dwarves have a long history of forced exile from ancestral holds and struggles against the depredations of savage foes, especially giants, goblinoids, orcs, and the horrors that dwell deep below the surface. While trust from a dwarf is hard-won, once gained it is as strong as iron. If you want to play a character who is as hard as nails, a stubborn and unrelenting adventurer, with a mix of rugged toughness and deep wisdom-or at least dogged conviction-you should play a dwarf.",
+            "physical": [
+                "Dwarves are short and stocky, standing about a foot shorter than most humans. They have wide, compact bodies and burly frames. Dwarves of all genders pride themselves on the length of their hair, which they often braid into intricate patterns, some of which represent specific clans. A long beard is a sign of masculinity and honor among the dwarves, and thus a clean-shaven male dwarf is considered weak, untrustworthy, or worse.",
+                "Dwarves typically reach physical adulthood around the age of 25, though their traditionalist culture places more value on completing coming of age ceremonies unique to each clan than reaching a certain age. A typical dwarf can live to around 350 years old."
+            ],
+            "society": [
+                "The ancient surface empire the dwarves once ruled fell long ago, overwhelmed by orc and goblinoid enemies. Today's dwarves today retain many of the qualities that propelled their people to greatness in ancient times: fierceness, gumption, and stubbornness in endeavors ranging from battle and craftsmanship to forging ties with family and friends.",
+                "While the distance between their mountain Sky Citadels can create vast cultural divides between various dwarf clans, most dwarven societies share a number of similarities. Nearly all dwarven peoples share a passion for stonework, metalwork, and gem-cutting. Most are highly skilled at architecture and mining, and many share a hatred of giants, orcs, and goblinoids.",
+                "Few dwarves are seen without their clan dagger strapped to their belt. This dagger is forged just before a dwarf's birth and bears the gemstone of their clan. A parent uses this dagger to cut the infant's umbilical cord, making it the first weapon to taste their blood."
+            ],
+            "alignment": [
+                "Dwarves tend to value honor and closely follow the traditions of their clans and kingdoms. They have a strong sense of friendship and justice, though they are often very particular about who they consider a friend. They work hard and play harder- especially when strong ale is involved.",
+                "The typical dwarf is lawful good or lawful neutral and prefers to worship deities of those alignments. Torag, god of dwarvenkind, is the dwarves' primary deity, though worship of Torag's family members is also common."
+            ],
             "namesType": [
                 "Dwarves honor their children with names taken from ancestors or dwarven heroes, and it's quite rare to invent a new name or to borrow a name from another culture for a child. When introducing themselves, dwarves tend to list their family and clan, plus any number of other familial connections and honorifics. Dwarven names usually contain hard consonants and are rarely more or fewer than two syllables."
-            ], 
+            ],
             "abilityBoosts": [
-                "Constitution", 
-                "Wisdom", 
+                "Constitution",
+                "Wisdom",
                 "Free"
-            ], 
-            "name": "Dwarf", 
-            "source": "Core Rulebook pg. 35", 
-            "speed": "20 feet", 
-            "hp": "10", 
+            ],
             "abilityFlaws": [
                 "Charisma"
-            ], 
-            "description": [
-                "Dwarves have a well-earned reputation as a stoic and stern people, ensconced within citadels and cities carved from solid rock. While some see them as dour and humorless crafters of stone and metal, dwarves and those who have spent time among them understand their unbridled zeal for their work, caring far more about quality than quantity. To a stranger, they can seem untrusting and clannish, but to their friends and family, they are warm and caring, their halls filled with the sounds of laughter and hammers hitting anvils.", 
-                "Dwarves are slow to trust those outside their kin, but this wariness is not without reason. Dwarves have a long history of forced exile from ancestral holds and struggles against the depredations of savage foes, especially giants, goblinoids, orcs, and the horrors that dwell deep below the surface. While trust from a dwarf is hard-won, once gained it is as strong as iron.", 
-                " If you want to play a character who is as hard as nails, a stubborn and unrelenting adventurer, with a mix of rugged toughness and deep wisdom or at least dogged conviction you should play a dwarf."
-            ], 
+            ],
+            "hp": "10",
+            "size": "Medium",
+            "speed": "20 feet",
             "languages": [
-                "Common", 
-                "Dwarven", 
+                "Common",
+                "Dwarven",
                 "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Gnomish, Goblin, Jotun, Orcish, Terran, Undercommon, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "The ancient surface empire the dwarves once ruled fell long ago, overwhelmed by orc and goblinoid enemies. Today's dwarves today retain many of the qualities that propelled their people to greatness in ancient times: fierceness, gumption, and stubbornness in endeavors ranging from battle and craftsmanship to forging ties with family and friends.", 
-                " While the distance between their mountain Sky Citadels can create vast cultural divides between various dwarf clans, most dwarven societies share a number of similarities. Nearly all dwarven peoples share a passion for stonework, metalwork, and gem-cutting. Most are highly skilled at architecture and mining, and many share a hatred of giants, orcs, and goblinoids.", 
-                " Few dwarves are seen without their clan dagger strapped to their belt. This dagger is forged just before a dwarf's birth and bears the gemstone of their clan. A parent uses this dagger to cut the infant's umbilical cord, making it the first weapon to taste their blood."
-            ], 
-            "text": "List of Ancestries Dwarf Details | Dwarf Feats | Dwarf Heritages     Dwarf Dwarf Humanoid Source Dwarves have a well-earned reputation as a stoic and stern people, ensconced within citadels and cities carved from solid rock. While some see them as dour and humorless crafters of stone and metal, dwarves and those who have spent time among them understand their unbridled zeal for their work, caring far more about quality than quantity. To a stranger, they can seem untrusting and clannish, but to their friends and family, they are warm and caring, their halls filled with the sounds of laughter and hammers hitting anvils. Dwarves have a well-earned reputation as a stoic and stern people, ensconced within citadels and cities carved from solid rock. While some see them as dour and humorless crafters of stone and metal, dwarves and those who have spent time among them understand their unbridled zeal for their work, caring far more about quality than quantity. To a stranger, they can seem untrusting and clannish, but to their friends and family, they are warm and caring, their halls filled with the sounds of laughter and hammers hitting anvils. Strive to uphold your personal honor, no matter the situation. Appreciate quality craftsmanship in all forms and insist upon it for all your gear. Don't waver or back down once you've set your mind to something. See you as stubborn, though whether they see this as an asset or a detriment changes from one person to the next. Assume you are an expert in matters related to stonework, mining, precious metals, and gems. Recognize the deep connection you have with your family, heritage, and friends. Torag Sample Names Dwarf Mechanics Common Dwarven clan dagger", 
-            "other1": [
-                "Darkvision", 
-                "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
-            ], 
-            "other2": [
-                "Clan Dagger", 
-                "You get one "
-            ], 
+            ],
             "nameList": [
-                "Agna", 
-                "Bodill", 
-                "Dolgrin", 
-                "Edrukk", 
-                "Grunyar", 
-                "Ingra", 
-                "Kazmuk", 
-                "Kotri", 
-                "Lupp", 
-                "Morgrym", 
-                "Rogar", 
-                "Rusilka", 
-                "Torra", 
+                "Agna",
+                "Bodill",
+                "Dolgrin",
+                "Edrukk",
+                "Grunyar",
+                "Ingra",
+                "Kazmuk",
+                "Kotri",
+                "Lupp",
+                "Morgrym",
+                "Rogar",
+                "Rusilka",
+                "Torra",
                 "Yangrit"
-            ], 
-            "traits": [
-                "Dwarf", 
-                "Humanoid"
-            ], 
-            "probably": [
-                "See you as stubborn, though whether they see this as an asset or a detriment changes from one person to the next. ", 
-                "Assume you are an expert in matters related to stonework, mining, precious metals, and gems. ", 
-                "Recognize the deep connection you have with your family, heritage, and friends."
-            ], 
-            "size": "Medium", 
+            ],
             "might": [
-                "Strive to uphold your personal honor, no matter the situation. ", 
-                "Appreciate quality craftsmanship in all forms and insist upon it for all your gear. ", 
+                "Strive to uphold your personal honor, no matter the situation. ",
+                "Appreciate quality craftsmanship in all forms and insist upon it for all your gear. ",
                 "Don't waver or back down once you've set your mind to something."
-            ], 
-            "alignment": [
-                "Dwarves tend to value honor and closely follow the traditions of their clans and kingdoms. They have a strong sense of friendship and justice, though they are often very particular about who they consider a friend. They work hard and play harder  especially when strong ale is involved.", 
-                " The typical dwarf is lawful good or lawful neutral and prefers to worship deities of those alignments. Torag, god of dwarvenkind, is the dwarves' primary deity, though worship of Torag's family members is also common."
-            ], 
-            "physical": [
-                "Dwarves are short and stocky, standing about a foot shorter than most humans. They have wide, compact bodies and burly frames. Dwarves of all genders pride themselves on the length of their hair, which they often braid into intricate patterns, some of which represent specific clans. A long beard is a sign of masculinity and honor among the dwarves, and thus a clean-shaven male dwarf is considered weak, untrustworthy, or worse.", 
-                " Dwarves typically reach physical adulthood around the age of 25, though their traditionalist culture places more value on completing coming of age ceremonies unique to each clan than reaching a certain age. A typical dwarf can live to around 350 years old."
-            ]
-        }, 
+            ],
+            "probably": [
+                "See you as stubborn, though whether they see this as an asset or a detriment changes from one person to the next. ",
+                "Assume you are an expert in matters related to stonework, mining, precious metals, and gems. ",
+                "Recognize the deep connection you have with your family, heritage, and friends."
+            ],
+            "pfsLegal": true
+        },
         {
-            "pfsLegal": true, 
+            "name": "Elf",
+            "source": "Core Rulebook pg. 39",
+            "traits": [
+                "Elf",
+                "Humanoid"
+            ],
+            "description": [
+                "As an ancient people, elves have seen great change and have the perspective that can come only from watching the arc of history. After leaving the world in ancient times, they returned to a changed land, and they still struggle to reclaim their ancestral homes, most notably from terrible demons that have invaded parts of their lands. To some, the elves are objects of awe-graceful and beautiful, with immense talent and knowledge. Among themselves, however, the elves place far more importance on personal freedom than on living up to these ideals."
+            ],
+            "text": "Elves combine otherworldly grace, sharp intellect, and mysterious charm in a way that is practically magnetic to members of other ancestries. They are often voraciously intellectual, though their studies delve into a level of detail that most shorter-lived peoples find excessive or inefficient. Valuing kindness and beauty, elves ever strive to improve their manners, appearance, and culture. Elves are often rather private people, steeped in the secrets of their groves and kinship groups. They're slow to build friendships outside their kinsfolk, but for a specific reason: they subtly and deeply attune to their environment and their companions. There's a physical element to this attunement, but it isn't only superficial. Elves who spend their lives among shorter lived peoples often develop a skewed perception of their own mortality and tend to become morose after watching generation after generation of companions age and die. These elves are called the Forlorn. If you want a character who is magical, mystical, and mysterious, you should play an elf.",
+            "physical": [
+                "While generally taller than humans, elves possess a fragile grace, accentuated by long features and sharply pointed ears. Their eyes are wide and almond-shaped, featuring large and vibrant-colored pupils that make up the entire visible portion of the eye. These pupils give them an alien look and allow them to see sharply even in very little light.",
+                "Elves gradually adapt to their environment and their companions, and they often take on physical traits reflecting their surroundings. An elf who has dwelled in primeval forests for centuries, for example, might exhibit verdant hair and gnarled fingers, while one who's lived in a desert might have golden pupils and skin. Elven fashion, like the elves themselves, tends to reflect their surroundings. Elves living in the forests and other wilderness locales wear clothing that plays off the terrain and flora of their homes, while those who live in cities tend to wear the latest fashions.",
+                "Elves reach physical adulthood around the age of 20, though they aren't considered to be fully emotionally mature by other elves until closer to the passing of their first century, once they've experienced more, held several occupations, and outlived a generation of shorter-lived people. A typical elf can live to around 600 years old."
+            ],
+            "society": [
+                "Elven culture is deep, rich, and on the decline. Their society peaked millennia ago, long before they fled the world to escape a great calamity. They've since returned, but rebuilding is no easy task. Their inborn patience and intellectual curiosity make elves excellent sages, philosophers, and wizards, and their societies are built upon their inherent sense of wonder and knowledge. Elven architecture displays their deep appreciation of beauty, and elven cities are wondrous works of art.",
+                "Elves hold deeply seated ideals of individualism, allowing each elf to explore multiple occupations before alighting on a particular pursuit or passion that suits her best. Elves bear notorious grudges against rivals, which the elves call",
+                "<i>ilduliel</i>",
+                ", but these antagonistic relationships can sometimes blossom into friendships over time."
+            ],
+            "alignment": [
+                "Elves are often emotional and capricious, yet they hold high ideals close to their hearts. As such, many are chaotic good. They prefer deities who share their love of all things mystic and artistic. Desna and Shelyn are particular favorites, the former for her sense of wonder and the latter for her appreciation of artistry. Calistria is the most notorious of elven deities, as she represents many of the elven ideals taken to the extreme."
+            ],
             "namesType": [
-                "An elf keeps their personal name secret among their family, while giving a nickname when meeting other people. This nickname can change over time, due to events in the elf's life or even on a whim. A single elf might be known by many names by associates of different ages and regions. Elven names consist of multiple syllables and are meant to flow lyrically at least in the Elven tongue. They so commonly end in '-el' or '-ara' that other cultures sometimes avoid names ending in these syllables to avoid sounding too elven."
-            ], 
+                "An elf keeps their personal name secret among their family, while giving a nickname when meeting other people. This nickname can change over time, due to events in the elf's life or even on a whim. A single elf might be known by many names by associates of different ages and regions. Elven names consist of multiple syllables and are meant to flow lyrically-at least in the Elven tongue. They so commonly end in '-el' or '-ara' that other cultures sometimes avoid names ending in these syllables to avoid sounding too elven."
+            ],
             "abilityBoosts": [
-                "Dexterity", 
-                "Intelligence", 
+                "Dexterity",
+                "Intelligence",
                 "Free"
-            ], 
-            "name": "Elf", 
-            "source": "Core Rulebook pg. 39", 
-            "speed": "30 feet", 
-            "hp": "6", 
+            ],
             "abilityFlaws": [
                 "Constitution"
-            ], 
+            ],
+            "hp": "6",
+            "size": "Medium",
+            "speed": "30 feet",
             "languages": [
-                "Common", 
-                "Elven", 
+                "Common",
+                "Elven",
                 "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Celestial, Draconic, Gnoll, Gnomish, Goblin, Orcish, Sylvan, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "Elven culture is deep, rich, and on the decline. Their society peaked millennia ago, long before they fled the world to escape a great calamity. They've since returned, but rebuilding is no easy task. Their inborn patience and intellectual curiosity make elves excellent sages, philosophers, and wizards, and their societies are built upon their inherent sense of wonder and knowledge. Elven architecture displays their deep appreciation of beauty, and elven cities are wondrous works of art.", 
-                " Elves hold deeply seated ideals of individualism, allowing each elf to explore multiple occupations before alighting on a particular pursuit or passion that suits her best. Elves bear notorious grudges against rivals, which the elves call ilduliel, but these antagonistic relationships can sometimes blossom into friendships over time."
-            ], 
-            "text": "List of Ancestries Elf Details | Elf Feats | Elf Heritages     Elf Elf Humanoid Source As an ancient people, elves have seen great change and have the perspective that can come only from watching the arc of history. After leaving the world in ancient times, they returned to a changed land, and they still struggle to reclaim their ancestral homes, most notably from terrible demons that have invaded parts of their lands. To some, the elves are objects of awe graceful and beautiful, with immense talent and knowledge. Among themselves, however, the elves place far more importance on personal freedom than on living up to these ideals. As an ancient people, elves have seen great change and have the perspective that can come only from watching the arc of history. After leaving the world in ancient times, they returned to a changed land, and they still struggle to reclaim their ancestral homes, most notably from terrible demons that have invaded parts of their lands. To some, the elves are objects of awe graceful and beautiful, with immense talent and knowledge. Among themselves, however, the elves place far more importance on personal freedom than on living up to these ideals. Carefully curate your relationships with people with shorter lifespans, either keeping a careful emotional distance or resigning yourself to outliving them. Adopt specialized or obscure interests simply for the sake of mastering them. Have features such as eye color, skin tone, hair, or mannerisms that reflect the environment in which you live. Focus on your appearance, either admiring your grace or treating you as if you're physically fragile. Assume you practice archery, cast spells, fight demons, and have perfected one or more fine arts. Worry that you privately look down on them, or feel like you're condescending and aloof. ilduliel Desna Shelyn Calistria Sample Names Elf Mechanics Common Elven", 
-            "other1": [
-                "Low-Light Vision", 
-                "You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "description": [
-                "As an ancient people, elves have seen great change and have the perspective that can come only from watching the arc of history. After leaving the world in ancient times, they returned to a changed land, and they still struggle to reclaim their ancestral homes, most notably from terrible demons that have invaded parts of their lands. To some, the elves are objects of awe graceful and beautiful, with immense talent and knowledge. Among themselves, however, the elves place far more importance on personal freedom than on living up to these ideals.", 
-                "Elves combine otherworldly grace, sharp intellect, and mysterious charm in a way that is practically magnetic to members of other ancestries. They are often voraciously intellectual, though their studies delve into a level of detail that most shorter-lived peoples find excessive or inefficient. Valuing kindness and beauty, elves ever strive to improve their manners, appearance, and culture.", 
-                " Elves are often rather private people, steeped in the secrets of their groves and kinship groups. They're slow to build friendships outside their kinsfolk, but for a specific reason: they subtly and deeply attune to their environment and their companions. There's a physical element to this attunement, but it isn't only superficial. Elves who spend their lives among shorter lived peoples often develop a skewed perception of their own mortality and tend to become morose after watching generation after generation of companions age and die. These elves are called the Forlorn.", 
-                " If you want a character who is magical, mystical, and mysterious, you should play an elf."
-            ], 
+            ],
             "nameList": [
-                "Aerel", 
-                "Amrunelara", 
-                "Caladrel", 
-                "Dardlara", 
-                "Faunra", 
-                "Heldalel", 
-                "Jathal", 
-                "Lanliss", 
-                "Oparal", 
-                "Seldlon", 
-                "Soumral", 
-                "Talathel", 
-                "Tessara", 
-                "Variel", 
-                "Yalandlara", 
+                "Aerel",
+                "Amrunelara",
+                "Caladrel",
+                "Dardlara",
+                "Faunra",
+                "Heldalel",
+                "Jathal",
+                "Lanliss",
+                "Oparal",
+                "Seldlon",
+                "Soumral",
+                "Talathel",
+                "Tessara",
+                "Variel",
+                "Yalandlara",
                 "Zordlon"
-            ], 
-            "traits": [
-                "Elf", 
-                "Humanoid"
-            ], 
-            "probably": [
-                "Focus on your appearance, either admiring your grace or treating you as if you're physically fragile. ", 
-                "Assume you practice archery, cast spells, fight demons, and have perfected one or more fine arts. ", 
-                "Worry that you privately look down on them, or feel like you're condescending and aloof."
-            ], 
-            "size": "Medium", 
+            ],
             "might": [
-                "Carefully curate your relationships with people with shorter lifespans, either keeping a careful emotional distance or resigning yourself to outliving them. ", 
-                "Adopt specialized or obscure interests simply for the sake of mastering them. ", 
+                "Carefully curate your relationships with people with shorter lifespans, either keeping a careful emotional distance or resigning yourself to outliving them. ",
+                "Adopt specialized or obscure interests simply for the sake of mastering them. ",
                 "Have features such as eye color, skin tone, hair, or mannerisms that reflect the environment in which you live."
-            ], 
-            "alignment": [
-                " are particular favorites, the former for her sense of wonder and the latter for her appreciation of artistry. Calistria is the most notorious of elven deities, as she represents many of the elven ideals taken to the extreme."
-            ], 
-            "physical": [
-                "While generally taller than humans, elves possess a fragile grace, accentuated by long features and sharply pointed ears. Their eyes are wide and almond-shaped, featuring large and vibrant-colored pupils that make up the entire visible portion of the eye. These pupils give them an alien look and allow them to see sharply even in very little light.", 
-                " Elves gradually adapt to their environment and their companions, and they often take on physical traits reflecting their surroundings. An elf who has dwelled in primeval forests for centuries, for example, might exhibit verdant hair and gnarled fingers, while one who's lived in a desert might have golden pupils and skin. Elven fashion, like the elves themselves, tends to reflect their surroundings. Elves living in the forests and other wilderness locales wear clothing that plays off the terrain and flora of their homes, while those who live in cities tend to wear the latest fashions.", 
-                " Elves reach physical adulthood around the age of 20, though they aren't considered to be fully emotionally mature by other elves until closer to the passing of their first century, once they've experienced more, held several occupations, and outlived a generation of shorter-lived people. A typical elf can live to around 600 years old."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
-            "namesType": [
-                "Gnome names can get quite complex and polysyllabic. They have little interest in familial names, and most children receive their names purely on a parent's whim. Gnomes rarely concern themselves with how easy their names are to pronounce, and they often go by shorter nicknames. Some even collect and chronicle these nicknames. Among gnomes, the shorter the name, the more feminine it's considered to be."
-            ], 
-            "abilityBoosts": [
-                "Constitution", 
-                "Charisma", 
-                "Free"
-            ], 
-            "name": "Gnome", 
-            "source": "Core Rulebook pg. 43", 
-            "speed": "25 feet", 
-            "hp": "8", 
-            "abilityFlaws": [
-                "Strength"
-            ], 
-            "languages": [
-                "Common", 
-                "Gnomish", 
-                "Sylvan", 
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Dwarven, Elven, Goblin, Jotun, Orcish, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "While most gnomes adopt some of the cultural practices of the region in which they live, they tend to pick and choose, adjusting their communities to fit their own fey logic. This often leads to majority gnome communities eventually consisting almost entirely of gnomes, as other people, bewildered by gnomish political decisions, choose to move elsewhere. Gnomes have little culture that they would consider entirely their own. No gnome kingdoms or nations exist on the surface of Golarion, and gnomes wouldn't know what to do with such a state if they had one.", 
-                " By necessity, few gnomes marry for life, instead allowing relationships to run their course before amicably moving on, the better to stave off the Bleaching with new experiences. Though gnome families tend to be small, many gnome communities raise children communally, with fluid family boundaries. As adults depart the settlement, unrelated adolescents sometimes tag along, creating adopted families to journey together."
-            ], 
-            "text": "List of Ancestries Gnome Details | Gnome Feats | Gnome Heritages     Gnome Gnome Humanoid Source Long ago, early gnome ancestors emigrated from the First World, realm of the fey. While it's unclear why the first gnomes wandered to Golarion, this lineage manifests in modern gnomes as bizarre reasoning, eccentricity, obsessive tendencies, and what some see as naivete. These qualities are further reflected in their physical characteristics, such as spindly limbs, brightly colored hair, and childlike and extremely expressive facial features that further reflect their otherworldly origins. Long ago, early gnome ancestors emigrated from the First World, realm of the fey. While it's unclear why the first gnomes wandered to Golarion, this lineage manifests in modern gnomes as bizarre reasoning, eccentricity, obsessive tendencies, and what some see as naivete. These qualities are further reflected in their physical characteristics, such as spindly limbs, brightly colored hair, and childlike and extremely expressive facial features that further reflect their otherworldly origins. Embrace learning and hop from one area of study to another without warning. Rush into action before fully taking stock of the entire situation. Speak, think, and move quickly, and lose patience with those who can't keep up. Appreciate your enthusiasm and the energy with which you approach new situations. Struggle to understand your motivations or adapt to your rapid changes of direction. See you as unpredictable, flighty, unreliable, or even reckless. Cayden Cailean Desna Gozreh Shelyn Sample Names Gnome Mechanics Common Gnomish Sylvan", 
-            "other1": [
-                "Low-Light Vision", 
-                "You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "description": [
-                "Long ago, early gnome ancestors emigrated from the First World, realm of the fey. While it's unclear why the first gnomes wandered to Golarion, this lineage manifests in modern gnomes as bizarre reasoning, eccentricity, obsessive tendencies, and what some see as naivete. These qualities are further reflected in their physical characteristics, such as spindly limbs, brightly colored hair, and childlike and extremely expressive facial features that further reflect their otherworldly origins.", 
-                "Always hungry for new experiences, gnomes constantly wander both mentally and physically, attempting to stave off a terrible ailment that threatens all of their people. This affliction the Bleaching strikes gnomes who fail to dream, innovate, and take in new experiences, in the gnomes' absence of crucial magical essence from the First World. Gnomes latch onto a source of localized magic where they live, typically primal magic, as befits their fey lineage, but this isn't enough to avoid the Bleaching unless they supplement this magic with new experiences. The Bleaching slowly drains the color literally from gnomes, and it plunges those affected into states of deep depression that eventually claim their lives. Very few gnomes survive this scourge, becoming deeply morose and wise survivors known as bleachlings.", 
-                " If you want a character with boundless enthusiasm and an alien, fey outlook on morality and life, you should play a gnome."
-            ], 
-            "nameList": [
-                "Abroshtor", 
-                "Bastargre", 
-                "Besh", 
-                "Fijit", 
-                "Halungalom", 
-                "Krolmnite", 
-                "Neji", 
-                "Majet", 
-                "Pai", 
-                "Poshment", 
-                "Queck", 
-                "Trig", 
-                "Zarzuket", 
-                "Zatqualmie"
-            ], 
-            "traits": [
-                "Gnome", 
-                "Humanoid"
-            ], 
+            ],
             "probably": [
-                "Appreciate your enthusiasm and the energy with which you approach new situations. ", 
-                "Struggle to understand your motivations or adapt to your rapid changes of direction. ", 
-                "See you as unpredictable, flighty, unreliable, or even reckless."
-            ], 
-            "size": "Small", 
-            "might": [
-                "Embrace learning and hop from one area of study to another without warning. ", 
-                "Rush into action before fully taking stock of the entire situation. ", 
-                "Speak, think, and move quickly, and lose patience with those who can't keep up."
-            ], 
-            "alignment": [
-                ", and Shelyn."
-            ], 
+                "Focus on your appearance, either admiring your grace or treating you as if you're physically fragile. ",
+                "Assume you practice archery, cast spells, fight demons, and have perfected one or more fine arts. ",
+                "Worry that you privately look down on them, or feel like you're condescending and aloof."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Gnome",
+            "source": "Core Rulebook pg. 43",
+            "traits": [
+                "Gnome",
+                "Humanoid"
+            ],
+            "description": [
+                "Long ago, early gnome ancestors emigrated from the First World, realm of the fey. While it's unclear why the first gnomes wandered to Golarion, this lineage manifests in modern gnomes as bizarre reasoning, eccentricity, obsessive tendencies, and what some see as naivete. These qualities are further reflected in their physical characteristics, such as spindly limbs, brightly colored hair, and childlike and extremely expressive facial features that further reflect their otherworldly origins."
+            ],
+            "text": "Always hungry for new experiences, gnomes constantly wander both mentally and physically, attempting to stave off a terrible ailment that threatens all of their people. This affliction-the Bleaching-strikes gnomes who fail to dream, innovate, and take in new experiences, in the gnomes' absence of crucial magical essence from the First World. Gnomes latch onto a source of localized magic where they live, typically primal magic, as befits their fey lineage, but this isn't enough to avoid the Bleaching unless they supplement this magic with new experiences. The Bleaching slowly drains the color-literally-from gnomes, and it plunges those affected into states of deep depression that eventually claim their lives. Very few gnomes survive this scourge, becoming deeply morose and wise survivors known as bleachlings. If you want a character with boundless enthusiasm and an alien, fey outlook on morality and life, you should play a gnome.",
             "physical": [
                 "Most gnomes stand just over 3 feet in height and weigh little more than a human child. They exhibit a wide range of natural skin, hair, and eye colors. For gnomes that haven't begun the Bleaching, nearly any hair and eye color other than white is possible, with vibrant colors most frequent, while skin tones span a slightly narrower spectrum and tend toward earthy tones and pinkish hues, though occasionally green, black, or pale blue. Gnomes' large eyes and dense facial muscles allow them to be particularly expressive in their emotions. Gnomes typically reach physical maturity at the age of 18, though many gnomes maintain a childlike curiosity about the world even into adulthood. A gnome can theoretically live to any age if she can stave off the Bleaching indefinitely, but in practice gnomes rarely live longer than around 400 years."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
-            "namesType": [
-                "Goblins keep their names simple. A good name should be easy to pronounce, short enough to shout without getting winded, and taste good to say. The namer often picks a word that rhymes with something they like so that writing songs is easier. Since there aren't any real traditions regarding naming in goblin culture, children often name themselves once they're old enough to do something resembling talking."
-            ], 
-            "abilityBoosts": [
-                "Dexterity", 
-                "Charisma", 
-                "Free"
-            ], 
-            "name": "Goblin", 
-            "source": "Core Rulebook pg. 47", 
-            "speed": "25 feet", 
-            "hp": "6", 
-            "abilityFlaws": [
-                "Wisdom"
-            ], 
-            "languages": [
-                "Common", 
-                "Goblin", 
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Dwarven, Gnoll, Gnomish, Halfling, Orcish, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
+            ],
             "society": [
-                "Goblins tend to flock to strong leaders, forming small tribes. These tribes rarely number more than a hundred, though the larger a tribe is, the more diligent the leader must be to keep order a notoriously difficult task. As new threats rise across the Inner Sea region, many tribal elders have put aside their reckless ways in the hope of forging alliances that offer their people a greater chance at survival. Play and creativity matter more to goblins than productivity or study, and their encampments erupt with songs and laughter.", 
-                " Goblins bond closely with their allies, fiercely protecting those companions who have protected them or offered a sympathetic ear. Goblins tend to assume for their own protection that members of taller ancestries, which goblins often refer to colloquially as 'longshanks,' won't treat them kindly. Learning to trust longshanks is difficult for a goblin, and it's been only in recent years that such a partnership has even been an option. However, their attitude as a people is changing rapidly, and their short lifespans and poor memories help them adapt quickly."
-            ], 
-            "text": "List of Ancestries Goblin Details | Goblin Feats | Goblin Heritages     Goblin Goblin Humanoid Source The convoluted histories other people cling to don't interest goblins. These small folk live in the moment, and they prefer tall tales over factual records. The wars of a few decades ago might as well be from the ancient past. Misunderstood by other people, goblins are happy how they are. Goblin virtues are about being present, creative, and honest. They strive to lead fulfilled lives, rather than worrying about how their journeys will end. To tell stories, not nitpick the facts. To be small, but dream big. The convoluted histories other people cling to don't interest goblins. These small folk live in the moment, and they prefer tall tales over factual records. The wars of a few decades ago might as well be from the ancient past. Misunderstood by other people, goblins are happy how they are. Goblin virtues are about being present, creative, and honest. They strive to lead fulfilled lives, rather than worrying about how their journeys will end. To tell stories, not nitpick the facts. To be small, but dream big. Strive to prove that you have a place among other civilized peoples, perhaps even to yourself. Fight tooth and nail sometimes literally to protect yourself and your friends from danger. Lighten the heavy emotional burdens others carry (and amuse yourself) with antics and pranks. Work to ensure you don't accidentally (or intentionally) set too many things on fire. Assume you can't or won't read. Wonder how you survive given your ancestry's typical gastronomic choices, reckless behavior, and love of fire. Cayden Cailean Sample Names Goblin Mechanics Common Goblin", 
-            "other1": [
-                "Darkvision", 
-                "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "description": [
-                "The convoluted histories other people cling to don't interest goblins. These small folk live in the moment, and they prefer tall tales over factual records. The wars of a few decades ago might as well be from the ancient past. Misunderstood by other people, goblins are happy how they are. Goblin virtues are about being present, creative, and honest. They strive to lead fulfilled lives, rather than worrying about how their journeys will end. To tell stories, not nitpick the facts. To be small, but dream big.", 
-                "Goblins have a reputation as simple creatures who love songs, fire, and eating disgusting things and who hate reading, dogs, and horses and there are a great many for whom this description fits perfectly. However, great changes have come to goblinkind, and more and more goblins resist conformity to these stereotypes. Even among goblins that are more worldly, many still exemplify their old ways in some small manner, just to a more sensible degree. Some goblins remain deeply fascinated with fire or fearlessly devour a meal that might turn others' stomachs. Others are endless tinkerers and view their companions' trash as the components of gadgets yet to be made.", 
-                " Though goblins' culture has splintered radically, their reputation has changed little. As such, goblins who travel to larger cities are frequently subjected to derision, and many work twice as hard at proving their worth.", 
-                " If you want a character who is eccentric, enthusiastic, and fun-loving, you should play a goblin."
-            ], 
-            "nameList": [
-                "Ak", 
-                "Bokker", 
-                "Frum", 
-                "Guzmuk", 
-                "Krobby", 
-                "Loohi", 
-                "Mazmord", 
-                "Neeka", 
-                "Omgot", 
-                "Ranzak", 
-                "Rickle", 
-                "Tup", 
-                "Wakla", 
-                "Yonk", 
-                "Zibini"
-            ], 
-            "traits": [
-                "Goblin", 
-                "Humanoid"
-            ], 
-            "probably": [
-                "Work to ensure you don't accidentally (or intentionally) set too many things on fire. ", 
-                "Assume you can't or won't read. ", 
-                "Wonder how you survive given your ancestry's typical gastronomic choices, reckless behavior, and love of fire."
-            ], 
-            "size": "Small", 
-            "might": [
-                "Strive to prove that you have a place among other civilized peoples, perhaps even to yourself. ", 
-                "Fight tooth and nail sometimes literally to protect yourself and your friends from danger. ", 
-                "Lighten the heavy emotional burdens others carry (and amuse yourself) with antics and pranks."
-            ], 
+                "While most gnomes adopt some of the cultural practices of the region in which they live, they tend to pick and choose, adjusting their communities to fit their own fey logic. This often leads to majority gnome communities eventually consisting almost entirely of gnomes, as other people, bewildered by gnomish political decisions, choose to move elsewhere. Gnomes have little culture that they would consider entirely their own. No gnome kingdoms or nations exist on the surface of Golarion, and gnomes wouldn't know what to do with such a state if they had one.",
+                "By necessity, few gnomes marry for life, instead allowing relationships to run their course before amicably moving on, the better to stave off the Bleaching with new experiences. Though gnome families tend to be small, many gnome communities raise children communally, with fluid family boundaries. As adults depart the settlement, unrelated adolescents sometimes tag along, creating adopted families to journey together."
+            ],
             "alignment": [
-                "Even well-intentioned goblins have trouble following the rules, meaning they're rarely lawful. Most goblin adventurers are chaotic neutral or chaotic good. Organized worship confounds goblins, and most of them would rather pick their own deities, choosing powerful monsters, natural wonders, or anything else they find fascinating. Longshanks might have books upon books about the structures of divinity, but to a goblin, anything can be a god if you want it to. Goblins who spend time around people of other ancestries might adopt some of their beliefs, though, and many goblin adventurers adopt the worship of Cayden Cailean."
-            ], 
-            "physical": [
-                "Goblins are stumpy humanoids with large bodies, scrawny limbs, and massively oversized heads with large ears and beady red eyes. Their skin ranges from green to gray to blue, and they often bear scars, boils, and rashes. Goblins average 3 feet tall. Most are bald, with little or no body hair. Their jagged teeth fall out and regrow constantly, and their fast metabolism means they eat constantly and nap frequently. Mutations are also more common among goblins than other peoples, and goblins usually view particularly salient mutations as a sign of power or fortune.", 
-                " Goblins reach adolescence by the age of 3 and adulthood 4 or 5 years later. Goblins can live 50 years or more, but without anyone to protect them from each other or themselves, few live past 20 years of age."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
-            "name": "Half-Elf", 
-            "traits": [
-                "Elf", 
-                "Humanoid"
-            ], 
-            "speed": "25 feet", 
-            "hp": "8", 
-            "description": [
-                "A half-elf is born to an elf and a human, or to two half-elves. The life of a half-elf can be difficult, often marked by a struggle to fit in. Half-elves don't have their own homeland on Golarion, nor are populations of half-elves particularly tied to one another, since they often have very disparate human and elven traditions. Instead, most half-elves attempt to find acceptance in either human or elven settlements. Half-elves often appear primarily human, with subtly pointed ears and a taller stature than most full-blooded humans. Half-elves lack the almost alien eyes of their elf parents, though they do have a natural presence and often a striking beauty  that leads many to become artists or entertainers. Despite this innate appeal, many half-elves have difficulty forming lasting bonds with either humans or elves due to the distance they feel from both peoples as a whole. Half-elves live longer than other humans, often reaching an age around 150 years. This causes some of them to fear friendship and romance with humans, knowing that they'll likely outlive their companions.", 
-                "You can create a half-elf character by selecting the half-elf heritage at 1st level. This gives you access to elf and half-elf ancestry feats in addition to human ancestry feats."
-            ], 
-            "languages": [
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "source": "Core Rulebook pg. 55", 
-            "other1": [
-                "Other Halves", 
-                "By default, half-elves and half-orcs descend from humans, but your GM might allow you to be the offspring of an elf, orc, or different ancestry. In these cases, the GM will let you select the half-elf or half-orc heritage as the heritage for this other ancestry. The most likely other parent of a half-elf are gnomes and halflings, and the most likely parents of a half-orc are goblins, halflings, and dwarves."
-            ], 
-            "other2": [
-                "Low-Light Vision", 
-                "You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "text": "List of Ancestries Half-Elf Details | Half-Elf Feats     Half-Elf Human Heritage Elf Humanoid Source A half-elf is born to an elf and a human, or to two half-elves. The life of a half-elf can be difficult, often marked by a struggle to fit in. Half-elves don't have their own homeland on Golarion, nor are populations of half-elves particularly tied to one another, since they often have very disparate human and elven traditions. Instead, most half-elves attempt to find acceptance in either human or elven settlements. Half-elves often appear primarily human, with subtly pointed ears and a taller stature than most full-blooded humans. Half-elves lack the almost alien eyes of their elf parents, though they do have a natural presence and often a striking beauty  that leads many to become artists or entertainers. Despite this innate appeal, many half-elves have difficulty forming lasting bonds with either humans or elves due to the distance they feel from both peoples as a whole. Half-elves live longer than other humans, often reaching an age around 150 years. This causes some of them to fear friendship and romance with humans, knowing that they'll likely outlive their companions. A half-elf is born to an elf and a human, or to two half-elves. The life of a half-elf can be difficult, often marked by a struggle to fit in. Half-elves don't have their own homeland on Golarion, nor are populations of half-elves particularly tied to one another, since they often have very disparate human and elven traditions. Instead, most half-elves attempt to find acceptance in either human or elven settlements. Half-elves often appear primarily human, with subtly pointed ears and a taller stature than most full-blooded humans. Half-elves lack the almost alien eyes of their elf parents, though they do have a natural presence and often a striking beauty  that leads many to become artists or entertainers. Despite this innate appeal, many half-elves have difficulty forming lasting bonds with either humans or elves due to the distance they feel from both peoples as a whole. Half-elves live longer than other humans, often reaching an age around 150 years. This causes some of them to fear friendship and romance with humans, knowing that they'll likely outlive their companions. Keep to yourself and find it difficult to form close bonds with others. Strongly embrace or reject one side or the other of your parentage. Identify strongly with and relate to other people with mixed ancestries. Find you more attractive than humans and more approachable than elves. Dismiss your human ethnicity and culture in light of your elven heritage. Downplay the challenges of being caught between two cultures. Half-Elf Mechanics", 
-            "probably": [
-                "Find you more attractive than humans and more approachable than elves. ", 
-                "Dismiss your human ethnicity and culture in light of your elven heritage. ", 
-                "Downplay the challenges of being caught between two cultures."
-            ], 
-            "abilityBoosts": [
-                "Two free ability boosts"
-            ], 
-            "might": [
-                "Keep to yourself and find it difficult to form close bonds with others. ", 
-                "Strongly embrace or reject one side or the other of your parentage. ", 
-                "Identify strongly with and relate to other people with mixed ancestries."
-            ], 
-            "size": "Medium"
-        }, 
-        {
-            "pfsLegal": true, 
+                "Though gnomes are impulsive tricksters with inscrutable motives and confusing methods, many at least attempt to make the world a better place. They are prone to fits of powerful emotion, and they are often good but rarely lawful. Gnomes most commonly worship deities that value individuality and nature, such as Cayden Cailean, Desna, Gozreh, and Shelyn."
+            ],
             "namesType": [
-                "Halfling names are usually two to three syllables, with a gentle sound that avoids hard consonants. Preferring their names to sound humble, halflings see overly long or complex names as a sign of arrogance. This goes only for their own people, however halflings have names that suit them, and they understand that elves and humans might have longer names to suit their own aesthetics. Humans in particular have a tendency to refer to halflings by nicknames, with 'Lucky' being common to the point of absurdity."
-            ], 
+                "Gnome names can get quite complex and polysyllabic. They have little interest in familial names, and most children receive their names purely on a parent's whim. Gnomes rarely concern themselves with how easy their names are to pronounce, and they often go by shorter nicknames. Some even collect and chronicle these nicknames. Among gnomes, the shorter the name, the more feminine it's considered to be."
+            ],
             "abilityBoosts": [
-                "Dexterity", 
-                "Wisdom", 
+                "Constitution",
+                "Charisma",
                 "Free"
-            ], 
-            "name": "Halfling", 
-            "source": "Core Rulebook pg. 51", 
-            "speed": "25 feet", 
-            "hp": "6", 
+            ],
             "abilityFlaws": [
                 "Strength"
-            ], 
+            ],
+            "hp": "8",
+            "size": "Small",
+            "speed": "25 feet",
             "languages": [
-                "Common", 
-                "Halfling", 
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Dwarven, Elven, Gnomish, Goblin, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "Despite their jovial and friendly nature, halflings don't usually tend to congregate. They have no cultural homeland in the Inner Sea region, and they instead weave themselves throughout the societies of the world. Halflings eke out whatever living they can manage, many performing menial labor or holding simple service jobs. Some halflings reject city life, instead turning to the open road and traveling from place to place in search of fortune and fame. These nomadic halflings often travel in small groups, sharing hardships and simple pleasures among close friends and family.", 
-                " Wherever halflings go, they seamlessly blend into the society they find themselves in, adapting to the culture of the predominant ancestry around them and adding their uniquely halfling twists, creating a blend of cultural diffusion that enriches both cultures."
-            ], 
-            "text": "List of Ancestries Halfling Details | Halfling Feats | Halfling Heritages     Halfling Halfling Humanoid Source Claiming no place as their own, halflings control few settlements larger than villages. Instead, they frequently live among humans within the walls of larger cities, carving out small communities alongside taller folk. Many halflings lead perfectly fulfilling lives in the shadows of their larger neighbors, while others prefer a nomadic existence, traveling the world and taking advantage of opportunities and adventures as they come. Claiming no place as their own, halflings control few settlements larger than villages. Instead, they frequently live among humans within the walls of larger cities, carving out small communities alongside taller folk. Many halflings lead perfectly fulfilling lives in the shadows of their larger neighbors, while others prefer a nomadic existence, traveling the world and taking advantage of opportunities and adventures as they come. Get along well with a wide variety of people and enjoy meeting new friends. Find it difficult to resist indulging your curiosity, even when you know it's going to lead to trouble. Hold a deep and personal hatred of the practice of slavery and devote yourself to freeing those who still labor against their will. Appreciate your ability to always find a silver lining or something to laugh about, no matter how dire the situation. Think you bring good luck with you. Underestimate your strength, endurance, and fighting prowess. Desna Norgorber Cayden Cailean's Sample Names Halfling Mechanics Common Halfling", 
-            "other1": [
-                "Keen Eyes", 
-                "Your eyes are sharp, allowing you to make out small details about concealed or even invisible creatures that others might miss. You gain a +2 circumstance bonus when using the Seek action to find hidden or undetected creatures within 30 feet of you. When you target an opponent that is concealed from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "description": [
-                "Claiming no place as their own, halflings control few settlements larger than villages. Instead, they frequently live among humans within the walls of larger cities, carving out small communities alongside taller folk. Many halflings lead perfectly fulfilling lives in the shadows of their larger neighbors, while others prefer a nomadic existence, traveling the world and taking advantage of opportunities and adventures as they come.", 
-                "Optimistic and cheerful, blessed with uncanny luck, and driven by powerful wanderlust, halflings make up for their short stature with an abundance of bravado and curiosity. At once excitable and easygoing, they are the best kind of opportunists, and their passions favor joy over violence. Even in the jaws of danger, halflings rarely lose their sense of humor.", 
-                " Many taller people dismiss halflings due to their size or, worse, treat them like children. Halflings use these prejudices and misconceptions to their advantage, gaining access to opportunities and performing deeds of daring mischief or heroism. A halfling's curiosity is tempered by wisdom and caution, leading to calculated risks and narrow escapes.", 
-                " While their wanderlust and curiosity sometimes drive them toward adventure, halflings also carry strong ties to house and home, often spending above their means to achieve comfort in their homelife.", 
-                " If you want to play a character who must contend with these opposing drives toward adventure and comfort, you should play a halfling."
-            ], 
+                "Common",
+                "Gnomish",
+                "Sylvan",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Dwarven, Elven, Goblin, Jotun, Orcish, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
             "nameList": [
-                "Anafa", 
-                "Antal", 
-                "Bellis", 
-                "Boram", 
-                "Etune", 
-                "Filiu", 
-                "Jamir", 
-                "Kaleb", 
-                "Linna", 
-                "Marra", 
-                "Miro", 
-                "Rillka", 
-                "Sistra", 
-                "Sumak", 
-                "Yamyra"
-            ], 
+                "Abroshtor",
+                "Bastargre",
+                "Besh",
+                "Fijit",
+                "Halungalom",
+                "Krolmnite",
+                "Neji",
+                "Majet",
+                "Pai",
+                "Poshment",
+                "Queck",
+                "Trig",
+                "Zarzuket",
+                "Zatqualmie"
+            ],
+            "might": [
+                "Embrace learning and hop from one area of study to another without warning. ",
+                "Rush into action before fully taking stock of the entire situation. ",
+                "Speak, think, and move quickly, and lose patience with those who can't keep up."
+            ],
+            "probably": [
+                "Appreciate your enthusiasm and the energy with which you approach new situations. ",
+                "Struggle to understand your motivations or adapt to your rapid changes of direction. ",
+                "See you as unpredictable, flighty, unreliable, or even reckless."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Goblin",
+            "source": "Core Rulebook pg. 47",
             "traits": [
-                "Halfling", 
+                "Goblin",
                 "Humanoid"
-            ], 
-            "probably": [
-                "Appreciate your ability to always find a silver lining or something to laugh about, no matter how dire the situation. ", 
-                "Think you bring good luck with you. ", 
-                "Underestimate your strength, endurance, and fighting prowess."
-            ], 
-            "size": "Small", 
-            "might": [
-                "Get along well with a wide variety of people and enjoy meeting new friends. ", 
-                "Find it difficult to resist indulging your curiosity, even when you know it's going to lead to trouble. ", 
-                "Hold a deep and personal hatred of the practice of slavery and devote yourself to freeing those who still labor against their will."
-            ], 
-            "alignment": [
-                ", and many appreciate Cayden Cailean's role as a liberator, as well as any religions common among other ancestries around them."
-            ], 
+            ],
+            "description": [
+                "The convoluted histories other people cling to don't interest goblins. These small folk live in the moment, and they prefer tall tales over factual records. The wars of a few decades ago might as well be from the ancient past. Misunderstood by other people, goblins are happy how they are. Goblin virtues are about being present, creative, and honest. They strive to lead fulfilled lives, rather than worrying about how their journeys will end. To tell stories, not nitpick the facts. To be small, but dream big."
+            ],
+            "text": "Goblins have a reputation as simple creatures who love songs, fire, and eating disgusting things and who hate reading, dogs, and horses-and there are a great many for whom this description fits perfectly. However, great changes have come to goblinkind, and more and more goblins resist conformity to these stereotypes. Even among goblins that are more worldly, many still exemplify their old ways in some small manner, just to a more sensible degree. Some goblins remain deeply fascinated with fire or fearlessly devour a meal that might turn others' stomachs. Others are endless tinkerers and view their companions' trash as the components of gadgets yet to be made. Though goblins' culture has splintered radically, their reputation has changed little. As such, goblins who travel to larger cities are frequently subjected to derision, and many work twice as hard at proving their worth. If you want a character who is eccentric, enthusiastic, and fun-loving, you should play a goblin.",
             "physical": [
-                "Halflings are short humanoids who look vaguely like smaller humans. They rarely grow to be more than 3 feet in height. Halfling proportions vary, with some looking like shorter adult humans with slightly larger heads and others having proportions closer to those of a human child.", 
-                " Most halflings prefer to walk barefoot rather than wearing shoes, and those who do so develop roughly calloused soles on their feet over time. Tufts of thick, often-curly hair warm the tops of their broad, tanned feet. Halfling skin tones tend toward rich, tawny shades like amber or oak, and their hair color ranges from a light golden blond to raven black.", 
-                " Halflings reach physical adulthood around the age of 20. A typical halfling can live to be around 150 years old."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
-            "name": "Half-Orc", 
-            "traits": [
-                "Humanoid", 
-                "Orc"
-            ], 
-            "speed": "25 feet", 
-            "hp": "8", 
-            "description": [
-                "A half-orc is the offspring of a human and an orc, or of two half-orcs. Because some intolerant people see orcs as more akin to monsters than people, they sometimes hate and fear half-orcs simply due to their lineage. This commonly pushes half-orcs to the margins of society, where some find work in manual labor or as mercenaries, and others fall into crime or cruelty. Many who can't stand the indignities heaped on them in human society find a home among their orc kin or trek into the wilderness to live in peace, apart from society's judgment. Humans often assume half-orcs are unintelligent or uncivilized, and half-orcs rarely find acceptance among societies with many such folk. To an orc tribe, a half-orc is considered smart enough to make a good war leader but weaker physically than other orcs. Many half-orcs thus end up having low status among orc tribes unless they can prove their strength. A half-orc has a shorter lifespan than other humans, living to be roughly 70 years old.", 
-                "You can create a half-orc character by selecting the half-orc heritage at 1st level. This gives you access to orc and half-orc ancestry feats in addition to human ancestry feats."
-            ], 
-            "languages": [
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "source": "Core Rulebook pg. 55", 
-            "other1": [
-                "Low-Light Vision", 
-                "You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light."
-            ], 
-            "other2": [
-                "Other Halves", 
-                "By default, half-elves and half-orcs descend from humans, but your GM might allow you to be the offspring of an elf, orc, or different ancestry. In these cases, the GM will let you select the half-elf or half-orc heritage as the heritage for this other ancestry. The most likely other parent of a half-elf are gnomes and halflings, and the most likely parents of a half-orc are goblins, halflings, and dwarves.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "text": "List of Ancestries Half-Orc Details | Half-Orc Feats     Half-Orc Human Heritage Humanoid Orc Source A half-orc is the offspring of a human and an orc, or of two half-orcs. Because some intolerant people see orcs as more akin to monsters than people, they sometimes hate and fear half-orcs simply due to their lineage. This commonly pushes half-orcs to the margins of society, where some find work in manual labor or as mercenaries, and others fall into crime or cruelty. Many who can't stand the indignities heaped on them in human society find a home among their orc kin or trek into the wilderness to live in peace, apart from society's judgment. Humans often assume half-orcs are unintelligent or uncivilized, and half-orcs rarely find acceptance among societies with many such folk. To an orc tribe, a half-orc is considered smart enough to make a good war leader but weaker physically than other orcs. Many half-orcs thus end up having low status among orc tribes unless they can prove their strength. A half-orc has a shorter lifespan than other humans, living to be roughly 70 years old. A half-orc is the offspring of a human and an orc, or of two half-orcs. Because some intolerant people see orcs as more akin to monsters than people, they sometimes hate and fear half-orcs simply due to their lineage. This commonly pushes half-orcs to the margins of society, where some find work in manual labor or as mercenaries, and others fall into crime or cruelty. Many who can't stand the indignities heaped on them in human society find a home among their orc kin or trek into the wilderness to live in peace, apart from society's judgment. Humans often assume half-orcs are unintelligent or uncivilized, and half-orcs rarely find acceptance among societies with many such folk. To an orc tribe, a half-orc is considered smart enough to make a good war leader but weaker physically than other orcs. Many half-orcs thus end up having low status among orc tribes unless they can prove their strength. A half-orc has a shorter lifespan than other humans, living to be roughly 70 years old. Ignore, embrace, or actively counter the common stereotypes about half-orcs. Make the most of your size and strength, either physically or socially. Keep your distance from people of most other ancestries, in case they unfairly reject you due to your orc ancestors. Assume you enjoy and excel at fighting but aren't inclined toward magical or intellectual pursuits. Pity you for the tragic circumstances they assume were involved in your birth. Get out of your way and back down rather than face your anger. Half-Orc Mechanics", 
-            "probably": [
-                "Assume you enjoy and excel at fighting but aren't inclined toward magical or intellectual pursuits. ", 
-                "Pity you for the tragic circumstances they assume were involved in your birth. ", 
-                "Get out of your way and back down rather than face your anger."
-            ], 
-            "abilityBoosts": [
-                "Two free ability boosts"
-            ], 
-            "might": [
-                "Ignore, embrace, or actively counter the common stereotypes about half-orcs. ", 
-                "Make the most of your size and strength, either physically or socially. ", 
-                "Keep your distance from people of most other ancestries, in case they unfairly reject you due to your orc ancestors."
-            ], 
-            "size": "Medium"
-        }, 
-        {
-            "pfsLegal": true, 
-            "namesType": [
-                "Unlike many ancestral cultures, which generally cleave to specific traditions and shared histories, humanity's diversity has resulted in a near-infinite set of names. The humans of northern tribes have different names than those dwelling in southern nation-states. Humans throughout much of the world speak Common (though some continents on Golarion have their own regional common languages), yet their names are as varied as their beliefs and appearances."
-            ], 
-            "abilityBoosts": [
-                "Two free ability boosts"
-            ], 
-            "name": "Human", 
-            "source": "Core Rulebook pg. 55", 
-            "speed": "25 feet", 
-            "hp": "8", 
-            "description": [
-                "As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea.", 
-                "Humans' ambition, versatility, and exceptional potential have led to their status as the world's predominant ancestry. Their empires and nations are vast, sprawling things, and their citizens carve names for themselves with the strength of their sword arms and the power of their spells. Humanity is diverse and tumultuous, running the gamut from nomadic to imperial, sinister to saintly. Many of them venture forth to explore, to map the expanse of the multiverse, to search for long-lost treasure, or to lead mighty armies to conquer their neighbors for no better reason than because they can.", 
-                " If you want a character who can be just about anything, you should play a human."
-            ], 
-            "languages": [
-                "Common", 
-                "Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region).\r\n\r\n\t\t\t\t\t"
-            ], 
+                "Goblins are stumpy humanoids with large bodies, scrawny limbs, and massively oversized heads with large ears and beady red eyes. Their skin ranges from green to gray to blue, and they often bear scars, boils, and rashes. Goblins average 3 feet tall. Most are bald, with little or no body hair. Their jagged teeth fall out and regrow constantly, and their fast metabolism means they eat constantly and nap frequently. Mutations are also more common among goblins than other peoples, and goblins usually view particularly salient mutations as a sign of power or fortune.",
+                "Goblins reach adolescence by the age of 3 and adulthood 4 or 5 years later. Goblins can live 50 years or more, but without anyone to protect them from each other or themselves, few live past 20 years of age."
+            ],
             "society": [
-                "Human variety also manifests in terms of their governments, attitudes, and social norms. Though the oldest of human cultures can trace their shared histories thousands of years into the past, when compared to the societies of the elves or dwarves, human civilizations seem in a state of constant flux as empires fragment and new kingdoms subsume the old."
-            ], 
-            "text": "List of Ancestries Human Details | Human Feats | Human Heritages     Human Human Humanoid Source As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea. As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea. Strive to achieve greatness, either in your own right or on behalf of a cause. Seek to understand your purpose in the world. Cherish your relationships with family and friends. Respect your flexibility, your adaptability, and in most cases  your open mindedness. Distrust your intentions, fearing you seek only power or wealth. Aren't sure what to expect from you and are hesitant to assume your intentions. Sample Names Human Mechanics Common", 
-            "nameList": [
-                "A variety of human ethnic groups many of which have origins on distant lands  populates the continents bordering Golarion's Inner Sea. Human characters can be any of these ethnicities", 
-                "regardless of what lands they call home."
-            ], 
-            "traits": [
-                "Human", 
-                "Humanoid"
-            ], 
-            "probably": [
-                "Respect your flexibility, your adaptability, and in most cases  your open mindedness. ", 
-                "Distrust your intentions, fearing you seek only power or wealth. ", 
-                "Aren't sure what to expect from you and are hesitant to assume your intentions."
-            ], 
-            "size": "Medium", 
-            "might": [
-                "Strive to achieve greatness, either in your own right or on behalf of a cause. ", 
-                "Seek to understand your purpose in the world. ", 
-                "Cherish your relationships with family and friends."
-            ], 
+                "Goblins tend to flock to strong leaders, forming small tribes. These tribes rarely number more than a hundred, though the larger a tribe is, the more diligent the leader must be to keep order-a notoriously difficult task. As new threats rise across the Inner Sea region, many tribal elders have put aside their reckless ways in the hope of forging alliances that offer their people a greater chance at survival. Play and creativity matter more to goblins than productivity or study, and their encampments erupt with songs and laughter.",
+                "Goblins bond closely with their allies, fiercely protecting those companions who have protected them or offered a sympathetic ear. Goblins tend to assume for their own protection that members of taller ancestries, which goblins often refer to colloquially as 'longshanks,' won't treat them kindly. Learning to trust longshanks is difficult for a goblin, and it's been only in recent years that such a partnership has even been an option. However, their attitude as a people is changing rapidly, and their short lifespans and poor memories help them adapt quickly."
+            ],
             "alignment": [
-                "Humanity is perhaps the most heterogeneous of all the ancestries, with a capacity for great evil and boundless good. Some humans assemble into vast raging hordes, while others build sprawling cities. Considered as a whole, most humans are neutral, yet they tend to congregate into nations or communities of a shared alignment, or at least a shared tendency toward an alignment. Humans also worship a wide range of gods and practice many different religions, tending to seek favor from any divine being they encounter."
-            ], 
-            "physical": [
-                "Humans' physical characteristics are as varied as the world's climes. Humans have a wide variety of skin and hair colors, body types, and facial features. Generally speaking, their skin has a darker hue the closer to the equator they or their ancestors lived.", 
-                " Humans reach physical adulthood around the age of 15, though mental maturity occurs a few years later. A typical human can live to be around 90 years old. Humans often intermarry with people of other ancestries, giving rise to children who bear the traits of both parents. The most notable half-humans are half-elves and half-orcs."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
+                "Even well-intentioned goblins have trouble following the rules, meaning they're rarely lawful. Most goblin adventurers are chaotic neutral or chaotic good. Organized worship confounds goblins, and most of them would rather pick their own deities, choosing powerful monsters, natural wonders, or anything else they find fascinating. Longshanks might have books upon books about the structures of divinity, but to a goblin, anything can be a god if you want it to. Goblins who spend time around people of other ancestries might adopt some of their beliefs, though, and many goblin adventurers adopt the worship of Cayden Cailean."
+            ],
             "namesType": [
-                "Like goblins, hobgoblin names tend to be simple, though hobgoblin names usually sound more guttural and forceful. On rare occasions, hobgoblins will alter their names, keeping the core but adding aspects, usually in response to an extreme trauma or a life-altering event. Hobgoblins have no surnames, considering them both pointless and presumptuous; an individual's merits and demerits are to be earned by their actions, not by an association with a particular lineage."
-            ], 
+                "Goblins keep their names simple. A good name should be easy to pronounce, short enough to shout without getting winded, and taste good to say. The namer often picks a word that rhymes with something they like so that writing songs is easier. Since there aren't any real traditions regarding naming in goblin culture, children often name themselves once they're old enough to do something resembling talking."
+            ],
             "abilityBoosts": [
-                "Constitution", 
-                "Intelligence", 
+                "Dexterity",
+                "Charisma",
                 "Free"
-            ], 
-            "name": "Hobgoblin", 
-            "source": "Character Guide pg. 49", 
-            "speed": "25 feet", 
-            "hp": "8", 
+            ],
             "abilityFlaws": [
                 "Wisdom"
-            ], 
+            ],
+            "hp": "6",
+            "size": "Small",
+            "speed": "25 feet",
             "languages": [
-                "Common", 
-                "Goblin", 
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Dwarven, Gnoll, Jotun, Halfling, Orcish, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "Hobgoblins structure their society after military hierarchies. Even civilian groups such as farming collectives or trading houses organize into regiments, companies, and divisions. Most hobgoblins fixate on social status, and many constantly strive to advance their social position. Hobgoblin punishments are primarily social demotions, although execution or slavery are common for serious crimes, such as arson or desertion.", 
-                " Hobgoblin veterans hold a high place in their society, usually becoming leaders or advisors. Magic is rarely practiced and often derided, as most hobgoblins don't trust it over the strength of their own sword arms. Their arts tend to have a military bent; many hobgoblins consider stirring marches and weaponsmithing the only artistic endeavors worth pursuing, though Oprak's enforced era of peace is beginning to change this."
-            ], 
-            "text": "List of Ancestries Hobgoblin Details | Hobgoblin Feats | Hobgoblin Heritages     Hobgoblin Uncommon Goblin Humanoid Source Taller and stronger than their goblin kin, hobgoblins are equals in strength and size to humans, with broad shoulders and long, powerful arms. Taller and stronger than their goblin kin, hobgoblins are equals in strength and size to humans, with broad shoulders and long, powerful arms. Seek out the most effective and practical solutions to any problem. Encourage a clear chain of command among any group you travel with, following orders even if you disagree with them. Look for opportune alliances with other creatures, even if you don't fully understand or trust them. Consider you dangerous, due to your reputation and intimidating appearance. Assume you hate magic and other mystical arts. Recognize your incredible endurance, dedication, and discipline. Sample Names Hobgoblin Mechanics Common Goblin", 
-            "other1": [
-                "Darkvision", 
-                "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white.\r\n\r\n\t\t\t\t\t"
-            ], 
-            "description": [
-                "Taller and stronger than their goblin kin, hobgoblins are equals in strength and size to humans, with broad shoulders and long, powerful arms.", 
-                "The reputation of hobgoblins in the Inner Sea region has been upended by Oprak, the hobgoblin nation established recently in the mountains between Nidal and Nirmathas. The Ironfang Legion that stormed through Molthune and Nirmathas only a few years ago made a calculated decision to cease fighting, claim Oprak as a new homeland, and seek peace with its neighbors. Now under strict orders to not start conflicts with other nations, the hobgoblins of Oprak have begun to cautiously investigate Avistan in the spirit of cooperation rather than conquest. Many people, especially those that suffered terrible cruelties under the Ironfang Legion, fear that this is simply a pause in aggression while Oprak gains enough strength to crush its rivals. Others hope these bold soldiers might prove to be allies against the endless hordes of the Whispering Tyrant."
-            ], 
+                "Common",
+                "Goblin",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Dwarven, Gnoll, Gnomish, Halfling, Orcish, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
             "nameList": [
-                "Aze", 
-                "Druknar", 
-                "Ghargam", 
-                "Hathkren", 
-                "Imakra", 
-                "Kralaeng", 
-                "Mazkol", 
-                "Olzu", 
-                "Rezal", 
-                "Sivkrag", 
-                "Volmak", 
-                "Zornum"
-            ], 
-            "traits": [
-                "Uncommon", 
-                "Goblin", 
-                "Humanoid"
-            ], 
-            "probably": [
-                "Consider you dangerous, due to your reputation and intimidating appearance.", 
-                "Assume you hate magic and other mystical arts.", 
-                "Recognize your incredible endurance, dedication, and discipline."
-            ], 
-            "size": "Medium", 
+                "Ak",
+                "Bokker",
+                "Frum",
+                "Guzmuk",
+                "Krobby",
+                "Loohi",
+                "Mazmord",
+                "Neeka",
+                "Omgot",
+                "Ranzak",
+                "Rickle",
+                "Tup",
+                "Wakla",
+                "Yonk",
+                "Zibini"
+            ],
             "might": [
-                "Seek out the most effective and practical solutions to any problem.", 
-                "Encourage a clear chain of command among any group you travel with, following orders even if you disagree with them.", 
-                "Look for opportune alliances with other creatures, even if you don't fully understand or trust them."
-            ], 
+                "Strive to prove that you have a place among other civilized peoples, perhaps even to yourself. ",
+                "Fight tooth and nail-sometimes literally-to protect yourself and your friends from danger. ",
+                "Lighten the heavy emotional burdens others carry (and amuse yourself) with antics and pranks."
+            ],
+            "probably": [
+                "Work to ensure you don't accidentally (or intentionally) set too many things on fire. ",
+                "Assume you can't-or won't-read. ",
+                "Wonder how you survive given your ancestry's typical gastronomic choices, reckless behavior, and love of fire."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Halfling",
+            "source": "Core Rulebook pg. 51",
+            "traits": [
+                "Halfling",
+                "Humanoid"
+            ],
+            "description": [
+                "Claiming no place as their own, halflings control few settlements larger than villages. Instead, they frequently live among humans within the walls of larger cities, carving out small communities alongside taller folk. Many halflings lead perfectly fulfilling lives in the shadows of their larger neighbors, while others prefer a nomadic existence, traveling the world and taking advantage of opportunities and adventures as they come."
+            ],
+            "text": "Optimistic and cheerful, blessed with uncanny luck, and driven by powerful wanderlust, halflings make up for their short stature with an abundance of bravado and curiosity. At once excitable and easygoing, they are the best kind of opportunists, and their passions favor joy over violence. Even in the jaws of danger, halflings rarely lose their sense of humor. Many taller people dismiss halflings due to their size or, worse, treat them like children. Halflings use these prejudices and misconceptions to their advantage, gaining access to opportunities and performing deeds of daring mischief or heroism. A halfling's curiosity is tempered by wisdom and caution, leading to calculated risks and narrow escapes. While their wanderlust and curiosity sometimes drive them toward adventure, halflings also carry strong ties to house and home, often spending above their means to achieve comfort in their homelife. If you want to play a character who must contend with these opposing drives toward adventure and comfort, you should play a halfling.",
+            "physical": [
+                "Halflings are short humanoids who look vaguely like smaller humans. They rarely grow to be more than 3 feet in height. Halfling proportions vary, with some looking like shorter adult humans with slightly larger heads and others having proportions closer to those of a human child.",
+                "Most halflings prefer to walk barefoot rather than wearing shoes, and those who do so develop roughly calloused soles on their feet over time. Tufts of thick, often-curly hair warm the tops of their broad, tanned feet. Halfling skin tones tend toward rich, tawny shades like amber or oak, and their hair color ranges from a light golden blond to raven black.",
+                "Halflings reach physical adulthood around the age of 20. A typical halfling can live to be around 150 years old."
+            ],
+            "society": [
+                "Despite their jovial and friendly nature, halflings don't usually tend to congregate. They have no cultural homeland in the Inner Sea region, and they instead weave themselves throughout the societies of the world. Halflings eke out whatever living they can manage, many performing menial labor or holding simple service jobs. Some halflings reject city life, instead turning to the open road and traveling from place to place in search of fortune and fame. These nomadic halflings often travel in small groups, sharing hardships and simple pleasures among close friends and family.",
+                "Wherever halflings go, they seamlessly blend into the society they find themselves in, adapting to the culture of the predominant ancestry around them and adding their uniquely halfling twists, creating a blend of cultural diffusion that enriches both cultures."
+            ],
+            "alignment": [
+                "Halflings are loyal to their friends and their family, but they aren't afraid to do what needs to be done in order to survive. Halfling alignments vary, typically closely in keeping with the alignment of the other ancestries that live around them. Halflings favor gods that either grant luck, like Desna, or encourage guile, like Norgorber, and many appreciate Cayden Cailean's role as a liberator, as well as any religions common among other ancestries around them."
+            ],
+            "namesType": [
+                "Halfling names are usually two to three syllables, with a gentle sound that avoids hard consonants. Preferring their names to sound humble, halflings see overly long or complex names as a sign of arrogance. This goes only for their own people, however-halflings have names that suit them, and they understand that elves and humans might have longer names to suit their own aesthetics. Humans in particular have a tendency to refer to halflings by nicknames, with 'Lucky' being common to the point of absurdity."
+            ],
+            "abilityBoosts": [
+                "Dexterity",
+                "Wisdom",
+                "Free"
+            ],
+            "abilityFlaws": [
+                "Strength"
+            ],
+            "hp": "6",
+            "size": "Small",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Halfling",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Dwarven, Elven, Gnomish, Goblin, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Anafa",
+                "Antal",
+                "Bellis",
+                "Boram",
+                "Etune",
+                "Filiu",
+                "Jamir",
+                "Kaleb",
+                "Linna",
+                "Marra",
+                "Miro",
+                "Rillka",
+                "Sistra",
+                "Sumak",
+                "Yamyra"
+            ],
+            "might": [
+                "Get along well with a wide variety of people and enjoy meeting new friends. ",
+                "Find it difficult to resist indulging your curiosity, even when you know it's going to lead to trouble. ",
+                "Hold a deep and personal hatred of the practice of slavery and devote yourself to freeing those who still labor against their will."
+            ],
+            "probably": [
+                "Appreciate your ability to always find a silver lining or something to laugh about, no matter how dire the situation. ",
+                "Think you bring good luck with you. ",
+                "Underestimate your strength, endurance, and fighting prowess."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Human",
+            "source": "Core Rulebook pg. 55",
+            "traits": [
+                "Human",
+                "Humanoid"
+            ],
+            "description": [
+                "As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea."
+            ],
+            "text": "Humans' ambition, versatility, and exceptional potential have led to their status as the world's predominant ancestry. Their empires and nations are vast, sprawling things, and their citizens carve names for themselves with the strength of their sword arms and the power of their spells. Humanity is diverse and tumultuous, running the gamut from nomadic to imperial, sinister to saintly. Many of them venture forth to explore, to map the expanse of the multiverse, to search for long-lost treasure, or to lead mighty armies to conquer their neighbors-for no better reason than because they can. If you want a character who can be just about anything, you should play a human.",
+            "physical": [
+                "Humans' physical characteristics are as varied as the world's climes. Humans have a wide variety of skin and hair colors, body types, and facial features. Generally speaking, their skin has a darker hue the closer to the equator they or their ancestors lived.",
+                "Humans reach physical adulthood around the age of 15, though mental maturity occurs a few years later. A typical human can live to be around 90 years old. Humans often intermarry with people of other ancestries, giving rise to children who bear the traits of both parents. The most notable half-humans are half-elves and half-orcs."
+            ],
+            "society": [
+                "Human variety also manifests in terms of their governments, attitudes, and social norms. Though the oldest of human cultures can trace their shared histories thousands of years into the past, when compared to the societies of the elves or dwarves, human civilizations seem in a state of constant flux as empires fragment and new kingdoms subsume the old."
+            ],
+            "alignment": [
+                "Humanity is perhaps the most heterogeneous of all the ancestries, with a capacity for great evil and boundless good. Some humans assemble into vast raging hordes, while others build sprawling cities. Considered as a whole, most humans are neutral, yet they tend to congregate into nations or communities of a shared alignment, or at least a shared tendency toward an alignment. Humans also worship a wide range of gods and practice many different religions, tending to seek favor from any divine being they encounter."
+            ],
+            "namesType": [
+                "Unlike many ancestral cultures, which generally cleave to specific traditions and shared histories, humanity's diversity has resulted in a near-infinite set of names. The humans of northern tribes have different names than those dwelling in southern nation-states. Humans throughout much of the world speak Common (though some continents on Golarion have their own regional common languages), yet their names are as varied as their beliefs and appearances."
+            ],
+            "abilityBoosts": [
+                "Two free ability boosts"
+            ],
+            "hp": "8",
+            "size": "Medium",
+            "speed": "25 feet",
+            "languages": [
+                "CommonAdditional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "A variety of human ethnic groups-many of which have origins on distant lands- populates the continents bordering Golarion's Inner Sea. Human characters can be any of these ethnicities",
+                "regardless of what lands they call home."
+            ],
+            "might": [
+                "Strive to achieve greatness, either in your own right or on behalf of a cause. ",
+                "Seek to understand your purpose in the world. ",
+                "Cherish your relationships with family and friends."
+            ],
+            "probably": [
+                "Respect your flexibility, your adaptability, and-in most cases- your open mindedness. ",
+                "Distrust your intentions, fearing you seek only power or wealth. ",
+                "Aren't sure what to expect from you and are hesitant to assume your intentions."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Catfolk",
+            "source": "Advanced Player's Guide pg. 9",
+            "traits": [
+                "Uncommon",
+                "Catfolk",
+                "Humanoid"
+            ],
+            "description": [
+                "Curious and gregarious wanderers, catfolk combine features of felines and humanoids in both appearance and temperament. They enjoy learning new things, collecting new tales and trinkets, and ensuring their loved ones are safe and happy. Catfolk view themselves as chosen guardians of natural places in the world and are often recklessly brave, even in the face of overwhelming opposition."
+            ],
+            "text": "Catfolk are outgoing, active humanoids who delight in discovery, whether of hidden ruins or a comfortable place to nap. They are exceptionally social, both within their tight-knit communities and with other creatures they meet. Remarkably brave, catfolk see themselves as guardians of the world against forces that would assail it, and they believe that strong communities, breadth of experience, and continual self-improvement aid them in this fight. Catfolk have fast reflexes and are even able to twist themselves in the air while falling to land on their feet. As quick as these reflexes are, catfolk have quicker tempers, shifting from effusive glee to aggrieved fury in an instant. Like mundane felines, catfolk involuntarily purr when pleased and growl when surprised or angry. If you want a character who is curious, brave, friendly, and nimble in body and mind, you should play a catfolk.",
+            "physical": [
+                "Although all catfolk walk upright and have soft fur, a long tail, large ears, and vertical pupils, they show at least as much variety as ordinary felines. Catfolk have nimble fingers with short claws that are usually retractable. Most catfolk take great pride in maintaining their appearance and rarely suffer the indignity of being wet or dirty if they can avoid it.",
+                "Catfolk mature quickly and are able to walk at only a few months old, but they otherwise start their careers at roughly the same age as humans do and live to be 60 or 70 years of age. Catfolk are rarely taller than the average human and, because of their lean builds, almost never weigh as much as a human of similar height."
+            ],
+            "society": [
+                "Catfolk call themselves amurruns, although many consider this name to be private. They raise their children in large extended families, where they are given what many other humanoids see as a distressing latitude to explore and get into trouble from a remarkably young age. Catfolk learn a trade in a loose apprenticeship, and the majority learn several trades over their lives.",
+                "Catfolk societies are often led by an appointed leader who speaks on behalf of the community and mediates disputes. A catfolk leader is most often a spellcaster and usually female. Catfolk prefer to deal with grievances by making an elaborate showing of disinterest, or even leaving a community for a time so the problem can die away or work itself out."
+            ],
+            "alignment": [
+                "Catfolk aren't a particularly religious people, but most do believe they were uplifted from great primeval cats to confront the evil abominations despoiling natural places and laboring to unmake reality. The gods blessed catfolk with language, the use of tools and weapons, and a strong sense of community.",
+                "Most catfolk are good. They enjoy the freedom to travel and like to set their own paths in life, so more catfolk are chaotic than lawful. Religious catfolk most often practice a nebulous form of animism, appeasing the spirits of the land and the creatures they hunt to preserve the natural order."
+            ],
+            "namesType": [
+                "Catfolk are given short names in their youth. Adolescent catfolk are free to choose a different name when they first leave home, though some simply keep the name they've gotten used to. Catfolk love to add titles and honorifics to their names. Some catfolk use their titles exclusively among non-catfolk, and so become known by epithets like Six Fates, Fiend Killer, or Mistcloak."
+            ],
+            "abilityBoosts": [
+                "Dexterity",
+                "Charisma",
+                "Free"
+            ],
+            "abilityFlaws": [
+                "Wisdom"
+            ],
+            "hp": "8",
+            "size": "Medium",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Amurrun",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Elven, Gnomish, Goblin, Halfling, Iruxi, Jotun, Sylvan, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Alyara",
+                "Crinto",
+                "Drewan",
+                "Espes",
+                "Ferrus",
+                "Gerran",
+                "Halhat",
+                "Hoya",
+                "Ruun",
+                "Sevastin",
+                "Tespa",
+                "Yonsol",
+                "Zakkar",
+                "Zathra"
+            ],
+            "might": [
+                "Demonstrate genuine interest by asking a lot of enthusiastic questions. ",
+                "Avoid interpersonal conflict by giving someone a cold shoulder or by simply leaving the area. ",
+                "Carefully scout a target or problem before striking at it quickly."
+            ],
+            "probably": [
+                "Think you monopolize conversations with your incessant queries or opinions. ",
+                "Consider you haughty or prideful. ",
+                "Ascribe more emotion than you feel to your involuntary purrs or growling."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Hobgoblin",
+            "source": "Character Guide pg. 49",
+            "traits": [
+                "Uncommon",
+                "Goblin",
+                "Humanoid"
+            ],
+            "description": [
+                "Taller and stronger than their goblin kin, hobgoblins are equals in strength and size to humans, with broad shoulders and long, powerful arms."
+            ],
+            "text": "The reputation of hobgoblins in the Inner Sea region has been upended by Oprak, the hobgoblin nation established recently in the mountains between Nidal and Nirmathas. The Ironfang Legion that stormed through Molthune and Nirmathas only a few years ago made a calculated decision to cease fighting, claim Oprak as a new homeland, and seek peace with its neighbors. Now under strict orders to not start conflicts with other nations, the hobgoblins of Oprak have begun to cautiously investigate Avistan in the spirit of cooperation rather than conquest. Many people, especially those that suffered terrible cruelties under the Ironfang Legion, fear that this is simply a pause in aggression while Oprak gains enough strength to crush its rivals. Others hope these bold soldiers might prove to be allies against the endless hordes of the Whispering Tyrant.",
+            "physical": [
+                "Hobgoblins stand nearly as tall as humans, though they tend to have shorter legs and longer arms and torsos. They have the bald, wide heads and beady eyes, and gray skin that becomes steely blue when tanned. Hobgoblins are remarkably hardy; they recover from illnesses quickly and are able to exert themselves for long periods of time with little difficulty.",
+                "Hobgoblins mature quickly, and most can walk, talk, and hold a weapon by the time they are 1 year old, reaching adolescence by the age of 8 to 12 and adulthood around 14. Hobgoblins typically live up to 70 years of age."
+            ],
+            "society": [
+                "Hobgoblins structure their society after military hierarchies. Even civilian groups such as farming collectives or trading houses organize into regiments, companies, and divisions. Most hobgoblins fixate on social status, and many constantly strive to advance their social position. Hobgoblin punishments are primarily social demotions, although execution or slavery are common for serious crimes, such as arson or desertion.",
+                "Hobgoblin veterans hold a high place in their society, usually becoming leaders or advisors. Magic is rarely practiced and often derided, as most hobgoblins don't trust it over the strength of their own sword arms. Their arts tend to have a military bent; many hobgoblins consider stirring marches and weaponsmithing the only artistic endeavors worth pursuing, though Oprak's enforced era of peace is beginning to change this."
+            ],
             "alignment": [
                 "Though familiar with the chaos of war, most hobgoblins have orderly minds and prefer to live within established hierarchies. While many hobgoblins consider sentimentality weak, those with mild temperaments have recently found success in diplomacy and international outreach. As a result, hobgoblin adventurers are usually lawful neutral, with only those rejecting or raised outside of their militaristic society chaotic. Faith has little place in hobgoblin society, as many feel it is impractical, though religious hobgoblins can gain a begrudging modicum of acceptance due to their useful healing magic."
-            ], 
-            "physical": [
-                "Hobgoblins stand nearly as tall as humans, though they tend to have shorter legs and longer arms and torsos. They have the bald, wide heads and beady eyes, and gray skin that becomes steely blue when tanned. Hobgoblins are remarkably hardy; they recover from illnesses quickly and are able to exert themselves for long periods of time with little difficulty.", 
-                " Hobgoblins mature quickly, and most can walk, talk, and hold a weapon by the time they are 1 year old, reaching adolescence by the age of 8 to 12 and adulthood around 14. Hobgoblins typically live up to 70 years of age."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
+            ],
             "namesType": [
-                "Leshies choose and change their names multiple times throughout their lives. These names often represent a facet of their personalities or values, though another common naming convention is to use descriptions of a natural feature they admire. Some leshies even use a cycle of names that changes to align with natural phenomena, such as names based upon the season or the time of day."
-            ], 
+                "Like goblins, hobgoblin names tend to be simple, though hobgoblin names usually sound more guttural and forceful. On rare occasions, hobgoblins will alter their names, keeping the core but adding aspects, usually in response to an extreme trauma or a life-altering event. Hobgoblins have no surnames, considering them both pointless and presumptuous; an individual's merits and demerits are to be earned by their actions, not by an association with a particular lineage."
+            ],
             "abilityBoosts": [
-                "Constitution", 
-                "Wisdom", 
+                "Constitution",
+                "Intelligence",
                 "Free"
-            ], 
-            "name": "Leshy", 
-            "source": "Character Guide pg. 53", 
-            "speed": "25 feet", 
-            "hp": "8", 
+            ],
             "abilityFlaws": [
-                "Intelligence"
-            ], 
-            "description": [
-                "Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form.", 
-                "Leshies are 'born' when a skilled druid or other master of primal magic conducts a ritual to create a suitable vessel, and then a spirit chooses that vessel to be their temporary home. Leshies are self-sufficient from the moment the ritual ends, and so they do not depend upon these druids for care, though", 
-                " Not all leshies have a strong enough spirit to strike off completely on their own, however. Weaker nature spirits can form only tenuous bonds that are just strong enough to animate Tiny bodies. These spirits become leshy familiars, acting as companions to their druid creators. Independent leshies are often protective of such leshy familiars, advocating for them to be treated with dignity and respect."
-            ], 
+                "Wisdom"
+            ],
+            "hp": "8",
+            "size": "Medium",
+            "speed": "25 feet",
             "languages": [
-                "Common", 
-                "Sylvan", 
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Elven, Gnomish, Goblin, Halfling, Undercommon, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "Though guardian leshies often congregate, traveling leshies are not naturally drawn to others of their own kind. To most leshies, the concept of family is not a matter of birth, but rather determined by bonds of loyalty and friendship. Leshies are dedicated allies, but they have little tolerance for those who would despoil nature. As much as they are happy to accept someone who earns their trust into their family, they expect family members to look out for them and their natural wards in return. A betrayed leshy might not directly attack those who slight them, but they might withdraw support at a critical moment or leave their betrayers to get lost in the wilderness.", 
-                " Leshies are grouped into categories akin to ethnicities, but these are not connected to physical features; rather, they represent broad categories of characteristics of their spirits. Certain spirits are more likely to gravitate toward particular physical bodies, though those familiar with leshies know that this predisposition is far from absolute. Leshies often take pride in their own appearances and appreciate beauty of all kinds in others, but they rarely form judgments based on physical appearance. Leshies' genders are determined by the spirits that inhabit their bodies. Leshies tend to gravitate toward plant bodies that match their genders. Some leshies are exclusively male or female, while many consider themselves both. Others, particularly fungus leshies, tend toward far more complex expressions of gender, or eschew the concept entirely."
-            ], 
-            "text": "List of Ancestries Leshy Details | Leshy Feats | Leshy Heritages     Leshy Uncommon Leshy Plant Source Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form. Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form. Act as a traveling agent for natural guardians who are unable to leave their territories. Encourage civilizations you encounter to cooperate with nature and build their cities in ecologically friendly ways. Become attached to new friends you make on your journeys. Think of you as a curiosity due to your spiritual origins. Judge you by your looks, treating you sweetly if you are cute or reacting with horror if you are frightening. Assume you know only about nature and are unfamiliar with civilization and society. Sample Names Leshy Mechanics Common Sylvan", 
-            "other1": [
-                "Low-Light Vision", 
-                "You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light."
-            ], 
-            "other2": [
-                "Plant Nourishment", 
-                "You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food. If you normally rely on photosynthesis and go without sunlight for 1 week, you begin to starve. You can derive nourishment from specially formulated bottles of sunlight instead of natural sunlight, but these bottles cost 10 times as much as standard rations (or 40 sp).\r\n\r\n\t\t\t\t\t"
-            ], 
+                "Common",
+                "Goblin",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Dwarven, Gnoll, Jotun, Halfling, Orcish, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
             "nameList": [
-                "Scarlet in Summer", 
-                "Verdant Taleweaver", 
-                "Lurking Hunter", 
-                "Masterful Sun Drinker", 
-                "Noon Sky Evening Song", 
-                "Snowy Pine Branch", 
-                "Cascading Rapids"
-            ], 
-            "traits": [
-                "Uncommon", 
-                "Leshy", 
-                "Plant"
-            ], 
-            "probably": [
-                "Think of you as a curiosity due to your spiritual origins.", 
-                "Judge you by your looks, treating you sweetly if you are cute or reacting with horror if you are frightening.", 
-                "Assume you know only about nature and are unfamiliar with civilization and society."
-            ], 
-            "size": "Small", 
+                "Aze",
+                "Druknar",
+                "Ghargam",
+                "Hathkren",
+                "Imakra",
+                "Kralaeng",
+                "Mazkol",
+                "Olzu",
+                "Rezal",
+                "Sivkrag",
+                "Volmak",
+                "Zornum"
+            ],
             "might": [
-                "Act as a traveling agent for natural guardians who are unable to leave their territories.", 
-                "Encourage civilizations you encounter to cooperate with nature and build their cities in ecologically friendly ways.", 
-                "Become attached to new friends you make on your journeys."
-            ], 
+                "Seek out the most effective and practical solutions to any problem.",
+                "Encourage a clear chain of command among any group you travel with, following orders even if you disagree with them.",
+                "Look for opportune alliances with other creatures, even if you don't fully understand or trust them."
+            ],
+            "probably": [
+                "Consider you dangerous, due to your reputation and intimidating appearance.",
+                "Assume you hate magic and other mystical arts.",
+                "Recognize your incredible endurance, dedication, and discipline."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Kobold",
+            "source": "Advanced Player's Guide pg. 13",
+            "traits": [
+                "Uncommon",
+                "Humanoid",
+                "Kobold"
+            ],
+            "description": [
+                "PFS Note"
+            ],
+            "text": "Kobolds are resourceful survivors whose snare-guarded warrens and opportunistic scavenging have cast them as villains to most other humanoids, with their draconic reverence lending them a reputation as mere minions and nuisances. Yet some kobolds have emerged from their secluded warrens seeking the relative safety of surface settlements, the lucrative prospects of the adventuring life, or validating awe from followers of their own. If you want a character with oversized confidence, deadly cunning, and the ancient power of dragons flowing through their veins, you should play a kobold.",
+            "physical": [
+                "Kobolds are short (about 3 feet tall) reptilian humanoids with slender bodies and long tails. They often boast distant draconic ancestry, and every kobold displays one or more draconic features, such as stout horns, razor-sharp teeth, or-more rarely-vestigial wings or draconic breath. They mature quickly, reaching adulthood by about 12 years and living to about 60.",
+                "The color of a kobold's scales can vary widely. Most often, they mimic the hues of chromatic or metallic dragons, with a mix of slightly darker or lighter scales that create a mottled appearance. The scales of newly hatched kobolds often reflect the community's draconic exemplar, whether that's the dragon they currently serve or the dragon type from which they're descended."
+            ],
+            "society": [
+                "Kobolds have an ingrained cautiousness that keeps them alive. They're secretive or subservient around powerful creatures to avoid becoming victims. This meekness fades once kobolds secure either a formidable patron (like a dragon) or a potent source of supernatural power (like an artifact or sorcerous leader). They often achieve an unshakable fervor and loyalty to their new cause or leader. However, kobolds are infamous for sensing a proverbial sinking ship, and once their source of power fails or seems doomed, their morale breaks swiftly.",
+                "Whether led by a dragon or not, kobolds almost always identify themselves with a type of dragon that serves as their spiritual exemplar. Their societies regularly adopt laws and cultural norms inspired by the exemplar's personality."
+            ],
+            "alignment": [
+                "All but the most iconoclastic kobolds have a natural respect for hierarchies and rules, and so kobolds are rarely chaotic. Kobold adventurers tend to be lawful neutral or neutral, relying on their ancestral social strategies for survival.",
+                "Organized religion feels natural for most kobolds, especially when a deity assumes a commanding or tyrannical disposition. Many gravitate toward Abadar's order or Shelyn's artistic flair. More sinister communities uphold Asmodeus and other archdevils as common patrons. The dragon deities Apsu and Dahak are also common subjects of worship. Kobolds also often find themselves drawn to cults, particularly those with dragons or devils as figureheads."
+            ],
+            "namesType": [
+                "A young kobold's given name is rarely more than a syllable or two. However, as they age, achieve status, and accomplish great deeds, kobolds add more syllables to their names, imitating a common draconic practice. Kobolds rarely have surnames except in an effort to better fit into a community, in which case they typically adopt the surname of an inspiring figure in that group."
+            ],
+            "abilityBoosts": [
+                "Dexterity",
+                "Charisma",
+                "Free"
+            ],
+            "abilityFlaws": [
+                "Constitution"
+            ],
+            "hp": "6",
+            "size": "Small",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Draconic",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Aklo, Dwarven, Gnomish, Infernal, Terran, Undercommon, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Azrnak",
+                "Draahzin",
+                "Enga",
+                "Fazgyn",
+                "Fazij",
+                "Jekkajak",
+                "Kib",
+                "Kirrok",
+                "Mirkol",
+                "Tarka",
+                "Urkak",
+                "Varshez",
+                "Vroklan",
+                "Zekstikah",
+                "Zgaz"
+            ],
+            "might": [
+                "Take pride in your draconic connections, whether you believe dragons are your ancestors or simply patrons. ",
+                "Analyze your surroundings, always looking for ambushes, advantageous terrain, and escape routes. ",
+                "Naturally observe, adopt, and respect group dynamics, whether as leader, subordinate, or equal."
+            ],
+            "probably": [
+                "Assume that you are cowardly and won't stick around in the face of danger. ",
+                "Appreciate your ingenuity and resourcefulness, especially when it comes to building defenses. ",
+                "Consider your claims of draconic power to be overblown, delusional, or endearing."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Leshy",
+            "source": "Character Guide pg. 53",
+            "traits": [
+                "Uncommon",
+                "Leshy",
+                "Plant"
+            ],
+            "description": [
+                "Guardians and emissaries of the environment, leshies are immortal spirits of nature temporarily granted a physical form."
+            ],
+            "text": "Leshies are 'born' when a skilled druid or other master of primal magic conducts a ritual to create a suitable vessel, and then a spirit chooses that vessel to be their temporary home. Leshies are self-sufficient from the moment the ritual ends, and so they do not depend upon these druids for care, though Not all leshies have a strong enough spirit to strike off completely on their own, however. Weaker nature spirits can form only tenuous bonds that are just strong enough to animate Tiny bodies. These spirits become leshy familiars, acting as companions to their druid creators. Independent leshies are often protective of such leshy familiars, advocating for them to be treated with dignity and respect.",
+            "physical": [
+                "Leshies are as varied as the material used to create their vessels, usually appearing as a bizarre mishmash of various plants or fungi. Their bodies are vaguely humanoid in shape, with numerous characteristics of the plant or fungus from which they were made. A typical leshy is about 3 feet tall. Due to the nature of the ritual used to create a leshy, leshies begin their lives as adults. As spirits, they do not age, and a leshy could potentially remain in the same vessel forever-though leshies rarely consider this outcome to be desirable."
+            ],
+            "society": [
+                "Though guardian leshies often congregate, traveling leshies are not naturally drawn to others of their own kind. To most leshies, the concept of family is not a matter of birth, but rather determined by bonds of loyalty and friendship. Leshies are dedicated allies, but they have little tolerance for those who would despoil nature. As much as they are happy to accept someone who earns their trust into their family, they expect family members to look out for them and their natural wards in return. A betrayed leshy might not directly attack those who slight them, but they might withdraw support at a critical moment or leave their betrayers to get lost in the wilderness.",
+                "Leshies are grouped into categories akin to ethnicities, but these are not connected to physical features; rather, they represent broad categories of characteristics of their spirits. Certain spirits are more likely to gravitate toward particular physical bodies, though those familiar with leshies know that this predisposition is far from absolute. Leshies often take pride in their own appearances and appreciate beauty of all kinds in others, but they rarely form judgments based on physical appearance. Leshies' genders are determined by the spirits that inhabit their bodies. Leshies tend to gravitate toward plant bodies that match their genders. Some leshies are exclusively male or female, while many consider themselves both. Others, particularly fungus leshies, tend toward far more complex expressions of gender, or eschew the concept entirely."
+            ],
             "alignment": [
                 "A leshy can be of any alignment, depending on what spirit inhabits their body, but their outlook often includes a neutral element. Religion is not particularly significant to most leshies. Those with a philosophical bent lean toward the Green Faith, and Gozreh is the most popular deity among faithful leshies. Some leshies also venerate green men, powerful spirits of nature that act as regional guardians."
-            ], 
-            "physical": [
-                "Leshies are as varied as the material used to create their vessels, usually appearing as a bizarre mishmash of various plants or fungi. Their bodies are vaguely humanoid in shape, with numerous characteristics of the plant or fungus from which they were made. A typical leshy is about 3 feet tall. Due to the nature of the ritual used to create a leshy, leshies begin their lives as adults. As spirits, they do not age, and a leshy could potentially remain in the same vessel forever though leshies rarely consider this outcome to be desirable."
-            ]
-        }, 
-        {
-            "pfsLegal": true, 
+            ],
             "namesType": [
-                "Lizardfolk names come from their ancient language and tend to be traditional. Names are typically chosen by the clan's astrologer in accordance to omens and which star signs are ascendant when an iruxi egg hatches, though occasionally an iruxi's parents may name a hatchling for an ancestor or a beloved historical hero."
-            ], 
+                "Leshies choose and change their names multiple times throughout their lives. These names often represent a facet of their personalities or values, though another common naming convention is to use descriptions of a natural feature they admire. Some leshies even use a cycle of names that changes to align with natural phenomena, such as names based upon the season or the time of day."
+            ],
             "abilityBoosts": [
-                "Strength", 
-                "Wisdom", 
+                "Constitution",
+                "Wisdom",
                 "Free"
-            ], 
-            "name": "Lizardfolk", 
-            "source": "Character Guide pg. 57", 
-            "speed": "25 feet", 
-            "hp": "8", 
+            ],
             "abilityFlaws": [
                 "Intelligence"
-            ], 
-            "description": [
-                "Lizardfolk are consummate survivors, heirs to empires considered ancient even by the elves.", 
-                "Lizardfolk move through the societies of other humanoids with the steely reserve of born predators. They have a well-deserved reputation as outstanding rangers and unsentimental fighters. Though lizardfolk have adapted to many different environments, many of them still prefer to remain near bodies of water, using their ability to hold their breath to their advantage. As a result, lizardfolk usually prefer equipment that is not easily damaged by moisture, eschewing leather and metal for gear made of stone, ivory, glass, and bone."
-            ], 
+            ],
+            "hp": "8",
+            "size": "Small",
+            "speed": "25 feet",
             "languages": [
-                "Common", 
-                "Iruxi", 
-                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Aquan, Boggard, Draconic, Elven, Jotun, Sylvan, and any other languages to which you have access (such as the languages prevalent in your region)."
-            ], 
-            "society": [
-                "Known among themselves as iruxi, lizardfolk are raised communally from the moment they break from their shells. They have an oral tradition stretching back thousands of years, brought to life through epic poems, evocative carvings, and ancestral rites performed among fields of fossilized bone. Lizardfolk are passionate astrologers with one eye on the future. If they seem slow to act, it is because their long history has taught them the value of patience.", 
-                " The simple villages most outsiders associate with iruxi are the homes of migrants in outlying regions. True iruxi settlements are often overlooked, as they are partially or mostly submerged in water. These glass and stone complexes bear the mark of every generation of lizardfolk that lived within them, and lizardfolk bones often adorn the walls, as many lizardfolk believe these remains can be animated by ancestral spirits when the residents are in danger."
-            ], 
-            "text": "List of Ancestries Lizardfolk Details | Lizardfolk Feats | Lizardfolk Heritages     Lizardfolk Uncommon Humanoid Lizardfolk Source Lizardfolk are consummate survivors, heirs to empires considered ancient even by the elves. Lizardfolk are consummate survivors, heirs to empires considered ancient even by the elves. Demonstrate extreme patience, even when pressured to act. Hold your people's history in high regard and look to the past for solutions to present problems. Strive to adapt perfectly to your environment while also keeping your culture and traditions intact. Assume you are beholden to tradition and have ancient knowledge. See you as cold-blooded and callous due to your subdued physical reactions. Respect your impressive strength and your knowledge of natural areas. Sample Names Lizardfolk Mechanics Common Iruxi", 
-            "other1": [
-                "Claws", 
-                "Your sharp claws offer an alternative to the fists other humanoids bring to a fight. You have a claw unarmed attack that deals 1d4 slashing damage and has the agile and finesse traits."
-            ], 
-            "other2": [
-                "Aquatic Adaptation", 
-                "Your reptilian biology allows you to hold your breath for a long time. You gain the Breath Control general feat as a bonus feat.\r\n\r\n\t\t\t\t\t"
-            ], 
+                "Common",
+                "Sylvan",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Draconic, Elven, Gnomish, Goblin, Halfling, Undercommon, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
             "nameList": [
-                "Arasheg", 
-                "Barashk", 
-                "Essaru", 
-                "Enshuk", 
-                "Gishkim", 
-                "Hazi", 
-                "Inishish", 
-                "Kutak", 
-                "Nasha", 
-                "Shulkuru", 
-                "Tizkar", 
-                "Utakish", 
-                "Zelkekek"
-            ], 
-            "traits": [
-                "Uncommon", 
-                "Humanoid", 
-                "Lizardfolk"
-            ], 
-            "probably": [
-                "Assume you are beholden to tradition and have ancient knowledge.", 
-                "See you as cold-blooded and callous due to your subdued physical reactions.", 
-                "Respect your impressive strength and your knowledge of natural areas."
-            ], 
-            "size": "Medium", 
+                "Scarlet in Summer",
+                "Verdant Taleweaver",
+                "Lurking Hunter",
+                "Masterful Sun Drinker",
+                "Noon Sky Evening Song",
+                "Snowy Pine Branch",
+                "Cascading Rapids"
+            ],
             "might": [
-                "Demonstrate extreme patience, even when pressured to act.", 
-                "Hold your people's history in high regard and look to the past for solutions to present problems.", 
-                "Strive to adapt perfectly to your environment while also keeping your culture and traditions intact."
-            ], 
-            "alignment": [
-                "Most iruxi are unconcerned with heavy questions of morality and are therefore usually neutral in alignment. Adventuring iruxi who leave their people to travel might have any number of reasons for doing so and can be of any alignment. Iruxi religion plays a large role in their culture, but it is heavily practical, blending animism and ancestor worship with druidic rites. Of the gods, only Gozreh is commonly revered, but lizardfolk may call upon other powers devoted to ancient wyrms, astrology, nature, rivers, and might of arms, from kindly Desna to cruel Hanspur and certain demon lords."
-            ], 
+                "Act as a traveling agent for natural guardians who are unable to leave their territories.",
+                "Encourage civilizations you encounter to cooperate with nature and build their cities in ecologically friendly ways.",
+                "Become attached to new friends you make on your journeys."
+            ],
+            "probably": [
+                "Think of you as a curiosity due to your spiritual origins.",
+                "Judge you by your looks, treating you sweetly if you are cute or reacting with horror if you are frightening.",
+                "Assume you know only about nature and are unfamiliar with civilization and society."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Lizardfolk",
+            "source": "Character Guide pg. 57",
+            "traits": [
+                "Uncommon",
+                "Humanoid",
+                "Lizardfolk"
+            ],
+            "description": [
+                "Lizardfolk are consummate survivors, heirs to empires considered ancient even by the elves."
+            ],
+            "text": "Lizardfolk move through the societies of other humanoids with the steely reserve of born predators. They have a well-deserved reputation as outstanding rangers and unsentimental fighters. Though lizardfolk have adapted to many different environments, many of them still prefer to remain near bodies of water, using their ability to hold their breath to their advantage. As a result, lizardfolk usually prefer equipment that is not easily damaged by moisture, eschewing leather and metal for gear made of stone, ivory, glass, and bone.",
             "physical": [
                 "Lizardfolk vary depending on their environment, but share toothy snouts and long and powerful tails. Those from temperate or desert regions tend toward gray, green, or brown scales that aid in camouflage, while those from tropical climes are brightly colored. Many sport dorsal spikes or garish neck frills that hint at their clan lineage. Lizardfolk reach physical adulthood at age 15 and live up to 120 years. The average lizardfolk stands 6 to 7 feet tall, but grows throughout their lifetime, gaining strength and size with age."
-            ]
+            ],
+            "society": [
+                "Known among themselves as iruxi, lizardfolk are raised communally from the moment they break from their shells. They have an oral tradition stretching back thousands of years, brought to life through epic poems, evocative carvings, and ancestral rites performed among fields of fossilized bone. Lizardfolk are passionate astrologers with one eye on the future. If they seem slow to act, it is because their long history has taught them the value of patience.",
+                "The simple villages most outsiders associate with iruxi are the homes of migrants in outlying regions. True iruxi settlements are often overlooked, as they are partially or mostly submerged in water. These glass and stone complexes bear the mark of every generation of lizardfolk that lived within them, and lizardfolk bones often adorn the walls, as many lizardfolk believe these remains can be animated by ancestral spirits when the residents are in danger."
+            ],
+            "alignment": [
+                "Most iruxi are unconcerned with heavy questions of morality and are therefore usually neutral in alignment. Adventuring iruxi who leave their people to travel might have any number of reasons for doing so and can be of any alignment. Iruxi religion plays a large role in their culture, but it is heavily practical, blending animism and ancestor worship with druidic rites. Of the gods, only Gozreh is commonly revered, but lizardfolk may call upon other powers devoted to ancient wyrms, astrology, nature, rivers, and might of arms, from kindly Desna to cruel Hanspur and certain demon lords."
+            ],
+            "namesType": [
+                "Lizardfolk names come from their ancient language and tend to be traditional. Names are typically chosen by the clan's astrologer in accordance to omens and which star signs are ascendant when an iruxi egg hatches, though occasionally an iruxi's parents may name a hatchling for an ancestor or a beloved historical hero."
+            ],
+            "abilityBoosts": [
+                "Strength",
+                "Wisdom",
+                "Free"
+            ],
+            "abilityFlaws": [
+                "Intelligence"
+            ],
+            "hp": "8",
+            "size": "Medium",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Iruxi",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Aquan, Boggard, Draconic, Elven, Jotun, Sylvan, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Arasheg",
+                "Barashk",
+                "Essaru",
+                "Enshuk",
+                "Gishkim",
+                "Hazi",
+                "Inishish",
+                "Kutak",
+                "Nasha",
+                "Shulkuru",
+                "Tizkar",
+                "Utakish",
+                "Zelkekek"
+            ],
+            "might": [
+                "Demonstrate extreme patience, even when pressured to act.",
+                "Hold your people's history in high regard and look to the past for solutions to present problems.",
+                "Strive to adapt perfectly to your environment while also keeping your culture and traditions intact."
+            ],
+            "probably": [
+                "Assume you are beholden to tradition and have ancient knowledge.",
+                "See you as cold-blooded and callous due to your subdued physical reactions.",
+                "Respect your impressive strength and your knowledge of natural areas."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Orc",
+            "source": "Advanced Player's Guide pg. 17",
+            "traits": [
+                "Uncommon",
+                "Humanoid",
+                "Orc"
+            ],
+            "description": [
+                "Orcs are forged in the fires of violence and conflict, often from the moment they are born. As they live lives that are frequently cut brutally short, orcs revel in testing their strength against worthy foes, whether by challenging a higher-ranking member of their community for dominance or raiding a neighboring settlement. Many orcs seek glory as soon as they can walk and carry a blade or club, taming wild beasts or hunting deadly monsters."
+            ],
+            "text": "Orcs often struggle to gain acceptance among other communities, who frequently see them as brutes. Those who earn the loyalty of an orc friend, however, soon learn that an orc's fidelity and honesty are unparalleled. Orc barbarians, fighters, and rangers are prized as gladiators and mercenaries. While some human settlements might be hesitant to accept an entire orc community into their midst, a small handful of orc mercenaries can do the job of an entire squad of human conscripts, so long as the orcs are well fed and well paid. Though the belief that orcs are only suited for battle is pervasive among other humanoids, the harsh orc mentality comes from a long history of conflict rather than a lack of ability in other areas. Orc culture teaches that they are shaped by the challenges they survive, and the most worthy survive the most hardships. Orcs who attain both a long life and great triumphs command immense respect. If you want a character who is hardy, fearsome, and excels at feats of physical prowess, you should play an orc.",
+            "physical": [
+                "Orcs are tall and powerfully built, with long arms and stocky legs. Many orcs top 7 feet in height, though they tend to adopt broad, almost bow-legged stances and slouch forward at the shoulders. The combination makes for a seeming contradiction, sharing an eye level with most humanoids while simultaneously towering over them. Orcs have rough skin, thick bones, and rock-hard muscles, making them suited to war and other physically demanding tasks. Despite the roughness of their skin, orcs scar easily, and most orcs take great pride in the scars they have accumulated. Orc skin color is typically green and occasionally gray, though some orcs have other skin colors that reflect adaptations to their environments.",
+                "Orcs consider powerful builds and heavily scarred skin attractive, regardless of gender. A powerful orc makes the hold stronger, and scars are signs of victories won or hardships survived. Similarly, many orcs consider large, jutting tusks to be more attractive than smaller tusks, since the former make more effective weapons. Many orcs also find tattoos to be attractive, particularly large or painful ones that cover a significant amount of skin."
+            ],
+            "society": [
+                "Most orc communities define themselves through two things: pain and glory. Each earns respect in near equal measure, so long as the pain is borne with stoicism. An orc with many scars who walks uncomplaining with a broken leg draws as much admiration as one who wins a great victory on the battlefield.",
+                "Power in an orc hold comes from strength or family lineage. The structure tends to be feudal, with weaker orcs working at the behest of the strong. The Hold of Belkzen is the largest such society, and power changes hands there quickly. One mighty orc dying in battle can shake up an entire power structure, leading to squabbling and duels to decide control. Many orcs who tire of being subservient split off to form their own warbands, traveling to new territory.",
+                "Young orcs are typically raised by the entire community. Indeed, it would be almost impossible for orcs to raise their young any other way, since twins, triplets, and even quadruplets are quite common in orc families, as are deaths among orcs in their child-rearing years. Many orc holds conduct ceremonies when a young orc comes of age, typically around their tenth or eleventh birthday, during which the new adults are told what their role in the hold will be. For communities that practice ritual scarification or tattooing, this is often when the young orcs receive their first hold-scar or tattoo as well.",
+                "Orcs fear very little, but most distrust magic. Magic is seen as a tool that bypasses the physical and allows the weak to contend with the strong, a belief that runs at odds with orc values. While they respect the physical might of Gorumite warpriests, and even druids who take on the forms of great beasts, they find arcane and occult magic questionable at best and unethical on the whole. All but the most depraved orc communities see necromancy as a foul art that steals glory from the dead, and their growing struggles against the undead have given them newfound common ground with their humanoid neighbors."
+            ],
+            "alignment": [
+                "A common orc saying is, 'You are the scars that shape you.' Violent, chaotic lives in violent, chaotic lands mean that most orcs tend heavily toward chaotic alignments. Gorum, Lamashtu, and Rovagug are all commonly worshiped among orc communities, though less violent holds worship nature deities like Gozreh or gods like Sarenrae, whose tenets of fire, redemption, and glory all hold some appeal to orc sensibilities.",
+                "While there are orc deities, their worship is surprisingly uncommon among orcs. Orcs believe that if a creature has a face and a name, it can be killed, and so their own deities are targets, rather than objects of reverence. Some orc holds teach that the greatest members of the hold can earn a chance to challenge the orc deities for a place amid the pantheon. Most orcs don't waste their dying moments praising the divine or praying for a place in the afterlife, but spitting a blood-flecked warning at their deities, promising a new challenger through broken teeth."
+            ],
+            "namesType": [
+                "Orcs have a harsh, guttural language, and their naming conventions are no exception. Many orc names are simply the Orcish word for a particularly desirable trait, such as great strength, height, or ferocity. Orcs commonly use either their hold name or a name referencing a particularly memorable accomplishment as their surname."
+            ],
+            "abilityBoosts": [
+                "Strength",
+                "Free"
+            ],
+            "hp": "10",
+            "size": "Medium",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Orcish",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Goblin, Jotun, Terran, Undercommon, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Arkus",
+                "Ausk",
+                "Durra",
+                "Grask",
+                "Grillgiss",
+                "Krugga",
+                "Mahja",
+                "Murdut",
+                "Ollak",
+                "Onyat",
+                "Thurk",
+                "Uirch",
+                "Unach"
+            ],
+            "might": [
+                "Eagerly meet any chance to prove your strength in a physical contest. ",
+                "Believe that lies and treachery are for those who lack the strength to seize what they want. ",
+                "View dying in glorious combat as preferable to a mundane death from old age or illness."
+            ],
+            "probably": [
+                "See you as violent or lacking in discipline. ",
+                "Underestimate your intellect, cunning, and knowledge. ",
+                "Admire your forthrightness and blunt honesty."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Ratfolk",
+            "source": "Advanced Player's Guide pg. 21",
+            "traits": [
+                "Uncommon",
+                "Humanoid",
+                "Ratfolk"
+            ],
+            "description": [
+                "Ysoki-as ratfolk call themselves-are a clever, adaptable, and fastidious ancestry who happily crowd their large families into the smallest of living spaces"
+            ],
+            "text": "Most surface-dwelling humanoids call ysoki 'ratfolk' and know them as a communal people who prefer cramped conditions, with up to 100 individuals living in a given house. If they can't find homes in town, ysoki may instead live in caves and cavern complexes, as these provide great storage for the many and varied goods they bring back from trading expeditions. Ratfolk love to travel, and they can often be found on the road in merchant caravans. They're good with their hands and have a keen eye for spotting anything out of the ordinary, from threats to treasures. They're also inveterate hoarders; ysoki warrens are crammed full of unusual odds and ends gathered by previous generations and stowed away in preparation for some future emergency. If you want a character who is smart, fast, well-traveled, and adaptable, try playing a ysoki!",
+            "physical": [
+                "Ratfolk have whiskered snouts, large ears, and hairless tails, and typically have red eyes and short brown or black fur. A common ysoki is 4 feet tall and weighs around 80 pounds. Ratfolk vary considerably, however; even a single family group can exhibit substantial variation in hair color, eye color, or size.",
+                "Instinct drives ysoki to maintain cleanliness, though this is also reinforced through their strong social structures. Other condescending humanoids often presume ratfolk are dirty or diseased, but in actuality, they are meticulous about personal hygiene. Because their appearance is often considered unnatural-and other people mistake them for wererats-ysoki often conceal their physical features with hoods, gloves, shoes, long-sleeved tunics, robes, and other layers of clothing when moving through spaces dominated by other ancestries."
+            ],
+            "society": [
+                "Ysoki culture values cooperation and community. Every ysoki learns-through communal games, social occasions, and sports-to forge fast friendships and connections with ysoki outside their family. You may never know whose help you're going to need, but when you do, you're going to need it",
+                "<i>now</i>",
+                ".",
+                "With a long tradition of working as traders and tinkers, ysoki travel frequently from one town to another. Their wagons are usually grouped into caravans of up to half a dozen vehicles. Ysoki wagons are pulled by exceptionally large giant rats; many ysoki can speak to such animals.",
+                "Discrimination against ysoki has shaped their culture, prompting them to rely on each other and strengthening their family and communal bonds. Ysoki are very good at differentiating between bad actors and those who are simply acting out of ignorance, modeling good behavior and slowly working to reverse generations of discrimination for those willing to learn. They are always on the lookout for members of other ancestries who don't judge them for their appearance, embracing these individuals as true friends and welcoming them into their communities. But they also can quickly spot determined bigots prone to violence and steer clear of such individuals, minimizing any opportunity for tragedy."
+            ],
+            "alignment": [
+                "Ysoki care more about their family than abstract concepts of good and evil. Their warrens might be chaotic dens filled with hoarded knickknacks, but they also obey strict social codes. Most ysoki are neutral.",
+                "Though ysoki revere their ancestors and tend to acknowledge whatever deity is prevalent in their local area, Lao Shu Po has a special role in ysoki culture. Grandmother Rat, as she is sometimes known, embodies many things that are otherwise antithetical to ratfolk-she urges followers to put their own interests above others, and she encourages deceit and trickery. To most ysoki, Grandmother Rat accomplishes all those things ratfolk need done, but which no reasonable ratfolk would wish to do."
+            ],
+            "namesType": [
+                "Every ysoki family has perhaps two dozen names that have been passed down from generation to generation, sometimes with minor alterations or alternative nicknames. A grandfather might be Grivver, for example, while his daughter goes by Griva and her son is simply Griv. Ratfolk are often assigned nicknames and sobriquets by humanoids they interact with, but most ysoki find these names distasteful and endure them only when outside ysoki communities."
+            ],
+            "abilityBoosts": [
+                "Dexterity",
+                "Intelligence",
+                "Free"
+            ],
+            "abilityFlaws": [
+                "Strength"
+            ],
+            "hp": "6",
+            "size": "Small",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Ysoki",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Aklo, Draconic, Dwarven, Gnoll, Gnomish, Goblin, Halfling, Orcish, Undercommon, or any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Barnan",
+                "Chikis",
+                "Chonan",
+                "Deto",
+                "Jass",
+                "Jix",
+                "Knagi",
+                "Kubi",
+                "Lolo",
+                "Ninnec",
+                "Nos",
+                "Rak",
+                "Renzi",
+                "Skigim",
+                "Tali",
+                "Zess"
+            ],
+            "might": [
+                "Have pride in your large extended family, and stay in contact with everyone in it. ",
+                "Like to travel near and far in search of new experiences, likely collecting trinkets along the way. ",
+                "Work well with others."
+            ],
+            "probably": [
+                "Mistake you for a wererat or another monster. ",
+                "Are surprised by your careful grooming and other fastidious habits. ",
+                "Think you're crowding them and invading their personal space."
+            ],
+            "pfsLegal": true
+        },
+        {
+            "name": "Shoony",
+            "source": "Pathfinder #153: Life's Long Shadow pg. 72",
+            "traits": [
+                "Rare",
+                "Humanoid",
+                "Shoony"
+            ],
+            "description": [
+                "Diminutive humanoids who resemble squat, bipedal dogs, shoonies are sometimes mistaken for weak and insular pacifists. However, their sheer perseverance, incredible work ethic, and resourceful use of diplomacy make shoonies far from helpless."
+            ],
+            "text": "According to shoonies, Aroden created their kind to provide him with pleasant company soon after he created the Isle of Kortos. Shoony culture is rooted in this myth and its implications, which help to explain the ancestry's long reputation for hospitality, good will, and pacifism. War is antithetical to the shoony way of life; shoonies rely on cooperation and persistence to make their way through a world that can seem at times hellbent on destroying them. Shoonies are unflappable in their optimism and always see the best in others, even when faced with frequent subjugation and exploitation that might create bitterness or xenophobia among other societies. To shoonies, peace is a goal always worth striving for, and no villain is beyond redemption, so they aim to resolve problems with peaceful solutions.",
+            "physical": [
+                "Shoonies are squat, furry humanoids with flattened canid faces and wet, black eyes. Their fur can be a variety of hues and patterns, with the most common colors being fawn or black, and their loose skin gives even the fittest shoony a pudgy appearance. Shoonies have short, curly tails that sometimes wag involuntarily when the shoony is content or particularly excited or pleased. Like canines, shoonies cannot sweat; they pant to mitigate heat and exertion, and it is not uncommon to see a shoony with a perpetually lolling tongue.",
+                "A shoony reaches maturity after just 8 to 10 years, and the elders of their villages rarely reach the age of 50. Little differentiates male and female shoonies except during the late stages of pregnancy, and as they age, both sexes develop graying facial fur, wrinkled skin, and frail joints. The average shoony is 3-1/2 feet tall and weighs 100 pounds."
+            ],
+            "society": [
+                "Despite the shoony drive toward communal living, most shoony settlements are farming villages with populations of no more than a hundred. Shoonies work hard to make their lands bountiful and recognize that large, dense populations can negatively affect the ecosystem. Monster attacks, natural disasters, and exploitation from stronger cultures have all also limited the spread of shoonies across the Inner Sea region.",
+                "Despite their short lifespans, shoonies are happy-go-lucky people with an irrepressible love for the land and their fellow shoonies, and remain optimistic even under the worst circumstances. The simple pleasures of living on this beautiful world, engaging in hard work, and surrounding themselves with loved ones motivate shoonies to push through the hardships that all too often befall their people."
+            ],
+            "alignment": [
+                "Most shoony societies encourage empathy and loyalty, so they're rarely evil, but they're also practical, traditional, and timid. Most shoony adventurers are neutral good or lawful good. Religion is a cornerstone of shoony village life; shoonies primarily worshipped Aroden until his apparent death. In his absence, many shoonies have adopted Erastil as their patron deity because his emphasis on family, community, and living off the land naturally meshes with typical shoony values. Noble shoonies- especially warriors-sometimes look to Iomedae as an exemplar of integrity, hard work, and sacrifice."
+            ],
+            "namesType": [
+                "With their strong family values and emphasis on found friends, it's no wonder that shoonies take particular pride in naming their children after other loved ones. Shoony names are short, guttural, and often sound like loose strings of unassociated vowels and soft consonants to people of other ancestries. Shoonies value names and take great care to learn and speak the correct pronunciations of their friends' names."
+            ],
+            "abilityBoosts": [
+                "Dexterity",
+                "Charisma",
+                "Free"
+            ],
+            "abilityFlaws": [
+                "Constitution"
+            ],
+            "hp": "6",
+            "size": "Small",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Shoony",
+                "Additional languages equal to your Intelligence modifier (if it's positive). Choose from Dwarven, Gnomish, Goblin, Halfling, Terran, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Ahogo",
+                "Arnbin",
+                "Bighmor",
+                "Bondin",
+                "Domwurd",
+                "Ebmeur",
+                "Gopor",
+                "Gurna",
+                "Hiemgur",
+                "Mufurlo",
+                "Oriog",
+                "Pulumar",
+                "Raliamar",
+                "Ruggion",
+                "Uhulrig",
+                "Ungrin."
+            ],
+            "might": [
+                "Fight to protect those you care about and strive to do the right thing. ",
+                "Work hard for long hours in a focused pursuit of distant goals. ",
+                "Provide comfort, necessities such as food, and a sense of kinship to those in distress."
+            ],
+            "probably": [
+                "Involuntarily fawn over (or recoil from) your physical appearance. ",
+                "Protect you from scary situations or terrifying phenomena, out of either friendship or overprotectiveness. ",
+                "Appreciate your pragmatism and natural ability to care for others."
+            ],
+            "pfsLegal": false
+        },
+        {
+            "name": "Tengu",
+            "source": "Advanced Player's Guide pg. 25",
+            "traits": [
+                "Uncommon",
+                "Humanoid",
+                "Tengu"
+            ],
+            "description": [
+                "Tengus are a gregarious and resourceful people that have spread far and wide from their ancestral home in Tian Xia, collecting and combining whatever innovations and traditions they happen across with those from their own long history."
+            ],
+            "text": "Tengus are survivalists and conversationalists, equally at home living off the wilderness and finding a niche in dense cities. They accumulate knowledge, tools, and companions, adding them to their collection as they travel. The tengu diaspora has spread across Golarion in search of a better life, bringing their skill with blade crafting to lands far from their home. In maritime regions, tengus notably work as fishers, blacksmiths, and 'jinx eaters'- members of ships' crews who are believed, accurately or otherwise, to absorb misfortune. Having lived in a variety of conditions and locations, tengus tend to be nonjudgmental, especially with regard to social station, though their willingness to associate with lawbreakers has often led some to look at them with suspicion. If you want to play a character hailing from a rich history of artisanship and tradition, but who happily picks up new practices, companions, words, and items as needed, you should play a tengu.",
+            "physical": [
+                "Tengus have many avian characteristics. Their faces are tipped with sharp beaks and their scaled forearms and lower legs end in talons. As closed footwear tends to fit poorly unless custom made, many tengus wear open sandals or simply go barefoot. Tengus are rarely more than 5 feet tall, and they are even lighter than their smaller frames would suggest, as they have hollow bones. A small number of tengus have vestigial wings incapable of true flight.",
+                "Tengus hatch from eggs and are featherless for their first year of life, during which they rarely leave home. They soon grow a downy gray coat, which is replaced by a dark covering of adult feathers by the time they come of age at around 15 years. Tengus use their shed feathers in a variety of tools, from simple writing quills to magical fans to focus their ancestral magic. Many tengus modify their appearance by dyeing patterns into their feathers or talons, which amplifies their body language and has the added benefit of aiding other humanoids in understanding their expressions."
+            ],
+            "society": [
+                "Tengus are extremely social, banding together in extended communities with many families living in adjacent houses and sharing the work of the household. In cities, a community may also contain members of other ancestries. Tengu children raised in the same unit consider each other siblings, usually forgetting which of them share a biological connection.",
+                "The greatest divide in tengu society is between tengus remaining in their ancestral home and those who have dispersed across the world. Tengus refer to these two groups as those 'in the roost' and those 'migrating,' respectively. Roosted tengus tend to be more traditionalist and conservative and are especially concerned with preserving their culture in the face of years of erosion from oppression. Migrating tengus, on the other hand, voraciously absorb the culture of the various nations and settlements that they now call home."
+            ],
+            "alignment": [
+                "Tengus often follow the faith of the region in which they were raised, though the tengu ancestral deity is the storm god Hei Feng. This god's notorious drunken carousing and emotional swings causes many tengus to instead focus their attention on gods of freedom and travel, such as Desna or Cayden Cailean, or deities of nature, such as Gozreh. Besmara is also a common subject of tengu worship, especially among tengus who live on the sea.",
+                "Before their diaspora, tengus practiced a syncretic faith that blended a polytheistic worship of the deities responsible for creating the natural world. As tengu folklore posits that tengus long ago descended from the night sky on shooting stars to rest upon Golarion's highest peaks, animist rites were practiced on mountains and other great natural features. Even today, tengus rarely differentiate between divine and primal worship.",
+                "Tengus are far more concerned with the balance between traditionalism and adaptability than they are with good and evil, with lawful tengus more common among the roosted and chaotic tengus more common among the migratory."
+            ],
+            "namesType": [
+                "Though roosted tengus tend toward more traditional names with the hard consonants often seen in the Tengu language, migrating tengus' tendency to readily absorb and repurpose the culture of those around them has led to names that combine elements of whatever languages suited the namer's fancy."
+            ],
+            "abilityBoosts": [
+                "Dexterity",
+                "Free"
+            ],
+            "hp": "6",
+            "size": "Medium",
+            "speed": "25 feet",
+            "languages": [
+                "Common",
+                "Tengu",
+                "Additional languages equal to your Intelligence modifier (if positive). Choose from Dwarven, Elven, Halfling, Gnomish, Goblin, Sylvan, and any other languages to which you have access (such as the languages prevalent in your region)."
+            ],
+            "nameList": [
+                "Arkkak",
+                "Chuko",
+                "Dolgra",
+                "Dorodara",
+                "Kakkariel",
+                "Kora",
+                "Marrak",
+                "Mossarah",
+                "Pularrka",
+                "Rarorel",
+                "Ruk",
+                "Tak-Tak",
+                "Tsukotarra"
+            ],
+            "might": [
+                "Be gregarious and eager to find a flock of your own. ",
+                "Voraciously absorb the practices of those around you, sometimes even forgetting where they came from. ",
+                "Be willing to take on any task or job, no matter what others think."
+            ],
+            "probably": [
+                "Look to you as a source of eclectic skills and knowledge, especially relating to languages. ",
+                "Get confused by your simultaneous respect for and disregard of tradition. ",
+                "Have trouble reading your expressions or regard you with suspicion and superstition."
+            ],
+            "pfsLegal": true
         }
     ]
 }
