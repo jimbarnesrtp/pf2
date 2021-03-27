@@ -41,6 +41,7 @@ def get_details(link):
     detailHolder = []
     tagType = ""
     string = " "
+    divAbility = []
     spellHolder = []
     divinterDesc = ""
     domainHolder = []
@@ -90,7 +91,9 @@ def get_details(link):
             if tagType != "":
                 if (tagType not in alreadyHandled):
                     if not stringContents.isspace():
-                        if (tagType == "Cleric Spells"):
+                        if (tagType == "Divine Ability"):
+                            divAbility.append(encoder(stringContents).strip().split(' or '))
+                        elif (tagType == "Cleric Spells"):
                             if (child.next_sibling.name != None) and (child.next_sibling.name == 'i'): #Only grabs spells until the next thing isn't in italics (we expect spells to be italicized) 
                                 spellHolder.append(encoder(stringContents))
                             elif reachedIntercession == True:
@@ -125,6 +128,7 @@ def get_details(link):
     itemDetails['clericSpells'] = spellDict
     itemDetails['text'] = "".join(detailHolder).strip(', ').strip()
     itemDetails['divinterDesc'] = divinterDesc.strip()
+    itemDetails['divAbility'] = divAbility
     return itemDetails
 
 
@@ -173,6 +177,43 @@ def get_entry(link):
                 items.append(item)
         #if t > 5:
             #break
+            
+    #Handle Faiths seperately from Deities:
+    table2 = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_FaithElement")
+    rows2 = table2.findAll(lambda tag: tag.name=='tr')
+    t = 0
+    for row in rows2:
+        t += 1
+        #print(row)
+        #print("-----------------------------------")
+        item = {}
+        entries = row.find_all(lambda tag: tag.name=='td')
+        if entries is not None:
+            if len(entries) > 0:
+                if (entries[0].find("a").get('href') == "PFS.aspx"):#Not all entries have PFS tags, so we have to handle them seperately
+                    name = entries[0].find("a").find_next("a").text
+                    link = "https://2e.aonprd.com/" + entries[0].find("a").find_next("a").get('href')
+                    pfsLegal = entries[0].find("a").img.get('alt')
+                else:
+                    name = entries[0].find("a").text
+                    link = "https://2e.aonprd.com/" + entries[0].find("a").get('href')
+                    pfsLegal = 'No PFS Data'
+                item['name'] = name
+                item['link'] = link
+                item['PFS'] = pfsLegal
+                item['category'] = "Faiths and Philosophies"
+                item['followerAlignments'] = entries[1].text.replace(u'\u2014', '').split(", ")
+                #item['domains'] = entries[5].text.split(", ")#Commented out because we handle this in get_details.
+
+                print("getting details for:",item['name'])
+                itemDetails = get_details(item['link'])
+
+                for key in itemDetails.keys():
+                    item[key] = itemDetails[key]
+
+                items.append(item)
+            
+            
     return items
 
 
