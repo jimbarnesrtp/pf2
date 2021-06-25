@@ -4,7 +4,7 @@ import requests
 def get_afterhr(link):
     res2 = requests.get(link)
     res2.raise_for_status()
-    soup2 = BeautifulSoup(res2.text, 'lxml')
+    soup2 = BeautifulSoup(res2.text, 'html5lib')
     feat = soup2.find_all("div", {'class':'main'})
     detail = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
     #print(detail.contents)

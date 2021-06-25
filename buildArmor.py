@@ -25,8 +25,8 @@ def get_base_magic(link):
         entries = row.find_all(lambda tag: tag.name=='td')
         if entries is not None:
             if len(entries) > 0:
-                item['name'] = entries[0].find("a").text
-                item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                item['name'] = entries[0].find("u").text
+                item['link'] = "https://2e.aonprd.com/" + entries[0].find("u").parent['href']
                 item['category'] = "Magic Armor"
                 item['level'] = 0 if entries[1].text == "" else int(entries[1].text)
                 item['price'] = entries[2].text
@@ -39,7 +39,7 @@ def get_base_magic(link):
     if len(items) > 0:
         res = requests.get(items[0]['link'])
         res.raise_for_status()
-        soup = BeautifulSoup(res.text, 'lxml')
+        soup = BeautifulSoup(res.text, 'html5lib')
         main = soup.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
         children = main.contents
 
@@ -62,7 +62,7 @@ def get_base_magic(link):
             stringContents = str(child)
             if stringContents.startswith("<"):
 
-                if child.name == "hr":
+                if child.name == "br":
                     reachedBreak = True
                 if child.name == "i":
                     if reachedItem:
@@ -159,7 +159,7 @@ def get_precious():
 
         res2 = requests.get(armorMD[1].strip('\n'))
         res2.raise_for_status()
-        soup2 = BeautifulSoup(res2.text, 'lxml')
+        soup2 = BeautifulSoup(res2.text, 'html5lib')
         main = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
         traits = main.find_all("span", {"class" : lambda L: L and L.startswith('trai')})
         traitHolder = []
@@ -194,6 +194,7 @@ def get_precious():
                     name = child.text
                     start = child.text.find("Item")
                     item['name'] = child.text[0:start].strip()
+                    item['level'] = int(child.text[start+4:len(name)].strip())
                 if child.name == "b":
                     if(child.text != "Source"):
                         tagType = child.text.lower().replace(" ", "")
@@ -217,7 +218,7 @@ def get_magic_armor(link):
     items = []
     res2 = requests.get(link)
     res2.raise_for_status()
-    soup2 = BeautifulSoup(res2.text, 'lxml')
+    soup2 = BeautifulSoup(res2.text, 'html5lib')
     item = soup2.find_all("div", {'class':'main'})
     table = soup2.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TreasureElement")
     rows = table.findAll(lambda tag: tag.name=='tr')
@@ -228,8 +229,8 @@ def get_magic_armor(link):
         entries = row.find_all(lambda tag: tag.name=='td')
         if entries is not None:
             if len(entries) > 0:
-                item['name'] = entries[0].find("a").text
-                item['link'] = "https://2e.aonprd.com/"+entries[0].find("a")['href']
+                item['name'] = entries[0].find("u").text
+                item['link'] = "https://2e.aonprd.com/"+entries[0].find("u").parent['href']
                 item['category'] = "Magic Armor"
                 item['level'] = 0 if entries[1].text == "" else int(entries[1].text)
                 item['price'] = entries[2].text
@@ -247,7 +248,7 @@ def get_armor_details(link):
     itemDetails = {}
     res2 = requests.get(link)
     res2.raise_for_status()
-    soup2 = BeautifulSoup(res2.text, 'lxml')
+    soup2 = BeautifulSoup(res2.text, 'html5lib')
     detail2 = soup2.find(lambda tag: tag.name=='span' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_DetailedOutput") 
     traits = detail2.find_all("span", {"class" : lambda L: L and L.startswith('trai')})
     traitHolder = []
