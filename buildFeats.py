@@ -13,7 +13,7 @@ featHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
 def get_details(link):
     res = requests.get(link)
     res.raise_for_status()
-    soup = BeautifulSoup(res.text, 'lxml')
+    soup = BeautifulSoup(res.text, 'html5lib')
     feat = soup.find_all("div", {'class':'main'})
     detail = soup.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
     #print(detail.contents)
