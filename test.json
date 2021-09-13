@@ -1,0 +1,35 @@
+{
+    "name": "Pathfinder 2.0 background list",
+    "date": "September 19, 2019",
+    "backgrounds": [{}, {
+        "name": "Academic",
+        "link": "http://pf2.d20pfsrd.com/background/academic-2/",
+        "source": "Pathfinder Lost Omens World Guide (Second Edition)",
+        "ability": ["One must be to Intelligence or Wisdom", "and one is a free ability boost."],
+        "backgroundText": ["You were educated at a famed academy and received quality instruction in advanced concepts of mathematics, science, and engineering.", "You\u00e2\u0080\u0099re trained in the Crafting skill and the Academia Lore skill. You gain the Skill Training skill feat."]
+    }, {
+        "name": "Academic",
+        "link": "http://pf2.d20pfsrd.com/background/academic/",
+        "source": "Pathfinder Lost Omens World Guide (Second Edition)",
+        "ability": ["One must be to Intelligence or Charisma", "and one is a free ability boost."],
+        "backgroundText": ["You studied magic at a prestigious academy, learning magical traditions and earning a pedigree respected by magical scholars almost everywhere.", "You\u00e2\u0080\u0099re trained in your choice of either the Arcana or Nature skill, as well as the Academia Lore skill. You gain the Recognize Spell skill feat."]
+    }, {
+        "name": "Acolyte",
+        "link": "http://pf2.d20pfsrd.com/background/acolyte/",
+        "source": "Pathfinder 2 Core Rulebook",
+        "ability": ["One must be to Intelligence or Wisdom", "and one is a free ability boost."],
+        "backgroundText": ["You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you\u00e2\u0080\u0099ll always carry within you the lessons you learned.", "You\u00e2\u0080\u0099re trained in the Religion skill and the Scribing Lore skill. You gain the Student of the Canon skill feat."]
+    }, {
+        "name": "Acrobat",
+        "link": "http://pf2.d20pfsrd.com/background/acrobat/",
+        "source": "Pathfinder 2 Core Rulebook",
+        "ability": ["One must be to Strength or Dexterity", "and one is a free ability boost."],
+        "backgroundText": ["In a circus or on the streets, you earned your pay by performing as an acrobat. You might have turned to adventuring when the money dried up, or simply decided to put your skills to better use.", "You\u00e2\u0080\u0099re trained in the Acrobatics skill and the Circus Lore skill. You gain the Steady Balance skill feat."]
+    }, {
+        "name": "Adherent",
+        "link": "http://pf2.d20pfsrd.com/background/adherent/",
+        "source": "Pathfinder Lost Omens World Guide (Second Edition)",
+        "ability": ["One must be to Constitution or Wisdom", "and one is a free ability boost."],
+        "backgroundText": ["You have spent time learning the practices and traditions of ancient dwarven shamans and can recognize all sorts of magic. You may have chosen your own road since then, or you may remain an adherent of the philosophy.", "You\u00e2\u0080\u0099re trained in the Occultism skill and the Spirit Lore skill.", "You gain the Recognize Spell skill feat."]
+    }]
+}

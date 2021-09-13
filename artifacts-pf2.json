@@ -1,0 +1,39 @@
+{
+    "name": "Pathfinder 2.0 Artifact list",
+    "date": "March 30, 2020",
+    "artifacts": [
+        {
+            "traits": [
+                "Unique",
+                "Artifact",
+                "Divination",
+                "Invested"
+            ],
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=508",
+            "text": "",
+            "category": "artifact"
+        },
+        {
+            "link": "https://2e.aonprd.com/Equipment.aspx?ID=616",
+            "traits": [
+                "Unique",
+                "Arcane",
+                "Artifact",
+                "Enchantment",
+                "Unique",
+                "Artifact",
+                "Enchantment",
+                "Magical",
+                "Rare",
+                "Artifact",
+                "Enchantment",
+                "Magical"
+            ],
+            "activations": [],
+            "text": "    ",
+            "category": "artifact",
+            "linl": "https://2e.aonprd.com/Equipment.aspx?ID=616",
+            "pfsFlag": "PFS Restricted"
+        }
+    ]
+}

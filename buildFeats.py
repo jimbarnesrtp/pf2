@@ -296,10 +296,6 @@ f = open(filename, "w")
 f.write(json_data)
 f.close
 
-filename = "feats-pf2-v2.json"
-f = open(filename, "w")
-f.write(json_data)
-f.close 
 
 def is_feat_not_in_list(linkText, listToCheck):
 
