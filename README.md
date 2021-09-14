@@ -1,6 +1,7 @@
 # PF2 JSON data project
 
 # H1 Be aware most of the archives of nethys html is currently broken and will end up with no data pulled
+# Feats are not working for regular feats, pulling archetypes next, then will fix monsters, and items, as there has been updates for the html on archives of nethys
 
 ### Completed items
 * Spells
