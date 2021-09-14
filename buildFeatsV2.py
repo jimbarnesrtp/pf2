@@ -51,7 +51,7 @@ class BuildFeatsV2:
             new_feat['prereqs'] = self.norm_prereqs(feat['prereqs'])
             new_feat['benefits'] = feat['benefits']
             new_feat['spoilers'] = feat['spoilers']
-            new_feat['text'] = 'text'
+            new_feat['text'] = self.get_details(new_feat['link'])
 
 
             norm_feats.append(new_feat)
@@ -114,8 +114,46 @@ class BuildFeatsV2:
         f.write(json_data)
         f.close
 
+    def get_details(self, link):
+        res = requests.get(link)
+        res.raise_for_status()
+        soup = BeautifulSoup(res.text, 'html5lib')
+        detail = soup.find("span", {'id':'ctl00_RadDrawer1_Content_MainContent_DetailedOutput'})
+        #print(detail.contents)
+        children = detail.contents
+        reached_break = False
+        detail_holder = []
+        details = {}
+
+        for child in children:
+            string_contents = str(child)
+            if string_contents.startswith("<"):
+                if string_contents == "<hr/>":
+                    reached_break = True
+                if reached_break:
+                    if child.name == "a":
+                        detail_holder.append(child.text)
+                    if child.name == "ul":
+                        #print(child.text)
+                        children3 = child.contents
+                        for child3 in children3:
+                            string_contents3 = str(child3)
+                            if string_contents3.startswith("<") and child3.name == "li":
+                                    detail_holder.append(child3.text)
+                    if child.name == "h2":
+                        break
+
+            else:
+                if reached_break:
+                    detail_holder.append(string_contents)
+
+            string = " "
+            details['text'] = string.join(detail_holder)
+        return details['text'] 
+
 def main():
     bf = BuildFeatsV2()
+    bf.save_feats(bf.build_feats())
 
 
 if __name__ == "__main__":

@@ -41,20 +41,25 @@ class TestBuildFeatsV2(unittest.TestCase):
 
     def test_norm_prereqs(self):
         self.assertEqual(self.func.norm_prereqs("trained in <u><a href=\"Skills.aspx?ID=8\">Lore</u></a>"), "trained in Lore")
+    
+    def test_get_details(self):
+        #print(self.func.get_details("https://2e.aonprd.com/Feats.aspx?ID=779"))
+        self.assertIsNotNone(self.func.get_details("https://2e.aonprd.com/Feats.aspx?ID=779"))
+
      
 
     def test_normalize_feat_data(self):
         directory_path = os.getcwd()
         self.assertGreater(len(self.func.normalize_feat_data(self.func.load_feats(directory_path+"/featscsv/RadGridExport-1.csv"))), 0)
     
-    def test_build_feats(self):
-        self.assertGreater(len(self.func.build_feats()), 0)
+    #def test_build_feats(self):
+        #self.assertGreater(len(self.func.build_feats()), 0)
 
     def test_save_feats(self):
-        directory_path = os.getcwd()
+        ##directory_path = os.getcwd()
         self.func.save_feats(self.func.build_feats())
-        #file = open(directory_path+"/feats-pf2-v3.json", "r") 
-        #self.assertIsNotNone(file)
+        ##file = open(directory_path+"/feats-pf2-v3.json", "r") 
+        ##self.assertIsNotNone(file)
 
 
 
