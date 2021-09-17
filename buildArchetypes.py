@@ -5,6 +5,7 @@ import datetime
 import codecs
 import csv
 import os
+from pf2helpers import Pf2Helpers
 
 feat_holder = {}
 feat_holder['name'] = 'Pathfinder 2.0 ArcheType Feat List'
@@ -14,24 +15,9 @@ class BuildArchetypes:
 
     holder = []
 
-    blacklist = [
-    '[document]',
+    blacklist = ['[document]','noscript','header','html','meta','head', 'input','script', 'h1','img','i','a','b','h3']
 
-   'noscript',
-    'header',
-    'html',
-    'meta',
-    'head', 
-    'input',
-    'script',
-    'h1',
-    'img',
-    'i',
-    'a',
-    'b',
-    'h3'
-    # there may be more elements you don't want, such as "style", etc.
-]
+    pf = Pf2Helpers()
 
     def load_links(self):
         with open("archetypes.csv", encoding='utf-8-sig') as csv_file:
@@ -48,12 +34,6 @@ class BuildArchetypes:
                 #print(tl_data)
             return arch_list
     
-    def load_html(self, link):
-        res2 = requests.get(link)
-        res2.raise_for_status()
-        soup2 = BeautifulSoup(res2.text, 'html5lib')
-        main = soup2.find("span", {'id':'ctl00_RadDrawer1_Content_MainContent_DetailedOutput'})
-        return main
 
     def load_other_archetypes(self):
         list_of_links2 = []
@@ -71,20 +51,6 @@ class BuildArchetypes:
             list_of_links2.append({'class': link_to_use.text, 'link':"https://2e.aonprd.com/"+link_to_use['href']})
         return list_of_links2
 
-    def split_children(self, children):
-        string_holder = []
-        split_children = []
-
-        string = " "
-
-        for child in children:
-            string_contents = str(child)
-            if string_contents.startswith("<h2"):
-                split_children.append(string.join(string_holder))
-                string_holder = []
-            string_holder.append(string_contents)
-
-        return split_children
     
     def parse_data(self, html):
         arch_data = {}
@@ -125,8 +91,8 @@ class BuildArchetypes:
     def get_archetype_data(self, link):
         archetype = {}
 
-        children = self.load_html(link).contents
-        children_list = self.split_children(children)
+        children = self.pf.load_html(link).contents
+        children_list = self.pf.split_children(children)
         archetype = self.build_archetype(children_list)
         
         return archetype
