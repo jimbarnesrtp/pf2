@@ -15,7 +15,7 @@ class TestBuildArcheFeatsV2(unittest.TestCase):
         self.assertGreater(len(self.func.load_links()), 0)
     
     def test_load_html(self):
-        stuff = self.func.load_html("https://2e.aonprd.com/Archetypes.aspx?ID=1")
+        stuff = self.func.pf.load_html("https://2e.aonprd.com/Archetypes.aspx?ID=1")
         #print("stuff:", stuff)
         self.assertIsNotNone(stuff)
     
@@ -25,14 +25,15 @@ class TestBuildArcheFeatsV2(unittest.TestCase):
         self.assertGreater(len(stuff), 0)
 
     def test_split_children(self):
-        stuff = self.func.split_children(self.func.load_html("https://2e.aonprd.com/Archetypes.aspx?ID=1"))
+        stuff = self.func.pf.split_children(self.func.pf.load_html("https://2e.aonprd.com/Archetypes.aspx?ID=1"))
         #print("stuff2:", stuff)
         self.assertGreater(len(stuff), 0)
 
     def test_parse_data(self):
-        stuff = self.func.split_children(self.func.load_html("https://2e.aonprd.com/Archetypes.aspx?ID=1"))
+        stuff = self.func.pf.split_children(self.func.pf.load_html("https://2e.aonprd.com/Archetypes.aspx?ID=1"))
         
         data = self.func.parse_data(stuff[0])
+        print("Data:", data)
         self.assertIsNotNone(data)
 
     #def test_build_archetype(self):

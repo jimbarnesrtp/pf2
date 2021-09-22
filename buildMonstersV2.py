@@ -9,10 +9,7 @@ data_holder = {}
 data_holder['name'] = 'Pathfinder 2.0 MonsterList v2'
 data_holder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
-headers = {
-    'User-Agent': 'PF2 data to rest builder',
-    'From': 'jimbarnesrtp'  # This is another valid field
-}
+
 
 class BuildMonsters:
 
@@ -42,7 +39,7 @@ class BuildMonsters:
 
     def get_details(self, data):
         main = self.pf.load_html(data['link'])
-        childen = self.pf.split_children(main)
+        children = self.pf.split_children(main)
 
 
         return data

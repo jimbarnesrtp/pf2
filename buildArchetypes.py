@@ -15,7 +15,7 @@ class BuildArchetypes:
 
     holder = []
 
-    blacklist = ['[document]','noscript','header','html','meta','head', 'input','script', 'h1','img','i','a','b','h3']
+    blacklist = ['[document]','noscript','header','html','meta','head', 'input','script', 'h1','img','b','h3']
 
     pf = Pf2Helpers()
 
@@ -37,7 +37,7 @@ class BuildArchetypes:
 
     def load_other_archetypes(self):
         list_of_links2 = []
-        main = self.load_html("https://2e.aonprd.com/Archetypes.aspx")
+        main = self.pf.load_html("https://2e.aonprd.com/Archetypes.aspx")
         h2s = main.find_all("h2", {"class": "title"})
         for row in h2s:
             #print(row.text)

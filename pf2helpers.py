@@ -2,6 +2,11 @@ import csv
 from bs4 import BeautifulSoup
 import requests
 
+headers = {
+    'User-Agent': 'PF2 data to rest builder',
+    'From': 'jimbarnesrtp'  # This is another valid field
+}
+
 class Pf2Helpers():
 
     
@@ -19,11 +24,28 @@ class Pf2Helpers():
         return data_list
 
     def load_html(self, link):
-        res2 = requests.get(link)
+        res2 = requests.get(link, headers)
         res2.raise_for_status()
         soup2 = BeautifulSoup(res2.text, 'html5lib')
         main = soup2.find("span", {'id':'ctl00_RadDrawer1_Content_MainContent_DetailedOutput'})
         return main
+
+    
+    def parse_text_from_html(self, html, blacklist):
+
+        data_to_parse = ""
+        if hasattr(html, "find_all"):
+            data_to_parse = html
+        else:
+            data_to_parse = BeautifulSoup(html, 'html5lib')
+        text_holder = []
+        text = data_to_parse.find_all(text=True)
+        for t in text:
+            if t.parent.name not in blacklist:
+                #print("t:",t," parent:", t.parent.name)
+                text_holder.append(t)
+        #this was done to remove extraspaces between words and create a better reading space
+        return " ".join(" ".join(text_holder).split())
 
     def norm_link(self, name):
         #print("norm link:", name)
@@ -49,7 +71,7 @@ class Pf2Helpers():
         href = soup.find_all("a")
         return "https://2e.aonprd.com/"+href[0]['href']
 
-    def split_children(self, children):
+    def split_children_by_rule(self, children, rule):
         string_holder = []
         split_children = []
 
@@ -57,12 +79,18 @@ class Pf2Helpers():
 
         for child in children:
             string_contents = str(child)
-            if string_contents.startswith("<h2"):
+            if string_contents.startswith(rule):
                 split_children.append(string.join(string_holder))
                 string_holder = []
             string_holder.append(string_contents)
+        split_children.append(string.join(string_holder))
 
         return split_children
+
+    def split_children(self, children):
+        return self.split_children_by_rule(children, "<h2")
+
+    
 
     def norm_prereqs(self, prereq):
         soup = BeautifulSoup(prereq, 'html5lib')
