@@ -144,7 +144,7 @@ class BuildSpells:
                 attr_loc['start'] = index
                 attr_locs.append(attr_loc)
         
-        #newlist = sorted(list_to_be_sorted, key=lambda k: k['name']) 
+
         new_locs = sorted(attr_locs, key=lambda loc: loc['start'])
         slices = self.get_slices_from_locs(new_locs)
         attributes = {}
@@ -157,7 +157,8 @@ class BuildSpells:
         attributes['raw'] = attrs
         
         return attributes
-
+        
+# will pull out the exact slices to request from the text
     def get_slices_from_locs(self, new_locs):
         slices = []
         i = 0

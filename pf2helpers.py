@@ -85,6 +85,7 @@ class Pf2Helpers():
             string_holder.append(string_contents)
         split_children.append(string.join(string_holder))
 
+
         return split_children
 
     def split_children(self, children):
@@ -105,5 +106,47 @@ class Pf2Helpers():
             return "Excluded"
         else:
             return img[0]['alt']
+
+    def objectify_attributes(self, attrs, key_words):
+
+        attr_locs = []
+        for key_word in key_words:
+            index = attrs.find(key_word)
+            if index > -1:
+                attr_loc = {}
+                attr_loc['keyword'] = key_word
+                attr_loc['start'] = index
+                attr_locs.append(attr_loc)
+        
+
+        new_locs = sorted(attr_locs, key=lambda loc: loc['start'])
+        slices = self.get_slices_from_locs(new_locs)
+        attributes = {}
+        for piece in slices:
+            start_loc = piece['start'] + len(piece['keyword'])
+            if piece['end'] == -1:
+                attributes[piece['keyword']] = attrs[start_loc:]
+            else:
+                attributes[piece['keyword']] = attrs[start_loc:piece['end']]
+        attributes['raw'] = attrs
+        
+        return attributes
+    
+    # will pull out the exact slices to request from the text
+    def get_slices_from_locs(self, new_locs):
+        slices = []
+        i = 0
+        while i < len(new_locs):
+            attr = {}
+            t = i +1
+            attr['start'] = new_locs[i]['start']
+            if t == len(new_locs):
+                attr['end'] = -1
+            else:
+                attr['end'] = new_locs[i+1]['start']
+            attr['keyword'] = new_locs[i]['keyword']
+            slices.append(attr)
+            i += 1
+        return slices
 
         
