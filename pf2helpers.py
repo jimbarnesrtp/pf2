@@ -24,7 +24,7 @@ class Pf2Helpers():
         return data_list
 
     def load_html(self, link):
-        res2 = requests.get(link, headers)
+        res2 = requests.get(link, headers, verify=False)
         res2.raise_for_status()
         soup2 = BeautifulSoup(res2.text, 'html5lib')
         main = soup2.find("span", {'id':'ctl00_RadDrawer1_Content_MainContent_DetailedOutput'})

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import unittest
 from buildMonstersV2 import BuildMonsters
 import os

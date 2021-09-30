@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import json
 import datetime
@@ -57,6 +58,8 @@ class BuildMonsters:
                 defense = self.parse_defense(children[1])
                 for key3 in defense:
                     data[key3] = defense[key3]
+                attack = self.parse_attack(children[1])
+                #print(attack)
                 
             child_pos += 1
             
@@ -176,7 +179,115 @@ class BuildMonsters:
 
         print("Defense:", objectified)
         return objectified
+        
+    def parse_attack(self, child):
+        print("++++++++++++++++++++++++++++++++++++++++++++")
+        position = child.find("<hr/>")
+        raw_text = child[position+6:]
+        first_hr = raw_text.find("<hr")
+        attack_text = raw_text[first_hr+6:]
+       # print("Attack:", attack_text)
+        find_h2 = attack_text.find("<h2")
+        find_h3 = attack_text.find("<h3")
+        #print("H2:", find_h2, "|h3:", find_h3)
+        end_point = self.get_end_point(find_h2, find_h3)
+        final_text = attack_text[0:end_point]
+        #print("Final Attack: ", final_text)
+        
+        exclude_list = ['Damage','Saving Throw', 'Stage', 'Cantrips', 'Maximum Duration','(1st)','2nd', '(3rd)', '3rd',  '4th', '5th', '6th', '7th', '8th', '9th']
+        pos = -1
+        spots = []
+        start = 0
+        found_list = re.finditer("<b>(.*?)</b>", final_text)
+        *_, last = found_list
 
+        found_list = re.finditer("<b>(.*?)</b>", final_text)
+
+        for match in found_list:
+            
+            pos += 1
+            key = final_text[match.start():match.end()]
+            print("Key:", key, " Start:", match.start())
+            if pos == 0: 
+                start = match.start()
+                continue
+            else:
+                if not self.check_key_for_attack(exclude_list, key):
+                    print("In here key:", key)
+                    part = {}
+                    part['start'] = start
+                    part['end'] = match.start()
+                    spots.append(part)
+                    start = match.start()
+            
+            if last.end() == match.end():
+                part = {}
+                part['start'] = match.start()
+                part ['end'] = -1
+                spots.append(part)
+
+        print("-----------------------------")
+        for list_item in spots:
+            print(list_item)
+        
+        print("-------------------------")
+
+
+        offensive_items = []
+        for item in spots:
+            offensive_items.append(self.objectify_offensive_part(final_text[item['start']:item['end']]))
+            print("########################################")
+            print("Text :", final_text[item['start']:item['end']])
+            print("Start:", item['start'])
+            print("########################################")
+
+        print("########################################")
+        return offensive_items
+
+        
+
+    def objectify_offensive_part(self, text):
+        #print("text:", text)
+        offensive = {}
+
+        match = re.match("<b>(.*?)</b>", text)
+        img_find = re.findall('<img alt=["](.*?)["]', text)
+        for item in img_find:
+            #print("Img = :", item)
+            offensive['action'] = item
+            break
+        
+        blacklist = ['[document]','noscript','header','html','meta','head', 'input','script', 'h1','img','h3']
+        key = self.pf.parse_text_from_html(match.group(0), blacklist)
+        value = self.pf.parse_text_from_html(text[match.end():], blacklist)
+        #print("Match:",  key, "|", value)
+        offensive[key] = value
+        #offensive[]
+        print("Return:", offensive)
+        return offensive
+    
+    def get_end_point(self, find_h2, find_h3):
+
+        if find_h2 > 0 and find_h3 >0:
+            if find_h2 > find_h3:
+                return find_h3
+            else:
+                return find_h2
+        else:
+            if find_h2 > 0:
+                return find_h2
+            elif find_h3 > 0:
+                return find_h3
+            else:
+                return -1
+
+    def check_key_for_attack(self, list, key):
+        #print(list)
+        #print("Key:", key)
+        for item in list:
+            if item in key or item == key:
+                return True
+        return False
 
     def split_by_key(self, text, key):
         position = text.find(key)
