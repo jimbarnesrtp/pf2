@@ -47,11 +47,16 @@ class TestBuildMonstersVs(unittest.TestCase):
 
     def test_parse_stats(self):
         text = {'name': 'Aapoph Serpentfolk', 'family': 'Serpentfolk', 'source': 'Bestiary 2', 'rarity': 'Uncommon', 'size': 'Medium', 'type': 'Humanoid', 'traits': ['Humanoid', 'Mutant', 'Serpentfolk'], 'level': '3', 'spoilers?': '—', 'link': 'https://2e.aonprd.com/Monsters.aspx?ID=799'}
-        self.func.get_details(text)
+        
+        monster = self.func.load_monster(text)
+        print("Monster:", monster)
+        self.assertIsNotNone(monster)
 
-    def test_parse_stats2(self):
-        text = {'name': 'Aapoph Serpentfolk', 'family': 'Serpentfolk', 'source': 'Bestiary 2', 'rarity': 'Uncommon', 'size': 'Medium', 'type': 'Humanoid', 'traits': ['Humanoid', 'Mutant', 'Serpentfolk'], 'level': '3', 'spoilers?': '—', 'link': 'https://2e.aonprd.com/Monsters.aspx?ID=333'}
-        self.func.get_details(text)
+    # def test_parse_stats2(self):
+    #     text = {'name': 'Aapoph Serpentfolk', 'family': 'Serpentfolk', 'source': 'Bestiary 2', 'rarity': 'Uncommon', 'size': 'Medium', 'type': 'Humanoid', 'traits': ['Humanoid', 'Mutant', 'Serpentfolk'], 'level': '3', 'spoilers?': '—', 'link': 'https://2e.aonprd.com/Monsters.aspx?ID=333'}
+    #     monster = self.func.load_monster(text)
+    #     print("Monster:", monster)
+    #     self.assertIsNotNone(monster)
 
     
 

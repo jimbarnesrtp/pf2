@@ -32,22 +32,36 @@ class BuildMonsters:
                     new_data[key] = data[key]
             new_data['link'] = self.pf.norm_url(data['name'])
             #print("Link:", new_data['link'])
-            #full_data = self.get_details(new_data)
-            full_data = new_data
+            full_data = self.load_monster(new_data)
+            #full_data = new_data
 
             norm_monsters.append(full_data)
         return norm_monsters
+    
+    def load_monster(self, data):
+        main_link = data['link']
+        print("Monster:", main_link)
+        elite_link = main_link+"&Elite=true"
+        weak_link = main_link+"&Weak=True"
+        main = self.get_details(data['link'], 'main')
+        for key in main:
+            data[key] = main[key]
+        weak = self.get_details(weak_link, 'weak')
+        data['weakStats'] = weak
+        elite = self.get_details(elite_link, elite_link)
+        data['eliteStats'] = elite
+        return data
 
-    def get_details(self, data):
-        main = self.pf.load_html(data['link'])
+    def get_details(self, link, version):
+        main = self.pf.load_html(link)
 
         children = self.pf.split_children_by_rule(main, "<h1")
         while("" in children) :
             children.remove("")
-
+        data = {}
         child_pos = 0
         while child_pos < len(children):
-            if child_pos == 0:
+            if child_pos == 0 and version == 'main':
                 header = self.parse_header(children[0])
                 for key1 in header:
                     data[key1] = header[key1]
@@ -58,13 +72,12 @@ class BuildMonsters:
                 defense = self.parse_defense(children[1])
                 for key3 in defense:
                     data[key3] = defense[key3]
-                attack = self.parse_attack(children[1])
+                offensive = self.parse_attack(children[1])
+                data['offensive_skills'] = offensive
                 #print(attack)
                 
             child_pos += 1
-            
-        
-        #data['raw'] = main
+
         return data
 
     
@@ -140,7 +153,7 @@ class BuildMonsters:
         abilities = self.parse_abilities(stats_text)
         
         
-        print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
+        #print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
         #print("Children: ", raw_text)
         return abilities
 
@@ -159,6 +172,7 @@ class BuildMonsters:
         first_hr = raw_text.find("<hr")
         defense_text = raw_text[0:first_hr]
         reaction_pos = defense_text.find('<img alt="Reaction"')
+        reaction_text = ""
         if reaction_pos > 0:
 
             holder_defense_text = defense_text[0:reaction_pos]
@@ -177,11 +191,11 @@ class BuildMonsters:
         if len(reaction_text) > 0:
             objectified['reactions'] = self.pf.parse_text_from_html(reaction_text, blacklist)
 
-        print("Defense:", objectified)
+        #print("Defense:", objectified)
         return objectified
         
     def parse_attack(self, child):
-        print("++++++++++++++++++++++++++++++++++++++++++++")
+        #print("++++++++++++++++++++++++++++++++++++++++++++")
         position = child.find("<hr/>")
         raw_text = child[position+6:]
         first_hr = raw_text.find("<hr")
@@ -195,53 +209,45 @@ class BuildMonsters:
         #print("Final Attack: ", final_text)
         
         exclude_list = ['Damage','Saving Throw', 'Stage', 'Cantrips', 'Maximum Duration','(1st)','2nd', '(3rd)', '3rd',  '4th', '5th', '6th', '7th', '8th', '9th']
-        pos = -1
+
         spots = []
-        start = 0
-        found_list = re.finditer("<b>(.*?)</b>", final_text)
-        *_, last = found_list
 
         found_list = re.finditer("<b>(.*?)</b>", final_text)
-
         for match in found_list:
-            
-            pos += 1
             key = final_text[match.start():match.end()]
-            print("Key:", key, " Start:", match.start())
-            if pos == 0: 
-                start = match.start()
-                continue
-            else:
-                if not self.check_key_for_attack(exclude_list, key):
-                    print("In here key:", key)
+            if not self.check_key_for_attack(exclude_list, key):
                     part = {}
-                    part['start'] = start
-                    part['end'] = match.start()
+                    part['start'] = match.start()
+                    part['key'] = key
                     spots.append(part)
-                    start = match.start()
-            
-            if last.end() == match.end():
-                part = {}
-                part['start'] = match.start()
-                part ['end'] = -1
-                spots.append(part)
 
-        print("-----------------------------")
-        for list_item in spots:
-            print(list_item)
+
+        # print("-----------------------------")
+        # for list_item in spots:
+        #     print(list_item)
         
-        print("-------------------------")
+        # print("-------------------------")
 
 
         offensive_items = []
+        index = 0
         for item in spots:
-            offensive_items.append(self.objectify_offensive_part(final_text[item['start']:item['end']]))
-            print("########################################")
-            print("Text :", final_text[item['start']:item['end']])
-            print("Start:", item['start'])
-            print("########################################")
+            #print("########################################")
+            #print("key:", item['key'])
+            if item == spots[-1]:
+                text = final_text[item['start']:-1]
+            else:
+                next_item = spots[index+1]
+                #print("Next Item:", next_item)
+                text = final_text[item['start']:next_item['start']]
+            
+            #print("Text :", text)
+            #print("Start:", item['start'])
+            offensive_items.append(self.objectify_offensive_part(text))
+            #print("########################################")
+            index += 1
 
-        print("########################################")
+        #print("########################################")
         return offensive_items
 
         
@@ -263,7 +269,7 @@ class BuildMonsters:
         #print("Match:",  key, "|", value)
         offensive[key] = value
         #offensive[]
-        print("Return:", offensive)
+        #print("Return:", offensive)
         return offensive
     
     def get_end_point(self, find_h2, find_h3):
@@ -284,6 +290,10 @@ class BuildMonsters:
     def check_key_for_attack(self, list, key):
         #print(list)
         #print("Key:", key)
+        #print("IsKeyDigit?", re.match('<b>[-+]?\d+</b>', key))
+        if re.match('<b>[-+]?\d+</b>', key):
+            return True
+
         for item in list:
             if item in key or item == key:
                 return True
@@ -318,6 +328,10 @@ class BuildMonsters:
 def main():
     bf = BuildMonsters()
     bf.save_data(bf.build_monsters())
+
+if __name__ == '__main__':
+   main()
+
 
 
         
