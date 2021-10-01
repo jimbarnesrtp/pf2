@@ -1,15 +1,16 @@
 # PF2 JSON data project
 
 # H1 Be aware most of the archives of nethys html is currently broken and will end up with no data pulled
-# Feats are now working for regular feats, pulling archetypes next, then will fix monsters, and items, as there has been updates for the html on archives of nethys
+# Rewrite Status
 Working on a complete rewrite of this, will continue to update
+Working on items
 ### Completed items
 * Spells
 * Focus Spells
 * General Feats
 * Class Feats
 * Ancestry Feats
-* Monsters - currently working on this
+* Monsters - includes weak and elite versions
 
 
 ### What is next
