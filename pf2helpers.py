@@ -1,6 +1,7 @@
 import csv
 from bs4 import BeautifulSoup
 import requests
+import re
 
 headers = {
     'User-Agent': 'PF2 data to rest builder',
@@ -31,7 +32,7 @@ class Pf2Helpers():
         return main
 
     
-    def parse_text_from_html(self, html, blacklist):
+    def parse_text_from_html(self, html, blacklist: list):
 
         data_to_parse = ""
         if hasattr(html, "find_all"):
@@ -57,15 +58,18 @@ class Pf2Helpers():
             return href[0].text
 
     def norm_multi(self, multi):
-        multi_list = multi.split(",")
+        #print("Multi:", multi)
+        if multi == "—" or multi == "":
+            return multi
         ret_multi = []
-        if (len(multi_list) > 1):
-            for mult in multi_list:
-                ret_multi.append(self.norm_link(mult))
+        found_list = re.finditer("<u>(.*?)</u>", multi)
+        for match in found_list:
+            ret_multi.append(self.norm_link(match.group()))
         
         return ret_multi
 
     def norm_url(self, url):
+
         #print("URL:", url)
         soup = BeautifulSoup(url, 'html5lib')
         href = soup.find_all("a")
@@ -107,7 +111,7 @@ class Pf2Helpers():
         else:
             return img[0]['alt']
 
-    def objectify_attributes(self, attrs, key_words):
+    def objectify_attributes(self, attrs, key_words: list):
 
         attr_locs = []
         for key_word in key_words:
@@ -125,15 +129,15 @@ class Pf2Helpers():
         for piece in slices:
             start_loc = piece['start'] + len(piece['keyword'])
             if piece['end'] == -1:
-                attributes[piece['keyword']] = attrs[start_loc:]
+                attributes[piece['keyword'].lower()] = attrs[start_loc:]
             else:
-                attributes[piece['keyword']] = attrs[start_loc:piece['end']]
+                attributes[piece['keyword'].lower()] = attrs[start_loc:piece['end']]
         attributes['raw'] = attrs
         
         return attributes
     
     # will pull out the exact slices to request from the text
-    def get_slices_from_locs(self, new_locs):
+    def get_slices_from_locs(self, new_locs: list):
         slices = []
         i = 0
         while i < len(new_locs):

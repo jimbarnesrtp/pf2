@@ -179,7 +179,7 @@ class BuildSpells:
         self.data_holder['spells'] = data
         json_data = json.dumps(self.data_holder, indent=4)
 #       print(json_data)
-        filename = "spells-pf2-v3.json"
+        filename = "json/spells-pf2-v3.json"
         f = open(filename, "w")
         f.write(json_data)
         f.close

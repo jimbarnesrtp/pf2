@@ -1,5 +1,5 @@
 import unittest
-from buildFeatsV2 import BuildFeatsV2
+from buildFeats import BuildFeatsV2
 import os
 
 class TestBuildFeatsV2(unittest.TestCase):

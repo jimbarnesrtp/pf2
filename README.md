@@ -11,29 +11,15 @@ Working on items
 * Class Feats
 * Ancestry Feats
 * Monsters - includes weak and elite versions
+* Items - Which includes Drugs, Tattoos, Alchemical Items, Consumables, Held Items, Runes, Shields, Snares, Weapons, Staves, Wands, Worn Items, Materials, Adventuring Gear
 
 
 ### What is next
 * Artifacts
-* Drugs
-* Tattoos
 * Skills
-* redo backgrounds
 * Backgrounds
-* Armors
-* Alechemical Items
-* Consumables
-* Held Items
-* Runes
 * Services
-* Shields
-* Snares 
-* Weapons
-* Staves
 * Structures
-* Wands
-* Worn Items
-* Materials
 * Hazards
 * Conditions
 * Domains
@@ -42,7 +28,6 @@ Working on items
 * Traits
 * Animal Companion
 * Ancestry
-* Adventuring Gear
 
 
 If you want to contribute please do so!

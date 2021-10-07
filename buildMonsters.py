@@ -63,15 +63,12 @@ class BuildMonsters:
         while child_pos < len(children):
             if child_pos == 0 and version == 'main':
                 header = self.parse_header(children[0])
-                for key1 in header:
-                    data[key1] = header[key1]
+                data.update(header)
             elif child_pos == 1:
                 stats = self.parse_stats(children[1])
-                for key2 in stats:
-                    data[key2] = stats[key2]
+                data.update(stats)
                 defense = self.parse_defense(children[1])
-                for key3 in defense:
-                    data[key3] = defense[key3]
+                data.update(defense)
                 offensive = self.parse_attack(children[1])
                 data['offensive_skills'] = offensive
                 #print(attack)
@@ -222,13 +219,6 @@ class BuildMonsters:
                     spots.append(part)
 
 
-        # print("-----------------------------")
-        # for list_item in spots:
-        #     print(list_item)
-        
-        # print("-------------------------")
-
-
         offensive_items = []
         index = 0
         for item in spots:
@@ -287,10 +277,8 @@ class BuildMonsters:
             else:
                 return -1
 
-    def check_key_for_attack(self, list, key):
-        #print(list)
-        #print("Key:", key)
-        #print("IsKeyDigit?", re.match('<b>[-+]?\d+</b>', key))
+    def check_key_for_attack(self, list, key) -> bool:
+
         if re.match('<b>[-+]?\d+</b>', key):
             return True
 
@@ -319,7 +307,7 @@ class BuildMonsters:
         data_holder['monsters'] = data
         json_data = json.dumps(data_holder, indent=4)
 #       print(json_data)
-        filename = "monsters-pf2-v2.json"
+        filename = "json/monsters-pf2-v2.json"
         f = open(filename, "w")
         f.write(json_data)
         f.close

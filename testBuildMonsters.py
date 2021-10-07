@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-from buildMonstersV2 import BuildMonsters
+from buildMonsters import BuildMonsters
 import os
 
 class TestBuildMonstersVs(unittest.TestCase):

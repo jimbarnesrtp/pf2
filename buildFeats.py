@@ -2,355 +2,121 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import datetime
-import codecs
+import csv
+import os
+from pf2helpers import Pf2Helpers
 
-featHolder = {}
-featHolder['name'] = 'Pathfinder 2.0 feat list'
-featHolder['date'] = datetime.date.today().strftime("%B %d, %Y")
+feat_holder = {}
+feat_holder['name'] = 'Pathfinder 2.0 feat list v3'
+feat_holder['date'] = datetime.date.today().strftime("%B %d, %Y")
 
+headers = {
+    'User-Agent': 'PF2 data to rest builder',
+    'From': 'jimbarnesrtp'  # This is another valid field
+}
+class BuildFeatsV2:
 
-
-def get_details(link):
-    res = requests.get(link)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, 'html5lib')
-    feat = soup.find_all("div", {'class':'main'})
-    detail = soup.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
-    #print(detail.contents)
-    children = detail.contents
-    reachedBreak = False
-    detailHolder = []
-    details = {}
-    for child in children:
-        stringContents = str(child)
-        if stringContents.startswith("<"):
-            if stringContents == "<hr/>":
-                reachedBreak = True
-            if reachedBreak:
-                if child.name == "a":
-                    detailHolder.append(child.text)
-                if child.name == "ul":
-                    #print(child.text)
-                    children3 = child.contents
-                    for child3 in children3:
-                        stringContents3 = str(child3)
-                        if stringContents3.startswith("<"):
-                            if child3.name == "li":
-                                #print(child3.text)
-                                detailHolder.append(child3.text)
-
-            if child.name == "h1":
-                #print(child.text)
-                children2 = child.contents
-                for child2 in children2:
-                    stringContents2 = str(child2)
-                    if stringContents2.startswith("<"):
-                        if child2.name == "img":
-                            try: 
-                                if child2['title'] == "PFS Legal":
-                                    details['pfsLegal'] = True
-
-                            except:
-                                pass
-                            try:
-                                details['actions'] = child2['alt']
-                            except:
-                                pass
-
-        else:
-            if reachedBreak:
-                detailHolder.append(stringContents)
-       #print(child)
-       #print('<!!!!!!!!!!!!!!!!!!!!!!!!!>')
-        string = " "
-        details['text'] = string.join(detailHolder)
-    return details
-        
-
-
-def get_feats(link):
-    feats = []
-    res = requests.get(link)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, 'lxml')
-    table = soup.find(lambda tag: tag.name=='table' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_TableElement") 
-    rows = table.findAll(lambda tag: tag.name=='tr')
-    string = " "
-    t = 0
-    for row in rows:
-        t += 1
-        #print(row)
-        #print("-----------------------------------")
-        feat = {}
-        entries = row.find_all(lambda tag: tag.name=='td')
-        if entries is not None:
-            if len(entries) > 0:
-                name = entries[0].find("a").text
-                link = entries[0].find("a")['href']
-                #for entry in entries: 
-                #   print(entry)
-                #  print("row---------------")
-                level = entries[1].text
-                traits = entries[2].text
-                prereq = entries[3].text
-                source = entries[4].text
-
-
-                feat['name'] = name
-                feat['level'] = int(level)
-                feat['traits'] = traits.split(",")
-                feat['link'] = "https://2e.aonprd.com/" +link
-                feat['prerequisites'] = prereq.replace(u'\u2014', '')
-                feat['benefits'] = source
-                details = get_details(feat['link'])
-                feat['text'] = details['text']
-                for key in details.keys():
-                    if key != 'text':
-                        feat[key] = details[key]
-                feats.append(feat)
-        #if t > 5:
-            #break
-    return feats
-
-def get_class_feats():
-    holder = {}
-    listOfPages = codecs.open("feats.csv", encoding='utf-8')
-    for line in listOfPages: 
-        featMD = line.split(",")
-        print("Getting feats for :", featMD[0],"This url:", featMD[2].strip('\n'))
-        #if featMD[0] == "Ranger Feats":
-        holder[featMD[1]]  = get_feats(featMD[2].strip('\n'))
-
-    return holder
-
-def get_multi(link):
-    items = []
-    res2 = requests.get(link)
-    res2.raise_for_status()
-    soup2 = BeautifulSoup(res2.text, 'lxml')
-    main = soup2.find("span", {'id':'ctl00_MainContent_DetailedOutput'})
-    traits = main.find_all("span", {"class" : lambda L: L and L.startswith('trai')})
-    traitHolder = []
-    children = main.contents
-    item = {}
-    item['link'] = link
-    tagType = ""
-    itemDetailHolder = []
-    string = " "
-    h1count = 0
-    reachedFeats = False
-    for child in children:
-        
-        stringContents = str(child)
-        if stringContents.startswith("<"):
-            #print(stringContents)
-            if child.name == "img" and reachedFeats:
-                item['actions'] = child['alt']
-            
-            if child.name == "u" and reachedFeats:
-                #print("In underline")
-                if tagType != "":
-                    if tagType in item:
-                        item[tagType] += " " + child.text.strip()
-                    else:
-                        item[tagType] = child.text.strip()
+    #"Name","PFS","Source","Rarity","Traits","Level","Prerequisites","Benefits","Spoilers?"
+    pf = Pf2Helpers()
+    
+    def normalize_feat_data(self, data_list):
+        norm_feats = []
+        link_list = ['name','source', 'rarity', 'family', 'type']
+        for data in data_list:
+            keys = list(data.keys())
+            new_data = {}
+            for key in keys:
+                if key in link_list:
+                    new_data[key] = self.pf.norm_link(data[key])
+                elif key == 'pfs':
+                    new_data[key] = self.pf.norm_pfs(data[key])
+                elif key == 'prerequisites':
+                    new_data[key] = self.pf.norm_prereqs(data[key])
+                elif key == 'level':
+                    new_data[key] = int(data[key])
+                elif key == 'traits':
+                    new_data[key] = self.pf.norm_multi(data[key])
                 else:
-                    itemDetailHolder.append(child.text) 
-            
-            if child.name == "h1":
-                h1count += 1
-                if h1count >1:
-                    reachedFeats = True
-                if h1count > 2:
-                    item['text'] = string.join(itemDetailHolder)
-                    itemDetailHolder = []
-                    item['traits'] = traitHolder
-                    items.append(item)
-                    item = {}
-                    traitHolder = []
-                    tagType = ""
-                if h1count >1:    
-                    item['link'] = link
-                    name = child.text
-                    start = name.find("Feat")
-                    item['name'] = name[0:start].strip()
-                    item['level'] = int(name[start+5:].strip().replace("+",""))
-            
-            if child.name == "span" and reachedFeats:
-                if child['class'][0] == "trait":
-                    traitHolder.append(child.text)
-            
-            if child.name == "hr" and reachedFeats:
-                tagType = ""
-            
-            if child.name == "b" and reachedFeats:
-                if(child.text != "Source"):
-                    tagType = child.text.replace(" ", "").lower().strip()
-            if child.name == "i" and reachedFeats:
+                    new_data[key] = data[key]
+            new_data['link'] = self.pf.norm_url(data['name'])
+            new_data['text'] = self.get_details(new_data['link'])
 
-                if tagType != "":
-                    if tagType in item:
-                        item[tagType] += " " + child.text.strip()
-                    else:
-                        item[tagType] = child.text.strip()
-                else:
-                    itemDetailHolder.append(child.text) 
-                    
-            if child.name == "a" and reachedFeats:
-                try:
-                    if child['class'][0] == "external-link" :
-                        item['source'] = child.text
-                except:
-                    if tagType != "":
-                        if tagType in item:
-                            item[tagType] += " " + child.text.strip()
-                        else:
-                            item[tagType] = child.text.strip()
-                    else:
-                        itemDetailHolder.append(child.text.strip())
-                        tagType = ""
-        else:
-            if reachedFeats:
-                if tagType == "level":
-                    
-                    item['level'] = int(stringContents.replace(";","").strip())
-                elif tagType != "":
-                    if tagType in item:
-                        item[tagType] += stringContents.strip()
-                    else:
-                        item[tagType] = stringContents.strip()
-                    
-                else:
-                    if not stringContents.isspace():
-                        itemDetailHolder.append(stringContents.strip())
-                    #print(stringContents)
+            norm_feats.append(new_data)
+        return norm_feats
 
-    item['traits'] = traitHolder
-    item['text'] = string.join(itemDetailHolder)
-    items.append(item)
-    
-    return items
+    def build_feats(self):
+        all_feats = []
+        cur_path = os.getcwd()
+        i = 1
+        while i < 7:
+            file_name = cur_path+"/featscsv/RadGridExport-%s.csv" % i
+            raw_feats = self.pf.load_csv(file_name)
+            all_feats.extend(self.normalize_feat_data(raw_feats))
+            i += 1
 
-def get_archtype_feats():
-    holder = {}
-    listOfLinks = []
-    listOfLinks.append({'name': 'Alchemist', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=1'})
-    listOfLinks.append({'name': 'Barbarian', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=2'})
-    listOfLinks.append({'name': 'Bard', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=3'})
-    listOfLinks.append({'name': 'Champion', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=4'})
-    listOfLinks.append({'name': 'Cleric', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=5'})
-    listOfLinks.append({'name': 'Druid', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=6'})
-    listOfLinks.append({'name': 'Fighter', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=7'})
-    listOfLinks.append({'name': 'Monk', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=8'})
-    listOfLinks.append({'name': 'Ranger', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=9'})
-    listOfLinks.append({'name': 'Rogue', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=10'})
-    listOfLinks.append({'name': 'Sorcerer', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=11'})
-    listOfLinks.append({'name': 'Wizard', 'link':'https://2e.aonprd.com/Archetypes.aspx?ID=12'})
-
-    
-    res2 = requests.get("https://2e.aonprd.com/Archetypes.aspx")
-    res2.raise_for_status()
-    soup2 = BeautifulSoup(res2.text, 'lxml')
-    main = soup2.find(lambda tag: tag.name=='span' and tag.has_attr('id') and tag['id']=="ctl00_MainContent_DetailedOutput")
-    h2s = main.find_all("h2", {"class": "title"})
-
-    t = 0
-    for row in h2s:
         
-        #print(row.text)
-        children = row.findChildren(recursive=False)
-        #print(children[0]['href'])
-        listOfLinks.append({'name': row.text, 'link':"https://2e.aonprd.com/"+children[0]['href']})
+        return all_feats
 
 
-    for linkItem in listOfLinks:
-        t += 1
-        print("Getting feats for :", linkItem['name'].rstrip())
-        holder[linkItem['name']] = get_multi(linkItem['link'])
-        #if t > 3:
-            #break
-    
-    
+    def save_feats(self, feats):
+        feat_holder['baseFeats'] = feats
+        json_data = json.dumps(feat_holder, indent=4)
+#       print(json_data)
+        filename = "json/feats-pf2-v3.json"
+        f = open(filename, "w")
+        f.write(json_data)
+        f.close
 
-    return holder
+    def get_details(self, link):
+        res = requests.get(link)
+        res.raise_for_status()
+        soup = BeautifulSoup(res.text, 'html5lib')
+        detail = soup.find("span", {'id':'ctl00_RadDrawer1_Content_MainContent_DetailedOutput'})
+        imgs = detail.find_all("img")
+        #print(detail.contents)
+        children = detail.contents
+        reached_break = False
+        detail_holder = []
+        details = {}
 
-def get_all():
-    #tempHolder = get_class_feats()
-    #for key in tempHolder.keys():
-    featHolder['baseFeats'] = get_class_feats()
-    
-    #tempHolder = get_archtype_feats()
-    #for key in tempHolder.keys():
-    featHolder['archTypeFeats'] = get_archtype_feats()
-    
-    return featHolder
+        for child in children:
+            string_contents = str(child)
+            if string_contents.startswith("<"):
+                if string_contents == "<hr/>":
+                    reached_break = True
+                if reached_break:
+                    if child.name == "a":
+                        detail_holder.append(child.text)
+                    if child.name == "ul":
+                        #print(child.text)
+                        children3 = child.contents
+                        for child3 in children3:
+                            string_contents3 = str(child3)
+                            if string_contents3.startswith("<") and child3.name == "li":
+                                    detail_holder.append(child3.text)
+                    if child.name == "h2":
+                        break
+
+            else:
+                if reached_break:
+                    detail_holder.append(string_contents)
+
+            string = " "
+            details['text'] = string.join(detail_holder)
+
+        action_list = ['Reaction', 'Single Action', 'Two Actions', 'Three Actions']
+        for img in imgs:
+            if img['alt'] in action_list:
+                details['action_cost'] = img['alt']
+            else:
+                if "action_cost" not in details:
+                    details['action_cost'] = "-"
+        return details
+
+def main():
+    bf = BuildFeatsV2()
+    bf.save_feats(bf.build_feats())
 
 
-
-    
-
-json_data = json.dumps(get_all(), indent=4)
-#print(json_data)
-filename = "feats-pf2-v2.json"
-f = open(filename, "w")
-f.write(json_data)
-f.close
-
-
-def is_feat_not_in_list(linkText, listToCheck):
-
-    for featToCheck in listToCheck:
-        if(linkText == featToCheck['link']):
-            return False
-    return True
-
-featHolder2 = {}
-featHolder2['name'] = 'Pathfinder 2.0 Consolidated feat list'
-featHolder2['date'] = datetime.date.today().strftime("%B %d, %Y")
-scratchHolder = []
-scratchHolder.extend(featHolder['baseFeats'][' generalFeats'])
-for feat in featHolder['baseFeats'][' alchemistFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' barbarianFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' bardFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' championFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' clericFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' druidFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' fighterFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' monkFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' rangerFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' rogueFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' sorcererFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for feat in featHolder['baseFeats'][' wizardFeats']:
-    if is_feat_not_in_list(feat['link'], scratchHolder):
-        scratchHolder.append(feat)
-for key3 in featHolder['archTypeFeats']:
-    scratchHolder.extend(featHolder['archTypeFeats'][key3])
-featHolder2['feats'] = scratchHolder
-json_data2 = json.dumps(featHolder2, indent=4)
-
-filename2 = "feats-pf2-consolidated.json"
-f2 = open(filename2, "w")
-f2.write(json_data2)
-f2.close 
+if __name__ == "__main__":
+    main()

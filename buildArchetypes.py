@@ -108,7 +108,7 @@ class BuildArchetypes:
         feat_holder['archtypes'] = self.holder
         json_data = json.dumps(feat_holder, indent=4)
 #       print(json_data)
-        filename = "archetypes-pf2.json"
+        filename = "json/archetypes-pf2.json"
         f = open(filename, "w")
         f.write(json_data)
         f.close

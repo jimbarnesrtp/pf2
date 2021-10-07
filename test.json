@@ -1,125 +1,50 @@
 {
-     'name': 'Aapoph Serpentfolk',
-     'family': 'Serpentfolk',
-     'source': 'Bestiary 2',
-     'rarity': 'Uncommon',
-     'size': 'Medium',
-     'type': 'Humanoid',
-     'traits': ['Humanoid', 'Mutant', 'Serpentfolk'],
-     'level': '3',
+     'name': 'Fist',
+     'pfs': 'PFS Standard',
+     'type': 'Melee',
+     'category': 'Unarmed',
+     'source': 'Core Rulebook',
+     'rarity': 'Common',
+     'traits': ['Agile', 'Finesse', 'Nonlethal', 'Unarmed'],
+     'level': '—',
+     'price': '—',
+     'damage': '1d4 B',
+     'hands': '1',
+     'range': '—',
+     'reload': '—',
+     'bulk': '—',
+     'group': 'Brawling',
+     'link': 'https://2e.aonprd.com/Weapons.aspx?ID=1'
+}
+
+
+Populated Item: {
+     'name': 'Fist',
+     'pfs': 'PFS Standard',
+     'source': ' Core Rulebook pg. 280 2.0 ',
+     'rarity': 'Common',
+     'traits': ' Agile , Finesse , Nonlethal , Unarmed',
+     'category': 'Weapons',
+     'subcategory': 'Base Weapons',
+     'level': '—',
+     'price': ' —; ',
+     'bulk': ' — ',
      'spoilers?': '—',
-     'link': 'https://2e.aonprd.com/Monsters.aspx?ID=799',
-     'recallKnowledge': [{
-          'RecallKnowledge-Humanoid(Society)': 'DC20'
+     'link': 'https://2e.aonprd.com/Weapons.aspx?ID=1',
+     'favored weapon': ' Angazhan , Irori , Korada , Monad ',
+     'damage': ' 1d4 B; ',
+     'hands': ' 1 ',
+     'group': ' Brawling ; ',
+     'weaponcat': ' Unarmed ',
+     'description': 'Nethys Note: no description was provided for this item',
+     'traitDetails': [{
+          'Agile:': 'The multiple attack penalty you take with this weapon on the second attack on your turn is –4 instead of –5, and –8 instead of –10 on the third and subsequent attacks in the turn.'
+     }, {
+          'Finesse:': 'You can use your Dexterity modifier instead of your Strength modifier on attack rolls using this melee weapon. You still use your Strength modifier when calculating damage.'
+     }, {
+          'Nonlethal:': 'An effect with this trait is not inherently deadly. Damage from a nonlethal effect knocks a creature out rather than killing it. You can use a nonlethal weapon to make a lethal attack with a –2 circumstance penalty.'
+     }, {
+          'Unarmed:': "An unarmed attack uses your body rather than a manufactured weapon. An unarmed attack isn't a weapon, though it's categorized with weapons for weapon groups, and it might have weapon traits. Since it's part of your body, an unarmed attack can't be Disarmed . It also doesn't take up a hand, though a fist or other grasping appendage generally works like a free-hand weapon."
      }],
-     'description': "Aapophs possess greater strength and stronger venom than their zyss kin, but they lack zyss' intelligence and innate magic. Unlike their selfish superiors, aapophs are communal and group together to hunt, wrestle, and sleep curled together in pits. Though they're looked down upon and insulted by zyss, most aapophs lack the higher brain functions to recognize when they're being insulted, much less plan or execute a rebellion. Aapophs often have unusual physical mutations—horns, vestigial tails, or spines protruding from their scales—yet these variations have little impact on their overall combat prowess— and combat prowess is the measure by which zyss judge them. ",
-     'Perception': ' +8; darkvision , scent (imprecise) 30 feet ',
-     'Languages': ' Aklo , Undercommon ; telepathy 100 feet ',
-     'Skills': ' Acrobatics +7, Athletics +11, ',
-     'Int': 'imidation +6 ',
-     'Str': ' +4, ',
-     'Dex': ' +2, ',
-     'Con': ' +3, Int -3, ',
-     'Wis': ' +1, ',
-     'Cha': ' -1 ',
-     'Items': ' scimitar',
-     'raw': 'AC 18; Fort +10, Ref +7, Will +6 (+2 status vs. mental ) HP 60; Resistances poison 5',
-     'AC': ' 18; ',
-     'Fort': ' +10, ',
-     'Ref': ' +7, ',
-     'Will': ' +6 (+2 status vs. mental ) ',
-     'HP': ' 60; ',
-     'Resistances': ' poison 5',
-     'reactions': 'Attack of Opportunity',
-     'offensive_skills': [{
-          'Speed': '25 feet'
-     }, {
-          'action': 'Single Action',
-          'Melee': 'scimitar +11 [ +6/+1 ] ( forceful , sweep ), Damage 1d6+6 slashing'
-     }, {
-          'action': 'Single Action',
-          'Melee': 'fangs +11 [ +6/+1 ], Damage 1d8+6 piercing plus serpentfolk venom'
-     }, {
-          'action': 'Single Action',
-          'Melee': 'tail +11 [ +7/+3 ] ( agile ), Damage 1d6+6 bludgeoning plus Knockdown'
-     }, {
-          'Serpentfolk Venom': '( poison ) Saving Throw DC 20 Fortitude; Maximum Duration 6 rounds; Stage 1 1d4 poison damage and enfeebled 1 (1 round); Stage 2 2d4 poison damage and enfeebled 1 (1 round)'
-     }, {
-          'action': 'Single Action',
-          'Slithering Attack': "The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."
-     }],
-     'weakStats': {
-          'Perception': ' +8; darkvision , scent (imprecise) 30 feet ',
-          'Languages': ' Aklo , Undercommon ; telepathy 100 feet ',
-          'Skills': ' Acrobatics + 5 , Athletics + 9 , ',
-          'Int': 'imidation + 4 ',
-          'Str': ' +4, ',
-          'Dex': ' +2, ',
-          'Con': ' +3, Int -3, ',
-          'Wis': ' +1, ',
-          'Cha': ' -1 ',
-          'Items': ' scimitar',
-          'raw': 'AC 16 ; Fort + 8 , Ref + 5 , Will + 4 (+2 status vs. mental ) HP 45 ; Resistances poison 5',
-          'AC': ' 16 ; ',
-          'Fort': ' + 8 , ',
-          'Ref': ' + 5 , ',
-          'Will': ' + 4 (+2 status vs. mental ) ',
-          'HP': ' 45 ; ',
-          'Resistances': ' poison 5',
-          'reactions': 'Attack of Opportunity',
-          'offensive_skills': [{
-               'Speed': '25 feet'
-          }, {
-               'action': 'Single Action',
-               'Melee': 'scimitar + 9 [ +4/-1 ] ( forceful , sweep ), Damage 1d6 -2 +6 slashing'
-          }, {
-               'action': 'Single Action',
-               'Melee': 'fangs + 9 [ +4/-1 ], Damage 1d8 -2 +6 piercing plus serpentfolk venom'
-          }, {
-               'action': 'Single Action',
-               'Melee': 'tail + 9 [ +5/+1 ] ( agile ), Damage 1d6 -2 +6 bludgeoning plus Knockdown'
-          }, {
-               'Serpentfolk Venom': '( poison ) Saving Throw DC 18 Fortitude; Maximum Duration 6 rounds; Stage 1 1d4 poison damage and enfeebled 1 (1 round); Stage 2 2d4 poison damage and enfeebled 1 (1 round)'
-          }, {
-               'action': 'Single Action',
-               'Slithering Attack': "The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."
-          }]
-     },
-     'eliteStats': {
-          'Perception': ' + 10 ; darkvision , scent (imprecise) 30 feet ',
-          'Languages': ' Aklo , Undercommon ; telepathy 100 feet ',
-          'Skills': ' Acrobatics + 9 , Athletics + 13 , ',
-          'Int': 'imidation + 8 ',
-          'Str': ' +4, ',
-          'Dex': ' +2, ',
-          'Con': ' +3, Int -3, ',
-          'Wis': ' +1, ',
-          'Cha': ' -1 ',
-          'Items': ' scimitar',
-          'raw': 'AC 20 ; Fort + 12 , Ref + 9 , Will + 8 (+2 status vs. mental ) HP 75 ; Resistances poison 5',
-          'AC': ' 20 ; ',
-          'Fort': ' + 12 , ',
-          'Ref': ' + 9 , ',
-          'Will': ' + 8 (+2 status vs. mental ) ',
-          'HP': ' 75 ; ',
-          'Resistances': ' poison 5',
-          'reactions': 'Attack of Opportunity',
-          'offensive_skills': [{
-               'Speed': '25 feet'
-          }, {
-               'action': 'Single Action',
-               'Melee': 'scimitar + 13 [ +8/+3 ] ( forceful , sweep ), Damage 1d6 +2 +6 slashing'
-          }, {
-               'action': 'Single Action',
-               'Melee': 'fangs + 13 [ +8/+3 ], Damage 1d8 +2 +6 piercing plus serpentfolk venom'
-          }, {
-               'action': 'Single Action',
-               'Melee': 'tail + 13 [ +9/+5 ] ( agile ), Damage 1d6 +2 +6 bludgeoning plus Knockdown'
-          }, {
-               'Serpentfolk Venom': '( poison ) Saving Throw DC 22 Fortitude; Maximum Duration 6 rounds; Stage 1 1d4 poison damage and enfeebled 1 (1 round); Stage 2 2d4 poison damage and enfeebled 1 (1 round)'
-          }, {
-               'action': 'Single Action',
-               'Slithering Attack': "The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."
-          }]
-     }
+     'critEffects': 'Brawling : The target must succeed at a Fortitude save against your class DC or be slowed 1 until the end of your next turn.'
 }

@@ -1,5 +1,5 @@
 import unittest
-from buildSpellsV3 import BuildSpells
+from buildSpells import BuildSpells
 import os
 
 class TestBuildSpells(unittest.TestCase):
