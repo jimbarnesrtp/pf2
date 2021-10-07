@@ -203,11 +203,29 @@ class ItemBuilder():
                         data[key] = weapon[key]
  
         return data
+
+    def save_data(self, data):
+        data_holder['items'] = data
+        json_data = json.dumps(data_holder, indent=4)
+#       print(json_data)
+        filename = "json/items-pf2-v2.json"
+        f = open(filename, "w")
+        f.write(json_data)
+        f.close
+        return json_data
         
 
 
 def main():
     bf = ItemBuilder()
+    data = bf.load_all_items()
+    norm_data = bf.normalize_data(data, bf.item_keywords)
+    final_data = []
+    for data_point in norm_data:
+        final_data.append(bf.populate_data(data_point))
+    bf.save_data(final_data)
+
+
     #bf.save_data(bf.build_monsters())
 
 
